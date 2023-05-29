@@ -17,8 +17,8 @@ export default function UpcomingEventsLinks({ futureEvents }) {
     <>
       <h2>Upcoming Events</h2>
       <small>
-        <Link to='/newsevents/upcomingevents'>
-          <p className='eventlink'>Click here for details.</p>
+        <Link className='eventlink' to='/newsevents/upcomingevents'>
+          <p>Click here for details.</p>
         </Link>
       </small>
       {linksToDisplay}
