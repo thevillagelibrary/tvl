@@ -49,22 +49,28 @@ export function NavBarF({ mainPage }) {
 
 export function NavBarH() {
   return (
-    <nav id='hnav'>
-      {pages.map((page, index) => {
-        const path = `${page.path}`;
+    <>
+      {/*  <input type='checkbox' id='hMenuShowHide' />
+      <label for='hMenuShowHide'></label>  <ul id='hMenu'>*/}
+      <ul id='hNav'>
+        {pages.map((page, index) => {
+          const path = `${page.path}`;
 
-        return (
-          <NavLink
-            key={uuidv4()}
-            to={path}
-            className={({ isActive }) =>
-              isActive ? 'linkH linkHActive' : 'linkH LinkHInactive'
-            }>
-            {page.name}
-          </NavLink>
-        );
-      })}
-    </nav>
+          return (
+            <li>
+              <NavLink
+                key={uuidv4()}
+                to={path}
+                className={({ isActive }) =>
+                  isActive ? 'linkH linkHActive' : 'linkH LinkHInactive'
+                }>
+                {page.name}
+              </NavLink>
+            </li>
+          );
+        })}
+      </ul>
+    </>
   );
 }
 

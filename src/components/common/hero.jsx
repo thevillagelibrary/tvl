@@ -8,16 +8,14 @@ export default function Hero() {
 
   return (
     <section id='hero'>
-      <div id='topline'>
-        <img src={TVL} alt='Picture of the Library' />
-        <article>
-          <p id='title'>The Village Library</p>
-          <p id='location'>Skidway Island</p>
-        </article>
-        <button>
-          <a href='/donate'>Donate</a>
-        </button>
-      </div>
+      <img src={TVL} alt='Picture of the Library' />
+      <article>
+        <p id='title'>The Village Library</p>
+        <p id='location'>Skidway Island</p>
+      </article>
+      <button>
+        <a href='/donate'>Donate</a>
+      </button>
     </section>
   );
 }

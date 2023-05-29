@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <PageBodyNoSideMenu name={'Home'}>
         <section className='flex'>
-          <article>
+          <article className='vstack'>
             <h2>Hours</h2>
             <small>{hours}</small>
             <h2>Online Catalog</h2>
@@ -43,7 +43,7 @@ export default function Home() {
               <p>Click here for details on curside pickup.</p>
             </Link>
           </article>
-          <article>
+          <article className='vstack'>
             <UpcomingEventsLinks futureEvents={futureEvents} />
           </article>
         </section>
