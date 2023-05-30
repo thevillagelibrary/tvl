@@ -1,3 +1,5 @@
+export const MOBILE_VW = 412;
+
 const SHEET_ID = import.meta.env.VITE_GOOGLE_SHEETS_ID;
 const API_KEY = import.meta.env.VITE_GOOGLE_SHEETS_API_KEY;
 const BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/';
@@ -32,7 +34,7 @@ export const pages = [
     subPages: [],
   },
   {
-    name: 'New Books',
+    name: 'Books',
     path: 'newbooks',
     subPages: [],
   },

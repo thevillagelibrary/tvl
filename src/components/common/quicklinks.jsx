@@ -21,9 +21,9 @@ export default function QuickLinks() {
   }
 
   return (
-    <details id='main'>
-      <summary>QuickLinks</summary>
-      <ul className='fnav'>
+    <details id='main' className='fnav'>
+      <summary>Menu Links</summary>
+      <ul>
         <li key={uuidv4()} className='nosubpages'>
           <Link to='/' onClick={handleClick}>
             <p>Home</p>
@@ -31,7 +31,7 @@ export default function QuickLinks() {
         </li>
         <li key={uuidv4()} className='nosubpages'>
           <Link to='/newbooks' onClick={handleClick}>
-            <p>New Books</p>
+            <p>Books</p>
           </Link>
         </li>
         {details}

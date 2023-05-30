@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import { Banner, NavBarV } from '@/components/common';
-import { pages } from '@/constants';
+import { MOBILE_VW, pages } from '@/constants';
 
 export function PageBodyNoSideMenu(props) {
   return (
@@ -14,6 +14,8 @@ export function PageBodyNoSideMenu(props) {
 }
 
 export function PageBodySideMenu(props) {
+  const vw = window.innerWidth;
+  console.log('😊😊 vw', vw);
   const { pathname } = useLocation();
   const currentMainPage = pages
     .filter((obj) => obj.path !== '')
@@ -22,9 +24,13 @@ export function PageBodySideMenu(props) {
     <>
       <Banner name={props.name} />
       <section id='pagebodysidemenu'>
-        <aside id='vmenu'>
-          {currentMainPage?.subPages && <NavBarV mainPage={currentMainPage} />}
-        </aside>
+        {vw > MOBILE_VW && (
+          <aside id='vmenu'>
+            {currentMainPage?.subPages && (
+              <NavBarV mainPage={currentMainPage} />
+            )}
+          </aside>
+        )}
         <article id='pagebody'>{props.children}</article>
       </section>
     </>

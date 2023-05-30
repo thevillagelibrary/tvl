@@ -4,7 +4,13 @@ export { default as Footer } from '@/components/common/footer';
 export { default as Hero } from '@/components/common/hero';
 export { default as Layout } from '@/components/common/layout';
 export { default as Loading } from '@/components/common/loading';
-export { NavBarF, NavBarH, NavBarV } from '@/components/common/navbars';
+export { default as Menu } from '@/components/common/menu';
+export {
+  NavBarF,
+  NavBarH,
+  NavBarM,
+  NavBarV,
+} from '@/components/common/navbars';
 export {
   PageBodyNoSideMenu,
   PageBodySideMenu,

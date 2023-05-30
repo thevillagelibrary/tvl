@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
-import { pages } from '@/constants';
+import { MdMenu } from 'react-icons/md';
+import { MOBILE_VW, pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
 
 export function NavBarF({ mainPage }) {
@@ -14,32 +15,57 @@ export function NavBarF({ mainPage }) {
   }
 
   return (
-    <details>
+    <details className='fnav subdetail'>
       <summary>{mainPage.name}</summary>
-      <section className='subdetail'>
-        <ul className='fnav'>
-          <li key={uuidv4()}>
-            <Link className='linkF' to={path} onClick={handleClick}>
-              {mainPage.name}
-            </Link>
-          </li>
-          {mainPage.subPages.map((subPage) => {
-            let path = `/${mainPage.path}/${subPage.path}`;
-            return (
-              <li key={uuidv4()} className='subpage'>
-                <Link className='linkF' to={path} onClick={handleClick}>
-                  {subPage.name}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
-      </section>
+      <ul>
+        <li className='mainsubpage' key={uuidv4()}>
+          <Link className='linkF' to={path} onClick={handleClick}>
+            {mainPage.name}
+          </Link>
+        </li>
+        {mainPage.subPages.map((subPage) => {
+          let path = `/${mainPage.path}/${subPage.path}`;
+          return (
+            <li key={uuidv4()} className='subpage'>
+              <Link className='linkF' to={path} onClick={handleClick}>
+                {subPage.name}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
     </details>
   );
 }
 
+export function NavBarM({ mainPage }) {
+  let path = `/${mainPage.path}`;
+
+  return (
+    <ul className='subPageMenu'>
+      <li className='mainSubPageMenuItem' key={uuidv4()}>
+        <Link className='linkF' to={path}>
+          {mainPage.name}
+        </Link>
+      </li>
+      {mainPage.subPages.map((subPage) => {
+        let path = `/${mainPage.path}/${subPage.path}`;
+        return (
+          <li key={uuidv4()} className='subpageMenuItem'>
+            <Link className='linkF' to={path}>
+              {subPage.name}
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 export function NavBarH() {
+  const vw = window.innerWidth;
+  console.log('😊😊 vw', vw);
+
   return (
     <ul id='hNav'>
       {pages.map((page, index) => {
@@ -57,6 +83,13 @@ export function NavBarH() {
           </li>
         );
       })}
+      {vw <= MOBILE_VW && (
+        <li>
+          <Link to='/menu'>
+            <MdMenu />
+          </Link>
+        </li>
+      )}
     </ul>
   );
 }

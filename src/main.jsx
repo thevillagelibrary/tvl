@@ -26,7 +26,7 @@ import {
   newbooksLoader,
   donationsLoader,
 } from '@/components';
-import { Layout, Loading } from '@/components/common';
+import { Layout, Loading, Menu } from '@/components/common';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +37,10 @@ const router = createBrowserRouter([
         index: true,
         loader: homeLoader,
         Component: Home,
+      },
+      {
+        Component: Menu,
+        path: '/menu',
       },
       {
         loader: newbooksLoader,

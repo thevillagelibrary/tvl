@@ -124,9 +124,10 @@ body {
   overflow-x: hidden;
   text-align: center;
   width: 95vw;
+}
 
-  /*
-   */
+details #fnav {
+  padding-bottom: 10em;
 }
 dl {
   font-family: var(--font-sans-serif);
@@ -210,7 +211,7 @@ li,
 p,
 td {
   font-family: var(--font-sans-serif);
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-top: 0;
   text-align: left;
 }
@@ -218,10 +219,12 @@ li,
 p {
   margin-bottom: 0.5em;
 }
+
 small {
   display: block;
   font-family: var(--font-sans-serif);
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: 500;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -294,8 +297,19 @@ small {
   flex-direction: column;
   list-style-type: none;
 }
-.fnav .subpage {
-  padding-left: 1rem;
+
+.fnav p {
+  text-align: left;
+}
+
+.fnav details,
+.fav summary {
+  padding: 0.25em 0;
+  text-align: left;
+}
+
+.fnav ul {
+  list-style-type: none;
 }
 .icon {
   display: block;
@@ -349,6 +363,9 @@ small {
 .linkVActive {
   outline: 0;
 }
+.mainsubpage {
+  margin-top: 0.5em;
+}
 .narrow {
   width: 15em;
 }
@@ -356,6 +373,9 @@ small {
 .wide {
   border: none;
   padding: 0;
+}
+.nosubpages {
+  padding-left: 1em;
 }
 .orgname {
   padding-left: 0.5em;
@@ -368,8 +388,11 @@ small {
 .poster {
   max-width: 50%;
 }
-.subdetail {
+/* .subdetail :first-child {
   padding-left: 3em;
+} */
+.subdetail :not(:first-child) {
+  padding-left: 1em;
 }
 .subdivider {
   width: 30em;
@@ -542,12 +565,30 @@ small {
   justify-content: space-around;
   text-align: center;
 }
+#home a :not(.fnav),
+p :not(.fnav) {
+  font-size: 1.2em;
+  font-weight: 500;
+}
 
-#home h2,
-h3 {
+#home h2 {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+}
+
+#homelinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  width: 40%;
+}
+
+#homelinks article {
+  margin-top: 0;
 }
 
 #logos {
@@ -611,11 +652,6 @@ h3 {
 #quicklinks details #main[open] p {
   margin: 0;
   padding: 0;
-}
-#quicklinks summary,
-#quicklinks summary a,
-#quicklinks summary::marker {
-  color: var(--white-color) !important;
 }
 #rentalornew {
   font-weight: bold;
