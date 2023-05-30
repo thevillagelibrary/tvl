@@ -1,11 +1,9 @@
-import { useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import NewWing from '@/images/NewWing.jpg';
 import TVL from '@/images/TVL.jpg';
 
 export default function Hero() {
-  const { pathname } = useLocation();
-
   return (
     <section id='hero'>
       <img src={TVL} alt='Picture of the Library' />
@@ -14,7 +12,7 @@ export default function Hero() {
         <p id='location'>Skidway Island</p>
       </article>
       <button>
-        <a href='/donate'>Donate</a>
+        <Link to='/donate'>Donate</Link>
       </button>
     </section>
   );

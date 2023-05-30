@@ -4,10 +4,10 @@
 :root {
   --primary-color: #7283fe;
   --secondary-color: #6762bd; /*#f29085;*/
-  --tertiary-color: #212529;
+  --tertiary-color: #5a5a5a;
   --link-hover-color: #f29085;
   --black-color: #212529;
-  --black-background-color: #333333;
+  --black-background-color: #5a5a5a;
   --white-color: #ffffff;
   --white-background-color: #ffffff; /*#def;*/
   --font-serif: 'Times New Roman', Times, serif;
@@ -120,14 +120,16 @@ fieldset {
 /* 672 px */
 @media screen and (max-width: 42em) {
   footer,
-  #hero {
+  #hero,
+  #home {
     flex-direction: column;
   }
 }
 
 @media screen and (width > 42rem) {
   footer,
-  #hero {
+  #hero,
+  #home {
     flex-direction: row;
   }
 }
@@ -205,7 +207,8 @@ footer {
 }
 
 footer,
-#hero {
+#hero,
+#home {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -214,7 +217,7 @@ footer article {
   height: fit-content;
 }
 footer a {
-  color: var(--link-color);
+  color: var(--white-color);
 }
 footer a:hover {
   color: var(--link-hover-color);
@@ -285,8 +288,9 @@ small {
   font-family: var(--font-sans-serif);
   font-size: 1em;
   margin-left: auto;
-  margin-right: auo;
+  margin-right: auto;
   text-align: center;
+  width: fit-content;
 }
 summary,
 summary::marker {
@@ -320,8 +324,12 @@ summary::marker {
   width: 100%;
 }
 .eventlink,
-.eventlink a {
+.eventlink a,
+.home a {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  width: 50%;
 }
 .flex {
   display: flex;
@@ -426,7 +434,7 @@ summary::marker {
   flex-direction: column;
 }
 .vstack :not(:first-child) {
-  margin-top: 10px;
+  margin-top: 1.25rem;
 }
 .wide {
   width: 18.75em;
@@ -528,7 +536,7 @@ summary::marker {
   font-size: 0.875em;
   height: 2em;
   line-height: 1.2em;
-  margin-top: 2em;
+  margin-top: 0;
   padding-bottom: 0.3125em;
   text-align: center;
   width: 8em;
@@ -581,6 +589,13 @@ summary::marker {
   position: absolute;
   left: -999em;
 } */
+
+#home h2,
+h3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
 
 #logos {
   align-items: baseline;

@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <PageBodyNoSideMenu name={'Home'}>
-        <section className='flex'>
+        <section id='home'>
           <article className='vstack'>
             <h2>Hours</h2>
             <small>{hours}</small>
