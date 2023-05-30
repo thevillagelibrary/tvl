@@ -6,7 +6,7 @@ import InstagramIcon from '@/images/Instagram.png';
 export default function Footer() {
   return (
     <>
-      <article>
+      <section>
         <p className='address'>
           Village Library, Inc.
           <br />
@@ -16,8 +16,8 @@ export default function Footer() {
           <br />
           (912) 598-1183
         </p>
-      </article>
-      <article>
+      </section>
+      <section>
         <article id='logos'>
           <Link
             id='facebook'
@@ -37,11 +37,15 @@ export default function Footer() {
             />
           </Link>
         </article>
-        <Link to='mailto:thevillagelibrary.inc@gmail.com'>
-          <p>Click here to contact our Webmaster</p>
-        </Link>
-      </article>
-      <QuickLinks />
+        <article>
+          <Link to='mailto:thevillagelibrary.inc@gmail.com'>
+            <p>Click here to contact our Webmaster</p>
+          </Link>
+        </article>
+      </section>
+      <section className='quicklinks'>
+        <QuickLinks />
+      </section>
     </>
   );
 }

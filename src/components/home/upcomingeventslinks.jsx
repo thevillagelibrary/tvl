@@ -4,13 +4,12 @@ import { v4 as uuidv4 } from 'uuid';
 export default function UpcomingEventsLinks({ futureEvents }) {
   const futureEventCount = futureEvents.length;
 
-  const linksToDisplay = futureEvents.map((event, index) => (
-    <hgroup key={uuidv4()}>
-      <h3>{event[3]}</h3>
-      <p className='eventlink'>
-        {event[5]}, {event[2]}
-      </p>
-    </hgroup>
+  const rows = futureEvents.map((event, index) => (
+    <tr key={uuidv4()} className='event'>
+      <td>{event[3]}</td>
+      <td>{event[5]}</td>
+      <td>{event[2]}</td>
+    </tr>
   ));
 
   const EventDisplay = () => (
@@ -21,7 +20,9 @@ export default function UpcomingEventsLinks({ futureEvents }) {
           <p>Click here for details.</p>
         </Link>
       </small>
-      {linksToDisplay}
+      <table>
+        <tbody>{rows}</tbody>
+      </table>
     </>
   );
   if (futureEventCount > 0) {

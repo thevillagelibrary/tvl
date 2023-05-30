@@ -122,7 +122,7 @@ export default function GoogleSheetsData({ name, values }) {
   const tables = categoryList.map(buildTable);
 
   return (
-    <PageBodySideMenu name={name}>
+    <>
       <p className='updated'>{updated}</p>
 
       {sheet[name].sheetNo === 1 && (
@@ -144,6 +144,6 @@ export default function GoogleSheetsData({ name, values }) {
           </p>
         </>
       )}
-    </PageBodySideMenu>
+    </>
   );
 }

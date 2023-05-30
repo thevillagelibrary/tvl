@@ -16,10 +16,14 @@ export default function Supporters() {
         A special thanks also goes to Landings Landlovers, which has been a
         regular and generous supporter of the library for many years.
       </p>
-      <p>
-        If you would like to learn more about some of these contributors, links
-        to their websites may be found on this page.
-      </p>
+      <p>Below are links to the websites of some of these contributors:</p>
+      <section id='supporterlinks'>
+        <a href='https://www.landingslandlovers.com'>Landings Landlovers</a>
+        <a href='https://www.landings.org'>The Landings Association</a>
+        <a href='https://thelandings.com/golf-and-athletic-club'>
+          The Landings Golf and Athletic Club
+        </a>
+      </section>
     </PageBodySideMenu>
   );
 }

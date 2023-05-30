@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom';
-import { v4 as uuidv4 } from 'uuid';
 import { pages } from '@/constants';
+import { v4 as uuidv4 } from 'uuid';
 
 export function NavBarF({ mainPage }) {
   let path = `/${mainPage.path}`;
@@ -18,24 +18,16 @@ export function NavBarF({ mainPage }) {
       <summary>{mainPage.name}</summary>
       <section className='subdetail'>
         <ul className='fnav'>
-          <li>
-            <Link
-              className='linkF'
-              key={uuidv4()}
-              to={path}
-              onClick={handleClick}>
+          <li key={uuidv4()}>
+            <Link className='linkF' to={path} onClick={handleClick}>
               {mainPage.name}
             </Link>
           </li>
           {mainPage.subPages.map((subPage) => {
             let path = `/${mainPage.path}/${subPage.path}`;
             return (
-              <li className='subpage'>
-                <Link
-                  className='linkF'
-                  key={uuidv4()}
-                  to={path}
-                  onClick={handleClick}>
+              <li key={uuidv4()} className='subpage'>
+                <Link className='linkF' to={path} onClick={handleClick}>
                   {subPage.name}
                 </Link>
               </li>
@@ -49,28 +41,23 @@ export function NavBarF({ mainPage }) {
 
 export function NavBarH() {
   return (
-    <>
-      {/*  <input type='checkbox' id='hMenuShowHide' />
-      <label for='hMenuShowHide'></label>  <ul id='hMenu'>*/}
-      <ul id='hNav'>
-        {pages.map((page, index) => {
-          const path = `${page.path}`;
+    <ul id='hNav'>
+      {pages.map((page, index) => {
+        const path = `${page.path}`;
 
-          return (
-            <li>
-              <NavLink
-                key={uuidv4()}
-                to={path}
-                className={({ isActive }) =>
-                  isActive ? 'linkH linkHActive' : 'linkH LinkHInactive'
-                }>
-                {page.name}
-              </NavLink>
-            </li>
-          );
-        })}
-      </ul>
-    </>
+        return (
+          <li key={uuidv4()}>
+            <NavLink
+              to={path}
+              className={({ isActive }) =>
+                isActive ? 'linkH linkHActive' : 'linkH LinkHInactive'
+              }>
+              {page.name}
+            </NavLink>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
 

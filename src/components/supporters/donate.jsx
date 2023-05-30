@@ -1,8 +1,8 @@
-import { PageBodyNoSideMenu } from '@/components/common';
+import { PageBodySideMenu } from '@/components/common';
 
 export default function Donate() {
   return (
-    <PageBodyNoSideMenu name={'Donate'}>
+    <PageBodySideMenu name={'Donate'}>
       <article>
         <p>
           Unlike tax supported public libraries, we receive no funds from
@@ -71,6 +71,6 @@ export default function Donate() {
           The Village Library.
         </p>
       </article>
-    </PageBodyNoSideMenu>
+    </PageBodySideMenu>
   );
 }

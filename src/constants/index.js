@@ -12,19 +12,17 @@ const UPCOMINGEVENTS_URL =
   BASE_URL + SHEET_ID + '/values/Upcoming_Events' + KEY;
 const ORGANIZATION_URL = BASE_URL + SHEET_ID + '/values/Organization' + KEY;
 const DONATIONS_URL = BASE_URL + SHEET_ID + '/values/Donations' + KEY;
-const JUSTOFFRENTAL_URL = BASE_URL + SHEET_ID + '/values/Just_Off_Rental' + KEY;
-const BOOKS_URL = BASE_URL + SHEET_ID + '/values/Books' + KEY;
-const CDS_URL = BASE_URL + SHEET_ID + '/values/CDs' + KEY;
-const YOUTH_URL = BASE_URL + SHEET_ID + '/values/Youth' + KEY;
+const NEW_BOOKS_URL =
+  BASE_URL +
+  SHEET_ID +
+  '/values:batchGet?ranges=Just_Off_Rental&ranges=Books&ranges=Youth' +
+  BATCH_KEY;
 
 export {
   HOME_URL,
   ORGANIZATION_URL,
   UPCOMINGEVENTS_URL,
-  JUSTOFFRENTAL_URL,
-  BOOKS_URL,
-  CDS_URL,
-  YOUTH_URL,
+  NEW_BOOKS_URL,
   DONATIONS_URL,
 };
 export const pages = [
@@ -34,7 +32,12 @@ export const pages = [
     subPages: [],
   },
   {
-    name: 'About Us',
+    name: 'New Books',
+    path: 'newbooks',
+    subPages: [],
+  },
+  {
+    name: 'About',
     path: 'aboutus',
     subPages: [
       {
@@ -72,7 +75,7 @@ export const pages = [
     ],
   },
   {
-    name: 'News & Events',
+    name: 'News',
     path: 'newsevents',
     subPages: [
       {
@@ -90,63 +93,18 @@ export const pages = [
     ],
   },
   {
-    name: 'New Arrivals',
-    path: 'newarrivals',
-    subPages: [
-      {
-        name: 'Just Off Rental',
-        path: 'justoffrental',
-      },
-      {
-        name: 'Books',
-        path: 'books',
-      },
-      {
-        name: 'Book CDs',
-        path: 'bookcds',
-      },
-      {
-        name: 'Youth Section',
-        path: 'youthsection',
-      },
-    ],
-  },
-  {
-    name: 'Photo Album',
-    path: 'photoalbum',
-    subPages: [],
-  },
-  {
     name: 'Supporters',
     path: 'supporters',
     subPages: [
       {
+        name: 'Donate',
+        path: 'donate',
+      },
+      {
         name: 'Recent Donors',
         path: 'recentdonors',
       },
-      {
-        name: 'Landings Landlovers',
-        path: 'landingslandlovers',
-      },
-      {
-        name: 'The Landings Association',
-        path: 'landingsassociation',
-      },
-      {
-        name: 'The Landings Club',
-        path: 'landingsclub',
-      },
     ],
-  },
-  {
-    name: 'Donate',
-    path: 'donate',
-    subPages: [],
-  },
-  {
-    name: 'Contact Us',
-    path: 'contactus',
-    subPages: [],
   },
 ];
 
@@ -155,85 +113,45 @@ export const bannerTextNavBarV = {
   Home: { bannerText: 'Welcome to Our Website' },
   AboutUs: {
     bannerText: 'The Landings Village Library',
-    navBarV: 'AboutUs',
   },
   Organization: {
     bannerText: 'Our Organization',
-    navBarV: 'AboutUs',
   },
   MissionStatement: {
     bannerText: 'Our Mission Statement',
-    navBarV: 'AboutUs',
   },
-  Membership: { bannerText: 'Membership', navBarV: 'AboutUs' },
+  Membership: { bannerText: 'Membership' },
   Collection: {
     bannerText: "Our Library's Collection",
-    navBarV: 'AboutUs',
   },
   ChildrensProgram: {
     bannerText: 'The Children are Our Future',
-    navBarV: 'AboutUs',
   },
-  ArtForSale: { bannerText: 'Art for Sale', navBarV: 'AboutUs' },
+  ArtForSale: { bannerText: 'Art for Sale' },
   BookDonations: {
     bannerText: 'Book Donations',
-    navBarV: 'AboutUs',
   },
-  GrabAndGo: { bannerText: 'Grab-&-Go', navBarV: 'AboutUs' },
-  NewsEvents: { bannerText: 'Newsletter', navBarV: 'NewsEvents' },
+  GrabAndGo: { bannerText: 'Grab-&-Go' },
+  NewsEvents: { bannerText: 'Newsletter' },
   UpcomingEvents: {
     bannerText: 'Upcoming Events',
-    navBarV: 'NewsEvents',
   },
   OutgoingBoardMembers: {
     bannerText: 'Outgoing Board Members',
-    navBarV: 'NewsEvents',
   },
   ReadingListsOnTheWeb: {
     bannerText: 'Reading Lists on the Web',
-    navBarV: 'NewsEvents',
   },
-  NewArrivals: {
-    bannerText: 'New Arrivals',
-    navBarV: 'NewArrivals',
+  NewBooks: {
+    bannerText: 'New Books',
   },
-  JustOffRental: {
-    bannerText: 'Just Off Rental',
-    navBarV: 'NewArrivals',
+  Donate: {
+    bannerText: 'How You Can Support the Library',
   },
-  Books: {
-    bannerText: 'New Books Last Month',
-    navBarV: 'NewArrivals',
-  },
-  BookCDs: {
-    bannerText: 'New CDs Last Month',
-    navBarV: 'NewArrivals',
-  },
-  YouthSection: {
-    bannerText: 'Recent New Youth Books',
-    navBarV: 'NewArrivals',
-  },
-  PhotoAlbum: { bannerText: 'Photo Album' },
-  Donate: { bannerText: 'How You Can Support the Library' },
   Supporters: {
     bannerText: 'Sponsers & Supporters Page',
-    navBarV: 'Supporters',
   },
   RecentDonors: {
     bannerText: 'Recent Donors',
-    navBarV: 'Supporters',
   },
-  LandingsLandlovers: {
-    bannerText: 'Landings Landlovers',
-    navBarV: 'Supporters',
-  },
-  TheLandingsAssociation: {
-    bannerText: 'The Landings Association',
-    navBarV: 'Supporters',
-  },
-  TheLandingsClub: {
-    bannerText: 'The Landings Club',
-    navBarV: 'Supporters',
-  },
-  ContactUs: { bannerText: 'Contact Us' },
 };

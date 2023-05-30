@@ -12,7 +12,7 @@ export default function Hero() {
         <p id='location'>Skidway Island</p>
       </article>
       <button>
-        <Link to='/donate'>Donate</Link>
+        <Link to='/supporters/donate'>Donate</Link>
       </button>
     </section>
   );

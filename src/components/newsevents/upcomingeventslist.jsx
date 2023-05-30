@@ -9,7 +9,7 @@ export default function UpcomingEventsList({ events }) {
     let imgSource = 'https://drive.google.com/uc?export=view&id=' + event[6];
     return (
       <article key={uuidv4()}>
-        <h3>{event[3]}</h3>
+        <h2>{event[3]}</h2>
         {event[6] && <img className='poster' alt={event[3]} src={imgSource} />}
         <p>
           <strong>{event[5]}:</strong> {event[2]} -- {event[4]}

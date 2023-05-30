@@ -2,10 +2,7 @@ import {
   HOME_URL,
   ORGANIZATION_URL,
   UPCOMINGEVENTS_URL,
-  JUSTOFFRENTAL_URL,
-  BOOKS_URL,
-  CDS_URL,
-  YOUTH_URL,
+  NEW_BOOKS_URL,
   DONATIONS_URL,
 } from '@/constants';
 
@@ -30,23 +27,8 @@ export async function upcomingeventsLoader() {
   return data;
 }
 
-export async function justoffrentalLoader() {
-  const data = await getData(JUSTOFFRENTAL_URL);
-  return data;
-}
-
-export async function booksLoader() {
-  const data = await getData(BOOKS_URL);
-  return data;
-}
-
-export async function cdsLoader() {
-  const data = await getData(CDS_URL);
-  return data;
-}
-
-export async function youthLoader() {
-  const data = await getData(YOUTH_URL);
+export async function newbooksLoader() {
+  const data = await getData(NEW_BOOKS_URL);
   return data;
 }
 

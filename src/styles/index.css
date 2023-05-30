@@ -3,7 +3,7 @@
 ---------------------*/
 :root {
   --primary-color: #7283fe;
-  --secondary-color: #6762bd; /*#f29085;*/
+  --secondary-color: #f29085;
   --tertiary-color: #5a5a5a;
   --link-hover-color: #f29085;
   --black-color: #212529;
@@ -76,60 +76,17 @@ fieldset {
   }
 }
 
-/*  768 px
-@media screen and (max-width: 48em) {
-  #hMenu {
-    display: none;
-    overflow: hidden;
-    padding: 0.25em;
-    border-top: 2px solid #248;
-  }
-  #hMenu li {
-    float: left;
-    width: 50%;
-  }
-  #hMenu a {
-    display: block;
-    padding: 0.75em;
-    margin: 0.25em;
-    background: #def;
-  }
-  #hMenuShowHide + label {
-    display: block;
-    padding: 1em;
-    margin-bottom: 1em;
-    text-align: center;
-    font-weight: bold;
-    background: #036;
-    color: #fff;
-  }
-  #hMenuShowHide + label:before {
-    content: 'Show menu';
-  }
-  #hMenuShowHide:checked + label {
-    margin: 0;
-  }
-  #hMenuShowHide:checked + label:before {
-    content: 'Hide Menu';
-  }
-  #hMenuShowHide:checked ~ #hMenu {
-    display: block;
-  }
-} */
-
 /* 672 px */
 @media screen and (max-width: 42em) {
   footer,
-  #hero,
-  #home {
+  #hero {
     flex-direction: column;
   }
 }
 
 @media screen and (width > 42rem) {
   footer,
-  #hero,
-  #home {
+  #hero {
     flex-direction: row;
   }
 }
@@ -171,18 +128,6 @@ body {
   /*
    */
 }
-
-details {
-  text-align: left;
-}
-details p {
-  padding-left: 3em;
-  text-align: left;
-}
-details #main[open] p {
-  margin: 0;
-  padding: 0;
-}
 dl {
   font-family: var(--font-sans-serif);
   margin-left: 2em;
@@ -206,9 +151,7 @@ footer {
   padding: 0.25em 0;
 }
 
-footer,
-#hero,
-#home {
+footer {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -227,10 +170,8 @@ footer h2 {
   font-family: 'Lucida-Calligraphy';
 }
 footer p {
+  font-size: 1em;
   margin: 0;
-}
-footer summary {
-  color: var(--link-color);
 }
 h1 {
   margin: 0;
@@ -243,16 +184,9 @@ h2 {
   margin: 0;
   text-align: center;
 }
-h3 {
-  color: var(--secondary-color);
-  font-family: var(--font-sans-serif);
-  font-size: 1.2em;
-  margin: 0;
-  text-align: center;
-}
-header :not(:first-child) /*,
-main :not(:first-child) */ {
-  margin-top: 10px;
+header :not(:first-child),
+header li:first-child/ {
+  margin-top: 0.625em;
 }
 hr {
   border-top: 2px solid var(--primary-color);
@@ -276,6 +210,7 @@ li,
 p,
 td {
   font-family: var(--font-sans-serif);
+  font-size: 1.1em;
   margin-top: 0;
   text-align: left;
 }
@@ -291,10 +226,6 @@ small {
   margin-right: auto;
   text-align: center;
   width: fit-content;
-}
-summary,
-summary::marker {
-  color: var(--white-color) !important;
 }
 
 /*---------------------
@@ -322,6 +253,28 @@ summary::marker {
 .divider-sidemenu,
 .divider-vNav {
   width: 100%;
+}
+
+.event td,
+.event tr {
+  height: 3rem;
+  padding-bottom: 1rem;
+  text-align: top;
+  vertical-align: top;
+}
+
+.event td:first-of-type {
+  font-weight: 500;
+  width: 30vw;
+}
+
+.event td:nth-child(2) {
+  padding-right: 1em;
+  width: 20vw;
+}
+
+.event td:last-of-type {
+  width: 20vw;
 }
 .eventlink,
 .eventlink a,
@@ -370,7 +323,7 @@ summary::marker {
   margin-top: 0 !important;
   outline: 0;
   overflow-wrap: break-word;
-  padding: 0.125em 0.625em 0.25em;
+  /*padding: 0.25em 0.625em 0.25em;*/
   text-align: center;
   text-decoration: none;
   text-size-adjust: 100%;
@@ -391,6 +344,7 @@ summary::marker {
 }
 .linkV {
   border: 1px solid var(--secondary-color);
+  padding: 0.125em 0.625em 0.25em;
 }
 .linkVActive {
   outline: 0;
@@ -420,6 +374,7 @@ summary::marker {
 .subdivider {
   width: 30em;
 }
+
 .title {
   border: none;
   font-style: italic;
@@ -476,13 +431,22 @@ summary::marker {
   width: 80%;
 }
 
+#eventslinks {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 #front-picture {
   width: 40vw;
 }
+
 #hero {
   align-items: center;
   background-color: var(--primary-color);
   color: var(--white-background-color);
+  display: flex;
+  justify-content: space-around;
   height: fit-content;
   margin-top: 0.625em;
   padding-bottom: 0.2rem;
@@ -548,47 +512,36 @@ summary::marker {
   vertical-align: center;
 }
 #hNav {
-  align-items: center;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   font-family: var(--font-sans-serif);
   font-size: 1em;
+  height: fit-content;
   gap: 1em;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: center;
+  margin-top: 0.625em;
   line-height: 1.5em;
-  margin-bottom: 0.5em;
-  overflow: auto;
-  text-size-adjust: 100%;
-  white-space: nowrap;
+  margin-bottom: 0.6255em;
+  vertical-align: center;
   width: 95vw;
 }
 
-/* #hMenu {
-  list-style: none;
+#hNav li {
+  margin-bottom: 0;
+}
+
+#hNav li a {
+  padding: 0 0.55em 0 0.55em;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   text-align: center;
-  padding: 0.25em 0;
-  margin-bottom: 1em;
-  background: #f0f8ff;
-  border-bottom: 2px solid #248;
 }
-
-#hMenu li {
-  display: inline;
-}
-
-#hMenu a {
-  display: inline-block;
-  padding: 0.25em 1em;
-  text-decoration: none;
-  color: #000;
-}
-
-#hMenuShowHide {
-  position: absolute;
-  left: -999em;
-} */
 
 #home h2,
 h3 {
@@ -604,10 +557,24 @@ h3 {
   justify-content: center;
   padding-top: 0.25em;
 }
-#missionstatement,
-#newarrivals {
+#missionstatement {
   margin-top: 2em;
   width: 50%;
+}
+#newbooks {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#newbooks details {
+  color: var(--black-color);
+  text-align: left;
+}
+#newbooks summary {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
 }
 #officers {
   display: block;
@@ -634,8 +601,30 @@ h3 {
 #paypal {
   text-align: center;
 }
+#quicklinks details {
+  text-align: left;
+}
+#quicklinks details p {
+  padding-left: 3em;
+  text-align: left;
+}
+#quicklinks details #main[open] p {
+  margin: 0;
+  padding: 0;
+}
+#quicklinks summary,
+#quicklinks summary a,
+#quicklinks summary::marker {
+  color: var(--white-color) !important;
+}
 #rentalornew {
   font-weight: bold;
+}
+#supporterlinks {
+  display: flex;
+  flex-direction: column;
+  height: 5em;
+  justify-content: space-between;
 }
 #vmenu {
   width: 8.75em;

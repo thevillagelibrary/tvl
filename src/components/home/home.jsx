@@ -18,34 +18,43 @@ export default function Home() {
   return (
     <>
       <PageBodyNoSideMenu name={'Home'}>
-        <section id='home'>
-          <article className='vstack'>
-            <h2>Hours</h2>
-            <small>{hours}</small>
-            <h2>Online Catalog</h2>
-            <a href='https://thevillagelibrary.library.site'>
-              <p>Click here to view our online catalog.</p>
-            </a>
-            <h2>Donate</h2>
-            <Link to='/donate'>
-              <p>Click here to learn how to support us.</p>
-            </Link>
-            <h2>Thanks to Our Recent Donors</h2>
-            <Link to='/supporters/recentdonors'>
-              <p>Click here for a list of our recent donors.</p>
-            </Link>
-            <h2>Book Donations</h2>
-            <Link to='/aboutus/bookdonations'>
-              <p>Click here for details.</p>
-            </Link>
-            <h2>Grab-&-Go</h2>
-            <Link to='/aboutus/grabandgo'>
-              <p>Click here for details on curside pickup.</p>
-            </Link>
-          </article>
-          <article className='vstack'>
+        <section id='home' className='vstack'>
+          <h2>Hours</h2>
+          <small>{hours}</small>
+          <hr className='divider' />
+          <h2>Online Catalog</h2>
+          <a href='https://thevillagelibrary.library.site'>
+            <p>Click here to view our online catalog.</p>
+          </a>
+          <hr className='divider' />
+          <h2>Donate</h2>
+          <Link to='/supporters/donate'>
+            <p>Click here to learn how to support us.</p>
+          </Link>
+          <hr className='divider' />
+          <h2>Thanks to Our Recent Donors</h2>
+          <Link to='/supporters/recentdonors'>
+            <p>Click here for a list of our recent donors.</p>
+          </Link>
+          <hr className='divider' />
+          <article id='eventslinks'>
             <UpcomingEventsLinks futureEvents={futureEvents} />
           </article>
+          <hr className='divider' />
+          <h2>Book Donations</h2>
+          <Link to='/aboutus/bookdonations'>
+            <p>Click here for details.</p>
+          </Link>
+          <hr className='divider' />
+          <h2>Grab-&-Go</h2>
+          <Link to='/aboutus/grabandgo'>
+            <p>Click here for details on curside pickup.</p>
+          </Link>
+          <hr className='divider' />
+          <h2>Photo Album</h2>
+          <a href='https://thevillagelibrary.org/album/album.html'>
+            <p>Click here to view our photoalbum.</p>
+          </a>
         </section>
       </PageBodyNoSideMenu>
     </>
