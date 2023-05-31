@@ -43,7 +43,7 @@ export default function Home() {
                 <p>Book Donations</p>
               </Link>
               <Link to='/aboutus/grabandgo'>
-                <p>Curbside Delivery</p>
+                <p>Curbside Pickup</p>
               </Link>
             </article>
           </section>
