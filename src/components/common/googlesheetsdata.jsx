@@ -34,108 +34,98 @@ export default function GoogleSheetsData({ name, values }) {
       categories[i].entries = values.length - categories[i].row - 1;
     }
   }
-  const sheet = {
-    JustOffRental: {
-      sheetNo: 0,
-      leftCellWidth: 'narrow',
-    },
-    Books: {
-      sheetNo: 1,
-      leftCellWidth: 'narrow',
-    },
-    BookCDs: {
-      sheetNo: 2,
-      leftCellWidth: 'narrow',
-    },
-    YouthSection: {
-      sheetNo: 3,
-      leftCellWidth: 'narrow',
-    },
-    RecentDonors: {
-      sheetNo: 4,
-      leftCellWidth: 'wide',
-    },
-  };
-  const className = `${sheet[name].leftCellWidth}`;
+
   const updated = values[0][3];
   const combinedAuthorTitle = values[0][2] === 'Not Used';
   function buildCategoryList(category) {
     return category;
   }
   const categoryList = categories.map(buildCategoryList);
-  //build the rows and tables
-  //first, build the rows
-  //start by building the materials array for each category
 
-  function buildMaterials(category, index) {
-    const row = category.row;
+  function buildListValues(category, index) {
+    const rowNumber = category.row;
     const entries = category.entries;
-    const lastEntry = row + entries;
-    function createMaterial(entry, index) {
-      return index > row && index < lastEntry + 1;
+    const lastEntry = rowNumber + entries;
+    function createListValue(entry, index) {
+      return index > rowNumber && index < lastEntry + 1;
     }
-    const material = values.filter(createMaterial);
-    return material;
+    const listValue = values.filter(createListValue);
+    return listValue;
   }
-  const materials = categoryList.map(buildMaterials);
+  const listValues = categoryList.map(buildListValues);
 
-  function buildRows(material) {
+  function buildLis(listValue) {
     if (combinedAuthorTitle) {
-      function createRow1(material) {
+      function createLi1(listValue) {
         return (
           <li key={uuidv4()} className='materials'>
-            <p>{material[1]}</p>
+            <p>{listValue[1]}</p>
           </li>
         );
       }
-      const row = material.map(createRow1);
-      return row;
+      const li = listValue.map(createLi1);
+      return li;
     } else {
-      function createRow2(material, index) {
+      function createLi2(listValue, index) {
+        if (name === 'RecentDonors') {
+          let imo = '';
+          if (listValue[2]) {
+            imo = ` (${listValue[2]})`;
+          }
+
+          return (
+            <li key={uuidv4()} className='li_gsheets-data'>
+              <p>
+                {listValue[1]}
+                {imo}
+              </p>
+            </li>
+          );
+        }
+
         return (
           <li key={uuidv4()}>
-            <p className='materials'>
-              {material[1]}, <span className='title'>{material[2]}</span>
+            <p>
+              {listValue[1]},{' '}
+              <span>
+                <em>{listValue[2]}</em>
+              </span>
             </p>
           </li>
         );
       }
-      const row = material.map(createRow2);
-      return row;
+      const li = listValue.map(createLi2);
+      return li;
     }
   }
-  const rows = materials.map(buildRows);
+  const lis = listValues.map(buildLis);
 
-  //then, build the tables
-  function buildTable(table, index) {
+  //then, build the lists
+  function buildList(list, index) {
     return (
       <>
         {categoryList.length > 1 || name === 'YouthSection' ? (
-          <p className='category'>{table.category}</p>
+          <p className='p_category'>{list.category}</p>
         ) : null}
-        <ul key={uuidv4()} className='bookslist'>
-          <p>{rows[index]}</p>
+        <ul key={uuidv4()} className='ul_gsheets_data'>
+          {lis[index]}
         </ul>
         <br />
       </>
     );
   }
-  const tables = categoryList.map(buildTable);
+  const lists = categoryList.map(buildList);
 
   return (
     <>
       <p className='updated'>{updated}</p>
 
-      {sheet[name].sheetNo === 1 && (
-        <p id='rentalornew'>Rental or New at the Library</p>
+      {name === 'Books' && <p id='rentalornew'>Rental or New at the Library</p>}
+      {name === 'RecentDonors' && (
+        <h2>Thanks to those who have donated to the Library recently.</h2>
       )}
-      {sheet[name].sheetNo === 4 && (
-        <h3 /* variant={'text-center italic m-y-[.0625rem]'} */>
-          We wish to thank those who have donated to the Library recently.
-        </h3>
-      )}
-      {tables}
-      {sheet[name].sheetNo === 1 && (
+      {lists}
+      {name === 'Books' && (
         <>
           <p>
             <strong>KAREN MARTORELLI</strong>

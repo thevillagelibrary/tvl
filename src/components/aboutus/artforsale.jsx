@@ -3,9 +3,8 @@ import { PageBodySideMenu } from '@/components/common';
 export default function ArtForSale() {
   return (
     <PageBodySideMenu name={'ArtForSale'}>
-      <h2>
-        <em>LOVE ART? LOVE THE VILLAGE LIBRARY?</em>
-      </h2>
+      <h2>LOVE ART? LOVE THE VILLAGE LIBRARY?</h2>
+      <br />
       <p>
         The next time you come to The Village Library, please take a moment or
         two to view the many wonderful pieces of art that hang in the Ann Resch

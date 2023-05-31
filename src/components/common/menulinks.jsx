@@ -19,7 +19,7 @@ export default function MenuLinks() {
         </NavLink>
       </li>
       <li key={uuidv4()} className='li_menu'>
-        <NavLink to='/newbooks'>
+        <NavLink to='/books'>
           <p>Books</p>
         </NavLink>
       </li>

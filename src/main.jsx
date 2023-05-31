@@ -12,18 +12,18 @@ import {
   Organization,
   MissionStatement,
   GrabAndGo,
-  NewsEvents,
+  News,
   UpcomingEvents,
   OutgoingBoardMembers,
   ReadingListsOnTheWeb,
-  NewBooks,
+  Books,
   Donate,
   Supporters,
   RecentDonors,
   homeLoader,
   organizationLoader,
   upcomingeventsLoader,
-  newbooksLoader,
+  booksLoader,
   donationsLoader,
 } from '@/components';
 import { Layout, Loading, Menu } from '@/components/common';
@@ -39,8 +39,8 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        loader: newbooksLoader,
-        Component: NewBooks,
+        loader: booksLoader,
+        Component: Books,
         path: '/books',
       },
       {
@@ -81,21 +81,21 @@ const router = createBrowserRouter([
         path: '/aboutus/grabandgo',
       },
       {
-        Component: NewsEvents,
-        path: '/newsevents',
+        Component: News,
+        path: '/news',
       },
       {
         loader: upcomingeventsLoader,
         Component: UpcomingEvents,
-        path: '/newsevents/upcomingevents',
+        path: '/news/upcomingevents',
       },
       {
         Component: OutgoingBoardMembers,
-        path: '/newsevents/outgoingboardmembers',
+        path: '/news/outgoingboardmembers',
       },
       {
         Component: ReadingListsOnTheWeb,
-        path: '/newsevents/readinglistsontheweb',
+        path: '/news/readinglistsontheweb',
       },
       {
         Component: Supporters,

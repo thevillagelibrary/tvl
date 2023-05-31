@@ -22,7 +22,6 @@ export default function OutgoingBoardMembers() {
         </figcaption>
         <img className='poster' src={SandyAndRenee} alt='Sandy and Renee' />
       </figure>
-
       <figure>
         <figcaption>
           Village Library President, Sandy Cooper, presents a certificate of

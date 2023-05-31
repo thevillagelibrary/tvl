@@ -5,7 +5,7 @@ import { MOBILE_VW, pages } from '@/constants';
 
 export function PageBodyNoSideMenu(props) {
   return (
-    <section id='pagebodynosidemenu'>
+    <section id='sec_page-body-no-side-menu'>
       <article>
         <Banner name={props.name} />
       </article>
@@ -36,7 +36,7 @@ export function PageBodySideMenu(props) {
   return (
     <>
       <Banner name={props.name} />
-      <section id='pagebodysidemenu'>
+      <section id='sec_page-body-side-menu'>
         {dimensions.width > MOBILE_VW && (
           <aside id='vmenu'>
             {currentMainPage?.subPages && (
@@ -44,7 +44,7 @@ export function PageBodySideMenu(props) {
             )}
           </aside>
         )}
-        <article id='pagebody'>{props.children}</article>
+        <article id='art_pagebody'>{props.children}</article>
       </section>
     </>
   );

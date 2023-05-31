@@ -27,7 +27,7 @@ export async function upcomingeventsLoader() {
   return data;
 }
 
-export async function newbooksLoader() {
+export async function booksLoader() {
   const data = await getData(NEW_BOOKS_URL);
   return data;
 }

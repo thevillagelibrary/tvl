@@ -1,8 +1,7 @@
 import { Link, useLoaderData } from 'react-router-dom';
-import ScrollToTop from 'react-scroll-to-top';
 import { GoogleSheetsData, PageBodyNoSideMenu } from '@/components/common';
 
-export default function NewBooks() {
+export default function Books() {
   const data = useLoaderData();
   let values = [];
   for (let i = 0; i < 3; i++) {
@@ -12,7 +11,6 @@ export default function NewBooks() {
   return (
     <PageBodyNoSideMenu name={'Books'}>
       <>
-        <ScrollToTop />
         <Link to='/books#link-target_just-off-rental'>
           <p>Just Off Rental</p>
         </Link>

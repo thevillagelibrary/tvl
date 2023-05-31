@@ -75,9 +75,7 @@ fieldset {
     -ms-text-size-adjust: none;
   }
 }
-
-/* 672 px */
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 672px) {
   footer,
   #sec_hero {
     flex-direction: column;
@@ -94,7 +92,7 @@ fieldset {
   }
 }
 
-@media screen and (width > 42rem) {
+@media screen and (width > 672px) {
   footer,
   #sec_hero {
     flex-direction: row;
@@ -143,12 +141,15 @@ dl {
   margin-left: 2em;
   text-align: left;
 }
+
+figure {
+  margin: 1em 0;
+}
 figcaption {
   border-top: 1px solid #00bcd4;
   font-family: var(--font-sans-serif);
   font-size: 1.2em;
   font-weight: bold;
-  margin: 0.5em 0 1em 0 !important;
   padding: 1em 0 0 0;
   text-align: center;
 }
@@ -224,6 +225,9 @@ li,
 p {
   margin-bottom: 0.5em;
 }
+p {
+  text-align: justify;
+}
 
 small {
   display: block;
@@ -243,10 +247,10 @@ small {
 .address {
   text-align: center;
 }
-.bookslist {
+.ul_bookslist {
   list-style-type: none;
 }
-.borderedbox {
+.p_bordered-box {
   border: 2px solid var(--secondary-color);
   border-radius: 20px;
   display: block;
@@ -254,11 +258,24 @@ small {
   margin-right: auto;
   padding: 1em;
 }
-.category {
+.p_category {
   font-weight: bold;
 }
 .center {
   text-align: center;
+}
+
+.dl_book-donations {
+  font-size: 1.2em;
+}
+
+.dl_book-donations dt,
+.dl_book-donations dd {
+  text-indent: -1.5rem;
+  padding-left: 1.5rem;
+}
+.dl_book-donations dd {
+  margin-left: 3rem;
 }
 .hr_divider,
 .hr_divider-sidemenu,
@@ -382,8 +399,10 @@ small {
 .mainsubpage {
   margin-top: 0.5em;
 }
-.materials p,
-.title p {
+.ul_gsheets_data {
+  list-style-type: none !important;
+}
+.ul_gsheets-data p {
   font-size: 1em !important;
 }
 .narrow {
@@ -431,7 +450,7 @@ small {
 .vstack :not(:first-child) {
   margin-top: 1.25rem;
 }
-.wide {
+p .wide {
   width: 18.75em;
 }
 
@@ -439,13 +458,27 @@ small {
     ID SELECTORS
 ---------------------*/
 
-#accomplishments {
-  list-style-type: ;
+#a_photo-album {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 0;
 }
 
-#art_hero {
+#ul_accomplishments {
+  list-style-type: disc;
+  margin-left: 2em;
+  width: 90%;
+}
+
+#art_hero-center {
   margin-bottom: 1em;
   margin-top: 1em;
+}
+#art_quick-links_left p {
+  text-align: right;
+}
+#art_quick-links_right p {
+  text-align: left;
 }
 #banner {
   align-items: center;
@@ -466,21 +499,29 @@ small {
   text-align: left;
   width: 95vw;
 }
-#catalog {
+#sec_grab-and-go {
   display: flex;
   flex-direction: column;
-  float: left;
-  margin-left: 10%;
   white-space: pre-wrap;
-  width: 80%;
+  width: 100%;
 }
 #btn_close {
   background-color: transparent;
   border: none;
   float: left;
 }
-#donationhours {
-  width: 80%;
+#dl_upcoming-events dt {
+  font-weight: 500;
+  margin: 0;
+}
+#dl_upcoming-events dd {
+  margin: 0 1em 0 1em;
+}
+#ul_donation-hours {
+  list-style-type: disc;
+  margin-left: 2em;
+  text-align: left;
+  width: 80%t;
 }
 
 #eventslinks {
@@ -507,12 +548,12 @@ small {
   white-space: pre-wrap;
   width: 95vw;
 }
-#sec_hero article {
+#art_hero-center {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#sec_hero p {
+#art_hero-center p {
   font-family: 'Lucida-Calligraphy';
 }
 #p-hero_title {
@@ -543,7 +584,7 @@ small {
   margin-top: 1;
   padding-bottom: 0.3125em;
   text-align: center;
-  width: 8em;
+  width: fit-content;
 }
 #btn_donate button a {
   color: white;
@@ -551,11 +592,16 @@ small {
   text-align: center;
   vertical-align: center;
 }
+#art_hero-center {
+  width: 70%;
+}
 
-#div_hero-left {
-  display: hidden;
+#article_hero-left {
   height: 0;
-  width: 8em;
+}
+#art_hero-left,
+#art_hero-right {
+  width: 15%;
 }
 #hNav {
   box-sizing: border-box;
@@ -588,10 +634,6 @@ small {
   justify-content: space-around;
   text-align: center;
 }
-#home a :not(.fnav),
-p :not(.fnav) {
-  font-size: 1em;
-}
 
 #home h2 {
   margin-left: auto;
@@ -599,17 +641,23 @@ p :not(.fnav) {
   width: 60%;
 }
 
-#homelinks {
+#sec_quick-links {
   display: flex;
   flex-direction: row;
+  gap: 2em;
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
   vertical-align: top;
 }
 
-#homelinks article {
+#sec_quick-links article {
   margin-top: 0;
+}
+
+#sec_quick-links p {
+  font-size: 1.4em;
+  font-weight: 500;
 }
 
 #logos {
@@ -634,33 +682,35 @@ p :not(.fnav) {
   padding-left: 1em;
 }
 
-#missionstatement {
+#P_mission-statement {
   margin-top: 2em;
   width: 80%;
 }
-#newbooks {
+#books {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
-#newbooks details {
+#books details {
   color: var(--black-color);
   text-align: left;
 }
-#newbooks summary {
+#books summary {
   font-size: 1.2em;
   font-weight: bold;
   text-align: center;
 }
-#officers {
-  display: block;
+#tb_officers {
   font-family: var(--font-sans-serif);
-  font-size: 1em;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
   width: 100%;
+}
+#tb_officers td {
+  font-size: 1em;
+  width: 20%;
 }
 #outgoing {
   width: 37.75em;
@@ -669,13 +719,16 @@ p :not(.fnav) {
 tr {
   vertical-align: top;
 }
-#pagebody {
+#art_pagebody {
   align-items: top;
   margin-top: 0 !important;
   overflow-x: hidden;
   width: 100%;
 }
-#pagebodysidemenu {
+p #art_page_body {
+  text-align: justify;
+}
+#sec_page-body-side-menu {
   display: flex;
   width: 95vw;
 }

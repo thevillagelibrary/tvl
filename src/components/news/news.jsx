@@ -1,8 +1,8 @@
 import { PageBodySideMenu } from '@/components/common';
 
-export default function NewsEvents() {
+export default function News() {
   return (
-    <PageBodySideMenu name={'NewsEvents'}>
+    <PageBodySideMenu name={'News'}>
       <h2>
         THE VILLAGE LIBRARY
         <br />
@@ -10,6 +10,7 @@ export default function NewsEvents() {
         <br />
         2022-23
       </h2>
+      <br />
       <p>
         <strong>CHALLENGES & THE MIRACLE</strong>
       </p>
@@ -39,7 +40,7 @@ export default function NewsEvents() {
         <strong>ACCOMPLISHMENTS</strong>
       </p>
       <p>There are accomplishments to highlight this year:</p>
-      <ul id='accomplishments'>
+      <ul id='ul_accomplishments'>
         <li>
           The Board was successful in its application for a Landlovers&apos;
           grant of $2,100 to fund children&apos;s books and programs and a new

@@ -3,14 +3,14 @@ import { PageBodySideMenu } from '@/components/common';
 export default function BookDonations() {
   return (
     <PageBodySideMenu name='BookDonations'>
-      <p id='donationhours' className='borderedbox'>
-        Small Donations (individual or one small bag or box): Tues. - Sat., 10
-        a.m. to 5 p.m.
-        <br />
-        Large Donations: Sat., 10 a.m. to 12
-        <br />
-        Estate Donations: By appointment (call the Library)
-      </p>
+      <ul id='ul_donation-hours'>
+        <li>
+          Small Donations (individual or one small bag or box): Tues. - Sat., 10
+          a.m. to 5 p.m.
+        </li>
+        <li>Large Donations: Sat., 10 a.m. to 12</li>
+        <li>Estate Donations: By appointment (call the Library)</li>
+      </ul>
       <p>
         The Village Library accepts donations of current hardback and paperback
         books, children’s books, Audio book CDs, and DVDs. Virtually all items
@@ -27,7 +27,7 @@ export default function BookDonations() {
         available for sale during regular hours of operation, Monthly Bag of
         Book Sales, and our annual Fall and Spring Book Sales:
       </p>
-      <dl>
+      <dl className='dl_book-donations'>
         <dt>Hardbound current fiction and non-fiction books with jackets</dt>
         <dt>Biographies and autobiographies</dt>
         <dt>Children&apos;s books</dt>
@@ -42,7 +42,7 @@ export default function BookDonations() {
         The following are books and periodicals that we cannot use or even
         accept as they present a disposal problem:
       </p>
-      <dl>
+      <dl className='dl_book-donations'>
         <dt>Damaged books, which may include:</dt>
         <dd>
           Missing book jackets, covers or pages, loose bindings, ripped or

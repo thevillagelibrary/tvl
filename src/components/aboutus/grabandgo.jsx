@@ -5,7 +5,7 @@ import { PageBodySideMenu } from '@/components/common';
 export default function GrabAndGo() {
   return (
     <PageBodySideMenu name={'GrabAndGo'}>
-      <section id='catalog' className='borderedbox'>
+      <section id='sec_grab-and-go'>
         <p>1. Curbside pickup is available Tuesdays through Saturdays.</p>
         <p>
           2.{' '}

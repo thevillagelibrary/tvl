@@ -1,4 +1,4 @@
-export const MOBILE_VW = 412;
+export const MOBILE_VW = 425;
 
 const SHEET_ID = import.meta.env.VITE_GOOGLE_SHEETS_ID;
 const API_KEY = import.meta.env.VITE_GOOGLE_SHEETS_API_KEY;
@@ -78,7 +78,7 @@ export const pages = [
   },
   {
     name: 'News',
-    path: 'newsevents',
+    path: 'news',
     subPages: [
       {
         name: 'Upcoming Events',
@@ -134,7 +134,7 @@ export const bannerTextNavBarV = {
     bannerText: 'Book Donations',
   },
   GrabAndGo: { bannerText: 'Grab-&-Go' },
-  NewsEvents: { bannerText: 'Newsletter' },
+  News: { bannerText: 'Newsletter' },
   UpcomingEvents: {
     bannerText: 'Upcoming Events',
   },

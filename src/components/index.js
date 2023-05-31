@@ -8,11 +8,11 @@ export { default as Membership } from '@/components/aboutus/membership';
 export { default as MissionStatement } from '@/components/aboutus/missionstatement';
 export { default as Organization } from '@/components/aboutus/organization';
 export { default as GrabAndGo } from '@/components/aboutus/grabandgo';
-export { default as NewsEvents } from '@/components/newsevents/newsevents';
-export { default as UpcomingEvents } from '@/components/newsevents/upcomingevents';
-export { default as OutgoingBoardMembers } from '@/components/newsevents/outgoingboardmembers';
-export { default as ReadingListsOnTheWeb } from '@/components/newsevents/readinglistsontheweb';
-export { default as NewBooks } from '@/components/newbooks/newbooks';
+export { default as News } from '@/components/news/news';
+export { default as UpcomingEvents } from '@/components/news/upcomingevents';
+export { default as OutgoingBoardMembers } from '@/components/news/outgoingboardmembers';
+export { default as ReadingListsOnTheWeb } from '@/components/news/readinglistsontheweb';
+export { default as Books } from '@/components/books/books';
 export { default as Donate } from '@/components/supporters/donate';
 export { default as Supporters } from '@/components/supporters/supporters';
 export { default as RecentDonors } from '@/components/supporters/recentdonors';
@@ -20,6 +20,6 @@ export {
   homeLoader,
   organizationLoader,
   upcomingeventsLoader,
-  newbooksLoader,
+  booksLoader,
   donationsLoader,
 } from '@/components/common/loaders';

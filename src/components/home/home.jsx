@@ -5,7 +5,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 //import InstagramIcon from '@/assets/images/Instagram.png';
 import UpcomingEventsLinks from '@/components/home/upcomingeventslinks';
 import { PageBodyNoSideMenu } from '@/components/common';
-import getFutureEvents from '@/components/newsevents/getFutureEvents';
+import getFutureEvents from '@/components/news/getFutureEvents';
 
 export default function Home() {
   const data = useLoaderData();
@@ -23,19 +23,19 @@ export default function Home() {
           <small>{hours}</small>
           <hr className='hr_divider' />
           <h2>Quick Links</h2>
-          <section id='homelinks'>
-            <article>
+          <section id='sec_quick-links'>
+            <article id='art_quick-links_left'>
               <a href='https://thevillagelibrary.library.site'>
                 <p>Online Catalog</p>
               </a>
-              <Link to='/newbooks'>
+              <Link to='/books'>
                 <p>New Arrivals</p>
               </Link>
               <Link to='/supporters/donate'>
-                <p>How to Support Us</p>
+                <p>Support Us</p>
               </Link>
             </article>
-            <article>
+            <article id='art_quick-links_right'>
               <Link to='/supporters/recentdonors'>
                 <p>Recent Donors</p>
               </Link>
@@ -47,7 +47,9 @@ export default function Home() {
               </Link>
             </article>
           </section>
-          <a href='https://thevillagelibrary.org/album/album.html'>
+          <a
+            id='a_photo-album'
+            href='https://thevillagelibrary.org/album/album.html'>
             <p>Photo Album</p>
           </a>
           <hr className='hr_divider' />

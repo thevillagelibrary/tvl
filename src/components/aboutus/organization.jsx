@@ -15,7 +15,7 @@ export default function Organization() {
         in May of each year.
       </p>
       <h2>Officers & Directors</h2>
-      <table id='officers'>
+      <table id='tb_officers'>
         <tbody>
           {organization.map((item, index) => (
             <tr key={index}>
