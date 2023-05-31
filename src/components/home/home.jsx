@@ -1,8 +1,8 @@
 import { Link, useLoaderData } from 'react-router-dom';
-//import BackOfLibrary from '@/images/BackOfLibrary.jpg';
-//import BookA from '@/images/book-A.gif';
-//import Facebook from '@/images/Facebook.png';
-//import InstagramIcon from '@/images/Instagram.png';
+//import BackOfLibrary from '@/assets/images/BackOfLibrary.jpg';
+//import BookA from '@/assets/images/book-A.gif';
+//import Facebook from '@/assets/images/Facebook.png';
+//import InstagramIcon from '@/assets/images/Instagram.png';
 import UpcomingEventsLinks from '@/components/home/upcomingeventslinks';
 import { PageBodyNoSideMenu } from '@/components/common';
 import getFutureEvents from '@/components/newsevents/getFutureEvents';
@@ -21,7 +21,7 @@ export default function Home() {
         <section id='home' className='vstack'>
           <h2>Hours</h2>
           <small>{hours}</small>
-          <hr className='divider' />
+          <hr className='hr_divider' />
           <h2>Quick Links</h2>
           <section id='homelinks'>
             <article>
@@ -50,7 +50,7 @@ export default function Home() {
           <a href='https://thevillagelibrary.org/album/album.html'>
             <p>Photo Album</p>
           </a>
-          <hr className='divider' />
+          <hr className='hr_divider' />
           <article id='eventslinks'>
             <UpcomingEventsLinks futureEvents={futureEvents} />
           </article>

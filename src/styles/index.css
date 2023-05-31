@@ -79,8 +79,14 @@ fieldset {
 /* 672 px */
 @media screen and (max-width: 42em) {
   footer,
-  #hero {
+  #sec_hero {
     flex-direction: column;
+  }
+  footer {
+    gap: 1em;
+  }
+  #btn_donate {
+    margin-bottom: 1em;
   }
   #eventslinks,
   #homelinks {
@@ -90,7 +96,7 @@ fieldset {
 
 @media screen and (width > 42rem) {
   footer,
-  #hero {
+  #sec_hero {
     flex-direction: row;
   }
 
@@ -168,10 +174,6 @@ footer a {
 }
 footer a:hover {
   color: var(--link-hover-color);
-}
-footer h2 {
-  color: var(--white-background-color);
-  font-family: 'Lucida-Calligraphy';
 }
 footer p {
   font-size: 1em;
@@ -258,10 +260,15 @@ small {
 .center {
   text-align: center;
 }
-.divider,
-.divider-sidemenu,
-.divider-vNav {
+.hr_divider,
+.hr_divider-sidemenu,
+.hr_divider-vNav {
   width: 100%;
+}
+
+.hr_sub-divider {
+  border-top: 2px solid var(--secondary-color);
+  width: 80%;
 }
 
 .event td,
@@ -317,7 +324,10 @@ small {
 .fnav ul {
   list-style-type: none;
 }
-.icon {
+.icon_hmenu {
+  padding-top: 0.35em;
+}
+.icon_social-media {
   display: block;
   height: auto;
   margin-left: auto;
@@ -404,9 +414,6 @@ small {
 .subdetail :not(:first-child) {
   padding-left: 1em;
 }
-.subdivider {
-  width: 30em;
-}
 
 .title {
   border: none;
@@ -435,15 +442,20 @@ small {
 #accomplishments {
   list-style-type: ;
 }
+
+#art_hero {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
 #banner {
   align-items: center;
   background: var(--black-background-color);
   color: var(--white-background-color);
   display: flex;
   font-family: var(--font-sans-serif);
-  font-size: 1.4375em;
+  font-size: 1.2em;
   font-weight: 700;
-  height: 2em;
+  height: fit-content;
   justify-content: center;
   margin-bottom: 0.625em;
   text-align: center;
@@ -462,8 +474,10 @@ small {
   white-space: pre-wrap;
   width: 80%;
 }
-#close {
-  float: right;
+#btn_close {
+  background-color: transparent;
+  border: none;
+  float: left;
 }
 #donationhours {
   width: 80%;
@@ -474,11 +488,11 @@ small {
   margin-right: auto;
 }
 
-#front-picture {
-  width: 40vw;
+#img_newwing {
+  width: 100vw;
 }
 
-#hero {
+#sec_hero {
   align-items: center;
   background-color: var(--primary-color);
   color: var(--white-background-color);
@@ -493,41 +507,29 @@ small {
   white-space: pre-wrap;
   width: 95vw;
 }
-#hero article {
+#sec_hero article {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#hero img {
-  aspect-ratio: 1/1;
-  margin: 0;
-  padding-top: 0.2rem;
-  max-width: 5.5rem;
-}
-#hero p {
+#sec_hero p {
   font-family: 'Lucida-Calligraphy';
 }
-
-#hero p {
-  margin: 0;
-  width: 8em;
-}
-#hero #title {
+#p-hero_title {
   font-size: 2.5em;
   font-weight: bold;
   margin: 0;
   text-align: center;
-  width: fit-content;
+  width: 100%;
 }
-#hero #location {
+#p-hero_location {
   font-size: 1em;
   font-weight: bold;
   margin: 0;
   text-align: center;
-  width: fit-content;
+  width: 100%;
 }
-#hero button {
-  align-items: center;
+#btn_donate {
   background: var(--secondary-color);
   border-radius: 0.375em;
   border-style: solid;
@@ -537,16 +539,23 @@ small {
   font-size: 0.875em;
   height: 2em;
   line-height: 1.2em;
-  margin-top: 0;
+  margin-bottom: 1em;
+  margin-top: 1;
   padding-bottom: 0.3125em;
   text-align: center;
   width: 8em;
 }
-#hero button a {
+#btn_donate button a {
   color: white;
   font-weight: 600;
   text-align: center;
   vertical-align: center;
+}
+
+#div_hero-left {
+  display: hidden;
+  height: 0;
+  width: 8em;
 }
 #hNav {
   box-sizing: border-box;
@@ -610,21 +619,21 @@ p :not(.fnav) {
   justify-content: center;
   padding-top: 0.25em;
 }
-#menu {
+#ul_menu {
   display: block;
+  list-style-type: none;
   text-align: left;
 }
 
-.menunosubpages p,
-.menumainsubpage p,
-.menusubpages p {
+.li_menu p {
   font-size: 1.2em;
   text-align: left;
 }
 
-.menusubpages p {
+.li_menu-subpages p {
   padding-left: 1em;
 }
+
 #missionstatement {
   margin-top: 2em;
   width: 80%;
@@ -672,17 +681,6 @@ tr {
 }
 #paypal {
   text-align: center;
-}
-#quicklinks details {
-  text-align: left;
-}
-#quicklinks details p {
-  padding-left: 3em;
-  text-align: left;
-}
-#quicklinks details #main[open] p {
-  margin: 0;
-  padding: 0;
 }
 #rentalornew {
   font-weight: bold;

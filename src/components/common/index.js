@@ -14,4 +14,3 @@ export {
   PageBodyNoSideMenu,
   PageBodySideMenu,
 } from '@/components/common/pagebody';
-export { default as QuickLinks } from '@/components/common/quicklinks';

@@ -15,7 +15,7 @@ export default function UpcomingEventsList({ events }) {
           <strong>{event[5]}:</strong> {event[2]} -- {event[4]}
         </p>
         {index < futureEventCount - 1 ? (
-          <hr className='divider-sidemenu' />
+          <hr className='hr_divider-sidemenu' />
         ) : (
           ''
         )}

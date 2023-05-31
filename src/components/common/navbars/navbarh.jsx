@@ -1,4 +1,4 @@
-import { createElement } from 'react';
+import { createElement, useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaHome as HomeIcon, FaDonate as SupportersIcon } from 'react-icons/fa';
 import { BiNews as NewsIcon } from 'react-icons/bi';
@@ -11,11 +11,11 @@ import { v4 as uuidv4 } from 'uuid';
 function NavBarHMobile() {
   const size = 30;
   const icons = [
-    <HomeIcon size={size} />,
-    <BooksIcon size={size} />,
-    <AboutIcon size={size} />,
-    <NewsIcon size={size} />,
-    <SupportersIcon size={size} />,
+    <HomeIcon size={size} className='icon_hmenu' />,
+    <BooksIcon size={size} className='icon_hmenu' />,
+    <AboutIcon size={size} className='icon_hmenu' />,
+    <NewsIcon size={size} className='icon_hmenu' />,
+    <SupportersIcon size={size} className='icon_hmenu' />,
   ];
 
   return (
@@ -69,9 +69,22 @@ function NavBarHComputer() {
 }
 
 export default function NavBarH() {
-  const vw = window.innerWidth;
+  const [dimensions, setDimensions] = useState({
+    height: window.innerHeight,
+    width: window.innerWidth,
+  });
 
-  if (vw > MOBILE_VW) {
+  useEffect(() => {
+    function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth,
+      });
+    }
+    window.addEventListener('resize', handleResize);
+  });
+
+  if (dimensions.width > MOBILE_VW) {
     return (
       <ul id='hNav'>
         <NavBarHComputer />

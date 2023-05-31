@@ -1,17 +1,17 @@
 import { PageBodySideMenu } from '@/components/common';
-import ChildrenReading from '@/images/ChildrenReading.jpg';
-import _2018Childrens01 from '@/images/2018Childrens01.jpg';
-import _2018Childrens02 from '@/images/2018Childrens02.jpg';
-import _2018Childrens03 from '@/images/2018Childrens03.jpg';
-import _2018Childrens04 from '@/images/2018Childrens04.jpg';
-import _2018Childrens05 from '@/images/2018Childrens05.jpg';
-import _2019Childrens1 from '@/images/2019Childrens1.jpg';
-import _2019Childrens2 from '@/images/2019Childrens2.jpg';
-import BeeAReader1 from '@/images/BeeAReader1.jpg';
-import BeeAReader2 from '@/images/BeeAReader2.jpg';
-import NotSoScaryHalloween from '@/images/NotSoScaryHalloween.jpg';
-import PhyllisAndChildren from '@/images/PhyllisAndChildren.jpg';
-import PhyllisLimbacherTildes from '@/images/PhyllisLimbacherTildes.jpg';
+import ChildrenReading from '@/assets/images/ChildrenReading.jpg';
+import _2018Childrens01 from '@/assets/images/2018Childrens01.jpg';
+import _2018Childrens02 from '@/assets/images/2018Childrens02.jpg';
+import _2018Childrens03 from '@/assets/images/2018Childrens03.jpg';
+import _2018Childrens04 from '@/assets/images/2018Childrens04.jpg';
+import _2018Childrens05 from '@/assets/images/2018Childrens05.jpg';
+import _2019Childrens1 from '@/assets/images/2019Childrens1.jpg';
+import _2019Childrens2 from '@/assets/images/2019Childrens2.jpg';
+import BeeAReader1 from '@/assets/images/BeeAReader1.jpg';
+import BeeAReader2 from '@/assets/images/BeeAReader2.jpg';
+import NotSoScaryHalloween from '@/assets/images/NotSoScaryHalloween.jpg';
+import PhyllisAndChildren from '@/assets/images/PhyllisAndChildren.jpg';
+import PhyllisLimbacherTildes from '@/assets/images/PhyllisLimbacherTildes.jpg';
 
 export default function ChildrensProgram() {
   return (

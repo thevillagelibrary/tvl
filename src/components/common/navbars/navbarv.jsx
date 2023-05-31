@@ -16,7 +16,7 @@ export default function NavBarV({ mainPage }) {
         {mainPage.name}
       </NavLink>
       <li>
-        <hr className='divider-vNav' />
+        <hr className='hr_divider-vNav' />
       </li>
       {mainPage.subPages.map((subPage) => {
         let path = `/${mainPage.path}/${subPage.path}`;

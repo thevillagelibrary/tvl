@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { NavBarM } from '@/components/common';
 import { pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
@@ -12,16 +12,16 @@ export default function MenuLinks() {
   }
 
   return (
-    <ul id='menu'>
-      <li key={uuidv4()} className='menunosubpages'>
-        <Link to='/'>
+    <ul id='ul_menu'>
+      <li key={uuidv4()} className='li_menu'>
+        <NavLink to='/'>
           <p>Home</p>
-        </Link>
+        </NavLink>
       </li>
-      <li key={uuidv4()} className='menunosubpages'>
-        <Link to='/newbooks'>
+      <li key={uuidv4()} className='li_menu'>
+        <NavLink to='/newbooks'>
           <p>Books</p>
-        </Link>
+        </NavLink>
       </li>
       {details}
     </ul>

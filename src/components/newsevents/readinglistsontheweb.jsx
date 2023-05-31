@@ -1,4 +1,4 @@
-import tgarx from '@/images/TGARX.gif';
+import tgarx from '@/assets/images/TGARX.gif';
 import { PageBodySideMenu } from '@/components/common';
 
 export default function ReadingListsOnTheWeb() {
@@ -51,7 +51,7 @@ export default function ReadingListsOnTheWeb() {
           </a>
         </article>
       </section>
-      <hr className='divider-sidemenu' />
+      <hr className='hr_divider-sidemenu' />
       <section>
         <h2>
           On its 125th anniversary, the New York Public Library published this
@@ -60,13 +60,13 @@ export default function ReadingListsOnTheWeb() {
         <a href='https://www.nypl.org/125/topcheckouts'>
           <p>Top 10 Checkouts of All Time</p>
         </a>
-        <hr className='divider-sidemenu' />
+        <hr className='hr_divider-sidemenu' />
 
         <h2>This site lists all mysteries by an author by publishing date:</h2>
         <a href='http://stopyourekillingme.com'>
           <p>Stop, You&apos;re Killing Me!</p>
         </a>
-        <hr className='divider-sidemenu' />
+        <hr className='hr_divider-sidemenu' />
 
         <h2>
           A national survey conducted by PBS published this list of

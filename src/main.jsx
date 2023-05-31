@@ -41,7 +41,7 @@ const router = createBrowserRouter([
       {
         loader: newbooksLoader,
         Component: NewBooks,
-        path: '/newbooks',
+        path: '/books',
       },
       {
         Component: AboutUs,

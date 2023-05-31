@@ -35,7 +35,7 @@ export const pages = [
   },
   {
     name: 'Books',
-    path: 'newbooks',
+    path: 'books',
     subPages: [],
   },
   {
@@ -144,8 +144,8 @@ export const bannerTextNavBarV = {
   ReadingListsOnTheWeb: {
     bannerText: 'Reading Lists on the Web',
   },
-  NewBooks: {
-    bannerText: 'New Books',
+  Books: {
+    bannerText: 'New Arrivals',
   },
   Donate: {
     bannerText: 'How You Can Support the Library',

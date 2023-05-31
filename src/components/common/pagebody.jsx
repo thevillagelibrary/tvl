@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Banner, NavBarV } from '@/components/common';
 import { MOBILE_VW, pages } from '@/constants';
@@ -14,8 +15,20 @@ export function PageBodyNoSideMenu(props) {
 }
 
 export function PageBodySideMenu(props) {
-  const vw = window.innerWidth;
-  console.log('😊😊 vw', vw);
+  const [dimensions, setDimensions] = useState({
+    height: window.innerHeight,
+    width: window.innerWidth,
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth,
+      });
+    }
+    window.addEventListener('resize', handleResize);
+  });
   const { pathname } = useLocation();
   const currentMainPage = pages
     .filter((obj) => obj.path !== '')
@@ -24,7 +37,7 @@ export function PageBodySideMenu(props) {
     <>
       <Banner name={props.name} />
       <section id='pagebodysidemenu'>
-        {vw > MOBILE_VW && (
+        {dimensions.width > MOBILE_VW && (
           <aside id='vmenu'>
             {currentMainPage?.subPages && (
               <NavBarV mainPage={currentMainPage} />

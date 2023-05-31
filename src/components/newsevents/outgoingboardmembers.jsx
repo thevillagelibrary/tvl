@@ -1,15 +1,15 @@
 import { PageBodySideMenu } from '@/components/common';
-import SandyAndRenee from '@/images/SandyAndRenee.jpg';
-import SandyAndJane from '@/images/SandyAndJane.jpg';
-import SandyAndKathy from '@/images/SandyAndKathy.jpg';
-import SandyAndPhil from '@/images/SandyAndPhil.jpg';
-import SandyAndSally from '@/images/SandyAndSally.jpg';
-import SandyAndJoy from '@/images/SandyAndJoy.jpg';
-import KenAndSue from '@/images/KenAndSue.jpg';
-import SueAndPhil from '@/images/SueAndPhil.jpg';
-import SueAndAllison from '@/images/SueAndAllison.jpg';
-import SueAndJanet from '@/images/SueAndJanet.jpg';
-import SueAndAnn from '@/images/SueAndAnn.jpg';
+import SandyAndRenee from '@/assets/images/SandyAndRenee.jpg';
+import SandyAndJane from '@/assets/images/SandyAndJane.jpg';
+import SandyAndKathy from '@/assets/images/SandyAndKathy.jpg';
+import SandyAndPhil from '@/assets/images/SandyAndPhil.jpg';
+import SandyAndSally from '@/assets/images/SandyAndSally.jpg';
+import SandyAndJoy from '@/assets/images/SandyAndJoy.jpg';
+import KenAndSue from '@/assets/images/KenAndSue.jpg';
+import SueAndPhil from '@/assets/images/SueAndPhil.jpg';
+import SueAndAllison from '@/assets/images/SueAndAllison.jpg';
+import SueAndJanet from '@/assets/images/SueAndJanet.jpg';
+import SueAndAnn from '@/assets/images/SueAndAnn.jpg';
 
 export default function OutgoingBoardMembers() {
   return (
