@@ -39,7 +39,7 @@ export default function NewsEvents() {
         <strong>ACCOMPLISHMENTS</strong>
       </p>
       <p>There are accomplishments to highlight this year:</p>
-      <ul>
+      <ul id='accomplishments'>
         <li>
           The Board was successful in its application for a Landlovers&apos;
           grant of $2,100 to fund children&apos;s books and programs and a new

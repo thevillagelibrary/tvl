@@ -82,6 +82,10 @@ fieldset {
   #hero {
     flex-direction: column;
   }
+  #eventslinks,
+  #homelinks {
+    width: 100%;
+  }
 }
 
 @media screen and (width > 42rem) {
@@ -89,15 +93,14 @@ fieldset {
   #hero {
     flex-direction: row;
   }
-}
 
-/*  288px
-@media (max-width: 18em) {
-  #mainMenu li {
-    float: none;
-    width: auto;
+  #homelinks {
+    width: 40%;
   }
-}*/
+  #eventslinks {
+    width: 80%;
+  }
+}
 
 /*---------------------
     TYPE SELECTORS
@@ -238,6 +241,9 @@ small {
 .address {
   text-align: center;
 }
+.bookslist {
+  list-style-type: none;
+}
 .borderedbox {
   border: 2px solid var(--secondary-color);
   border-radius: 20px;
@@ -268,16 +274,16 @@ small {
 
 .event td:first-of-type {
   font-weight: 500;
-  width: 30vw;
+  width: 40%;
 }
 
 .event td:nth-child(2) {
   padding-right: 1em;
-  width: 20vw;
+  width: 30%;
 }
 
 .event td:last-of-type {
-  width: 20vw;
+  width: 30%;
 }
 .eventlink,
 .eventlink a,
@@ -366,6 +372,10 @@ small {
 .mainsubpage {
   margin-top: 0.5em;
 }
+.materials p,
+.title p {
+  font-size: 1em !important;
+}
 .narrow {
   width: 15em;
 }
@@ -400,11 +410,11 @@ small {
 
 .title {
   border: none;
-  font-style: italic;
+  text-decoration: underline;
   padding: 0;
 }
 .updated {
-  font-style: italic;
+  font-weight: italic;
   text-align: right;
 }
 .vstack {
@@ -422,6 +432,9 @@ small {
     ID SELECTORS
 ---------------------*/
 
+#accomplishments {
+  list-style-type: ;
+}
 #banner {
   align-items: center;
   background: var(--black-background-color);
@@ -449,15 +462,16 @@ small {
   white-space: pre-wrap;
   width: 80%;
 }
+#close {
+  float: right;
+}
 #donationhours {
-  padding: 1em 0 1em 6em;
   width: 80%;
 }
 
 #eventslinks {
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
 }
 
 #front-picture {
@@ -567,8 +581,7 @@ small {
 }
 #home a :not(.fnav),
 p :not(.fnav) {
-  font-size: 1.2em;
-  font-weight: 500;
+  font-size: 1em;
 }
 
 #home h2 {
@@ -584,7 +597,6 @@ p :not(.fnav) {
   margin-left: auto;
   margin-right: auto;
   vertical-align: top;
-  width: 40%;
 }
 
 #homelinks article {
@@ -598,15 +610,30 @@ p :not(.fnav) {
   justify-content: center;
   padding-top: 0.25em;
 }
+#menu {
+  display: block;
+  text-align: left;
+}
+
+.menunosubpages p,
+.menumainsubpage p,
+.menusubpages p {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.menusubpages p {
+  padding-left: 1em;
+}
 #missionstatement {
   margin-top: 2em;
-  width: 50%;
+  width: 80%;
 }
 #newbooks {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 #newbooks details {
   color: var(--black-color);
@@ -624,16 +651,20 @@ p :not(.fnav) {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  width: 25em;
+  width: 100%;
 }
 #outgoing {
   width: 37.75em;
+}
+#outgoing td,
+tr {
+  vertical-align: top;
 }
 #pagebody {
   align-items: top;
   margin-top: 0 !important;
   overflow-x: hidden;
-  width: calc(95vw - 8.75em);
+  width: 100%;
 }
 #pagebodysidemenu {
   display: flex;

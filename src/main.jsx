@@ -39,10 +39,6 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        Component: Menu,
-        path: '/menu',
-      },
-      {
         loader: newbooksLoader,
         Component: NewBooks,
         path: '/newbooks',
@@ -115,6 +111,10 @@ const router = createBrowserRouter([
         path: '/supporters/recentdonors',
       },
     ],
+  },
+  {
+    Component: Menu,
+    path: '/menu',
   },
 ]);
 

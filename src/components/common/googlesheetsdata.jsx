@@ -83,9 +83,9 @@ export default function GoogleSheetsData({ name, values }) {
     if (combinedAuthorTitle) {
       function createRow1(material) {
         return (
-          <tr key={uuidv4()}>
-            <td>{material[1]}</td>
-          </tr>
+          <li key={uuidv4()} className='materials'>
+            <p>{material[1]}</p>
+          </li>
         );
       }
       const row = material.map(createRow1);
@@ -93,10 +93,11 @@ export default function GoogleSheetsData({ name, values }) {
     } else {
       function createRow2(material, index) {
         return (
-          <tr key={uuidv4()}>
-            <td className={className}>{material[1]}</td>
-            <td className='title'>{material[2]}</td>
-          </tr>
+          <li key={uuidv4()}>
+            <p className='materials'>
+              {material[1]}, <span className='title'>{material[2]}</span>
+            </p>
+          </li>
         );
       }
       const row = material.map(createRow2);
@@ -112,9 +113,9 @@ export default function GoogleSheetsData({ name, values }) {
         {categoryList.length > 1 || name === 'YouthSection' ? (
           <p className='category'>{table.category}</p>
         ) : null}
-        <table key={uuidv4()}>
-          <tbody>{rows[index]}</tbody>
-        </table>
+        <ul key={uuidv4()} className='bookslist'>
+          <p>{rows[index]}</p>
+        </ul>
         <br />
       </>
     );

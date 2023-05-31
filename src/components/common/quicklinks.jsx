@@ -22,7 +22,7 @@ export default function QuickLinks() {
 
   return (
     <details id='main' className='fnav'>
-      <summary>Menu Links</summary>
+      <summary>Menu</summary>
       <ul>
         <li key={uuidv4()} className='nosubpages'>
           <Link to='/' onClick={handleClick}>
