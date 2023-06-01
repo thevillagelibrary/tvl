@@ -58,7 +58,7 @@ export default function GoogleSheetsData({ name, values }) {
     if (combinedAuthorTitle) {
       function createLi1(listValue) {
         return (
-          <li key={uuidv4()} className='materials'>
+          <li key={uuidv4()}>
             <p>{listValue[1]}</p>
           </li>
         );
@@ -74,7 +74,7 @@ export default function GoogleSheetsData({ name, values }) {
           }
 
           return (
-            <li key={uuidv4()} className='li_gsheets-data'>
+            <li key={uuidv4()}>
               <p>
                 {listValue[1]}
                 {imo}
@@ -107,7 +107,7 @@ export default function GoogleSheetsData({ name, values }) {
         {categoryList.length > 1 || name === 'YouthSection' ? (
           <p className='p_category'>{list.category}</p>
         ) : null}
-        <ul key={uuidv4()} className='ul_gsheets_data'>
+        <ul key={uuidv4()} className='ul_gsheets-data'>
           {lis[index]}
         </ul>
         <br />

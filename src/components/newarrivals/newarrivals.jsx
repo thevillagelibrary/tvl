@@ -1,7 +1,7 @@
 import { Link, useLoaderData } from 'react-router-dom';
 import { GoogleSheetsData, PageBodyNoSideMenu } from '@/components/common';
 
-export default function Books() {
+export default function NewArrivals() {
   const data = useLoaderData();
   let values = [];
   for (let i = 0; i < 3; i++) {
@@ -9,15 +9,15 @@ export default function Books() {
   }
 
   return (
-    <PageBodyNoSideMenu name={'Books'}>
+    <PageBodyNoSideMenu name={'NewArrivals'}>
       <>
-        <Link to='/books#link-target_just-off-rental'>
+        <Link to='/newarrivals#link-target_just-off-rental'>
           <p>Just Off Rental</p>
         </Link>
-        <Link to='/books#link-target_books'>
+        <Link to='/newarrivals#link-target_books'>
           <p>Books</p>
         </Link>
-        <Link to='/books#link-target_youth-section'>
+        <Link to='/newarrivals#link-target_youth-section'>
           <p>Youth Section</p>
         </Link>
         <hr className='hr_divider' />

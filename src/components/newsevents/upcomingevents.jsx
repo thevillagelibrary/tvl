@@ -1,6 +1,6 @@
 import { useLoaderData } from 'react-router-dom';
 import { PageBodySideMenu } from '@/components/common';
-import UpcomingEventsList from '@/components/news/upcomingeventslist';
+import UpcomingEventsList from '@/components/newsevents/upcomingeventslist';
 
 export default function UpcomingEvents() {
   const data = useLoaderData();

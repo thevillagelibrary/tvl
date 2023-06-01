@@ -1,4 +1,4 @@
-import getFutureEvents from '@/components/news/getFutureEvents';
+import getFutureEvents from '@/components/newsevents/getFutureEvents';
 import { v4 as uuidv4 } from 'uuid';
 
 export default function UpcomingEventsList({ events }) {

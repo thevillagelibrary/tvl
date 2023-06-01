@@ -5,7 +5,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 //import InstagramIcon from '@/assets/images/Instagram.png';
 import UpcomingEventsLinks from '@/components/home/upcomingeventslinks';
 import { PageBodyNoSideMenu } from '@/components/common';
-import getFutureEvents from '@/components/news/getFutureEvents';
+import getFutureEvents from '@/components/newsevents/getFutureEvents';
 
 export default function Home() {
   const data = useLoaderData();
@@ -28,7 +28,7 @@ export default function Home() {
               <a href='https://thevillagelibrary.library.site'>
                 <p>Online Catalog</p>
               </a>
-              <Link to='/books'>
+              <Link to='/newarrivals'>
                 <p>New Arrivals</p>
               </Link>
               <Link to='/supporters/donate'>

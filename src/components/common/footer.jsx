@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <section>
-        <p className='address'>
+        <address>
           Village Library, Inc.
           <br />
           1 Skidaway Village Square
@@ -14,7 +14,7 @@ export default function Footer() {
           Savannah, GA 31411
           <br />
           (912) 598-1183
-        </p>
+        </address>
       </section>
       <section>
         <article id='logos'>

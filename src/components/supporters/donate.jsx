@@ -6,10 +6,10 @@ export default function Donate() {
       <article>
         <p>
           Unlike tax supported public libraries, we receive no funds from
-          Federal, State or local governments. Our funding comes from membership
-          fees, donations, book rentals, the sale of used books and engraved
-          bricks. Because we are a Section 501 (c) (3) organization, all
-          donations are tax-deductible.
+          Federal, State, or local governments. Our funding comes from
+          membership fees, donations, book rentals, the sale of used books and
+          engraved bricks. Because we are a Section 501 (c) (3) organization,
+          all donations are tax-deductible.
         </p>
         <h2>Make a Tax-deductible Donation</h2>
         <small>
@@ -47,13 +47,13 @@ export default function Donate() {
           the book drop at the library or mail it to:
         </small>
         <br />
-        <p className='address'>
+        <address>
           Village Library, Inc.
           <br />
           1 Skidaway Village Square
           <br />
           Savannah, GA 31411
-        </p>
+        </address>
       </article>
       <hr />
       <article id='buyabrick'>
@@ -63,8 +63,8 @@ export default function Donate() {
           library. The bricks border the entry to the library. In addition to
           supporting the library by having bricks engraved with their own names,
           our donors have had bricks engraved with the names of their
-          grandchildren, to commemorate the passing of a loved one, or to honor
-          a friend.
+          grandchildren, to commemorate the passing of a loved one or to honor a
+          friend.
         </p>
         <p>
           Brick donations are $200 each. All contributions are tax-deductible as

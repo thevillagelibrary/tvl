@@ -14,7 +14,7 @@ const UPCOMINGEVENTS_URL =
   BASE_URL + SHEET_ID + '/values/Upcoming_Events' + KEY;
 const ORGANIZATION_URL = BASE_URL + SHEET_ID + '/values/Organization' + KEY;
 const DONATIONS_URL = BASE_URL + SHEET_ID + '/values/Donations' + KEY;
-const NEW_BOOKS_URL =
+const NEW_ARRIVALS_URL =
   BASE_URL +
   SHEET_ID +
   '/values:batchGet?ranges=Just_Off_Rental&ranges=Books&ranges=Youth' +
@@ -24,7 +24,7 @@ export {
   HOME_URL,
   ORGANIZATION_URL,
   UPCOMINGEVENTS_URL,
-  NEW_BOOKS_URL,
+  NEW_ARRIVALS_URL,
   DONATIONS_URL,
 };
 export const pages = [
@@ -34,12 +34,7 @@ export const pages = [
     subPages: [],
   },
   {
-    name: 'Books',
-    path: 'books',
-    subPages: [],
-  },
-  {
-    name: 'About',
+    name: 'About Us',
     path: 'aboutus',
     subPages: [
       {
@@ -77,8 +72,8 @@ export const pages = [
     ],
   },
   {
-    name: 'News',
-    path: 'news',
+    name: 'News and Events',
+    path: 'newsevents',
     subPages: [
       {
         name: 'Upcoming Events',
@@ -93,6 +88,11 @@ export const pages = [
         path: 'readinglistsontheweb',
       },
     ],
+  },
+  {
+    name: 'New Arrivals',
+    path: 'newarrivals',
+    subPages: [],
   },
   {
     name: 'Supporters',
@@ -134,7 +134,7 @@ export const bannerTextNavBarV = {
     bannerText: 'Book Donations',
   },
   GrabAndGo: { bannerText: 'Grab-&-Go' },
-  News: { bannerText: 'Newsletter' },
+  NewsEvents: { bannerText: 'Newsletter' },
   UpcomingEvents: {
     bannerText: 'Upcoming Events',
   },
@@ -144,7 +144,7 @@ export const bannerTextNavBarV = {
   ReadingListsOnTheWeb: {
     bannerText: 'Reading Lists on the Web',
   },
-  Books: {
+  NewArrivals: {
     bannerText: 'New Arrivals',
   },
   Donate: {

@@ -100,6 +100,9 @@ fieldset {
   #homelinks {
     width: 100%;
   }
+  p {
+    text-align: left;
+  }
 }
 
 @media screen and (width > 672px) {
@@ -113,6 +116,18 @@ fieldset {
   }
   #eventslinks {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  p {
+    text-align: left;
+  }
+}
+
+@media screen and (width > 425px) {
+  P {
+    text-align: justify;
   }
 }
 
@@ -229,14 +244,14 @@ td {
   font-family: var(--font-sans-serif);
   font-size: 1.2em;
   margin-top: 0;
+}
+li,
+td {
   text-align: left;
 }
 li,
 p {
   margin-bottom: 0.5em;
-}
-p {
-  text-align: justify;
 }
 
 small {
@@ -254,8 +269,16 @@ small {
     CLASS SELECTORS
 ---------------------*/
 
-.address {
+address {
+  font-family: var(--font-sans-serif);
+  font-size: 1.2em;
+  font-style: normal;
+  margin-bottom: 0.5em;
   text-align: center;
+}
+
+footer address {
+  font-size: 1em;
 }
 .ul_bookslist {
   list-style-type: none;
@@ -351,7 +374,11 @@ small {
 .fnav ul {
   list-style-type: none;
 }
-.icon_hmenu {
+#icon_computer-menu {
+  padding-top: 0;
+}
+
+.icon_mobile-menu {
   padding-top: 0.35em;
 }
 .icon_social-media {
@@ -413,7 +440,10 @@ small {
   list-style-type: none !important;
 }
 .ul_gsheets-data p {
-  font-size: 1em !important;
+  font-size: 1em;
+  padding-left: 1.5rem;
+  text-align: left;
+  text-indent: -1.5rem;
 }
 .narrow {
   width: 15em;
@@ -613,7 +643,7 @@ p .wide {
 #art_hero-right {
   width: 15%;
 }
-#hNav {
+.ul_nav-h {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -629,12 +659,18 @@ p .wide {
   vertical-align: center;
   width: 95vw;
 }
+#ul_nav-h_computer {
+  gap: 1em;
+}
+#ul_nav-h_mobile {
+  gap: 0.5em;
+}
 
-#hNav li {
+.ul_nav-h li {
   margin-bottom: 0;
 }
 
-#hNav li a {
+.ul_nav-h li a {
   padding: 0 0.55em 0 0.55em;
 }
 

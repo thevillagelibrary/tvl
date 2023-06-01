@@ -18,7 +18,7 @@ export default function AboutUs() {
         Because we are a Section 501 (c) (3) organization, all donations are
         tax-deductible.
       </p>
-      <p className='address'>
+      <address>
         Village Library, Inc.
         <br />
         1 Skidaway Village Square
@@ -26,7 +26,7 @@ export default function AboutUs() {
         Savannah, GA 31411
         <br />
         (912) 598-1183
-      </p>
+      </address>
       <p>
         The Library is open Tuesday through Saturday from 10:00 a.m. to 5:00
         p.m. We are closed on Sunday and Monday, and on the following holidays:

@@ -12,18 +12,18 @@ import {
   Organization,
   MissionStatement,
   GrabAndGo,
-  News,
+  NewsEvents,
   UpcomingEvents,
   OutgoingBoardMembers,
   ReadingListsOnTheWeb,
-  Books,
+  NewArrivals,
   Donate,
   Supporters,
   RecentDonors,
   homeLoader,
   organizationLoader,
   upcomingeventsLoader,
-  booksLoader,
+  newarrivalsLoader,
   donationsLoader,
 } from '@/components';
 import { Layout, Loading, Menu } from '@/components/common';
@@ -39,9 +39,13 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        loader: booksLoader,
-        Component: Books,
-        path: '/books',
+        Component: Menu,
+        path: '/menu',
+      },
+      {
+        loader: newarrivalsLoader,
+        Component: NewArrivals,
+        path: '/newarrivals',
       },
       {
         Component: AboutUs,
@@ -81,21 +85,21 @@ const router = createBrowserRouter([
         path: '/aboutus/grabandgo',
       },
       {
-        Component: News,
-        path: '/news',
+        Component: NewsEvents,
+        path: '/newsevents',
       },
       {
         loader: upcomingeventsLoader,
         Component: UpcomingEvents,
-        path: '/news/upcomingevents',
+        path: '/newsevents/upcomingevents',
       },
       {
         Component: OutgoingBoardMembers,
-        path: '/news/outgoingboardmembers',
+        path: '/newsevents/outgoingboardmembers',
       },
       {
         Component: ReadingListsOnTheWeb,
-        path: '/news/readinglistsontheweb',
+        path: '/newsevents/readinglistsontheweb',
       },
       {
         Component: Supporters,
@@ -111,10 +115,6 @@ const router = createBrowserRouter([
         path: '/supporters/recentdonors',
       },
     ],
-  },
-  {
-    Component: Menu,
-    path: '/menu',
   },
 ]);
 

@@ -60,7 +60,7 @@ export default function UpcomingEventsLinks({ futureEvents }) {
     <>
       <h2>Upcoming Events</h2>
       <small>
-        <Link className='eventlink' to='/news/upcomingevents'>
+        <Link className='eventlink' to='/newsevents/upcomingevents'>
           <p>Click here for details.</p>
         </Link>
       </small>

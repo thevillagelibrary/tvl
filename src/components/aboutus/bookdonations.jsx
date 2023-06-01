@@ -16,10 +16,10 @@ export default function BookDonations() {
         books, children’s books, Audio book CDs, and DVDs. Virtually all items
         that you donate to the library will be sold, generating much-needed
         revenue for your library. Therefore, all donated items must be in very
-        good condition, not damaged or ouliated. Unfortunately, Paragraphthere
-        are items we cannot accept such as magazines, reference and textbooks,
-        travel guides and cassette tapes. Please see the list below for more
-        specific information regarding all donated items.
+        good condition, not damaged or outdated. Unfortunately, there are items
+        we cannot accept such as magazines, reference and textbooks, travel
+        guides and cassette tapes. Please see the list below for more specific
+        information regarding all donated items.
       </p>
       <p>
         The Village Library is most interested in the following types of
@@ -45,9 +45,9 @@ export default function BookDonations() {
       <dl className='dl_book-donations'>
         <dt>Damaged books, which may include:</dt>
         <dd>
-          Missing book jackets, covers or pages, loose bindings, ripped or
-          missing pages, disintegrating pages and covers caused by exposure to
-          heat and sun, water-damaged or moldy books
+          Missing book jackets, covers, or pages; loose bindings; ripped or
+          missing pages; disintegrating pages and covers caused by exposure to
+          heat and sun; water-damaged or moldy books
         </dd>
         <dt>Textbooks and Reference books, which include:</dt>
         <dd>

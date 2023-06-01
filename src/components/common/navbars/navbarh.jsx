@@ -1,21 +1,23 @@
 import { createElement, useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaHome as HomeIcon, FaDonate as SupportersIcon } from 'react-icons/fa';
-import { BiNews as NewsIcon } from 'react-icons/bi';
-import { HiInformationCircle as AboutIcon } from 'react-icons/hi';
+import { BiNews as NewsEventsIcon } from 'react-icons/bi';
+import { HiInformationCircle as AboutUsIcon } from 'react-icons/hi';
 import { MdMenu as MenuIcon } from 'react-icons/md';
-import { TbBooks as BooksIcon } from 'react-icons/tb';
+import { TbBooksOff as NewArrivalsIcon } from 'react-icons/tb';
 import { MOBILE_VW, pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
 
+const mobileSize = 30;
+const computerSize = 25;
+
 function NavBarHMobile() {
-  const size = 30;
   const icons = [
-    <HomeIcon size={size} className='icon_hmenu' />,
-    <BooksIcon size={size} className='icon_hmenu' />,
-    <AboutIcon size={size} className='icon_hmenu' />,
-    <NewsIcon size={size} className='icon_hmenu' />,
-    <SupportersIcon size={size} className='icon_hmenu' />,
+    <HomeIcon size={mobileSize} className='icon_mobile-menu' />,
+    <NewArrivalsIcon size={mobileSize} className='icon_mobile-menu' />,
+    <AboutUsIcon size={mobileSize} className='icon_mobile-menu' />,
+    <NewsEventsIcon size={mobileSize} className='icon_mobile-menu' />,
+    <SupportersIcon size={mobileSize} className='icon_mobile-menu' />,
   ];
 
   return (
@@ -37,10 +39,8 @@ function NavBarHMobile() {
       <li>
         <NavLink
           to='/menu'
-          className={({ isActive }) =>
-            isActive ? 'linkH linkHActive' : 'linkH LinkHInactive'
-          }>
-          <MenuIcon size={size} />
+          className={({ isActive }) => (isActive ? 'linkH' : 'linkH')}>
+          <MenuIcon size={mobileSize} />
         </NavLink>
       </li>
     </>
@@ -64,6 +64,11 @@ function NavBarHComputer() {
           </li>
         );
       })}
+      <li>
+        <NavLink to='/menu' id='icon_computer-menu'>
+          <MenuIcon size={computerSize} />
+        </NavLink>
+      </li>
     </>
   );
 }
@@ -86,14 +91,14 @@ export default function NavBarH() {
 
   if (dimensions.width > MOBILE_VW) {
     return (
-      <ul id='hNav'>
+      <ul id='ul_nav-h_computer' className='ul_nav-h'>
         <NavBarHComputer />
       </ul>
     );
   }
 
   return (
-    <ul id='hNav'>
+    <ul id='ul_nav-h_mobile' className='ul_nav-h'>
       <NavBarHMobile />
     </ul>
   );

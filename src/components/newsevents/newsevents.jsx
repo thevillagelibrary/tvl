@@ -1,8 +1,8 @@
 import { PageBodySideMenu } from '@/components/common';
 
-export default function News() {
+export default function NewsEvents() {
   return (
-    <PageBodySideMenu name={'News'}>
+    <PageBodySideMenu name={'NewsEvents'}>
       <h2>
         THE VILLAGE LIBRARY
         <br />

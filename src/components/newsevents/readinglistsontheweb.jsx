@@ -74,7 +74,7 @@ export default function ReadingListsOnTheWeb() {
         </h2>
         <a
           className='link'
-          href='http://www.pbs.org/the-great-american-read/books/#/'>
+          href='http://www.pbs.org/the-great-american-read/newarrivals/#/'>
           <p>The Great American Read</p>
         </a>
 

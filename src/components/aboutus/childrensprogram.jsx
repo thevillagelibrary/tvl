@@ -22,7 +22,7 @@ export default function ChildrensProgram() {
         out the children&#8217;s room at The Village Library. The room is
         bright, colorful, and arranged with children in mind. There are a few
         steps or sitting rows in front of a beautiful window. Two sets of tables
-        and chairs provide a place to sit and read, or to work on a project
+        and chairs provide a place to sit and read or to work on a project
         during the Story Hour at 10:30 on Tuesday mornings. There are some
         stuffed toys for cuddling and even a small rocking chair to relax.
       </p>
