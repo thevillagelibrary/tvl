@@ -56,6 +56,7 @@ export default function Donate() {
         </address>
       </article>
       <hr />
+      <br />
       <article id='buyabrick'>
         <h2>Buy a Brick Program</h2>
         <p>
