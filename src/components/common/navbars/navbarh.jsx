@@ -4,7 +4,7 @@ import { FaHome as HomeIcon, FaDonate as SupportersIcon } from 'react-icons/fa';
 import { BiNews as NewsEventsIcon } from 'react-icons/bi';
 import { HiInformationCircle as AboutUsIcon } from 'react-icons/hi';
 import { MdMenu as MenuIcon } from 'react-icons/md';
-import { TbBooksOff as NewArrivalsIcon } from 'react-icons/tb';
+import { TbBook as NewArrivalsIcon } from 'react-icons/tb';
 import { MOBILE_VW, pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -14,9 +14,9 @@ const computerSize = 25;
 function NavBarHMobile() {
   const icons = [
     <HomeIcon size={mobileSize} className='icon_mobile-menu' />,
-    <NewArrivalsIcon size={mobileSize} className='icon_mobile-menu' />,
     <AboutUsIcon size={mobileSize} className='icon_mobile-menu' />,
     <NewsEventsIcon size={mobileSize} className='icon_mobile-menu' />,
+    <NewArrivalsIcon size={mobileSize} className='icon_mobile-menu' />,
     <SupportersIcon size={mobileSize} className='icon_mobile-menu' />,
   ];
 
