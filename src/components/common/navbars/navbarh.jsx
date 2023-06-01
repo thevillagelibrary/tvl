@@ -4,7 +4,7 @@ import { FaHome as HomeIcon, FaDonate as SupportersIcon } from 'react-icons/fa';
 import { BiNews as NewsEventsIcon } from 'react-icons/bi';
 import { HiInformationCircle as AboutUsIcon } from 'react-icons/hi';
 import { MdMenu as MenuIcon } from 'react-icons/md';
-import { TbBook as NewArrivalsIcon } from 'react-icons/tb';
+import { TbBooks as NewArrivalsIcon } from 'react-icons/tb';
 import { MOBILE_VW, pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
 
