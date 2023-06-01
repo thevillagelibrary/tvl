@@ -63,6 +63,9 @@ img,
 fieldset {
   border: none;
 }
+ul {
+  list-style-type: none;
+}
 
 *,
 *:after,
@@ -436,9 +439,7 @@ footer address {
 .mainsubpage {
   margin-top: 0.5em;
 }
-.ul_gsheets_data {
-  list-style-type: none !important;
-}
+
 .ul_gsheets-data p {
   font-size: 1em;
   padding-left: 1.5rem;
