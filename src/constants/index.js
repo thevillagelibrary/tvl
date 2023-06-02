@@ -1,4 +1,4 @@
-export const MOBILE_VW = 425;
+export const MOBILE_VW = 428;
 
 const SHEET_ID = import.meta.env.VITE_GOOGLE_SHEETS_ID;
 const API_KEY = import.meta.env.VITE_GOOGLE_SHEETS_API_KEY;

@@ -122,13 +122,13 @@ ul {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 428px) {
   p {
-    text-align: left;
+    text-align: justify;
   }
 }
 
-@media screen and (width > 425px) {
+@media screen and (width > 428px) {
   P {
     text-align: justify;
   }
@@ -769,8 +769,11 @@ tr {
 #art_pagebody {
   align-items: top;
   margin-top: 0 !important;
+  margin-left: auto;
+  margin-right: auto;
   overflow-x: hidden;
-  width: 100%;
+  text-align: center;
+  width: 95%;
 }
 p #art_page_body {
   text-align: justify;
