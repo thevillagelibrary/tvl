@@ -27,14 +27,14 @@ export default function NavBarM() {
       {pages.map((page) => {
         const path = `/${page.path}`;
         return (
-          <>
-            <li key={uuidv4()} className='li_menu'>
+          <div key={uuidv4()}>
+            <li className='li_menu'>
               <NavLink to={path}>
                 <p>{page.name}</p>
               </NavLink>
             </li>
             <NavBarSub page={page} />
-          </>
+          </div>
         );
       })}
     </ul>

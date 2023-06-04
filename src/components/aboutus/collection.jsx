@@ -15,8 +15,8 @@ export default function Collection() {
         children’s books are organized by reading ability; beginning with
         learning to read through elementary, middle school and beyond. In
         addition to the categories listed above, we stock 2,000 used paperback
-        and hardcover books for sale. To maintain a strong and vibrant
-        collection, we spend $11,000 on new books each year.
+        and hardcover books for sale. To maintain a b and vibrant collection, we
+        spend $11,000 on new books each year.
       </p>
     </PageBodySideMenu>
   );

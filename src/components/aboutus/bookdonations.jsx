@@ -63,13 +63,13 @@ export default function BookDonations() {
         <dt>Ex-library books</dt>
       </dl>
       <p>
-        <strong>
+        <b>
           The Village Library acknowledges the great importance of your
           donation.
-        </strong>
+        </b>
       </p>
       <p>
-        <strong>Thank you.</strong>
+        <b>Thank you.</b>
       </p>
     </PageBodySideMenu>
   );

@@ -10,16 +10,15 @@ export default function NewArrivals() {
 
   return (
     <PageBodyNoSideMenu name={'NewArrivals'}>
-      <>
-        <Link to='/newarrivals#link-target_just-off-rental'>
-          <p>Just Off Rental</p>
-        </Link>
-        <Link to='/newarrivals#link-target_books'>
-          <p>Books</p>
-        </Link>
-        <Link to='/newarrivals#link-target_youth-section'>
-          <p>Youth Section</p>
-        </Link>
+      <section id='sec_new-arrivals'>
+        <article>
+          <Link to='/newarrivals#link-target_just-off-rental'>
+            Just Off Rental
+          </Link>
+          <Link to='/newarrivals#link-target_books'>Books</Link>
+          <Link to='/newarrivals#link-target_youth-section'>Youth Section</Link>
+        </article>
+        <br />
         <hr className='hr_divider' />
         <h2 id='link-target_just-off-rental'>Just Off Rental</h2>
         <GoogleSheetsData name={'JustOffRental'} values={values[0]} />
@@ -29,7 +28,7 @@ export default function NewArrivals() {
         <hr className='hr_divider' />
         <h2 id='link-target_youth-section'>Youth Section</h2>
         <GoogleSheetsData name={'YouthSection'} values={values[2]} />
-      </>
+      </section>
     </PageBodyNoSideMenu>
   );
 }

@@ -2,8 +2,8 @@ import React from 'react';
 import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 import { Footer, Hero, NavBarH } from '@/components/common';
+import NewWing from '@/assets/images/NewWing.jpg';
 import '@/styles/index.css';
-//import { pages } from '@/constants';
 
 export default function Layout() {
   const { pathname } = useLocation();
@@ -15,6 +15,7 @@ export default function Layout() {
       {pathname !== '/menu' && (
         <header>
           <Hero />
+          <div id='div_new-wing' />
           <NavBarH />
         </header>
       )}

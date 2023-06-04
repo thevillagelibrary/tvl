@@ -1,23 +1,23 @@
-import { createElement, useEffect, useState } from 'react';
+import { createElement } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaHome as HomeIcon, FaDonate as SupportersIcon } from 'react-icons/fa';
 import { BiNews as NewsEventsIcon } from 'react-icons/bi';
 import { HiInformationCircle as AboutUsIcon } from 'react-icons/hi';
 import { MdMenu as MenuIcon } from 'react-icons/md';
 import { TbBooks as NewArrivalsIcon } from 'react-icons/tb';
-import { MOBILE_VW, pages } from '@/constants';
+import { pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
 
-const mobileSize = 30;
-const computerSize = 25;
+const phoneSize = 30;
+const notPhoneSize = 25;
 
-function NavBarHMobile() {
+function NavBarHPhone() {
   const icons = [
-    <HomeIcon size={mobileSize} className='icon_mobile-menu' />,
-    <AboutUsIcon size={mobileSize} className='icon_mobile-menu' />,
-    <NewsEventsIcon size={mobileSize} className='icon_mobile-menu' />,
-    <NewArrivalsIcon size={mobileSize} className='icon_mobile-menu' />,
-    <SupportersIcon size={mobileSize} className='icon_mobile-menu' />,
+    <HomeIcon size={phoneSize} className='icon_mobile-menu' />,
+    <AboutUsIcon size={phoneSize} className='icon_mobile-menu' />,
+    <NewsEventsIcon size={phoneSize} className='icon_mobile-menu' />,
+    <NewArrivalsIcon size={phoneSize} className='icon_mobile-menu' />,
+    <SupportersIcon size={phoneSize} className='icon_mobile-menu' />,
   ];
 
   return (
@@ -25,7 +25,7 @@ function NavBarHMobile() {
       {pages.map((page, index) => {
         const path = `${page.path}`;
         return (
-          <li>
+          <li key={uuidv4()}>
             <NavLink
               to={path}
               className={({ isActive }) =>
@@ -40,14 +40,14 @@ function NavBarHMobile() {
         <NavLink
           to='/menu'
           className={({ isActive }) => (isActive ? 'linkH' : 'linkH')}>
-          <MenuIcon size={mobileSize} />
+          <MenuIcon size={phoneSize} />
         </NavLink>
       </li>
     </>
   );
 }
 
-function NavBarHComputer() {
+function NavBarHNotPhone() {
   return (
     <>
       {pages.map((page, index) => {
@@ -64,9 +64,9 @@ function NavBarHComputer() {
           </li>
         );
       })}
-      <li>
-        <NavLink to='/menu' id='icon_computer-menu'>
-          <MenuIcon size={computerSize} />
+      <li id='icon_menu-not-phone'>
+        <NavLink to='/menu'>
+          <MenuIcon size={notPhoneSize} />
         </NavLink>
       </li>
     </>
@@ -74,32 +74,15 @@ function NavBarHComputer() {
 }
 
 export default function NavBarH() {
-  const [dimensions, setDimensions] = useState({
-    height: window.innerHeight,
-    width: window.innerWidth,
-  });
-
-  useEffect(() => {
-    function handleResize() {
-      setDimensions({
-        height: window.innerHeight,
-        width: window.innerWidth,
-      });
-    }
-    window.addEventListener('resize', handleResize);
-  });
-
-  if (dimensions.width > MOBILE_VW) {
-    return (
-      <ul id='ul_nav-h_computer' className='ul_nav-h'>
-        <NavBarHComputer />
-      </ul>
-    );
-  }
-
   return (
-    <ul id='ul_nav-h_mobile' className='ul_nav-h'>
-      <NavBarHMobile />
-    </ul>
+    <>
+      <ul id='ul_nav-h_not-phone' className='ul_nav-h visibility_not-phone'>
+        <NavBarHNotPhone />
+      </ul>
+
+      <ul id='ul_nav-h_phone' className='ul_nav-h visibility_phone'>
+        <NavBarHPhone />
+      </ul>
+    </>
   );
 }

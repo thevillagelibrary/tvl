@@ -4,50 +4,50 @@ import { PageBodySideMenu } from '@/components/common';
 export default function ReadingListsOnTheWeb() {
   return (
     <PageBodySideMenu name={'ReadingListsOnTheWeb'}>
-      <section className='flex'>
+      <section id='sec_prizes'>
         <article>
           <h2>The Pulitzer Prizes:</h2>
           <a href='https://www.pulitzer.org/prize-winners-by-category/219'>
-            <p>Fiction</p>
+            Fiction
           </a>
           <a
             className='link'
             href='https://www.pulitzer.org/prize-winners-by-category/218'>
-            <p>Drama</p>
+            Drama
           </a>
           <a
             className='link'
             href='https://www.pulitzer.org/prize-winners-by-category/220'>
-            <p>History</p>
+            History
           </a>
           <a
             className='link'
             href='https://www.pulitzer.org/prize-winners-by-category/222'>
-            <p>Biography</p>
+            Biography
           </a>
           <a
             className='link'
             href='https://www.pulitzer.org/prize-winners-by-category/650'>
-            <p>Memoir or Autobiography</p>
+            Memoir or Autobiography
           </a>
           <a
             className='link'
             href='https://www.pulitzer.org/prize-winners-by-category/224'>
-            <p>Poetry</p>
+            Poetry
           </a>
           <a
             className='link'
             href='https://www.pulitzer.org/prize-winners-by-category/223'>
-            <p>General Nonfiction</p>
+            General Nonfiction
           </a>
         </article>
         <article>
           <h2>The Booker Prizes:</h2>
           <a href='https://thebookerprizes.com/the-booker-library/features/full-list-of-booker-prize-winners-shortlisted-authors-and-their-books'>
-            <p>Domestic Winners and Shortlisted Authors</p>
+            Domestic Winners and Shortlisted Authors
           </a>
           <a href='https://thebookerprizes.com/the-booker-library/features/full-list-of-international-booker-prize-winners-shortlisted-authors-and-their-books'>
-            <p>International Winners and Shortlisted Authors</p>
+            International Winners and Shortlisted Authors
           </a>
         </article>
       </section>
@@ -57,26 +57,36 @@ export default function ReadingListsOnTheWeb() {
           On its 125th anniversary, the New York Public Library published this
           list:
         </h2>
+        <br />
         <a href='https://www.nypl.org/125/topcheckouts'>
-          <p>Top 10 Checkouts of All Time</p>
+          Top 10 Checkouts of All Time
         </a>
+        <br />
+        <br />
         <hr className='hr_divider-sidemenu' />
 
         <h2>This site lists all mysteries by an author by publishing date:</h2>
+
+        <br />
         <a href='http://stopyourekillingme.com'>
-          <p>Stop, You&apos;re Killing Me!</p>
+          Stop, You&apos;re Killing Me!
         </a>
+        <br />
+        <br />
         <hr className='hr_divider-sidemenu' />
 
         <h2>
           A national survey conducted by PBS published this list of
           America&apos;s 100 most-loved books:
         </h2>
+        <br />
         <a
           className='link'
           href='http://www.pbs.org/the-great-american-read/newarrivals/#/'>
-          <p>The Great American Read</p>
+          The Great American Read
         </a>
+        <br />
+        <br />
 
         <h3>
           Our collection includes all except those marked &quot;X&quot; below.

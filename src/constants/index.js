@@ -1,5 +1,3 @@
-export const MOBILE_VW = 428;
-
 const SHEET_ID = import.meta.env.VITE_GOOGLE_SHEETS_ID;
 const API_KEY = import.meta.env.VITE_GOOGLE_SHEETS_API_KEY;
 const BASE_URL = 'https://sheets.googleapis.com/v4/spreadsheets/';
@@ -34,7 +32,7 @@ export const pages = [
     subPages: [],
   },
   {
-    name: 'About Us',
+    name: 'About',
     path: 'aboutus',
     subPages: [
       {
@@ -72,7 +70,7 @@ export const pages = [
     ],
   },
   {
-    name: 'News and Events',
+    name: 'News',
     path: 'newsevents',
     subPages: [
       {
@@ -109,51 +107,3 @@ export const pages = [
     ],
   },
 ];
-
-/*-- used by @/components/common/banner.jsx --*/
-export const bannerTextNavBarV = {
-  Home: { bannerText: 'Welcome to Our Website' },
-  AboutUs: {
-    bannerText: 'The Landings Village Library',
-  },
-  Organization: {
-    bannerText: 'Our Organization',
-  },
-  MissionStatement: {
-    bannerText: 'Our Mission Statement',
-  },
-  Membership: { bannerText: 'Membership' },
-  Collection: {
-    bannerText: "Our Library's Collection",
-  },
-  ChildrensProgram: {
-    bannerText: 'The Children are Our Future',
-  },
-  ArtForSale: { bannerText: 'Art for Sale' },
-  BookDonations: {
-    bannerText: 'Book Donations',
-  },
-  GrabAndGo: { bannerText: 'Grab-&-Go' },
-  NewsEvents: { bannerText: 'Newsletter' },
-  UpcomingEvents: {
-    bannerText: 'Upcoming Events',
-  },
-  OutgoingBoardMembers: {
-    bannerText: 'Outgoing Board Members',
-  },
-  ReadingListsOnTheWeb: {
-    bannerText: 'Reading Lists on the Web',
-  },
-  NewArrivals: {
-    bannerText: 'New Arrivals',
-  },
-  Donate: {
-    bannerText: 'How You Can Support the Library',
-  },
-  Supporters: {
-    bannerText: 'Sponsers & Supporters Page',
-  },
-  RecentDonors: {
-    bannerText: 'Recent Donors',
-  },
-};

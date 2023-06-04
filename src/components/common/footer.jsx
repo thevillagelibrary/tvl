@@ -36,14 +36,14 @@ export default function Footer() {
             />
           </Link>
         </article>
+        <br /> <br />
+        <Link to='/menu'>
+          <p>Site Map</p>
+        </Link>
       </section>
       <section>
         <Link to='mailto:thevillagelibrary.inc@gmail.com'>
           <p>Contact our Webmaster</p>
-        </Link>
-        <br />
-        <Link to='/menu'>
-          <p>Site Map</p>
         </Link>
       </section>
     </>

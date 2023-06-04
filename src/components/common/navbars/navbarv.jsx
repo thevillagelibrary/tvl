@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 export default function NavBarV({ mainPage }) {
   let path = `/${mainPage.path}`;
   return (
-    <nav id='vnav' className='vstack'>
+    <nav id='nav_v' className='vstack visibility_not-phone'>
       <NavLink
         key={uuidv4()}
         to={path}

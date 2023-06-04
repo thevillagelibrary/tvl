@@ -88,7 +88,7 @@ export default function GoogleSheetsData({ name, values }) {
             <p>
               {listValue[1]},{' '}
               <span>
-                <em>{listValue[2]}</em>
+                <i>{listValue[2]}</i>
               </span>
             </p>
           </li>
@@ -118,7 +118,9 @@ export default function GoogleSheetsData({ name, values }) {
 
   return (
     <>
-      <p className='updated'>{updated}</p>
+      <div className='div_updated'>
+        <i>{updated}</i>
+      </div>
 
       {name === 'Books' && <p id='rentalornew'>Rental or New at the Library</p>}
       {name === 'RecentDonors' && (
@@ -126,14 +128,10 @@ export default function GoogleSheetsData({ name, values }) {
       )}
       {lists}
       {name === 'Books' && (
-        <>
-          <p>
-            <strong>KAREN MARTORELLI</strong>
-          </p>
-          <p>
-            <em>Acquisitions Chair</em>
-          </p>
-        </>
+        <div id='div_books-footer'>
+          <b>KAREN MARTORELLI</b>
+          <i>Acquisitions Chair</i>
+        </div>
       )}
     </>
   );

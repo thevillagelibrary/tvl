@@ -26,31 +26,22 @@ export default function Home() {
           <section id='sec_quick-links'>
             <article id='art_quick-links_left'>
               <a href='https://thevillagelibrary.library.site'>
-                <p>Online Catalog</p>
+                Online Catalog
               </a>
-              <Link to='/newarrivals'>
-                <p>New Arrivals</p>
-              </Link>
-              <Link to='/supporters/donate'>
-                <p>Support Us</p>
-              </Link>
+              <Link to='/newarrivals'>New Arrivals</Link>
+              <Link to='/supporters/donate'>Support Us</Link>
             </article>
             <article id='art_quick-links_right'>
-              <Link to='/supporters/recentdonors'>
-                <p>Recent Donors</p>
-              </Link>
-              <Link to='/aboutus/bookdonations'>
-                <p>Book Donations</p>
-              </Link>
-              <Link to='/aboutus/grabandgo'>
-                <p>Curbside Pickup</p>
-              </Link>
+              <Link to='/supporters/recentdonors'>Recent Donors</Link>
+              <Link to='/aboutus/bookdonations'>Book Donations</Link>
+              <Link to='/aboutus/grabandgo'>Curbside Pickup</Link>
             </article>
           </section>
+          <br />
           <a
             id='a_photo-album'
             href='https://thevillagelibrary.org/album/album.html'>
-            <p>Photo Album</p>
+            Photo Album
           </a>
           <hr className='hr_divider' />
           <article id='eventslinks'>
