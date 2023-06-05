@@ -349,7 +349,7 @@ td {
   font-size: ;
 }
 main {
-  flex: 1;
+  flex: 0;
 }
 p .art_page-body {
   text-align: justify;
