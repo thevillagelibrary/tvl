@@ -1,11 +1,4 @@
 /*---------------------
-
-        TODO
--get rid of !important
-
----------------------*/
-
-/*---------------------
       PSEUDO-CLASSES
 ---------------------*/
 :root {
@@ -376,7 +369,7 @@ small {
 }
 .art_page-body {
   align-items: top;
-  margin-top: 0 1em !important;
+  margin-top: 0 1em;
   margin-left: 1em;
   margin-right: 1em;
   overflow-x: hidden;
@@ -443,14 +436,12 @@ small {
   color: var(--black-color);
   display: block;
   font-family: var(--font-sans-serif);
-
   font-weight: 700;
   height: auto;
   line-height: 1.5em;
-  margin-top: 0 !important;
+  margin-top: 0;
   outline: 0;
   overflow-wrap: break-word;
-  /*padding: 0.25em 0.625em 0.25em;*/
   text-align: center;
   text-decoration: none;
   text-size-adjust: 100%;
@@ -464,7 +455,7 @@ small {
 .li_nav_h-inactive,
 .li_nav_v-inactive {
   background: var(--white-background-color);
-  color: var(--black-color) !important;
+  color: var(--black-color);
 }
 .li_nav_h-inactive:focus {
   outline: 0;
@@ -506,6 +497,8 @@ small {
 }
 
 .tr_event td:first-of-type {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
   font-weight: 500;
   width: 40%;
 }
@@ -646,6 +639,14 @@ small {
 #icon_menu-not-phone {
   margin-top: 0.45em;
 }
+
+#nav_v {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  width: 10em;
+}
+
 #nav_v a {
   line-height: 1em;
   width: 100%;
@@ -657,11 +658,6 @@ small {
 #nav_v li {
   list-style-type: none;
   margin: 0;
-}
-
-#nav_v {
-  gap: 0.25em;
-  width: 10em;
 }
 #p_mission-statement {
   margin-top: 2em;

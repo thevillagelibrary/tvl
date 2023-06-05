@@ -5,12 +5,12 @@ import { v4 as uuidv4 } from 'uuid';
 export default function NavBarV({ mainPage }) {
   let path = `/${mainPage.path}`;
   return (
-    <nav id='nav_v' className='vstack visibility_not-phone'>
+    <nav id='nav_v' className='visibility_not-phone'>
       <NavLink
         key={uuidv4()}
         to={path}
         className={({ isActive }) =>
-          isActive ? 'li_nav_v li_nav_v-active' : 'li_nav_v LinkVInactive'
+          isActive ? 'li_nav_v li_nav_v-active' : 'li_nav_v li_nav_v-inactive'
         }
         end>
         {mainPage.name}
@@ -25,7 +25,9 @@ export default function NavBarV({ mainPage }) {
             key={uuidv4()}
             to={path}
             className={({ isActive }) =>
-              isActive ? 'li_nav_v li_nav_v-active' : 'li_nav_v LinkVInactive'
+              isActive
+                ? 'li_nav_v li_nav_v-active'
+                : 'li_nav_v li_nav_v-inactive'
             }>
             {subPage.name}
           </NavLink>
