@@ -9,7 +9,7 @@ export default function UpcomingEventsLinks({ futureEvents }) {
       <table id='tbl_upcoming-events' className='visibility_not-phone'>
         <tbody>
           {futureEvents.map((event, index) => (
-            <tr key={uuidv4()} className='event'>
+            <tr key={uuidv4()} className='tr_event'>
               <td>{event[3]}</td>
               <td>{event[5]}</td>
               <td>{event[2]}</td>

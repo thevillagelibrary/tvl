@@ -10,13 +10,13 @@ export default function NavBarV({ mainPage }) {
         key={uuidv4()}
         to={path}
         className={({ isActive }) =>
-          isActive ? 'linkV linkVActive' : 'linkV LinkVInactive'
+          isActive ? 'li_nav_v li_nav_v-active' : 'li_nav_v LinkVInactive'
         }
         end>
         {mainPage.name}
       </NavLink>
       <li>
-        <hr className='hr_divider-vNav' />
+        <hr className='hr_divider-nav_v' />
       </li>
       {mainPage.subPages.map((subPage) => {
         let path = `/${mainPage.path}/${subPage.path}`;
@@ -25,7 +25,7 @@ export default function NavBarV({ mainPage }) {
             key={uuidv4()}
             to={path}
             className={({ isActive }) =>
-              isActive ? 'linkV linkVActive' : 'linkV LinkVInactive'
+              isActive ? 'li_nav_v li_nav_v-active' : 'li_nav_v LinkVInactive'
             }>
             {subPage.name}
           </NavLink>

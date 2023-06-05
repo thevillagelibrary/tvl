@@ -29,7 +29,7 @@ function NavBarHPhone() {
             <NavLink
               to={path}
               className={({ isActive }) =>
-                isActive ? 'linkH linkHActive' : 'linkH LinkHInactive'
+                isActive ? 'li_nav_h li_nav_h-active' : 'li_nav_h LinkHInactive'
               }>
               {icons[index]}
             </NavLink>
@@ -39,7 +39,7 @@ function NavBarHPhone() {
       <li>
         <NavLink
           to='/menu'
-          className={({ isActive }) => (isActive ? 'linkH' : 'linkH')}>
+          className={({ isActive }) => (isActive ? 'li_nav_h' : 'li_nav_h')}>
           <MenuIcon size={phoneSize} />
         </NavLink>
       </li>
@@ -57,7 +57,7 @@ function NavBarHNotPhone() {
             <NavLink
               to={path}
               className={({ isActive }) =>
-                isActive ? 'linkH linkHActive' : 'linkH LinkHInactive'
+                isActive ? 'li_nav_h li_nav_h-active' : 'li_nav_h LinkHInactive'
               }>
               {page.name}
             </NavLink>

@@ -17,17 +17,17 @@ export default function Footer() {
         </address>
       </section>
       <section>
-        <article id='logos'>
+        <article id='art_loaders'>
           <Link
             id='facebook'
             target='_blank'
-            title='The Village Library on Facebook'
+            a_title='The Village Library on Facebook'
             to='http://www.facebook.com/SIvillagelibrary/'>
             <img className='icon_social-media' alt='Facebook' src={Facebook} />
           </Link>
           <Link
             id='instagram'
-            title='The Village Library on Instagram'
+            a_title='The Village Library on Instagram'
             to='http://www.instagram.com/si_village_library'>
             <img
               className='icon_social-media'

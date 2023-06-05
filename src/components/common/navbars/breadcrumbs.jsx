@@ -15,7 +15,7 @@ export default function BreadCrumbs() {
   return (
     <div className='visibility_phone'>
       {pathParts.length > 2 && (
-        <div id='breadcrumbs'>
+        <div id='div_breadcrumbs'>
           <span>
             <Link to={path}>{page.name}</Link>
           </span>

@@ -122,7 +122,9 @@ export default function GoogleSheetsData({ name, values }) {
         <i>{updated}</i>
       </div>
 
-      {name === 'Books' && <p id='rentalornew'>Rental or New at the Library</p>}
+      {name === 'Books' && (
+        <p id='p_rentalornew'>Rental or New at the Library</p>
+      )}
       {name === 'RecentDonors' && (
         <h2>Thanks to those who have donated to the Library recently.</h2>
       )}

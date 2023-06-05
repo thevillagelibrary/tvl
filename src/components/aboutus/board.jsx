@@ -19,8 +19,8 @@ export default function Board() {
         <tbody>
           {organization.map((item, index) => (
             <tr key={index}>
-              <td className='orgtitle'>{item[1]}</td>
-              <td className='orgname'>{item[2]}</td>
+              <td className='td_orgtitle'>{item[1]}</td>
+              <td className='td_orgname'>{item[2]}</td>
             </tr>
           ))}
         </tbody>

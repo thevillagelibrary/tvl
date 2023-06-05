@@ -16,7 +16,11 @@ import PhyllisLimbacherTildes from '@/assets/images/PhyllisLimbacherTildes.jpg';
 export default function ChildrensProgram() {
   return (
     <PageBodySideMenu name={'ChildrensProgram'}>
-      <img className='poster' alt='Children Reading' src={ChildrenReading} />
+      <img
+        className='img_poster'
+        alt='Children Reading'
+        src={ChildrenReading}
+      />
       <p>
         Whether you are young in age or young at heart, you might want to check
         out the children&#8217;s room at The Village Library. The room is
@@ -67,20 +71,20 @@ export default function ChildrensProgram() {
       <img
         alt="2019 Children's Summer Program 1"
         src={_2019Childrens1}
-        className='poster'
+        className='img_poster'
       />
       <br />
       <img
         alt="2019 Children's Summer Program 2"
         src={_2019Childrens2}
-        className='poster'
+        className='img_poster'
       />
       <br />
       <figcaption>Not-So-Scary Halloween 2018.</figcaption>
       <img
         alt='Not-So-Scary Halloween Story Time'
         src={NotSoScaryHalloween}
-        className='poster'
+        className='img_poster'
       />
       <br />
       <figcaption>
@@ -89,39 +93,39 @@ export default function ChildrensProgram() {
       <img
         alt="2018 Children's Summer Program 1"
         src={_2018Childrens01}
-        className='poster'
+        className='img_poster'
       />
       <br />
       <img
         alt="2018 Children's Summer Program 2"
         src={_2018Childrens02}
-        className='poster'
+        className='img_poster'
       />
       <br />
       <img
         alt="2018 Children's Summer Program 3"
         src={_2018Childrens03}
-        className='poster'
+        className='img_poster'
       />
       <br />
       <img
         alt="2018 Children's Summer Program 4"
         src={_2018Childrens04}
-        className='poster'
+        className='img_poster'
       />
       <br />
       <img
         alt="2018 Children's Summer Program 5"
         src={_2018Childrens05}
-        className='poster'
+        className='img_poster'
       />
       <br />
       <figcaption>
         Bee A Reader--2017 Children&apos;s Summer Reading Program.
       </figcaption>
-      <img alt='BeeAReader 1' src={BeeAReader1} className='poster' />
+      <img alt='BeeAReader 1' src={BeeAReader1} className='img_poster' />
       <br />
-      <img alt='BeeAReader 2' src={BeeAReader2} className='poster' />
+      <img alt='BeeAReader 2' src={BeeAReader2} className='img_poster' />
       <br />
       <figcaption>
         Phyllis Tildes donates two of her beautiful paintings to the
@@ -130,13 +134,13 @@ export default function ChildrensProgram() {
       <img
         alt='Phyllis Tildes'
         src={PhyllisLimbacherTildes}
-        className='poster'
+        className='img_poster'
       />
       <br />
       <img
         alt='Phyllis and children'
         src={PhyllisAndChildren}
-        className='poster'
+        className='img_poster'
       />
     </PageBodySideMenu>
   );

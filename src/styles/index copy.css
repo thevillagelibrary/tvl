@@ -1,8 +1,48 @@
+/*------------------------------------------
+                      HTML OUTLINE
+html
+	head
+	body
+		div #root
+
+			header
+				#sec_hero
+          article
+          article
+						p
+						p
+					article
+						button #btn_donate
+			main
+				section sec-pagebodynosidemenu
+					article .art_pagebody
+						{children}
+				||
+				section
+						h1 <Banner />
+				sec-page-body-side-menu
+					 {vw > MOBILE_VW} article
+            nav #nav_v
+					article .art_pagebody
+						{children}
+
+			footer
+				section
+					address
+				section
+					article #art_loaders
+				section
+					a
+					a
+------------------------------------------*/
+
 /*---------------------
 
         TODO
+-semantic naming
 -get rid of !important
-
+-check font sizes on page bodies
+--change hero to grid?
 ---------------------*/
 
 /*---------------------
@@ -150,7 +190,9 @@ body {
     visibility: collapse;
     width: 0;
   }
-
+  #btn_donate {
+    margin-bottom: 1em;
+  }
   p {
     text-align: left;
   }
@@ -204,20 +246,11 @@ body {
 @media screen and (min-with: 112.5em) {
 }
 
-/*--------------------------------------
-        SELECTORS
----------------------------------------*/
-
+/*---------------------
+    TYPE SELECTORS
+---------------------*/
 a p {
   text-align: center;
-}
-a,
-li,
-p,
-td {
-  font-family: var(--font-sans-serif);
-  font-size: var(--step-1);
-  margin-top: 0;
 }
 a:not(.li_nav_h-active, .li_nav_v-active):hover {
   color: var(--link-hover-color);
@@ -230,16 +263,19 @@ address {
   text-align: center;
 }
 
+/* Stick Footer */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background-color: var(--white-background-color);
-  display: flex;
-  flex-direction: column;
   font-family: var(--font-sans-serif);
   margin-left: auto;
   margin-right: auto;
-  min-height: 100vh;
   overflow-x: hidden;
   text-align: center;
   width: 95vw;
@@ -259,29 +295,23 @@ figcaption {
   font-family: var(--font-sans-serif);
   font-size: var(--step-1);
   font-weight: bold;
-  margin-bottom: 0.5em;
   padding: 1em 0 0 0;
   text-align: center;
 }
 figure {
   margin: 1em 0;
+} /* Sticky Footer */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-footer a {
-  color: var(--white-color);
+
+/* Sticky Footer */
+footer {
+  flex-shrink: 0;
 }
-footer a {
-  font-size: var(--step--1);
-  margin: 0;
-}
-footer a:hover {
-  color: var(--link-hover-color);
-}
-footer address {
-  font-size: var(--step--1);
-}
-footer article {
-  height: fit-content;
-}
+
 footer {
   background-color: var(--tertiary-color);
   display: flex;
@@ -294,10 +324,22 @@ footer {
   text-align: center;
 }
 
-footer {
-  flex-shrink: 0;
+footer a {
+  color: var(--white-color);
 }
-
+footer a:hover {
+  color: var(--link-hover-color);
+}
+footer address {
+  font-size: var(--step--1);
+}
+footer article {
+  height: fit-content;
+}
+footer a {
+  font-size: var(--step--1);
+  margin: 0;
+}
 h1 {
   background: var(--primary-color);
   color: var(--white-background-color);
@@ -338,18 +380,26 @@ img {
   max-width: 100%;
 }
 
+main {
+  flex: 1;
+}
 li,
 p {
   margin-bottom: 0.5em;
 }
 
+a,
+li,
+p,
+td {
+  font-family: var(--font-sans-serif);
+  font-size: var(--step-1);
+  margin-top: 0;
+}
 li,
 td {
   text-align: left;
   font-size: ;
-}
-main {
-  flex: 1;
 }
 p .art_page-body {
   text-align: justify;
@@ -369,11 +419,10 @@ small {
   width: fit-content;
 }
 
-.a_title {
-  border: none;
-  text-decoration: underline;
-  padding: 0;
-}
+/*---------------------
+    CLASS SELECTORS
+---------------------*/
+
 .art_page-body {
   align-items: top;
   margin-top: 0 1em !important;
@@ -383,10 +432,10 @@ small {
   text-align: center;
 }
 
-.div_updated {
-  font-size: 1.2em;
-  text-align: right;
+.center {
+  text-align: center;
 }
+
 .dl_book-donations dd {
   margin-left: 3em;
 }
@@ -399,9 +448,65 @@ small {
   font-size: var(--step-1);
 }
 
+.event td,
+.event tr {
+  height: 3em;
+  padding-bottom: 1em;
+  text-align: top;
+  vertical-align: top;
+}
+
+.event td:first-of-type {
+  font-weight: 500;
+  width: 40%;
+}
+
+.event td:last-of-type {
+  width: 30%;
+}
+.event td:nth-child(2) {
+  padding-right: 1em;
+  width: 30%;
+}
+#sec_prizes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+#sec_prizes article {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#sec_prizes a {
+  font-size: var(--step-1);
+  font-weight: 500;
+}
+
+.fnav details,
+.fav summary {
+  padding: 0.25em 0;
+  text-align: left;
+}
+
+.fnav p {
+  text-align: left;
+}
+
+.fnav ul {
+  list-style-type: none;
+}
+.fnav {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
 .hr_divider,
 .hr_divider-sidemenu,
-.hr_divider-nav_v {
+.hr_divider-vNav {
   width: 100%;
 }
 
@@ -420,10 +525,6 @@ small {
   margin-right: auto;
   width: 3em;
 }
-.img_poster {
-  max-width: 50%;
-}
-
 .li_menu p {
   font-size: var(--step-1);
   text-align: left;
@@ -433,10 +534,20 @@ small {
   padding-left: 1em;
 }
 
+.linkF :not(:last-child) {
+  margin-bottom: 0.25em;
+}
+.linkF {
+  text-align: left;
+}
+
 .li_nav_h {
   font-size: var(--step--1);
 }
 
+.li_nav_v {
+  font-size: var(--step--1);
+}
 .li_nav_h,
 .li_nav_v {
   box-sizing: border-box;
@@ -473,12 +584,33 @@ small {
   border: 1px solid var(--secondary-color);
   padding: 0.125em 0.625em 0.25em;
 }
-.li_nav_v {
-  font-size: var(--step--1);
-}
 .li_nav_v-active {
   outline: 0;
 }
+.mainsubpage {
+  margin-top: 0.5em;
+}
+
+.narrow {
+  width: 15em;
+}
+.narrow,
+.wide {
+  border: none;
+  padding: 0;
+}
+.nosubpages {
+  padding-left: 1em;
+}
+.td_orgname {
+  padding-left: 0.5em;
+  text-align: left;
+}
+.td_orgtitle {
+  padding-right: 0.5em;
+  text-align: right;
+}
+
 .p_accomplishments {
   display: list-item;
   list-style-position: outside;
@@ -496,35 +628,21 @@ small {
 .p_category {
   font-weight: bold;
 }
-.td_orgname {
-  padding-left: 0.5em;
-  text-align: left;
+.img_poster {
+  max-width: 50%;
 }
-.td_orgtitle {
-  padding-right: 0.5em;
-  text-align: right;
-}
-
-.tr_event td:first-of-type {
-  font-weight: 500;
-  width: 40%;
+/* .subdetail :first-child {
+  padding-left: 3em;
+} */
+.subdetail :not(:first-child) {
+  padding-left: 1em;
 }
 
-.tr_event td:last-of-type {
-  width: 30%;
+.title {
+  border: none;
+  text-decoration: underline;
+  padding: 0;
 }
-.tr_event td:nth-child(2) {
-  padding-right: 1em;
-  width: 30%;
-}
-
-.tr_event {
-  height: 3em;
-  padding-bottom: 1em;
-  text-align: top;
-  vertical-align: top;
-}
-
 .ul_bookslist {
   list-style-type: none;
 }
@@ -557,57 +675,9 @@ small {
   vertical-align: center;
   width: 95vw;
 }
-.vstack :not(:first-child) {
-  margin-top: 1.25em;
-}
-.vstack {
-  display: flex;
-  flex-direction: column;
-}
-
-#a_photo-album {
-  font-size: var(--step-1);
-  font-weight: 500;
-  margin-top: 0;
-}
-
-#art_buyabrick p {
-  text-align: left;
-  width: 95vw;
-}
-#art_loaders {
-  align-items: baseline;
-  display: inline-flex;
-  gap: 1em;
-  justify-content: center;
-  padding-top: 0.25em;
-}
-#art_quick-links_left {
+.div_updated {
+  font-size: 1.2em;
   text-align: right;
-}
-#art_quick-links_left,
-#art_quick-links_right {
-  display: flex;
-  flex-direction: column;
-}
-
-#art_quick-links_right {
-  text-align: left;
-}
-
-#books details {
-  color: var(--black-color);
-  text-align: left;
-}
-#books summary {
-  font-size: var(--step-1);
-  font-weight: bold;
-  text-align: center;
-}
-#btn_close {
-  background-color: transparent;
-  border: none;
-  float: left;
 }
 #div_books-footer b,
 #div_books-footer i {
@@ -615,122 +685,26 @@ small {
   font-size: 1.2em;
   text-align: left;
 }
-#div_breadcrumbs {
-  margin-bottom: 0.5em;
-  text-align: left;
-  text-transform: capitalize;
+.vstack :not(:first-child) {
+  margin-top: 1.25em;
 }
-#div_new-wing {
-  aspect-ratio: 650/160;
-  background-image: url('../assets/images/NewWing.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0.625em;
-  width: 50%;
-}
-
-#dl_upcoming-events dd {
-  margin: 0 1em 0 1em;
-}
-#dl_upcoming-events dt {
-  font-weight: 500;
-  margin: 0;
-}
-
-#form_paypal {
-  text-align: center;
-}
-
-#icon_menu-not-phone {
-  margin-top: 0.45em;
-}
-#nav_v a {
-  line-height: 1em;
-  width: 100%;
-}
-#nav_v hr {
-  border-top-color: var(--secondary-color);
-  border-top-width: 4px;
-}
-#nav_v li {
-  list-style-type: none;
-  margin: 0;
-}
-
-#nav_v {
-  gap: 0.25em;
-  width: 10em;
-}
-#p_mission-statement {
-  margin-top: 2em;
-  width: 80%;
-}
-#p_rentalornew {
-  font-weight: bold;
-}
-
-#root {
-  min-height: 100vh;
+.vstack {
   display: flex;
   flex-direction: column;
 }
+/*---------------------
+HTML OUTLINE STYLES
+----------------------*/
 
-#sec-hero :nth-child(1) {
-  height: 0;
-}
-#sec_grab-and-go {
-  display: flex;
-  flex-direction: column;
-  white-space: pre-wrap;
-  width: 100%;
-}
-#sec_hero :first-child article,
-#sec_hero :last-child article {
-  width: 15%;
-}
+/*---------------------
+  header
+-----------------------*/
 
-#sec_hero :nth-child(2) article div {
-  font-size: var(--step-0);
-  font-weight: bold;
-  margin: 0;
-  text-align: center;
-  width: 100%;
-}
+/*----------------------
+  #sec_hero
+  <Hero />
+------------------------*/
 
-#sec_hero :nth-child(2) {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Lucida-Calligraphy';
-  padding: 0.5em 0 0.25em 0;
-  width: 70%;
-}
-
-#sec_hero :nth-child(3) button a {
-  color: white;
-  font-family: var(--font-sans-serif);
-  font-size: var(--step--3);
-  font-weight: 600;
-  text-align: center;
-  vertical-align: center;
-}
-
-#sec_hero :nth-child(3) button {
-  background: var(--secondary-color);
-  border-radius: 0.375em;
-  border-style: solid;
-  border-width: 0;
-  color: white;
-  height: 2em;
-  line-height: 1.2em;
-  margin-bottom: 1em;
-  margin-top: 1;
-  padding-bottom: 0.125em;
-  text-align: center;
-  width: fit-content;
-}
 #sec_hero {
   align-items: center;
   background-color: var(--primary-color);
@@ -747,6 +721,189 @@ small {
   white-space: pre-wrap;
   width: 95vw;
 }
+#sec-hero :nth-child(1) {
+  height: 0;
+}
+#sec_hero :nth-child(2) {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lucida-Calligraphy';
+  padding: 0.5em 0 0.25em 0;
+  width: 70%;
+}
+
+#sec_hero :first-child article,
+#sec_hero :last-child article {
+  width: 15%;
+}
+
+#sec_hero :nth-child(2) article div {
+  font-size: var(--step-0);
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#sec_hero :nth-child(3) button {
+  background: var(--secondary-color);
+  border-radius: 0.375em;
+  border-style: solid;
+  border-width: 0;
+  color: white;
+  height: 2em;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+  margin-top: 1;
+  padding-bottom: 0.125em;
+  text-align: center;
+  width: fit-content;
+}
+#sec_hero :nth-child(3) button a {
+  color: white;
+  font-family: var(--font-sans-serif);
+  font-size: var(--step--3);
+  font-weight: 600;
+  text-align: center;
+  vertical-align: center;
+}
+
+/*----------------------
+  img #img_new-wing
+------------------------*/
+
+#div_new-wing {
+  aspect-ratio: 650/160;
+  background-image: url('../assets/images/NewWing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.625em;
+  width: 50%;
+}
+
+/*----------------------
+  #ul_nav-h-computer || mobile
+  <NavBarH />
+------------------------*/
+
+/*----------------------
+  main
+------------------------*/
+
+/*----------------------
+  section h1 <Banner />
+  See h1 in type section
+------------------------*/
+
+/*----------------------
+  section #sec_page-body-side-menu
+------------------------*/
+/* #sec_page-body-side-menu {
+  width: 100%;
+}
+ */
+/*----------------------
+  section #sec_page-body-no-side-menu
+------------------------*/
+
+/*----------------------
+  article .art_pagebody
+------------------------*/
+
+/*----------------------
+  article > #nav_v
+------------------------*/
+#tbl_upcoming-events {
+}
+
+#nav_v {
+  gap: 0.25em;
+  width: 10em;
+}
+#nav_v a {
+  line-height: 1em;
+  width: 100%;
+}
+#nav_v hr {
+  border-top-color: var(--secondary-color);
+  border-top-width: 4px;
+}
+#nav_v li {
+  list-style-type: none;
+  margin: 0;
+}
+
+/*----------------------
+  footer
+------------------------*/
+
+#a_photo-album {
+  font-size: var(--step-1);
+  font-weight: 500;
+  margin-top: 0;
+}
+
+#art_quick-links_left,
+#art_quick-links_right {
+  display: flex;
+  flex-direction: column;
+}
+
+#art_quick-links_left {
+  text-align: right;
+}
+#art_quick-links_right {
+  text-align: left;
+}
+
+#sec_new-arrivals article {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#sec_new-arrivals a,
+#sec_quick-links a,
+#a_photo-album,
+#a_event-link {
+  font-size: var(--step-1);
+  font-weight: 500;
+}
+#books details {
+  color: var(--black-color);
+  text-align: left;
+}
+#books summary {
+  font-size: var(--step-1);
+  font-weight: bold;
+  text-align: center;
+}
+#books {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#btn_close {
+  background-color: transparent;
+  border: none;
+  float: left;
+}
+#art_buyabrick p {
+  text-align: left;
+  width: 95vw;
+}
+#dl_upcoming-events dd {
+  margin: 0 1em 0 1em;
+}
+#dl_upcoming-events dt {
+  font-weight: 500;
+  margin: 0;
+}
+
 #sec_home h2 {
   margin-left: auto;
   margin-right: auto;
@@ -760,35 +917,39 @@ small {
   text-align: center;
   overflow-y: hidden;
 }
-#sec_new-arrivals a,
-#sec_quick-links a,
-#a_photo-album,
-#a_event-link {
-  font-size: var(--step-1);
-  font-weight: 500;
+
+#icon_menu-not-phone a {
 }
-#sec_new-arrivals article {
+
+#art_loaders {
+  align-items: baseline;
+  display: inline-flex;
+  gap: 1em;
+  justify-content: center;
+  padding-top: 0.25em;
+}
+#outgoing td,
+tr {
+  vertical-align: top;
+}
+#outgoing {
+  width: 37.75em;
+}
+#p_mission-statement {
+  margin-top: 2em;
+  width: 80%;
+}
+#form_paypal {
+  text-align: center;
+}
+#p_rentalornew {
+  font-weight: bold;
+}
+#sec_grab-and-go {
   display: flex;
   flex-direction: column;
-  gap: 1em;
-}
-
-#sec_prizes a {
-  font-size: var(--step-1);
-  font-weight: 500;
-}
-
-#sec_prizes article {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-#sec_prizes {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 1em;
+  white-space: pre-wrap;
+  width: 100%;
 }
 #sec_quick-links article {
   margin-top: 0;
@@ -821,16 +982,10 @@ small {
   padding: 0;
   width: 100%;
 }
-
 #ul_accomplishments {
   list-style-type: disc;
   margin-left: 2em;
   width: 90%;
-}
-
-#ul_breadcrumbs {
-  display: flex;
-  flex: row;
 }
 
 #ul_donation-hours {
@@ -844,4 +999,15 @@ small {
   display: block;
   list-style-type: none;
   text-align: left;
+}
+
+#ul_breadcrumbs {
+  display: flex;
+  flex: row;
+}
+
+#div_breadcrumbs {
+  margin-bottom: 0.5em;
+  text-align: left;
+  text-transform: capitalize;
 }

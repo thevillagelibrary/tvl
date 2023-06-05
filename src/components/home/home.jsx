@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <PageBodyNoSideMenu name={'Home'}>
-        <section id='home' className='vstack'>
+        <section id='sec_home' className='vstack'>
           <h2>Hours</h2>
           <small>{hours}</small>
           <hr className='hr_divider' />
