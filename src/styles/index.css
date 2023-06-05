@@ -1,7 +1,4 @@
-/*---------------------
-      PSEUDO-CLASSES
----------------------*/
-:root {
+body {
   /* @link https://utopia.fyi/type/calculator?c=320,16,1.125,1920,24,1.125,5,5,900-1200-1800-600&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
   /* Step -5: 8.88px → 13.32px */
@@ -87,7 +84,8 @@ img {
 }
 
 img,
-fieldset {
+fieldset,
+object {
   border: none;
 }
 ul {
@@ -99,18 +97,13 @@ ul {
 *:before {
   box-sizing: border-box;
 }
-
-/* html,
-body {
-  height: 100vh;
-} */
-
-button {
+button,
+label {
   cursor: pointer;
 }
-
+html,
 body {
-  background: var(--white-background-color);
+  height: 100%;
 }
 
 /*---------------------
@@ -325,7 +318,7 @@ hr {
   border-top: 2px solid var(--primary-color);
   color: var(--black-background-color);
   display: block;
-  height: 0px;
+  height: 0;
   margin-left: auto;
   margin-right: auto;
   opacity: 0.6;
