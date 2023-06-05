@@ -10,7 +10,7 @@ const HOME_URL =
   BATCH_KEY;
 const UPCOMINGEVENTS_URL =
   BASE_URL + SHEET_ID + '/values/Upcoming_Events' + KEY;
-const ORGANIZATION_URL = BASE_URL + SHEET_ID + '/values/Organization' + KEY;
+const BOARD_URL = BASE_URL + SHEET_ID + '/values/Organization' + KEY;
 const DONATIONS_URL = BASE_URL + SHEET_ID + '/values/Donations' + KEY;
 const NEW_ARRIVALS_URL =
   BASE_URL +
@@ -20,7 +20,7 @@ const NEW_ARRIVALS_URL =
 
 export {
   HOME_URL,
-  ORGANIZATION_URL,
+  BOARD_URL,
   UPCOMINGEVENTS_URL,
   NEW_ARRIVALS_URL,
   DONATIONS_URL,
@@ -36,8 +36,8 @@ export const pages = [
     path: 'aboutus',
     subPages: [
       {
-        name: 'Organization',
-        path: 'organization',
+        name: 'Board',
+        path: 'board',
       },
       {
         name: 'Mission Statement',

@@ -1,6 +1,6 @@
 import {
   HOME_URL,
-  ORGANIZATION_URL,
+  BOARD_URL,
   UPCOMINGEVENTS_URL,
   NEW_ARRIVALS_URL,
   DONATIONS_URL,
@@ -17,8 +17,8 @@ export async function homeLoader() {
   return data;
 }
 
-export async function organizationLoader() {
-  const data = await getData(ORGANIZATION_URL);
+export async function boardLoader() {
+  const data = await getData(BOARD_URL);
   return data;
 }
 

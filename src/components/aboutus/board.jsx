@@ -1,13 +1,13 @@
 import { useLoaderData } from 'react-router-dom';
 import { PageBodySideMenu } from '@/components/common';
 
-export default function Organization() {
+export default function Board() {
   const data = useLoaderData();
   const organization = data.values;
   organization.splice(0, 1);
 
   return (
-    <PageBodySideMenu name={'Organization'}>
+    <PageBodySideMenu name={'Board'}>
       <p>
         The Village Library, Inc. is a Georgia non-profit [§501 (c) (3)]
         corporation and is managed by a slate of officers elected by a board of
@@ -25,15 +25,6 @@ export default function Organization() {
           ))}
         </tbody>
       </table>
-      <br />
-      <p>
-        The library is run by about ninety volunteers who each donate from 25 to
-        more than 100 hours of their time each year. Some of them have served
-        for 20 years. These are the people who keep the library running smoothly
-        by checking books in and out, wrapping new books in plastic jackets,
-        attaching bar codes and entering them into our system. Without their
-        generosity the library would not exist.
-      </p>
     </PageBodySideMenu>
   );
 }

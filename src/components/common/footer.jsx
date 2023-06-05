@@ -37,13 +37,11 @@ export default function Footer() {
           </Link>
         </article>
         <br /> <br />
-        <Link to='/menu'>
-          <p>Site Map</p>
-        </Link>
+        <Link to='/menu'>Site Map</Link>
       </section>
       <section>
         <Link to='mailto:thevillagelibrary.inc@gmail.com'>
-          <p>Contact our Webmaster</p>
+          Contact our Webmaster
         </Link>
       </section>
     </>

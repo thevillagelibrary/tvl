@@ -33,6 +33,14 @@ export default function AboutUs() {
         Memorial Day, Fourth of July, Labor Day, Thanksgiving (and the afternoon
         before), December 24-26, and New Years Eve and Day.
       </p>
+      <p>
+        The library is run by about ninety volunteers who each donate from 25 to
+        more than 100 hours of their time each year. Some of them have served
+        for 20 years. These are the people who keep the library running smoothly
+        by checking books in and out, wrapping new books in plastic jackets,
+        attaching bar codes and entering them into our system. Without their
+        generosity the library would not exist.
+      </p>
     </PageBodySideMenu>
   );
 }
