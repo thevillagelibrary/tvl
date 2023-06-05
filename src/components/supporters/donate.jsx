@@ -19,14 +19,14 @@ export default function Donate() {
         <br />
         <form
           id='form_paypal'
-          action='https://www.form_paypal.com/cgi-bin/webscr'
+          action='https://www.paypal.com/cgi-bin/webscr'
           method='post'
           target='_top'>
           <input type='hidden' name='cmd' value='_s-xclick' />
           <input type='hidden' name='hosted_button_id' value='ECABE5X7996XU' />
           <input
             type='image'
-            src='https://www.form_paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif'
+            src='https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif'
             border='0'
             name='submit'
             alt='PayPal - The safer, easier way to pay online!'
@@ -34,7 +34,7 @@ export default function Donate() {
           <img
             alt=''
             border='0'
-            src='https://www.form_paypalobjects.com/en_US/i/scr/pixel.gif'
+            src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif'
             width='1'
             height='1'
           />
