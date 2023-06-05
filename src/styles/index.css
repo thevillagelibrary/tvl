@@ -491,7 +491,7 @@ small {
 }
 
 .scroll-to-top {
-  bottom: 0.1em;
+  bottom: 0.1em !important;
 }
 .td_orgname {
   padding-left: 0.5em;
