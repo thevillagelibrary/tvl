@@ -780,6 +780,7 @@ HTML OUTLINE STYLES
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0.625em;
   max-width: 50%;
 }
 
