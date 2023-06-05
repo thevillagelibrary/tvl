@@ -550,12 +550,9 @@ small {
   vertical-align: center;
   width: 95vw;
 }
+
 .vstack :not(:first-child) {
   margin-top: 1.25em;
-}
-.vstack {
-  display: flex;
-  flex-direction: column;
 }
 
 #a_photo-album {
@@ -743,11 +740,6 @@ small {
   white-space: pre-wrap;
   width: 95vw;
 }
-#sec_home h2 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
 
 #sec_home {
   display: flex;
@@ -756,6 +748,12 @@ small {
   text-align: center;
   overflow-y: hidden;
 }
+#sec_home h2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
 #sec_new-arrivals a,
 #sec_quick-links a,
 #a_photo-album,
@@ -806,16 +804,20 @@ small {
   height: 5em;
   justify-content: space-between;
 }
-#tb_officers td {
+#tbl_officers td {
   font-size: var(--step-1);
   width: 20%;
 }
-#tb_officers {
+#tbl_officers {
   font-family: var(--font-sans-serif);
   margin-left: auto;
   margin-right: auto;
   padding: 0;
   width: 100%;
+}
+
+#tbl_upcoming-events {
+  margin-top: 0;
 }
 
 #ul_accomplishments {

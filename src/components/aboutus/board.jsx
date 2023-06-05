@@ -15,7 +15,7 @@ export default function Board() {
         in May of each year.
       </p>
       <h2>Officers & Directors</h2>
-      <table id='tb_officers'>
+      <table id='tbl_officers'>
         <tbody>
           {organization.map((item, index) => (
             <tr key={index}>
