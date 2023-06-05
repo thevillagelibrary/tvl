@@ -774,14 +774,14 @@ HTML OUTLINE STYLES
 ------------------------*/
 
 #div_new-wing {
-  aspect-ratio: 812/200;
+  aspect-ratio: 650/160;
   background-image: url('../assets/images/NewWing.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0.625em;
-  max-width: 50%;
+  width: 50%;
 }
 
 /*----------------------
