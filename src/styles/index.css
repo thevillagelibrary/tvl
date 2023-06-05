@@ -489,6 +489,10 @@ small {
 .p_category {
   font-weight: bold;
 }
+
+.scroll-to-top {
+  bottom: 0.5em;
+}
 .td_orgname {
   padding-left: 0.5em;
   text-align: left;

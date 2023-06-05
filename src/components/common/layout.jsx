@@ -10,7 +10,7 @@ export default function Layout() {
 
   return (
     <>
-      <ScrollToTop />
+      <ScrollToTop className='.scroll-to-top' />
       <ScrollRestoration />
       {pathname !== '/menu' && (
         <header>
