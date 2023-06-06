@@ -252,6 +252,18 @@ figcaption {
 figure {
   margin: 1em 0;
 }
+footer {
+  background-color: var(--tertiary-color);
+  color: var(--white-color);
+  display: flex;
+  flex-shrink: 0;
+  font-size: var(--step--3);
+  justify-content: space-around;
+  line-height: 1.2em;
+  margin: 0.625em 0;
+  padding: 0.25em 0;
+  text-align: center;
+}
 footer a {
   color: var(--white-color);
 }
@@ -268,20 +280,16 @@ footer address {
 footer article {
   height: fit-content;
 }
-footer {
-  background-color: var(--tertiary-color);
+
+footer article {
   display: flex;
-  color: var(--white-color);
-  font-size: var(--step--3);
-  justify-content: space-around;
-  line-height: 1.2em;
-  margin: 0.625em 0;
-  padding: 0.25em 0;
-  text-align: center;
+  flex-direction: row;
+  gap: 1em;
 }
 
-footer {
-  flex-shrink: 0;
+footer :nth-child(2) {
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
