@@ -37,7 +37,7 @@ body {
   --primary-color: #7283fe;
   --secondary-color: #f29085;
   --tertiary-color: #5a5a5a;
-  --link-focus-color: #f29085;
+  --link-hover-color: #f29085;
   --black-color: #212529;
   --black-background-color: #5a5a5a;
   --white-color: #ffffff;
@@ -197,7 +197,6 @@ body {
 a p {
   text-align: center;
 }
-
 a,
 li,
 p,
@@ -206,11 +205,9 @@ td {
   font-size: var(--step-1);
   margin-top: 0;
 }
-
-a:hover {
-  transform: scale(1.2);
+a:not(.li_nav_h-active, .li_nav_v-active):hover {
+  color: var(--link-hover-color);
 }
-
 address {
   font-family: var(--font-sans-serif);
   font-size: var(--step-1);
@@ -232,10 +229,6 @@ body {
   overflow-x: hidden;
   text-align: center;
   width: 95vw;
-}
-
-button:hover {
-  transform: scale(1.2);
 }
 
 details #fnav {
@@ -266,9 +259,8 @@ footer a {
   font-size: var(--step--1);
   margin: 0;
 }
-
 footer a:hover {
-  transform: scale(1.2);
+  color: var(--link-hover-color);
 }
 footer address {
   font-size: var(--step--1);
@@ -372,10 +364,6 @@ small {
   width: fit-content;
 }
 
-.a_footer {
-  display: block;
-}
-
 .a_title {
   border: none;
   text-decoration: underline;
@@ -431,17 +419,12 @@ small {
   max-width: 50%;
 }
 
-.li_menu a {
+.li_menu p {
   font-size: var(--step-1);
   text-align: left;
 }
 
-.li_menu a:focus {
-  color: var(--link-focus-color);
-  font-weight: bold;
-}
-
-.li_menu-subpages a {
+.li_menu-subpages p {
   padding-left: 1em;
 }
 
@@ -578,9 +561,6 @@ small {
   margin-top: 1.25em;
 }
 
-#a_event-link {
-  display: block;
-}
 #a_photo-album {
   font-size: var(--step-1);
   font-weight: 500;
@@ -591,14 +571,13 @@ small {
   text-align: left;
   width: 95vw;
 }
-#art_logos {
+#art_loaders {
   align-items: baseline;
   display: inline-flex;
   gap: 1em;
   justify-content: center;
   padding-top: 0.25em;
 }
-
 #art_quick-links_left {
   text-align: right;
 }
@@ -667,11 +646,6 @@ small {
 
 #icon_menu-not-phone {
   margin-top: 0.45em;
-}
-
-#icon_menu-not-phone:hover,
-#icon_menu-phone:hover {
-  transform: scale(1.2);
 }
 
 #nav_v {
