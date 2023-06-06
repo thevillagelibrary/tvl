@@ -17,7 +17,7 @@ export default function Footer() {
         </address>
       </section>
       <section>
-        <article id='art_logos'>
+        <article>
           <Link
             id='facebook'
             target='_blank'
