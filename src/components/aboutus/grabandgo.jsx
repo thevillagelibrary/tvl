@@ -9,7 +9,7 @@ export default function GrabAndGo() {
         <p>1. Curbside pickup is available Tuesdays through Saturdays.</p>
         <p>
           2.{' '}
-          <Link href='https://thevillagelibrary.library.site'>
+          <Link to='https://thevillagelibrary.library.site'>
             Click here to view our online catalog.
           </Link>
         </p>
