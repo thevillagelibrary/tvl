@@ -17,7 +17,7 @@ export default function Footer() {
         </address>
       </section>
       <section>
-        <article id='art_loaders'>
+        <article id='art_logos'>
           <Link
             id='facebook'
             target='_blank'
@@ -37,10 +37,12 @@ export default function Footer() {
           </Link>
         </article>
         <br /> <br />
-        <Link to='/menu'>Site Map</Link>
+        <Link className='a_footer' to='/menu'>
+          Site Map
+        </Link>
       </section>
       <section>
-        <Link to='mailto:thevillagelibrary.inc@gmail.com'>
+        <Link className='a_footer' to='mailto:thevillagelibrary.inc@gmail.com'>
           Contact our Webmaster
         </Link>
       </section>
