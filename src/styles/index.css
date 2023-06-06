@@ -427,12 +427,12 @@ small {
   max-width: 50%;
 }
 
-.li_menu p {
+.li_menu a {
   font-size: var(--step-1);
   text-align: left;
 }
 
-.li_menu-subpages p {
+.li_menu-subpages a {
   padding-left: 1em;
 }
 
@@ -860,5 +860,6 @@ small {
 #ul_menu {
   display: block;
   list-style-type: none;
+  margin-left: 2em;
   text-align: left;
 }
