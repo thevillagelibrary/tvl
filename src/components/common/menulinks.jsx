@@ -11,9 +11,7 @@ function NavBarSub({ page }) {
         const path = `/${page.path}/${subPage.path}`;
         return (
           <li key={uuidv4()} className='li_menu li_menu-subpages'>
-            <NavLink to={path}>
-              <p>{subPage.name}</p>
-            </NavLink>
+            <NavLink to={path}>{subPage.name}</NavLink>
           </li>
         );
       })}
@@ -29,9 +27,7 @@ export default function NavBarM() {
         return (
           <div key={uuidv4()}>
             <li className='li_menu'>
-              <NavLink to={path}>
-                <p>{page.name}</p>
-              </NavLink>
+              <NavLink to={path}>{page.name}</NavLink>
             </li>
             <NavBarSub page={page} />
           </div>

@@ -36,7 +36,7 @@ function NavBarHPhone() {
           </li>
         );
       })}
-      <li>
+      <li id='icon_menu-phone'>
         <NavLink
           to='/menu'
           className={({ isActive }) => (isActive ? 'li_nav_h' : 'li_nav_h')}>
