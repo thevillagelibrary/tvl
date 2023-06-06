@@ -37,7 +37,7 @@ body {
   --primary-color: #7283fe;
   --secondary-color: #f29085;
   --tertiary-color: #5a5a5a;
-  --link-hover-color: #f29085;
+  --link-focus-color: #f29085;
   --black-color: #212529;
   --black-background-color: #5a5a5a;
   --white-color: #ffffff;
@@ -207,7 +207,6 @@ td {
   margin-top: 0;
 }
 
-a:focus,
 a:hover {
   transform: scale(1.2);
 }
@@ -235,8 +234,7 @@ body {
   width: 95vw;
 }
 
-button:hover,
-button:focus {
+button:hover {
   transform: scale(1.2);
 }
 
@@ -269,8 +267,7 @@ footer a {
   margin: 0;
 }
 
-footer a:hover,
-footer a:focus {
+footer a:hover {
   transform: scale(1.2);
 }
 footer address {
@@ -439,9 +436,8 @@ small {
   text-align: left;
 }
 
-.li_menu a:hover,
 .li_menu a:focus {
-  /* color: var(--link-hover-color); */
+  color: var(--link-focus-color);
   font-weight: bold;
 }
 
@@ -649,7 +645,7 @@ small {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0.625em;
-  width: 50%;
+  width: 100%;
 }
 
 #dl_upcoming-events {
@@ -674,8 +670,6 @@ small {
 }
 
 #icon_menu-not-phone:hover,
-#icon_menu-not-phone:focus,
-#icon_menu-phone:focus,
 #icon_menu-phone:hover {
   transform: scale(1.2);
 }
