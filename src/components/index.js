@@ -13,9 +13,9 @@ export { default as UpcomingEvents } from '@/components/newsevents/upcomingevent
 export { default as OutgoingBoardMembers } from '@/components/newsevents/outgoingboardmembers';
 export { default as ReadingListsOnTheWeb } from '@/components/newsevents/readinglistsontheweb';
 export { default as NewArrivals } from '@/components/newarrivals/newarrivals';
-export { default as Donate } from '@/components/supporters/donate';
-export { default as Supporters } from '@/components/supporters/supporters';
-export { default as RecentDonors } from '@/components/supporters/recentdonors';
+export { default as Donate } from '@/components/donate/donate';
+export { default as Supporters } from '@/components/donate/supporters';
+export { default as RecentDonors } from '@/components/donate/recentdonors';
 export {
   homeLoader,
   boardLoader,

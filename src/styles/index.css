@@ -576,11 +576,6 @@ small {
   font-weight: 500;
   margin-top: 0;
 }
-
-#art_buyabrick p {
-  text-align: left;
-  width: 95vw;
-}
 #art_loaders {
   align-items: baseline;
   display: inline-flex;

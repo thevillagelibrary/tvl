@@ -57,7 +57,7 @@ export default function Donate() {
       </article>
       <hr />
       <br />
-      <article id='art_buyabrick'>
+      <article>
         <h2>Buy a Brick Program</h2>
         <p>
           The Buy a Brick Program is a means of raising funds to support the
