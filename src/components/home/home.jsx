@@ -28,21 +28,21 @@ export default function Home() {
               <a href='https://thevillagelibrary.library.site'>
                 Online Catalog
               </a>
-              <Link to='/newarrivals'>New Arrivals</Link>
-              <Link to='/supporters/donate'>Support Us</Link>
-            </article>
-            <article id='art_quick-links_right'>
-              <Link to='/supporters/recentdonors'>Recent Donors</Link>
               <Link to='/aboutus/bookdonations'>Book Donations</Link>
               <Link to='/aboutus/grabandgo'>Curbside Pickup</Link>
+              <a
+                href='https://thevillagelibrary.org/album/album.html'>
+                Photo Album
+              </a>
+            </article>
+            <article id='art_quick-links_right'>
+              <Link to='/newarrivals'>New Arrivals</Link>
+              <Link to='/donate'>Donate</Link>
+              <Link to='/donate/recentdonors'>Recent Donors</Link>
+              <Link to='/donate/supporters'>Our Supporters</Link>
             </article>
           </section>
           <br />
-          <a
-            id='a_photo-album'
-            href='https://thevillagelibrary.org/album/album.html'>
-            Photo Album
-          </a>
           <hr className='hr_divider' />
           <article id='eventslinks'>
             <UpcomingEventsLinks futureEvents={futureEvents} />

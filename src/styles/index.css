@@ -47,6 +47,8 @@ body {
     'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   --link-color: #551a8b;
+  --border-primary: #cdcdcd;
+  --background-secondary: #f9f9fb;
 }
 
 /*---------------------
@@ -620,7 +622,11 @@ small {
   text-align: left;
 }
 #div_breadcrumbs {
+  background-color: var(--background-secondary);
+  border-bottom: 1px  solid  var(--border-primary);
+  border-top: 1px  solid  var(--border-primary);
   margin-bottom: 0.5em;
+  padding: .25em 0 .5em .25em;
   text-align: left;
   text-transform: capitalize;
 }

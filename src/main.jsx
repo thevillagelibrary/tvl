@@ -102,17 +102,17 @@ const router = createBrowserRouter([
         path: '/newsevents/readinglistsontheweb',
       },
       {
-        Component: Supporters,
-        path: '/supporters',
+        Component: Donate,
+        path: '/donate',
       },
       {
-        Component: Donate,
-        path: '/supporters/donate',
+        Component: Supporters,
+        path: '/donate/supporters',
       },
       {
         loader: donationsLoader,
         Component: RecentDonors,
-        path: '/supporters/recentdonors',
+        path: '/donate/recentdonors',
       },
     ],
   },

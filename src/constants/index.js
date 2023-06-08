@@ -93,16 +93,16 @@ export const pages = [
     subPages: [],
   },
   {
-    name: 'Supporters',
-    path: 'supporters',
+    name: 'Donate',
+    path: 'donate',
     subPages: [
-      {
-        name: 'Donate',
-        path: 'donate',
-      },
       {
         name: 'Recent Donors',
         path: 'recentdonors',
+      },
+      {
+        name: 'Supporters',
+        path: 'supporters',
       },
     ],
   },

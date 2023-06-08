@@ -10,7 +10,7 @@ export default function Hero() {
       </article>
       <article>
         <button>
-          <Link to='/supporters/donate'>Donate</Link>
+          <Link to='/donate'>Donate</Link>
         </button>
       </article>
     </section>
