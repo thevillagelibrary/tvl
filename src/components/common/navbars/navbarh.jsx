@@ -1,10 +1,11 @@
 import { createElement } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { FaHome as HomeIcon, FaDonate as SupportersIcon } from 'react-icons/fa';
 import { BiNews as NewsEventsIcon } from 'react-icons/bi';
 import { HiInformationCircle as AboutUsIcon } from 'react-icons/hi';
 import { MdMenu as MenuIcon } from 'react-icons/md';
 import { TbBooks as NewArrivalsIcon } from 'react-icons/tb';
+import { NavBarM } from '@/components/common'
 import { pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -37,11 +38,11 @@ function NavBarHPhone() {
         );
       })}
       <li id='icon_menu-phone'>
-        <NavLink
+        <Link
           to='/menu'
-          className={({ isActive }) => (isActive ? 'li_nav_h' : 'li_nav_h')}>
+          className='li_nav_h'>
           <MenuIcon size={phoneSize} />
-        </NavLink>
+        </Link>
       </li>
     </>
   );
@@ -65,9 +66,7 @@ function NavBarHNotPhone() {
         );
       })}
       <li id='icon_menu-not-phone'>
-        <NavLink to='/menu'>
-          <MenuIcon size={notPhoneSize} />
-        </NavLink>
+        <a href='#menu'><MenuIcon size={notPhoneSize} /></a>
       </li>
     </>
   );
@@ -83,6 +82,7 @@ export default function NavBarH() {
       <ul id='ul_nav-h_phone' className='ul_nav-h visibility_phone'>
         <NavBarHPhone />
       </ul>
+      <NavBarM />
     </>
   );
 }

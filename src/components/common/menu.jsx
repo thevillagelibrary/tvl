@@ -11,8 +11,8 @@ export default function Menu() {
   }
   return (
     <>
-      <button id='btn_close'>
-        <Close size={50} onClick={handleClick} />
+      <button id='btn_close' >
+        <Close  size={50} onClick={handleClick} />
       </button>
       <hr className='hr_divider' />
       <MenuLinks />;

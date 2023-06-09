@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 import { pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -10,8 +10,8 @@ function NavBarSub({ page }) {
       {page.subPages.map((subPage) => {
         const path = `/${page.path}/${subPage.path}`;
         return (          
-            <li key={uuidv4()} className='li_menu li_menu-subpages'>
-              <Link to={path}>{subPage.name}</Link>
+            <li key={uuidv4()}>
+              <a href={path}>{subPage.name}</a>
             </li>
         );
       })}
@@ -19,22 +19,38 @@ function NavBarSub({ page }) {
   );
 }
 
-export default function MenuLinks() {
+function Ul() {
   return (
     <> 
-      <ul id='ul_menu'> 
+      <ul> 
         {pages.map((page) => {
           const path = `/${page.path}`;
           return (
             <div key={uuidv4()}>
-              <li className='li_menu'>
-                <Link to={path}>{page.name}</Link>
+              <li>
+                <a href={path}>{page.name}</a>
+                <ul>
+                  <NavBarSub page={page} />
+                </ul>
               </li>
-              <NavBarSub page={page} />
             </div>
           );
         })}
       </ul>
     </>
   );
+}
+
+export default function NavBarM(){
+    return (
+        <nav id='menu' className='modal'>
+          <a href='#' className='modalClose' hidden></a>
+          <div>
+            <a href='#' className='modalClose' hidden></a>
+            <Ul />
+          </div>
+        </nav>
+
+    )
+
 }

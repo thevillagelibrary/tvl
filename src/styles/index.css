@@ -51,6 +51,86 @@ body {
   --background-secondary: #f9f9fb;
 }
 
+body {
+  /* base colors */
+  --hue-primary: 224;
+  --sat-primary: 0%;
+  --hue-secondary: 200;
+  --sat-secondary: 0%;
+  --hue-featured: 180;
+  --sat-featured: 0%;
+  --luma-flowText: 20%;
+  --luma-headings: 5%;
+  --luma-featured: 10%;
+  --luma-nav: 25%;
+  --luma-header-bg: 80%;
+  --luma-main-bg: 100%;
+  --luma-article-bg: 90%;
+  --luma-fader: 70%;
+  --color-main-bg: hsl(
+    var(--hue-primary),
+    var(--sat-primary),
+    var(--luma-main-bg)
+  );
+  --color-flowText: hsl(
+    var(--hue-primary),
+    var(--sat-primary),
+    var(--luma-flowText)
+  );
+  --color-featured: hsl(
+    var(--hue-featured),
+    var(--sat-featured),
+    var(--luma-featured)
+  );
+  --color-chrome-bg: hsl(
+    var(--hue-primary),
+    var(--sat-primary),
+    var(--luma-header-bg)
+  );
+  --color-heading-text: hsl(
+    var(--hue-primary),
+    var(--sat-primary),
+    var(--luma-headings)
+  );
+  --color-modal-fader: hsla(
+    var(--hue-primary),
+    var(--sat-primary),
+    var(--luma-fader),
+    0.8
+  );
+  --color-modal-bg: hsl(
+    var(--hue-primary),
+    var(--sat-primary),
+    var(--luma-main-bg)
+  );
+  --color-nav-anchor: hsl(
+    var(--hue-featured),
+    var(--sat-primary),
+    var(--luma-nav)
+  );
+  --color-article-bg: hsl(
+    var(--hue-primary),
+    var(--sat-primary),
+    var(--luma-article-bg)
+  );
+  --color-shadow: #0003;
+  --shadow-chrome: 0 0.25em 1em 0.25em var(--color-shadow);
+  --shadow-button: 0 0.25em 0.25em 0.125em var(--color-shadow);
+  --shadow-formElement-focus: 0 0 0.25em 0.125em #038;
+
+  --border-hairline: 1px solid #0004;
+
+  /* base measurements */
+
+  --maxWidth-constrain: 64rem;
+  --maxWidth-flow: 40rem;
+  --maxWidth-modal: 32rem;
+  --maxWidth-modalForm: 24rem;
+  --pad: clamp(0.5em, min(2vw, 4vh), 4em);
+  --borderRadius-outer: 0.5em;
+  --borderRadius-inner: 0.25em;
+}
+
 /*---------------------
         RESETS
 ---------------------*/
@@ -325,13 +405,13 @@ header {
   margin-top: 0.625em;
 }
 hr {
-  border-top: 2px solid var(--primary-color);
+  border-top: 1px solid var(--primary-color);
   color: var(--black-background-color);
   display: block;
   height: 0;
   margin-left: auto;
   margin-right: auto;
-  opacity: 0.6;
+  opacity: 1;
   overflow-x: hidden;
   text-align: center;
 }
@@ -411,8 +491,12 @@ small {
 }
 
 .hr_sub-divider {
-  border-top: 2px solid var(--secondary-color);
+  border-top: 1px solid var(--secondary-color);
   width: 80%;
+}
+
+.hr_divider-nav_v {
+  border-top: 4px solid var(--secondary-color);
 }
 
 .icon_mobile-menu {
@@ -571,6 +655,108 @@ small {
   margin-top: 1.25em;
 }
 
+
+/*MODALS*/
+/*hidden off screen, then shown when they are :target*/
+/*:target will fill the browser history so that normal*/
+/*forward/back navigation treats them as separate pages.*/
+
+/*outer modal container*/
+/* Position:fixed with full width and height to overlay the page, hidden off the left side of the screen. They are flex so we can center the inner DIV we added in our prior article, and then an opacity fade in/out. The delay on .modal for the left positioning allows time for the opacity fade to show when closing. */
+.modal {
+  position: fixed;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: var(--color-modal-fader);
+  opacity: 0;
+  transition: left 0s 0.5s, opacity 0.5s;
+}
+
+/*The closing anchors re set to display:block so as to undo their hidden states. Both are absolute positioned, the outer one filling our entire .modal container so you can click anywhere to close. The second one is our cancellation X, which I’ve used an SVG background to show.*/
+
+.modal:target {
+  left: 0;
+  opacity: 1;
+  transition: left 0s, opacity 0.5s;
+}
+
+.modalClose {
+  display: block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.modal > .modalClose {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*shared cancellation X with the modals*/
+/*As both the ul:after and ul:before are generated content, we can set these outside the queries as they won’t exist until we say content:””*/
+.modal > div .modalClose {
+  top: 0.88rem;
+  right: 0.85rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 352 512'%3E%3Cpath fill='%23800' d='M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z'%3E%3C/path%3E%3C/svg%3E")
+    center center no-repeat;
+  background-size: cover;
+}
+
+/*The inner DIV itself is set to not grow to fill the flex parent, but has a 100% width combined with a max-width to make it semi-fluid. IF the modal is a form, we want a narrower width than we would a SECTION based modal. A top relative positioning animation makes it look like it slides in here.*/
+
+.modal > div {
+  flex-grow: 0;
+  position: relative;
+  left: -50%;
+  width: 100%;
+  /*One big thing to pay attention to is the margin:auto; on the inner DIV. If you omit auto margin on the VERTICAL (a direction that normally ignores margin!) flex will chop off the top of your content and you won’t be able to scroll up to it. Grid often drops the ball on this worse which is why I favor flex here. If you’re going to use a container to center its children, I really suggest using flex with margin on an inner container. Failing to do so can really screw you over.*/
+  margin-top: auto;
+  margin-right: 0;
+  margin-bottom: auto;
+  margin-left: 0;
+  height: 100%;
+  overflow: hidden;
+  transition: left 0.5s;
+  background: var(--white-background-color);
+  box-shadow: var(--shadow-chrome);
+  border: var(--border-hairline);
+  border-radius: var(--borderRadius-outer);
+  width: fit-content;
+  opacity: 1;
+}
+
+.modal:target > div {
+  left: 0;
+}
+
+.modal > div > ul {
+  padding: var(--pad);
+}
+
+#menu a {
+  font-size: var(--step-0);
+}
+#menu ul {
+  list-style-type: none;
+}
+#menu li {
+  margin: 0;
+}
+
+#menu li > ul li a {
+  padding-left: 1em;
+}
+
 #a_photo-album {
   font-size: var(--step-1);
   font-weight: 500;
@@ -668,10 +854,7 @@ small {
   line-height: 1em;
   width: 100%;
 }
-#nav_v hr {
-  border-top-color: var(--secondary-color);
-  border-top-width: 4px;
-}
+
 #nav_v li {
   list-style-type: none;
   margin: 0;
