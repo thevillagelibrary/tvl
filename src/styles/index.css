@@ -725,7 +725,7 @@ small {
   margin-bottom: auto;
   margin-left: 0;
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
   transition: left 0.5s;
   background: var(--white-background-color);
   box-shadow: var(--shadow-chrome);
