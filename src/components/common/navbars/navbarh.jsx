@@ -5,7 +5,6 @@ import { BiNews as NewsEventsIcon } from 'react-icons/bi';
 import { HiInformationCircle as AboutUsIcon } from 'react-icons/hi';
 import { MdMenu as MenuIcon } from 'react-icons/md';
 import { TbBooks as NewArrivalsIcon } from 'react-icons/tb';
-import { NavBarM } from '@/components/common'
 import { pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -82,7 +81,6 @@ export default function NavBarH() {
       <ul id='ul_nav-h_phone' className='ul_nav-h visibility_phone'>
         <NavBarHPhone />
       </ul>
-      <NavBarM />
     </>
   );
 }

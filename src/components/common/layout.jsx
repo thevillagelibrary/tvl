@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
-import { Footer, Hero, NavBarH } from '@/components/common';
+import { Footer, Hero, NavBarH, NavBarM } from '@/components/common';
 import NewWing from '@/assets/images/NewWing.jpg';
 import '@/styles/index.css';
 
@@ -10,8 +10,8 @@ export default function Layout() {
 
   return (
     <>
-      <ScrollToTop className='.scroll-to-top' />
       <ScrollRestoration />
+      <ScrollToTop className='.scroll-to-top' />
       {pathname !== '/menu' && (
         <header>
           <Hero />
@@ -27,6 +27,7 @@ export default function Layout() {
           <Footer />
         </footer>
       )}
+    <NavBarM />
     </>
   );
 }

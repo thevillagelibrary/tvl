@@ -566,6 +566,96 @@ small {
 .li_nav_v-active {
   outline: 0;
 }
+
+
+
+/*MODALS*/
+/*hidden off screen, then shown when they are :target*/
+/*:target will fill the browser history so that normal*/
+/*forward/back navigation treats them as separate pages.*/
+
+/*outer modal container*/
+/* Position:fixed with full width and height to overlay the page, hidden off the left side of the screen. They are flex so we can center the inner DIV we added in our prior article, and then an opacity fade in/out. The delay on .modal for the left positioning allows time for the opacity fade to show when closing. */
+.modal {
+  position: fixed;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: var(--color-modal-fader);
+  opacity: 0;
+  transition: left 0s 0.5s, opacity 0.5s;
+}
+
+/*The closing anchors re set to display:block so as to undo their hidden states. Both are absolute positioned, the outer one filling our entire .modal container so you can click anywhere to close. The second one is our cancellation X, which I’ve used an SVG background to show.*/
+
+.modal:target {
+  left: 0;
+  opacity: 1;
+  transition: left 0s, opacity 0.5s;
+}
+
+.modalClose {
+  display: block;
+  position: absolute;
+  text-decoration: none;
+}
+
+.modal > .modalClose {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*shared cancellation X with the modals*/
+/*As both the ul:after and ul:before are generated content, we can set these outside the queries as they won’t exist until we say content:””*/
+.modal > div .modalClose {
+  top: 0.88rem;
+  right: 0.85rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 352 512'%3E%3Cpath fill='%23800' d='M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z'%3E%3C/path%3E%3C/svg%3E")
+    center center no-repeat;
+  background-size: cover;
+}
+
+/*The inner DIV itself is set to not grow to fill the flex parent, but has a 100% width combined with a max-width to make it semi-fluid. IF the modal is a form, we want a narrower width than we would a SECTION based modal. A top relative positioning animation makes it look like it slides in here.*/
+
+.modal > div {
+  flex-grow: 0;
+  position: relative;
+  left: -50%;
+  width: 100%;
+  /*One big thing to pay attention to is the margin:auto; on the inner DIV. If you omit auto margin on the VERTICAL (a direction that normally ignores margin!) flex will chop off the top of your content and you won’t be able to scroll up to it. Grid often drops the ball on this worse which is why I favor flex here. If you’re going to use a container to center its children, I really suggest using flex with margin on an inner container. Failing to do so can really screw you over.*/
+  margin-top: auto;
+  margin-right: 0;
+  margin-bottom: auto;
+  margin-left: 0;
+  height: 100%;
+  overflow: auto;
+  transition: left 0.5s;
+  background: var(--white-background-color);
+  box-shadow: var(--shadow-chrome);
+  border: var(--border-hairline);
+  border-radius: var(--borderRadius-outer);
+  width: fit-content;
+  opacity: 1;
+}
+
+.modal:target > div {
+  left: 0;
+}
+
+.modal > div > ul {
+  padding: var(--pad);
+}
+
 .p_accomplishments {
   display: list-item;
   list-style-position: outside;
@@ -648,113 +738,11 @@ small {
   margin: 0.625em 0;
   line-height: 1.5em;
   vertical-align: center;
-  width: 95vw;
+  width: 100%;
 }
 
 .vstack :not(:first-child) {
   margin-top: 1.25em;
-}
-
-
-/*MODALS*/
-/*hidden off screen, then shown when they are :target*/
-/*:target will fill the browser history so that normal*/
-/*forward/back navigation treats them as separate pages.*/
-
-/*outer modal container*/
-/* Position:fixed with full width and height to overlay the page, hidden off the left side of the screen. They are flex so we can center the inner DIV we added in our prior article, and then an opacity fade in/out. The delay on .modal for the left positioning allows time for the opacity fade to show when closing. */
-.modal {
-  position: fixed;
-  bottom: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  overflow: auto;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  background: var(--color-modal-fader);
-  opacity: 0;
-  transition: left 0s 0.5s, opacity 0.5s;
-}
-
-/*The closing anchors re set to display:block so as to undo their hidden states. Both are absolute positioned, the outer one filling our entire .modal container so you can click anywhere to close. The second one is our cancellation X, which I’ve used an SVG background to show.*/
-
-.modal:target {
-  left: 0;
-  opacity: 1;
-  transition: left 0s, opacity 0.5s;
-}
-
-.modalClose {
-  display: block;
-  position: absolute;
-  text-decoration: none;
-}
-
-.modal > .modalClose {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/*shared cancellation X with the modals*/
-/*As both the ul:after and ul:before are generated content, we can set these outside the queries as they won’t exist until we say content:””*/
-.modal > div .modalClose {
-  top: 0.88rem;
-  right: 0.85rem;
-  width: 1.5rem;
-  height: 1.5rem;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 352 512'%3E%3Cpath fill='%23800' d='M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z'%3E%3C/path%3E%3C/svg%3E")
-    center center no-repeat;
-  background-size: cover;
-}
-
-/*The inner DIV itself is set to not grow to fill the flex parent, but has a 100% width combined with a max-width to make it semi-fluid. IF the modal is a form, we want a narrower width than we would a SECTION based modal. A top relative positioning animation makes it look like it slides in here.*/
-
-.modal > div {
-  flex-grow: 0;
-  position: relative;
-  left: -50%;
-  width: 100%;
-  /*One big thing to pay attention to is the margin:auto; on the inner DIV. If you omit auto margin on the VERTICAL (a direction that normally ignores margin!) flex will chop off the top of your content and you won’t be able to scroll up to it. Grid often drops the ball on this worse which is why I favor flex here. If you’re going to use a container to center its children, I really suggest using flex with margin on an inner container. Failing to do so can really screw you over.*/
-  margin-top: auto;
-  margin-right: 0;
-  margin-bottom: auto;
-  margin-left: 0;
-  height: 100%;
-  overflow: scroll;
-  transition: left 0.5s;
-  background: var(--white-background-color);
-  box-shadow: var(--shadow-chrome);
-  border: var(--border-hairline);
-  border-radius: var(--borderRadius-outer);
-  width: fit-content;
-  opacity: 1;
-}
-
-.modal:target > div {
-  left: 0;
-}
-
-.modal > div > ul {
-  padding: var(--pad);
-}
-
-#menu a {
-  font-size: var(--step-0);
-}
-#menu ul {
-  list-style-type: none;
-}
-#menu li {
-  margin: 0;
-}
-
-#menu li > ul li a {
-  padding-left: 1em;
 }
 
 #a_photo-album {
@@ -841,6 +829,20 @@ small {
 
 #icon_menu-not-phone {
   margin-top: 0.45em;
+}
+
+#menu a {
+  font-size: var(--step-0);
+}
+#menu ul {
+  list-style-type: none;
+}
+#menu li {
+  margin: 0;
+}
+
+#menu li > ul li a {
+  padding-left: 1em;
 }
 
 #nav_v {
@@ -941,7 +943,7 @@ small {
   text-align: center;
   vertical-align: middle;
   white-space: pre-wrap;
-  width: 95vw;
+  width: 100%;
 }
 
 #sec_home {
@@ -1001,12 +1003,6 @@ small {
   vertical-align: top;
 }
 
-#sec_supporter-links {
-  display: flex;
-  flex-direction: column;
-  height: 5em;
-  justify-content: space-between;
-}
 #tbl_officers td {
   font-size: var(--step-1);
   width: 20%;
