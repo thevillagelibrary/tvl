@@ -25,6 +25,7 @@ export {
   NEW_ARRIVALS_URL,
   DONATIONS_URL,
 };
+
 export const pages = [
   {
     name: 'Home',

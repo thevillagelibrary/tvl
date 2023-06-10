@@ -467,6 +467,62 @@ small {
   overflow-x: hidden;
   text-align: center;
 }
+.det_dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+/* Hiding The disclosure widget */
+.det_dropdown summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.det_dropdown summary::-webkit-details-marker {
+  display: none; 
+}
+
+/* Detaching details content */
+.det_dropdown .del_dropdown-content {
+  position: absolute;
+  min-inline-size: max-content;
+  background-color: white;
+  border: 1px solid #9b7aba;
+  right: 0;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+}
+
+.det_dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.75em 0;
+  background-color: white;
+  color: #8259a8;
+}
+
+.det_dropdown a {
+  display: block;
+  color: #8259a8;
+  text-decoration: none;
+  padding: 0.5em 1.5em;
+  text-align: right;
+}
+
+.det_dropdown a:hover, .det_dropdown a:focus {
+  background-color: #9b7aba;
+  color: white;
+}
+
+/* Closing the detail content on clicking anywhere else */
+.det_dropdown details[open] summary::before {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  cursor: default;
+}
 
 .div_updated {
   font-size: 1.2em;

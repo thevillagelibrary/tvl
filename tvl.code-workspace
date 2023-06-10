@@ -7,5 +7,9 @@
       "path": "../../../../../Desktop"
     }
   ],
-  "settings": {}
+  "settings": {
+    "cSpell.words": [
+      "uuidv"
+    ]
+  }
 }
