@@ -25,7 +25,6 @@ export default function UpcomingEventsLinks({ futureEvents }) {
     return (
       <>
         <h2>Upcoming Events</h2>
-        <br />
         <Link id='event-link' to='/newsevents/upcomingevents'>
           Click here for details.
         </Link>

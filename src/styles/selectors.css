@@ -1,6 +1,6 @@
 
   
-  #root {
+   #root {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -54,14 +54,14 @@ a p {
     width: 95vw;
   }
   
-  button#close {
+  button #close {
     background-color: transparent;
     border: none;
     float: left;
     text-align: left;
   }
   
-  div#new-wing {
+  div #new-wing {
     aspect-ratio: 650/160;
     background-image: url('../assets/images/NewWing.jpg');
     background-repeat: no-repeat;
@@ -82,12 +82,12 @@ a p {
     text-align: left;
   }
   
-  dl#upcoming-events dd {
+  dl #upcoming-events dd {
     margin: 0 1em 0 1em;
     text-align: center;
   }
   
-  dl#upcoming-events {
+  dl #upcoming-events {
     font-size: var(--step-1);
     margin-bottom: 0.625em;
     margin-left: auto;
@@ -108,7 +108,7 @@ a p {
   }
   
   figcaption {
-    border-top: 1px solid #00bcd4;
+    border-top: 1px solid  #00bcd4;
     font-family: var(--font-sans-serif);
     font-size: var(--step-1);
     font-weight: bold;
@@ -157,7 +157,7 @@ a p {
     text-align: center;
   }
   
-  form#paypal {
+  form #paypal {
     text-align: center;
   }
   
@@ -260,14 +260,14 @@ a p {
   }
   
   
-  nav#menu_not-phone > a {
+  nav #menu_not-phone > a {
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
   }
   
-  nav#menu_not-phone > div > a {
+  nav #menu_not-phone > div > a {
     top: 0.88rem;
     right: 0.85rem;
     width: 1.5rem;
@@ -277,11 +277,11 @@ a p {
     background-size: cover;
   }
   
-  nav#menu_not-phone > div > ul {
+  nav #menu_not-phone > div > ul {
     padding: var(--pad);
   }
   
-  nav#menu_not-phone > div {
+  nav #menu_not-phone > div {
     flex-grow: 0;
     position: relative;
     left: -50%;
@@ -302,27 +302,27 @@ a p {
     opacity: 1;
   }
   
-  nav#menu_not-phone a {
+  nav #menu_not-phone a {
     font-size: var(--step-0);
   }
-  nav#menu_not-phone a.modalClose {
+  nav #menu_not-phone a.modalClose {
     display: block;
     position: absolute;
     text-decoration: none;
   }
   
-  nav#menu_not-phone li > ul li a {
+  nav #menu_not-phone li > ul li a {
     padding-left: 1em;
   }
   
-  nav#menu_not-phone li {
+  nav #menu_not-phone li {
     margin: 0;
   }
   
-  nav#menu_not-phone ul {
+  nav #menu_not-phone ul {
     list-style-type: none;
   }
-  nav#menu_not-phone {
+  nav #menu_not-phone {
     position: fixed;
     bottom: 0;
     left: -100%;
@@ -338,13 +338,13 @@ a p {
     transition: left 0s 0.5s, opacity 0.5s;
   }
   
-  nav#menu_not-phone:target > div {
+  nav #menu_not-phone:target > div {
     left: 0;
   }
   
-  /*The closing anchors re set to display:block so as to undo their hidden states. Both are absolute positioned, the outer one filling our entire nav#menu_not-phone container so you can click anywhere to close. The second one is our cancellation X, which I’ve used an SVG background to show.*/
+  /*The closing anchors re set to display:block so as to undo their hidden states. Both are absolute positioned, the outer one filling our entire nav #menu_not-phone container so you can click anywhere to close. The second one is our cancellation X, which I’ve used an SVG background to show.*/
   
-  nav#menu_not-phone:target {
+  nav #menu_not-phone:target {
     left: 0;
     opacity: 1;
     transition: left 0s, opacity 0.5s;
@@ -356,31 +356,31 @@ a p {
   }
   
   
-  nav.visibility_not-phone#nav_v  li {
+  nav.visibility_not-phone #nav_v  li {
     list-style-type: none;
     margin: 0;
     width: 7em;
   }
-  nav.visibility_not-phone#nav_v > ul  li > a {
+  nav.visibility_not-phone #nav_v > ul  li > a {
     line-height: 1em;
     padding: .25em 0;
     width: 100%;
   }
-  nav.visibility_not-phone#nav_v > ul  li > a {
+  nav.visibility_not-phone #nav_v > ul  li > a {
     line-height: 1em;
   }
   
   
-  nav.visibility_not-phone#nav_v > ul li > a.active {
+  nav.visibility_not-phone #nav_v > ul li > a.active {
     outline: 0;
     width: 10em;
   }
   
-  nav.visibility_not-phone#nav_v > ul li > a.inactive {
+  nav.visibility_not-phone #nav_v > ul li > a.inactive {
     border: 1px solid var(--secondary-color);
     padding: 0.125em 0.625em 0.25em;
   }
-  nav.visibility_not-phone#nav_v > ul {
+  nav.visibility_not-phone #nav_v > ul {
     display: flex;
     flex-direction: column;
     gap: .25em;
@@ -403,7 +403,7 @@ a p {
   }
   
   nav.visibility_not-phone.nav_h > ul  li > a,
-  nav.visibility_not-phone#nav_v > ul  li > a {
+  nav.visibility_not-phone #nav_v > ul  li > a {
     box-sizing: border-box;
     color: var(--black-color);
     display: block;
@@ -422,14 +422,14 @@ a p {
   
   
   nav.visibility_not-phone.nav_h > ul  li > a.active,
-  nav.visibility_not-phone#nav_v > ul  li > a.active{
+  nav.visibility_not-phone #nav_v > ul  li > a.active{
     background: var(--secondary-color);
     color: var(--white-color);
     text-align: center;
     width: inherit;
   }
   nav.visibility_not-phone.nav_h > ul  li > a.inactive,
-  nav.visibility_not-phone#nav_v > ul  li > a.inactive {
+  nav.visibility_not-phone #nav_v > ul  li > a.inactive {
     background: var(--white-background-color);
     color: var(--black-color);
     width: inherit;
@@ -611,7 +611,7 @@ a p {
     margin-bottom: 0.5em;
   }
   
-  p#mission-statement {
+  p #mission-statement {
     border: 2px solid var(--secondary-color);
     border-radius: 20px;
     display: block;
@@ -622,19 +622,19 @@ a p {
     width: 80%;
   }
   
-  section#accomplishments p {
+  section #accomplishments p {
     display: list-item;
     list-style-position: outside;
     list-style-type: disc;
     margin-left: 2em;
   }
-  section#books-footer{
+  section #books-footer{
     display: block;
     font-size: 1.2em;
     text-align: left;
   }
   
-  section#breadcrumbs {
+  section #breadcrumbs {
     background-color: var(--background-secondary);
     border-bottom: 1px  solid  var(--border-primary);
     border-top: 1px  solid  var(--border-primary);
@@ -643,22 +643,22 @@ a p {
     text-align: left;
     text-transform: capitalize;
   }
-  section#grab-and-go {
+  section #grab-and-go {
     display: flex;
     flex-direction: column;
     white-space: pre-wrap;
     width: 100%;
   }
-  section#hero :first-child article,
-  section#hero :last-child article {
+  section #hero :first-child article,
+  section #hero :last-child article {
     width: 15%;
   }
   
-  section#hero :nth-child(1) article{
+  section #hero :nth-child(1) article{
     height: 0;
   }
   
-  section#hero :nth-child(2)  {
+  section #hero :nth-child(2)  {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -667,7 +667,7 @@ a p {
     width: 70%;
   }
   
-  section#hero :nth-child(2) article div {
+  section #hero :nth-child(2) article div {
     font-size: var(--step-0);
     font-weight: bold;
     margin: 0;
@@ -675,7 +675,7 @@ a p {
     width: 100%;
   }
   
-  section#hero :nth-child(3) button a {
+  section #hero :nth-child(3) button a {
     color: white;
     font-family: var(--font-sans-serif);
     font-size: var(--step--3);
@@ -684,7 +684,7 @@ a p {
     vertical-align: center;
   }
   
-  section#hero :nth-child(3) button {
+  section #hero :nth-child(3) button {
     background: var(--secondary-color);
     border-radius: 0.375em;
     border-style: solid;
@@ -699,7 +699,7 @@ a p {
     width: fit-content;
   }
   
-  section#hero {
+  section #hero {
     align-items: center;
     background-color: var(--primary-color);
     color: var(--white-background-color);
@@ -716,26 +716,26 @@ a p {
     width: 100%;
   }
   
-  section#home article {
+  section #home article {
     display: flex;
     flex-direction: column;
     margin-top: 0;
   }
   
-  section#home h2 {
+  section #home h2 {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
   }
   
-  section#home section :first-child {
+  section #home section > :first-child a {
     text-align: right;
   }
-  section#home section :last-child {
+  section #home section > :last-child a {
     text-align: left;
   }
   
-  section#home section {
+  section #home section {
     display: flex;
     flex-direction: row;
     gap: 2em;
@@ -745,56 +745,56 @@ a p {
     vertical-align: top;
   }
   
-  section#home {
+  section #home {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
     overflow-y: hidden;
   }
-  section#menu_phone nav > ul li.subpages > a  {
+  section #menu_phone nav > ul li.subpages > a  {
     padding-left: 1em;
   }
-  section#menu_phone nav > ul {
+  section #menu_phone nav > ul {
     display: block;
     list-style-type: none;
     margin-left: 2em;
     text-align: left;
   }
   
-  section#menu_phone nav> ul li > a {
+  section #menu_phone nav> ul li > a {
     font-size: var(--step-1);
     text-align: left;
   }
   
-  section#menu_phone {
+  section #menu_phone {
     display: flex;
     flex-direction: column;
   }
-  section#new-arrivals a,
-  section#home section a,
-  a#event-link {
+  section #new-arrivals a,
+  section #home section a,
+  a #event-link {
     font-size: var(--step-1);
     font-weight: 500;
   }
-  section#new-arrivals article {
+  section #new-arrivals article {
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
   
-  section#prizes a {
+  section #prizes a {
     font-size: var(--step-1);
     font-weight: 500;
   }
   
-  section#prizes article {
+  section #prizes article {
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
   
-  section#prizes {
+  section #prizes {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -812,20 +812,20 @@ a p {
     width: fit-content;
   }
   
-  table#board > tbody tr :first-child {
+  table #board > tbody tr :first-child {
     padding-right: 0.5em;
     text-align: right;
   }
   
-  table#board > tbody tr :last-child {
+  table #board > tbody tr :last-child {
     padding-left: 0.5em;
     text-align: left;
   }
-  table#board td {
+  table #board td {
     font-size: var(--step-1);
     width: 20%;
   }
-  table#board {
+  table #board {
     font-family: var(--font-sans-serif);
     margin-left: auto;
     margin-right: auto;
@@ -833,13 +833,13 @@ a p {
     width: 100%;
   }
   
-  ul#donation-hours {
+  ul #donation-hours {
     list-style-type: disc;
     margin-left: 2em;
     text-align: left;
     width: 80%t;
   }
-  ul#gsheets-data p {
+  ul #gsheets-data p {
     font-size: var(--step-1);
     padding-left: 1.5em;
     text-align: left;
