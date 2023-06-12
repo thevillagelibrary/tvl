@@ -43,7 +43,7 @@ export default function Home() {
             </article>
           </section>
           <br />
-          <hr className='hr_divider' />
+          <hr className='divider' />
           <article>
             <UpcomingEventsLinks futureEvents={futureEvents} />
           </article>
