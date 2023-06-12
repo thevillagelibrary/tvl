@@ -20,7 +20,7 @@ export default function OutgoingBoardMembers() {
           appreciation to Ren&eacute;e Collins, who leaves the Board after
           serving as Vice President, Operations.
         </figcaption>
-        <img className='img_poster' src={SandyAndRenee} alt='Sandy and Renee' />
+        <img className='poster' src={SandyAndRenee} alt='Sandy and Renee' />
       </figure>
       <figure>
         <figcaption>
@@ -28,7 +28,7 @@ export default function OutgoingBoardMembers() {
           appreciation to Jayne Hoover, who leaves the Board after serving as
           Secretary.
         </figcaption>
-        <img className='img_poster' src={SandyAndJane} alt='Sandy and Jane' />
+        <img className='poster' src={SandyAndJane} alt='Sandy and Jane' />
       </figure>
 
       <figure>
@@ -37,7 +37,7 @@ export default function OutgoingBoardMembers() {
           appreciation to Kathy Berlin, who leaves the board after serving as
           CD/DVD manager.
         </figcaption>
-        <img className='img_poster' src={SandyAndKathy} alt='Sandy and Kathy' />
+        <img className='poster' src={SandyAndKathy} alt='Sandy and Kathy' />
       </figure>
 
       <figure>
@@ -46,7 +46,7 @@ export default function OutgoingBoardMembers() {
           appreciation and gift card to Phil Van Ess in recognition of his years
           of service as Facilities Manager.
         </figcaption>
-        <img className='img_poster' src={SandyAndPhil} alt='Sandy and Phil' />
+        <img className='poster' src={SandyAndPhil} alt='Sandy and Phil' />
       </figure>
 
       <figure>
@@ -55,7 +55,7 @@ export default function OutgoingBoardMembers() {
           appreciation to Sally Arman, who leaves the Board after serving for 7
           years as Volunteer Coordinator.
         </figcaption>
-        <img className='img_poster' src={SandyAndSally} alt='Sandy and Sally' />
+        <img className='poster' src={SandyAndSally} alt='Sandy and Sally' />
       </figure>
 
       <figure>
@@ -64,7 +64,7 @@ export default function OutgoingBoardMembers() {
           appreciation to Joy Howard, who leaves the Board after serving 6 years
           as Treasurer
         </figcaption>
-        <img className='img_poster' src={SandyAndJoy} alt='Sandy and Joy' />
+        <img className='poster' src={SandyAndJoy} alt='Sandy and Joy' />
       </figure>
 
       <figure>
@@ -73,7 +73,7 @@ export default function OutgoingBoardMembers() {
           appreciation to outgoing President, Sue Storer, for her three years as
           President and two years as Vice President, Operations.
         </figcaption>
-        <img className='img_poster' src={KenAndSue} alt='Ken and Sue' />
+        <img className='poster' src={KenAndSue} alt='Ken and Sue' />
       </figure>
 
       <figure>
@@ -82,7 +82,7 @@ export default function OutgoingBoardMembers() {
           appreciation to outgoing board member Janet Murphy for her six years
           as Children&apos;s Section Manager.
         </figcaption>
-        <img className='img_poster' src={SueAndJanet} alt='Sue and Janet' />
+        <img className='poster' src={SueAndJanet} alt='Sue and Janet' />
       </figure>
 
       <figure>
@@ -91,7 +91,7 @@ export default function OutgoingBoardMembers() {
           appreciation to outgoing board member Phil Van Ess for his six years
           as Facilities Manager.
         </figcaption>
-        <img className='img_poster' src={SueAndPhil} alt='Sue and Phil' />
+        <img className='poster' src={SueAndPhil} alt='Sue and Phil' />
       </figure>
 
       <figure>
@@ -100,7 +100,7 @@ export default function OutgoingBoardMembers() {
           appreciation to outgoing board member Ann Yingling, who was in charge
           of new volunteer training.
         </figcaption>
-        <img className='img_poster' src={SueAndAnn} alt='Sue and Ann' />
+        <img className='poster' src={SueAndAnn} alt='Sue and Ann' />
       </figure>
 
       <figure>
@@ -109,7 +109,7 @@ export default function OutgoingBoardMembers() {
           appreciation to outgoing board member Allison Smith, who was Publicity
           Chair.
         </figcaption>
-        <img className='img_poster' src={SueAndAllison} alt='Sue and Allison' />
+        <img className='poster' src={SueAndAllison} alt='Sue and Allison' />
       </figure>
     </PageBodySideMenu>
   );

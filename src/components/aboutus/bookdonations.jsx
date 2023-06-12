@@ -3,7 +3,7 @@ import { PageBodySideMenu } from '@/components/common';
 export default function BookDonations() {
   return (
     <PageBodySideMenu name='BookDonations'>
-      <ul id='ul_donation-hours'>
+      <ul id='donation-hours'>
         <li>
           Small Donations (individual or one small bag or box): Tues. - Sat., 10
           a.m. to 5 p.m.
@@ -27,7 +27,7 @@ export default function BookDonations() {
         available for sale during regular hours of operation, Monthly Bag of
         Book Sales, and our annual Fall and Spring Book Sales:
       </p>
-      <dl className='dl_book-donations'>
+      <dl className='book-donations'>
         <dt>Hardbound current fiction and non-fiction books with jackets</dt>
         <dt>Biographies and autobiographies</dt>
         <dt>Children&apos;s books</dt>
@@ -42,7 +42,7 @@ export default function BookDonations() {
         The following are books and periodicals that we cannot use or even
         accept as they present a disposal problem:
       </p>
-      <dl className='dl_book-donations'>
+      <dl className='book-donations'>
         <dt>Damaged books, which may include:</dt>
         <dd>
           Missing book jackets, covers, or pages; loose bindings; ripped or

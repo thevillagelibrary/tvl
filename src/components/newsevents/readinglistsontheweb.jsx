@@ -4,39 +4,33 @@ import { PageBodySideMenu } from '@/components/common';
 export default function ReadingListsOnTheWeb() {
   return (
     <PageBodySideMenu name={'ReadingListsOnTheWeb'}>
-      <section id='sec_prizes'>
+      <section id='prizes'>
         <article>
           <h2>The Pulitzer Prizes:</h2>
           <a href='https://www.pulitzer.org/prize-winners-by-category/219'>
             Fiction
           </a>
-          <a
-            className='link'
+          <a            
             href='https://www.pulitzer.org/prize-winners-by-category/218'>
             Drama
           </a>
-          <a
-            className='link'
+          <a            
             href='https://www.pulitzer.org/prize-winners-by-category/220'>
             History
           </a>
-          <a
-            className='link'
+          <a            
             href='https://www.pulitzer.org/prize-winners-by-category/222'>
             Biography
           </a>
-          <a
-            className='link'
+          <a            
             href='https://www.pulitzer.org/prize-winners-by-category/650'>
             Memoir or Autobiography
           </a>
-          <a
-            className='link'
+          <a            
             href='https://www.pulitzer.org/prize-winners-by-category/224'>
             Poetry
           </a>
-          <a
-            className='link'
+          <a            
             href='https://www.pulitzer.org/prize-winners-by-category/223'>
             General Nonfiction
           </a>
@@ -51,7 +45,7 @@ export default function ReadingListsOnTheWeb() {
           </a>
         </article>
       </section>
-      <hr className='hr_divider-sidemenu' />
+      <hr className='divider_side-menu' />
       <section>
         <h2>
           On its 125th anniversary, the New York Public Library published this
@@ -63,7 +57,7 @@ export default function ReadingListsOnTheWeb() {
         </a>
         <br />
         <br />
-        <hr className='hr_divider-sidemenu' />
+        <hr className='divider_side-menu' />
 
         <h2>This site lists all mysteries by an author by publishing date:</h2>
 
@@ -73,7 +67,7 @@ export default function ReadingListsOnTheWeb() {
         </a>
         <br />
         <br />
-        <hr className='hr_divider-sidemenu' />
+        <hr className='divider_side-menu' />
 
         <h2>
           A national survey conducted by PBS published this list of
@@ -81,7 +75,7 @@ export default function ReadingListsOnTheWeb() {
         </h2>
         <br />
         <a
-          className='link'
+          
           href='http://www.pbs.org/the-great-american-read/newarrivals/#/'>
           The Great American Read
         </a>

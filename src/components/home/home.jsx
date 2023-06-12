@@ -18,13 +18,13 @@ export default function Home() {
   return (
     <>
       <PageBodyNoSideMenu name={'Home'}>
-        <section id='sec_home' className='vstack'>
+        <section id='home' className='vstack'>
           <h2>Hours</h2>
           <small>{hours}</small>
-          <hr className='hr_divider' />
+          <hr className='divider' />
           <h2>Quick Links</h2>
-          <section id='sec_quick-links'>
-            <article id='art_quick-links_left'>
+          <section>
+            <article>
               <a href='https://thevillagelibrary.library.site'>
                 Online Catalog
               </a>
@@ -35,7 +35,7 @@ export default function Home() {
                 Photo Album
               </a>
             </article>
-            <article id='art_quick-links_right'>
+            <article>
               <Link to='/newarrivals'>New Arrivals</Link>
               <Link to='/donate'>Donate</Link>
               <Link to='/donate/recentdonors'>Recent Donors</Link>
@@ -44,7 +44,7 @@ export default function Home() {
           </section>
           <br />
           <hr className='hr_divider' />
-          <article id='eventslinks'>
+          <article>
             <UpcomingEventsLinks futureEvents={futureEvents} />
           </article>
         </section>

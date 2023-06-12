@@ -11,13 +11,13 @@ export default function UpcomingEventsList({ events }) {
       <article key={uuidv4()}>
         <h2>{event[3]}</h2>
         {event[6] && (
-          <img className='img_poster' alt={event[3]} src={imgSource} />
+          <img className='poster' alt={event[3]} src={imgSource} />
         )}
         <p>
           <b>{event[5]}:</b> {event[2]} -- {event[4]}
         </p>
         {index < futureEventCount - 1 ? (
-          <hr className='hr_divider-sidemenu' />
+          <hr className='divider_side-menu' />
         ) : (
           ''
         )}

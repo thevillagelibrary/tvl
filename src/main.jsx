@@ -26,7 +26,7 @@ import {
   newarrivalsLoader,
   donationsLoader,
 } from '@/components';
-import { Layout, Loading, Menu } from '@/components/common';
+import { Layout, Loading, MenuPhone } from '@/components/common';
 
 const router = createBrowserRouter([
   {
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
         Component: Home,
       },
       {
-        Component: Menu,
+        Component: MenuPhone,
         path: '/menu',
       },
       {

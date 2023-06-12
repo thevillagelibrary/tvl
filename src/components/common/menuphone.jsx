@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 import { MdArrowBack as Close } from 'react-icons/md';
-import { MenuLinks } from '@/components/common';
+import { MenuPhoneLinks } from '@/components/common';
 
-export default function Menu() {
+export default function MenuPhone() {
   const navigate = useNavigate();
 
   function handleClick(event) {
@@ -11,11 +11,11 @@ export default function Menu() {
   }
   return (
     <>
-      <button id='btn_close' >
+      <button id='close' >
         <Close  size={50} onClick={handleClick} />
       </button>
       <hr className='hr_divider' />
-      <MenuLinks />;
+      <nav id='menu_phone'><MenuPhoneLinks /></nav>;
     </>
   );
 }

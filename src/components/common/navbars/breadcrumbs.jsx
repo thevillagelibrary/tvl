@@ -15,12 +15,12 @@ export default function BreadCrumbs() {
   return (
     <div className='visibility_phone'>
       {pathParts.length > 2 && (
-        <div id='div_breadcrumbs'>
+        <section id='breadcrumbs'>
           <span>
             <Link to={path}>{page.name}</Link>
           </span>
           &nbsp;&raquo;&nbsp;<span>{subPage.name}</span>
-        </div>
+        </section>
       )}
     </div>
   );

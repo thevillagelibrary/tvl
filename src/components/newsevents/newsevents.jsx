@@ -40,46 +40,48 @@ export default function NewsEvents() {
         <b>ACCOMPLISHMENTS</b>
       </p>
       <p>There are accomplishments to highlight this year:</p>
-      <p className='p_accomplishments'>
-        The Board was successful in its application for a Landlovers&apos; grant
-        of $2,100 to fund children&apos;s books and programs and a new printer
-        in 2023.
-      </p>
-      <p className='p_accomplishments'>
-        Under the leadership of Terry Kessler, the Library successfully
-        implemented the Finance Committee&apos;s 2021 recommendation for
-        investing the Library’s reserves through a Fidelity brokerage account.
-      </p>
-      <p className='p_accomplishments'>
-        Cece Coleman led Collection Development efforts to create a single,
-        coordinated approach to the special collections—introducing the Browsing
-        Collection with designation of each collection in the catalog. Just Off
-        Rental, New, Local Authors, and Recommended books joined the Rental
-        books with icons in the online catalog; and the position of Browsing
-        Collection Coordinator was created to manage the collections. The result
-        is that books in the collection are now easy to find, helping volunteers
-        and patrons in their searches.
-      </p>
-      <p className='p_accomplishments'>
-        Vice President for Community Relations Brenda Day continued to lead the
-        Library&apos;s efforts to expand the Spring and Fall book sales to
-        achieve our goal of having a festival of community activities to
-        supplement the library&apos;s sidewalk sale. The Landings Art
-        Association, the Landings Garden Club, various PEO chapters, and
-        individual artists and authors all came together with the library to
-        feature their work and sell their wares. Brenda also recruited and
-        supported the new Book Sale Coordinator, Lynn Townsend, who successfully
-        organized the Spring 2023 sale.
-      </p>
-      <p className='p_accomplishments'>
-        Public Information Officer (PIO) Nicole Tifverman set a new, high
-        standard for that position—continuing her excellent work publicizing and
-        communicating about the Library through social media, work with various
-        publications, delightful fliers and img_posters, and the excellent
-        monthly volunteer newsletter. She is leaving her position as PIO but
-        will continue as an at-large member of the Board and the new Browsing
-        Collection Coordinator.
-      </p>
+      <section id='accomplishments'>
+        <p>
+          The Board was successful in its application for a Landlovers&apos; grant
+          of $2,100 to fund children&apos;s books and programs and a new printer
+          in 2023.
+        </p>
+        <p>
+          Under the leadership of Terry Kessler, the Library successfully
+          implemented the Finance Committee&apos;s 2021 recommendation for
+          investing the Library’s reserves through a Fidelity brokerage account.
+        </p>
+        <p>
+          Cece Coleman led Collection Development efforts to create a single,
+          coordinated approach to the special collections—introducing the Browsing
+          Collection with designation of each collection in the catalog. Just Off
+          Rental, New, Local Authors, and Recommended books joined the Rental
+          books with icons in the online catalog; and the position of Browsing
+          Collection Coordinator was created to manage the collections. The result
+          is that books in the collection are now easy to find, helping volunteers
+          and patrons in their searches.
+        </p>
+        <p>
+          Vice President for Community Relations Brenda Day continued to lead the
+          Library&apos;s efforts to expand the Spring and Fall book sales to
+          achieve our goal of having a festival of community activities to
+          supplement the library&apos;s sidewalk sale. The Landings Art
+          Association, the Landings Garden Club, various PEO chapters, and
+          individual artists and authors all came together with the library to
+          feature their work and sell their wares. Brenda also recruited and
+          supported the new Book Sale Coordinator, Lynn Townsend, who successfully
+          organized the Spring 2023 sale.
+        </p>
+        <p>
+          Public Information Officer (PIO) Nicole Tifverman set a new, high
+          standard for that position—continuing her excellent work publicizing and
+          communicating about the Library through social media, work with various
+          publications, delightful fliers and img_posters, and the excellent
+          monthly volunteer newsletter. She is leaving her position as PIO but
+          will continue as an at-large member of the Board and the new Browsing
+          Collection Coordinator.
+        </p>
+      </section>
       <p>
         I want to highlight the contributions of Vice-President of Operations
         Ren&eacute;e Collins as she departs the Board after three years. Renee’s

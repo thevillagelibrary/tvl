@@ -2,7 +2,7 @@
 import { pages } from '@/constants';
 import { v4 as uuidv4 } from 'uuid';
 
-function NavBarSub({ page }) {
+function MenuSub({ page }) {
   if (!page.subPages) return null;
 
   return (
@@ -19,7 +19,7 @@ function NavBarSub({ page }) {
   );
 }
 
-function Ul() {
+function UnorderedList() {
   return (
     <> 
       <ul> 
@@ -30,7 +30,7 @@ function Ul() {
               <li>
                 <a href={path}>{page.name}</a>
                 <ul>
-                  <NavBarSub page={page} />
+                  <MenuSub page={page} />
                 </ul>
               </li>
             </div>
@@ -41,13 +41,13 @@ function Ul() {
   );
 }
 
-export default function NavBarM(){
+export default function MenuNotPhone(){
     return (
-        <nav id='menu' className='modal'>
+        <nav id='menu_not-phone'>
           <a href='#' className='modalClose' hidden></a>
           <div>
             <a href='#' className='modalClose' hidden></a>
-            <Ul />
+            <UnorderedList />
           </div>
         </nav>
 

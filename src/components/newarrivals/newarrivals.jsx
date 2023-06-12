@@ -10,23 +10,23 @@ export default function NewArrivals() {
 
   return (
     <PageBodyNoSideMenu name={'NewArrivals'}>
-      <section id='sec_new-arrivals'>
+      <section id='new-arrivals'>
         <article>
-          <Link to='/newarrivals#link-target_just-off-rental'>
+          <Link to='/newarrivals#just-off-rental'>
             Just Off Rental
           </Link>
-          <Link to='/newarrivals#link-target_books'>Books</Link>
-          <Link to='/newarrivals#link-target_youth-section'>Youth Section</Link>
+          <Link to='/newarrivals#books'>Books</Link>
+          <Link to='/newarrivals#youth-section'>Youth Section</Link>
         </article>
         <br />
-        <hr className='hr_divider' />
-        <h2 id='link-target_just-off-rental'>Just Off Rental</h2>
+        <hr className='divider' />
+        <h2 id='just-off-rental'>Just Off Rental</h2>
         <GoogleSheetsData name={'JustOffRental'} values={values[0]} />
-        <hr className='hr_divider' />
-        <h2 id='link-target_books'>Books</h2>
+        <hr className='divider' />
+        <h2 id='books'>Books</h2>
         <GoogleSheetsData name={'Books'} values={values[1]} />
-        <hr className='hr_divider' />
-        <h2 id='link-target_youth-section'>Youth Section</h2>
+        <hr className='divider' />
+        <h2 id='youth-section'>Youth Section</h2>
         <GoogleSheetsData name={'YouthSection'} values={values[2]} />
       </section>
     </PageBodyNoSideMenu>

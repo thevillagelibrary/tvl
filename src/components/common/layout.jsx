@@ -1,8 +1,7 @@
 import React from 'react';
 import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
-import { Footer, Hero, NavBarH, NavBarM } from '@/components/common';
-import NewWing from '@/assets/images/NewWing.jpg';
+import { Footer, Hero, NavHNotPhone, NavHPhone, MenuNotPhone } from '@/components/common';
 import '@/styles/index.css';
 
 export default function Layout() {
@@ -15,8 +14,9 @@ export default function Layout() {
       {pathname !== '/menu' && (
         <header>
           <Hero />
-          <div id='div_new-wing' />
-          <NavBarH />
+          <div id='new-wing' />
+          <NavHPhone />
+          <NavHNotPhone />
         </header>
       )}
       <main>
@@ -27,7 +27,7 @@ export default function Layout() {
           <Footer />
         </footer>
       )}
-    <NavBarM />
+      <MenuNotPhone />
     </>
   );
 }

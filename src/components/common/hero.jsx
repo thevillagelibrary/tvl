@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
-    <section id='sec_hero'>
+    <section id='hero'>
       <article />
       <article>
         <h1>The Village Library</h1>

@@ -105,9 +105,9 @@ export default function GoogleSheetsData({ name, values }) {
     return (
       <>
         {categoryList.length > 1 || name === 'YouthSection' ? (
-          <p className='p_category'>{list.category}</p>
+          <h4>{list.category}</h4>
         ) : null}
-        <ul key={uuidv4()} className='ul_gsheets-data'>
+        <ul key={uuidv4()} className='gsheets-data'>
           {lis[index]}
         </ul>
         <br />
@@ -118,22 +118,22 @@ export default function GoogleSheetsData({ name, values }) {
 
   return (
     <>
-      <div className='div_updated'>
+      <div className='updated'>
         <i>{updated}</i>
       </div>
 
       {name === 'Books' && (
-        <p id='p_rentalornew'>Rental or New at the Library</p>
+        <h3>Rental or New at the Library</h3>
       )}
       {name === 'RecentDonors' && (
         <h2>Thanks to those who have donated to the Library recently.</h2>
       )}
       {lists}
       {name === 'Books' && (
-        <div id='div_books-footer'>
-          <b>KAREN MARTORELLI</b>
+        <section id='books-footer'>
+          <b>KAREN MARTORELLI</b><br />
           <i>Acquisitions Chair</i>
-        </div>
+        </section>
       )}
     </>
   );

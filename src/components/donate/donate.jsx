@@ -18,7 +18,7 @@ export default function Donate() {
         </small>
         <br />
         <form
-          id='form_paypal'
+          id='paypal'
           action='https://www.paypal.com/cgi-bin/webscr'
           method='post'
           target='_top'>
@@ -40,7 +40,7 @@ export default function Donate() {
           />
         </form>
         <br />
-        <hr className='hr_sub-divider' />
+        <hr className='sub-divider' />
         <br />
         <small>
           Or, write a check to &quot;The Village Library&quot; and deposit it in

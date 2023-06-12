@@ -4,11 +4,13 @@ export { default as Footer } from '@/components/common/footer';
 export { default as Hero } from '@/components/common/hero';
 export { default as Layout } from '@/components/common/layout';
 export { default as Loading } from '@/components/common/loading';
-export { default as Menu } from '@/components/common/menu';
-export {default as MenuLinks} from '@/components/common/menulinks';
-export { default as NavBarH } from '@/components/common/navbars/navbarh';
-export { default as NavBarM } from '@/components/common/navbars/navbarm';
-export { default as NavBarV } from '@/components/common/navbars/navbarv';
+export { default as MenuPhone } from '@/components/common/menuphone';
+export { default as MenuPhoneLinks} from '@/components/common/menuphonelinks';
+export { default as NavHNotPhone } from '@/components/common/navbars/navhnotphone';
+export { default as NavHPhone } from '@/components/common/navbars/navhphone';
+export { default as MenuNotPhone } from '@/components/common/menunotphone';
+export { default as NavV } from '@/components/common/navbars/navv';
+export { default as NavHPhoneListItem } from '@/components/common/navbars/navhphonelistitem';
 export {
   PageBodyNoSideMenu,
   PageBodySideMenu,

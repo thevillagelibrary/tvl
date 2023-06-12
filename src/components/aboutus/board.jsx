@@ -15,12 +15,12 @@ export default function Board() {
         in May of each year.
       </p>
       <h2>Officers & Directors</h2>
-      <table id='tbl_officers'>
+      <table id='board'>
         <tbody>
           {organization.map((item, index) => (
             <tr key={index}>
-              <td className='td_orgtitle'>{item[1]}</td>
-              <td className='td_orgname'>{item[2]}</td>
+              <td>{item[1]}</td>
+              <td>{item[2]}</td>
             </tr>
           ))}
         </tbody>
