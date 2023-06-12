@@ -629,7 +629,7 @@ nav#menu_not-phone:target {
   transition: left 0s, opacity 0.5s;
 }
 
-nav#menu_not-phone_phone > ul {
+nav#menu_phone > ul {
   display: block;
   list-style-type: none;
   margin-left: 2em;
@@ -850,6 +850,10 @@ nav.visibility_phone.nav_h ul  ul {
   color: var(--white-color);
   background-color: gray;
   width: fit-content;
+}
+
+nav.visibility_phone.nav_h  li:hover {
+  user-select: none;
 }
 
 nav.visibility_phone.nav_h  li:hover  ul {
