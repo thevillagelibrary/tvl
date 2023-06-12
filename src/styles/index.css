@@ -852,7 +852,7 @@ nav.visibility_phone.nav_h ul  ul {
   width: fit-content;
 }
 
-nav.visibility_phone.nav_h  li:hover {
+nav.visibility_phone.nav_h  li a:hover {
   user-select: none;
 }
 
