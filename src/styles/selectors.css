@@ -792,12 +792,13 @@ a p {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    width: 50%;
   }
   
   section #prizes {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 1em;
   }
   
