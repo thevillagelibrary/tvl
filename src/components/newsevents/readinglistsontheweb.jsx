@@ -46,7 +46,7 @@ export default function ReadingListsOnTheWeb() {
         </article>
       </section>
       <hr className='divider_side-menu' />
-      <section>
+      <section id='readinglists'>
         <h2>
           On its 125th anniversary, the New York Public Library published this
           list:
