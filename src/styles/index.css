@@ -777,6 +777,13 @@ nav.visibility_phone.nav_h > ul  li > a.active {
   width: inherit;
 }
 
+nav.visibility_phone.nav_h > ul  li > a.activesub {
+  background: var(--secondary-color);
+  color: var(--white-color);
+  text-align: center;
+  width: inherit;
+}
+
 nav.visibility_phone.nav_h > ul  li > a.inactive {
   background: var(--white-background-color);
   color: var(--black-color);
@@ -785,6 +792,12 @@ nav.visibility_phone.nav_h > ul  li > a.inactive {
 nav.visibility_phone.nav_h > ul  li > a.inactive:hover {
   background: var(--secondary-color);;
   color: var(--white-color);
+}
+
+nav.visibility_phone.nav_h > ul  li > a.inactivesub:hover {
+  background: var(--secondary-color);;
+  color: var(--white-color);
+  text-align: center;
 }
 
 nav.visibility_phone.nav_h > ul  li {
@@ -805,6 +818,9 @@ nav.visibility_phone.nav_h > ul  li {
 }
 nav.visibility_phone.nav_h > ul >  li {
   display: block;
+}
+nav.visibility_phone.nav_h > ul >  li > a > svg {
+  padding-top: .25em;
 }
 
 nav.visibility_phone.nav_h > ul > li > a {
@@ -853,26 +869,41 @@ nav.visibility_phone.nav_h ul  ul {
   top: 100%;
   display: none;
   color: var(--white-color);
-  background-color: gray;
+  background-color: gray; 
   width: fit-content;
 }
 
-nav.visibility_phone.nav_h  li a:hover {
-  user-select: none;
+
+nav.visibility_phone.nav_h ul ul li:first-of-type {
+  border-bottom: 4px solid var(--primary-color);
 }
+
+nav.visibility_phone.nav_h ul ul li a{
+  border: 1px solid white;
+  font-size: var(--step--2);
+  font-weight: normal;
+  padding: 0 .5em;
+  text-align: center;
+}/* 
+nav.visibility_phone.nav_h ul ul li:not(:first-of-type) a {
+  padding: 0 1.5em;
+} */
+
+nav.visibility_phone.nav_h ul ul li a:focus{
+  background-color: var(--secondary-color);
+}
+
 
 nav.visibility_phone.nav_h  li:hover  ul {
   display: block;
 }
 
 nav.visibility_phone.nav_h li:hover ul li {
-  padding: 0 .5em;
   width: 100%;
 }
 
 nav.visibility_phone.nav_h li {
  display: inline-block;
-
 }
 
 p#mission-statement {

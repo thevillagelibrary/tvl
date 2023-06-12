@@ -7,11 +7,11 @@ import { v4 as uuidv4 } from 'uuid';
 
 export default function NavHPhoneListItem ({page, index}) {
   const icons = [
-    <HomeIcon size={30} className='icon_mobile-menu' />,
-    <AboutUsIcon size={30} className='icon_mobile-menu' />,
-    <NewsEventsIcon size={30} className='icon_mobile-menu' />,
-    <NewArrivalsIcon size={30} className='icon_mobile-menu' />,
-    <SupportersIcon size={30} className='icon_mobile-menu' />,
+    <HomeIcon size={30} />,
+    <AboutUsIcon size={30} />,
+    <NewsEventsIcon size={30} />,
+    <NewArrivalsIcon size={30} />,
+    <SupportersIcon size={30} />,
   ];
 
   
@@ -46,21 +46,20 @@ export default function NavHPhoneListItem ({page, index}) {
           <NavLink
             to={path}
             className={({ isActive }) =>
-              isActive ? 'li_nav_h_phone li_nav_h_phone-active' : 'li_nav_h_phone li_nav_h_phone-inactive'
+              isActive ? 'activesub' : 'inactivesub'
             }>
             {page.name}
           </NavLink>
         </li>
           {page.subPages.map((subPage) => {
             const path = `/${page.path}/${subPage.path}`;
-            console.log("😊😊 path", path)
 
             return (          
               <li key={uuidv4()}>
                 <NavLink
                   to={path} 
                   className={({ isActive }) =>
-                    isActive ? 'li_nav_h li_nav_h-active' : 'li_nav_h '
+                    isActive ? 'activesub' : 'inactivesub'
                   }>
                   {subPage.name}
                 </NavLink>
