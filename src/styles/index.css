@@ -334,6 +334,7 @@ button#close {
   background-color: transparent;
   border: none;
   float: left;
+  text-align: left;
 }
 
 div#new-wing {
@@ -629,17 +630,21 @@ nav#menu_not-phone:target {
   transition: left 0s, opacity 0.5s;
 }
 
-nav#menu_phone > ul {
+section#menu_phone {
+  display: flex;
+  flex-direction: column;
+}
+section#menu_phone nav > ul {
   display: block;
   list-style-type: none;
   margin-left: 2em;
   text-align: left;
 }
 
-nav#menu_phone > ul li.subpages > a  {
+section#menu_phone nav > ul li.subpages > a  {
   padding-left: 1em;
 }
-nav#menu_phone> ul li > a {
+section#menu_phone nav> ul li > a {
   font-size: var(--step-1);
   text-align: left;
 }

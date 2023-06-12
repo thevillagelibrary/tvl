@@ -10,12 +10,12 @@ export default function MenuPhone() {
     navigate(-1);
   }
   return (
-    <>
+    <section id='menu_phone'>
       <button id='close' >
         <Close  size={50} onClick={handleClick} />
       </button>
-      <hr className='hr_divider' />
-      <nav id='menu_phone'><MenuPhoneLinks /></nav>;
-    </>
+      <hr className='divider' />
+      <nav><MenuPhoneLinks /></nav>;
+    </section>
   );
 }
