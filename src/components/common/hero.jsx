@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 export default function Hero() {
   return (
     <section id='hero'>
@@ -10,7 +8,7 @@ export default function Hero() {
       </article>
       <article>
         <button>
-          <Link to='/donate'>Donate</Link>
+          <a href='/donate'>Donate</a>
         </button>
       </article>
     </section>

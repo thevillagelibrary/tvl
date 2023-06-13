@@ -3,7 +3,7 @@ import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 import { Footer, Hero, NavHNotPhone, NavHPhone, MenuNotPhone } from '@/components/common';
 import '@/styles/index.css';
-import '@/styles/selectors.css';
+/* import '@/styles/selectors.css'; */
 
 export default function Layout() {
   const { pathname } = useLocation();
@@ -15,7 +15,7 @@ export default function Layout() {
       {pathname !== '/menu' && (
         <header>
           <Hero />
-          <div id='new-wing' />
+          <div id='new-wing' ></div>
           <NavHPhone />
           <NavHNotPhone />
         </header>

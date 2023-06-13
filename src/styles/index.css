@@ -276,12 +276,6 @@ body {
         SELECTORS
 ---------------------------------------*/
 
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 a p {
   text-align: center;
 }
@@ -330,6 +324,12 @@ body {
   width: 95vw;
 }
 
+button:focus,
+button:hover {
+  transform: scale(1.2);
+  
+}
+
 button#close {
   background-color: transparent;
   border: none;
@@ -352,6 +352,7 @@ div.updated {
   font-size: 1.2em;
   text-align: right;
 }
+
 dl {
   font-family: var(--font-sans-serif);
   margin-left: 2em;
@@ -479,29 +480,28 @@ header {
   margin-top: 0.625em;
 }
 
-hr {
+div.divider {
   border-top: 1px solid var(--primary-color);
   color: var(--black-background-color);
   display: block;
   height: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   opacity: 1;
   overflow-x: hidden;
   text-align: center;
 }
 
-hr.divider,
-hr.divider_side-menu,
-hr.divider_nav-v {
+div.full,
+div.side-menu,
+div.nav-v {
   width: 100%;
 }
 
-hr.divider_nav-v {
+div.nav-v {
   border-top: 4px solid var(--secondary-color);
 }
 
-hr.sub-divider {
+div.sub {
   border-top: 1px solid var(--secondary-color);
   width: 80%;
 }
@@ -526,25 +526,20 @@ img.social-media {
   width: 3em;
 }
 
-p {
-  margin-bottom: 0.5em;
-}
-
-li,
-td {
-  text-align: left;
-  font-size: ;
-}
 main {
   flex: 0;
 }
-
 
 nav#menu_not-phone > a {
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+nav#menu_not-phone > div  ul li a:hover  {  
+  color: var(--white-color);
+  background-color: var(--secondary-color);
 }
 
 nav#menu_not-phone > div > a {
@@ -597,6 +592,7 @@ nav#menu_not-phone li > ul li a {
 
 nav#menu_not-phone li {
   margin: 0;
+  text-align: left;
 }
 
 nav#menu_not-phone ul {
@@ -630,36 +626,23 @@ nav#menu_not-phone:target {
   transition: left 0s, opacity 0.5s;
 }
 
-section#menu_phone {
-  display: flex;
-  flex-direction: column;
-}
-section#menu_phone nav > ul {
-  display: block;
+nav.visibility_not-phone#nav_v  li {
   list-style-type: none;
-  margin-left: 2em;
-  text-align: left;
+  margin: 0;
+  width: 7em;
 }
-
-section#menu_phone nav > ul li.subpages > a  {
-  padding-left: 1em;
-}
-section#menu_phone nav> ul li > a {
-  font-size: var(--step-1);
-  text-align: left;
-}
-
-nav.nav_h {
-  background-color: var(--white-background-color);
-  display: block;
-}
-
 
 nav.visibility_not-phone#nav_v > ul  li > a {
   line-height: 1em;
   padding: .25em 0;
   width: 100%;
 }
+
+nav.visibility_not-phone#nav_v > ul  li > a {
+  line-height: 1em;
+}
+
+
 nav.visibility_not-phone#nav_v > ul li > a.active {
   outline: 0;
   width: 10em;
@@ -669,15 +652,16 @@ nav.visibility_not-phone#nav_v > ul li > a.inactive {
   border: 1px solid var(--secondary-color);
   padding: 0.125em 0.625em 0.25em;
 }
-nav.visibility_not-phone#nav_v  li {
-  list-style-type: none;
-  margin: 0;
-  width: 7em;
-}
+
 nav.visibility_not-phone#nav_v > ul {
   display: flex;
   flex-direction: column;
   gap: .25em;
+}
+
+nav.nav_h {
+  background-color: var(--white-background-color);
+  display: block;
 }
 
 nav.visibility_not-phone.nav_h > li > a {
@@ -686,6 +670,10 @@ nav.visibility_not-phone.nav_h > li > a {
 
 nav.visibility_not-phone.nav_h > li {
   margin-bottom: 0;
+}
+
+nav.visibility_not-phone.nav_h > ul  li > a {
+  line-height: 1.5em;
 }
 
 nav.visibility_not-phone.nav_h > ul  li > a {
@@ -709,16 +697,6 @@ nav.visibility_not-phone#nav_v > ul  li > a {
   text-size-adjust: 100%;
   width: fit-content;
 }
-
-
-nav.visibility_not-phone.nav_h > ul  li > a {
-  line-height: 1.5em;
-}
-
-nav.visibility_not-phone#nav_v > ul  li > a {
-  line-height: 1em;
-}
-
 
 nav.visibility_not-phone.nav_h > ul  li > a.active,
 nav.visibility_not-phone#nav_v > ul  li > a.active{
@@ -758,7 +736,13 @@ nav.visibility_not-phone.nav_h li {
   display: inline-block;
 }
 
-nav.visibility_phone.nav_h > ul   li > a:hover {  
+nav.visibility_phone.nav_h  li:hover  ul {
+  display: block;
+}
+
+nav.visibility_phone.nav_h > ul   li > a:hover,   
+nav.visibility_not-phone.nav_h > ul   li > a:hover,
+nav.visibility_not-phone#nav_v > ul   li > a:hover {  
   color: var(--white-color);
   background-color: var(--secondary-color);
 }
@@ -816,13 +800,13 @@ nav.visibility_phone.nav_h > ul  li {
   text-size-adjust: 100%;
   width: fit-content;
 }
-nav.visibility_phone.nav_h > ul >  li {
-  display: block;
-}
 nav.visibility_phone.nav_h > ul >  li > a > svg {
   padding-top: .25em;
 }
 
+nav.visibility_phone.nav_h > ul >  li {
+  display: block;
+}
 nav.visibility_phone.nav_h > ul > li > a {
   padding: 0 .3125em;
 }
@@ -858,10 +842,12 @@ nav.visibility_phone.nav_h > ul {
   width: 100%;
 }
 
-nav.visibility_phone.nav_h {
-  position: relative;
-  z-index: 999;
+nav.visibility_phone.nav_h li {
+ display: inline-block;
+}
 
+nav.visibility_phone.nav_h li:hover ul li {
+  width: 100%;
 }
 
 nav.visibility_phone.nav_h ul  ul {
@@ -874,17 +860,7 @@ nav.visibility_phone.nav_h ul  ul {
 }
 
 
-nav.visibility_phone.nav_h ul ul li:first-of-type {
-  border-bottom: 4px solid var(--primary-color);
-}
-
-nav.visibility_phone.nav_h ul ul li a{
-  border: 1px solid white;
-  font-size: var(--step--2);
-  font-weight: normal;
-  padding: 0 .5em;
-  text-align: center;
-}/* 
+/* 
 nav.visibility_phone.nav_h ul ul li:not(:first-of-type) a {
   padding: 0 1.5em;
 } */
@@ -894,16 +870,26 @@ nav.visibility_phone.nav_h ul ul li a:focus{
 }
 
 
-nav.visibility_phone.nav_h  li:hover  ul {
-  display: block;
+nav.visibility_phone.nav_h ul ul li a{
+  border: 1px solid white;
+  font-size: var(--step--2);
+  font-weight: normal;
+  padding: 0 .5em;
+  text-align: center;
 }
 
-nav.visibility_phone.nav_h li:hover ul li {
-  width: 100%;
+nav.visibility_phone.nav_h ul ul li:first-of-type {
+  border-bottom: 4px solid var(--primary-color);
 }
 
-nav.visibility_phone.nav_h li {
- display: inline-block;
+nav.visibility_phone.nav_h {
+  position: relative;
+  z-index: 999;
+
+}
+
+p {
+  margin-bottom: 0.5em;
 }
 
 p#mission-statement {
@@ -953,14 +939,6 @@ section#hero :nth-child(1) article{
   height: 0;
 }
 
-section#hero :nth-child(2) article div {
-  font-size: var(--step-0);
-  font-weight: bold;
-  margin: 0;
-  text-align: center;
-  width: 100%;
-}
-
 section#hero :nth-child(2)  {
   align-items: center;
   display: flex;
@@ -968,6 +946,14 @@ section#hero :nth-child(2)  {
   font-family: 'Lucida-Calligraphy';
   padding: 0.5em 0 0.25em 0;
   width: 70%;
+}
+
+section#hero :nth-child(2) article div {
+  font-size: var(--step-0);
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  width: 100%;
 }
 
 section#hero :nth-child(3) button a {
@@ -1023,10 +1009,10 @@ section#home h2 {
   width: 60%;
 }
 
-section#home section :first-child {
+section#home section > :first-child {
   text-align: right;
 }
-section#home section :last-child {
+section#home section > :last-child {
   text-align: left;
 }
 
@@ -1046,6 +1032,25 @@ section#home {
   justify-content: space-around;
   text-align: center;
   overflow-y: hidden;
+}
+section#menu_phone nav > ul li.subpages > a  {
+  padding-left: 1em;
+}
+section#menu_phone nav > ul {
+  display: block;
+  list-style-type: none;
+  margin-left: 2em;
+  text-align: left;
+}
+
+section#menu_phone nav> ul li > a {
+  font-size: var(--step-1);
+  text-align: left;
+}
+
+section#menu_phone {
+  display: flex;
+  flex-direction: column;
 }
 section#new-arrivals a,
 section#home section a,
@@ -1068,12 +1073,22 @@ section#prizes article {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  width: 50%;
+}
+
+section#prizes h2,
+section#readinglists h2 {
+  font-size: var(--step-1);
+}
+
+section#readinglists h3 {
+  font-size: var(--step-0);
 }
 
 section#prizes {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 1em;
 }
 
@@ -1130,3 +1145,8 @@ ul#gsheets-data p {
   margin-top: 1.25em;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

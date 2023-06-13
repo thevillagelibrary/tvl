@@ -25,7 +25,7 @@ export default function UpcomingEventsLinks({ futureEvents }) {
     return (
       <>
       <br />
-      <hr className='divider' />
+      <div className='divider full' />
         <h2>Upcoming Events</h2>
         <Link id='event-link' to='/newsevents/upcomingevents'>
           Click here for details.

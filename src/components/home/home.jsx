@@ -21,7 +21,7 @@ export default function Home() {
         <section id='home' className='vstack'>
           <h2>Hours</h2>
           <small>{hours}</small>
-          <hr className='divider' />
+          <div className='divider full' />
           <h2>Quick Links</h2>
           <section>
             <article>

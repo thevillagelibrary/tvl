@@ -40,7 +40,7 @@ export default function Donate() {
           />
         </form>
         <br />
-        <hr className='sub-divider' />
+        <div className='divider sub' />
         <br />
         <small>
           Or, write a check to &quot;The Village Library&quot; and deposit it in
@@ -55,7 +55,7 @@ export default function Donate() {
           Savannah, GA 31411
         </address>
       </article>
-      <hr />
+      <div />
       <br />
       <article>
         <h2>Buy a Brick Program</h2>
