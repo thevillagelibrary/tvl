@@ -19,13 +19,13 @@ export default function NewArrivals() {
           <Link to='/newarrivals#youth-section'>Youth Section</Link>
         </article>
         <br />
-        <div className='divider full' />
+        <div className='divider full'></div>
         <h2 id='just-off-rental'>Just Off Rental</h2>
         <GoogleSheetsData name={'JustOffRental'} values={values[0]} />
-        <div className='divider full' />
+        <div className='divider full'></div>
         <h2 id='books'>Books</h2>
         <GoogleSheetsData name={'Books'} values={values[1]} />
-        <div className='divider full' />
+        <div className='divider full'></div>
         <h2 id='youth-section'>Youth Section</h2>
         <GoogleSheetsData name={'YouthSection'} values={values[2]} />
       </section>

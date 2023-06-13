@@ -45,7 +45,7 @@ export default function ReadingListsOnTheWeb() {
           </a>
         </article>
       </section>
-      <div className='divider side-menu' />
+      <div className='divider side-menu'></div>
       <section id='readinglists'>
         <h2>
           On its 125th anniversary, the New York Public Library published this
@@ -57,7 +57,7 @@ export default function ReadingListsOnTheWeb() {
         </a>
         <br />
         <br />
-        <div className='divider side-menu' />
+        <div className='divider side-menu'></div>
 
         <h2>This site lists all mysteries by an author by publishing date:</h2>
 
@@ -67,7 +67,7 @@ export default function ReadingListsOnTheWeb() {
         </a>
         <br />
         <br />
-        <div className='divider side-menu' />
+        <div className='divider side-menu'></div>
 
         <h2>
           A national survey conducted by PBS published this list of

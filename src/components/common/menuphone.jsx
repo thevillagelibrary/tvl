@@ -14,7 +14,7 @@ export default function MenuPhone() {
       <button id='close' >
         <Close  size={50} onClick={handleClick} />
       </button>
-      <div className='divider full' />
+      <div className='divider full'></div>
       <nav><MenuPhoneLinks /></nav>;
     </section>
   );
