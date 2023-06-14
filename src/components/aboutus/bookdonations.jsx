@@ -52,7 +52,7 @@ export default function BookDonations() {
         <dt>Textbooks and Reference books, which include:</dt>
         <dd>
           Encyclopedias, Dictionaries, Bibliographies, Almanacs,
-          Directories,Atlases, Handbooks
+          Directories, Atlases, Handbooks
         </dd>
         <dt>Informational Books:</dt>
         <dd>Technological, Tax, Investment, Medical, Educational, Legal</dd>
