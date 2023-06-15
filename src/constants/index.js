@@ -34,7 +34,7 @@ export const pages = [
   },
   {
     name: 'About',
-    path: 'aboutus',
+    path: 'about',
     subPages: [
       {
         name: 'Board',

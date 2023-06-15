@@ -1,14 +1,14 @@
 import { NavLink } from 'react-router-dom';
 import { FaHome as HomeIcon, FaDonate as SupportersIcon } from 'react-icons/fa';
 import { BiNews as NewsEventsIcon } from 'react-icons/bi';
-import { HiInformationCircle as AboutUsIcon } from 'react-icons/hi';
+import { HiInformationCircle as AboutIcon } from 'react-icons/hi';
 import { TbBooks as NewArrivalsIcon } from 'react-icons/tb';
 import { v4 as uuidv4 } from 'uuid';
 
 export default function NavHPhoneListItem ({page, index}) {
   const icons = [
     <HomeIcon size={30} />,
-    <AboutUsIcon size={30} />,
+    <AboutIcon size={30} />,
     <NewsEventsIcon size={30} />,
     <NewArrivalsIcon size={30} />,
     <SupportersIcon size={30} />,
@@ -20,7 +20,7 @@ export default function NavHPhoneListItem ({page, index}) {
   if (page.subPages.length === 0) {
     return (
     <li key={uuidv4()}>
-      <NavLink
+      <NavLink key={uuidv4()}
         to={path}
         className={({ isActive }) =>
           isActive ? 'active' : 'inactive'
@@ -32,8 +32,7 @@ export default function NavHPhoneListItem ({page, index}) {
   )}
 
   return (
-    <>
-		<li key={uuidv4()}>
+		<li>
       <NavLink
         to={path}
         className={({ isActive }) =>
@@ -42,7 +41,7 @@ export default function NavHPhoneListItem ({page, index}) {
         {icons[index]}
       </NavLink>
 			<ul>
-        <li key={uuidv4()}>
+        <li>
           <NavLink
             to={path}
             className={({ isActive }) =>
@@ -68,7 +67,6 @@ export default function NavHPhoneListItem ({page, index}) {
           })} 
 			</ul>
     </li>
-    </>
   )
 }
     

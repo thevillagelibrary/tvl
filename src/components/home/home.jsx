@@ -1,7 +1,7 @@
 import { Link, useLoaderData } from 'react-router-dom';
 import UpcomingEventsLinks from '@/components/home/upcomingeventslinks';
 import { PageBodyNoSideMenu } from '@/components/common';
-import getFutureEvents from '@/components/newsevents/getFutureEvents';
+import { getFutureEvents } from '@/components';
 
 export default function Home() {
   const data = useLoaderData();
@@ -25,8 +25,8 @@ export default function Home() {
               <a href='https://thevillagelibrary.library.site'>
                 Online Catalog
               </a>
-              <Link to='/aboutus/bookdonations'>Book Donations</Link>
-              <Link to='/aboutus/grabandgo'>Curbside Pickup</Link>
+              <Link to='/about/bookdonations'>Book Donations</Link>
+              <Link to='/about/grabandgo'>Curbside Pickup</Link>
               <a
                 href='https://thevillagelibrary.org/album/album.html'>
                 Photo Album

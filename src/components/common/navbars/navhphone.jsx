@@ -8,10 +8,10 @@ export default function NavHPhone() {
 
   return (
     <nav className='visibility_phone nav_h'>
-      <ul>
+      <ul key={uuidv4()}>
         {pages.map((page, index) => 
-        <NavHPhoneListItem page={page} index={index} />)}
-        <li key={uuidv4()}>
+        <NavHPhoneListItem key={uuidv4()} page={page} index={index} />)}
+        <li >
           <Link
             to='/menu'>
             <MenuIcon size={30} />

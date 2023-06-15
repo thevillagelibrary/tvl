@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, Route, RouterProvider } from 'react-router-dom';
 import {
   Home,
-  AboutUs,
+  About,
   ArtForSale,
   BookDonations,
   ChildrensProgram,
@@ -53,41 +53,41 @@ const router = createBrowserRouter([
         path: '/newarrivals',
       },
       {
-        Component: AboutUs,
-        path: '/aboutus',
+        Component: About,
+        path: '/about',
       },
       {
         loader: boardLoader,
         Component: Board,
-        path: '/aboutus/board',
+        path: '/about/board',
       },
       {
         Component: MissionStatement,
-        path: '/aboutus/missionstatement',
+        path: '/about/missionstatement',
       },
       {
         Component: Membership,
-        path: '/aboutus/membership',
+        path: '/about/membership',
       },
       {
         Component: Collection,
-        path: '/aboutus/collection',
+        path: '/about/collection',
       },
       {
         Component: ChildrensProgram,
-        path: '/aboutus/childrensprogram',
+        path: '/about/childrensprogram',
       },
       {
         Component: ArtForSale,
-        path: '/aboutus/artforsale',
+        path: '/about/artforsale',
       },
       {
         Component: BookDonations,
-        path: '/aboutus/bookdonations',
+        path: '/about/bookdonations',
       },
       {
         Component: GrabAndGo,
-        path: '/aboutus/grabandgo',
+        path: '/about/grabandgo',
       },
       {
         Component: NewsEvents,

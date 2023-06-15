@@ -1,8 +1,8 @@
 import { PageBodySideMenu } from '@/components/common';
 
-export default function AboutUs() {
+export default function About() {
   return (
-    <PageBodySideMenu name={'AboutUs'}>
+    <PageBodySideMenu name={'About'}>
       <p>
         In 1990 a small but visionary group of people on Skidaway Island
         conceived the idea of a community library. It started out small with
