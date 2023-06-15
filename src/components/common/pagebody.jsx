@@ -5,7 +5,7 @@ import { pages } from '@/constants';
 export function PageBodyNoSideMenu(props) {
   return (
     <>
-      <section id='sec_page-body-no-side-menu'>
+      <section className='page-body-no-side-menu'>
         <article className='page-body'>{props.children}</article>
       </section>
     </>

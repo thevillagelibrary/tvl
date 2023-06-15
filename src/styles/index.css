@@ -19,6 +19,7 @@ body {
       sans-serif;
     --pad: clamp(0.5em, min(2vw, 4vh), 4em);
     --shadow-chrome: 0 0.25em 1em 0.25em #0003;
+    --page-body-width: 98%;
 
   /* @link https://utopia.fyi/type/calculator?c=320,16,1.125,1920,24,1.125,5,5,900-1200-1800-600&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
   /* Step -5: 8.88px → 13.32px */
@@ -153,7 +154,7 @@ body {
   .visibility_not_phone {
       visibility: visible;
     }
-  section.page-body-side-menu {
+  .page-body-side-menu {
       display: flex;
     }
   .visibility_phone {
@@ -177,9 +178,6 @@ body {
         SELECTORS
 ---------------------------------------*/
 
-* {
-  white-space: pre-wrap;
-}
 a p {
     text-align: center;
   }
@@ -198,16 +196,6 @@ address {
     margin-bottom: 0.5em;
     text-align: center;
   }
-article.page-body p {
-    text-align: justify;
-  }
-article.page-body {
-    align-items: top;
-    margin: 0 1em;
-    overflow-x: hidden;
-    text-align: center;
-    width: 100%
-  }
 body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -215,11 +203,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: var(--font-sans-serif);
-    margin: -2em auto 0 auto;
+    margin: .125em auto;
     overflow: auto;
     overflow-x: hidden;
     text-align: center;
-    width: 95vw;
   }
 
 dl {
@@ -281,7 +268,7 @@ footer {
     font-size: var(--step--3);
     justify-content: space-around;
     line-height: 1.2em;
-    margin: 0.625em 0;
+    margin-top: .625em;
     padding: 0.25em 0;
     text-align: center;
   }
@@ -551,6 +538,27 @@ small {
     position: relative;
     z-index: 999;
   }
+
+  .page-body-side-menu,
+  .page-body-no-side-menu {
+    margin: 0 auto;
+    text-align: center;
+    width: var(--page-body-width);
+  }
+
+  .page-body-side-menu .page-body {
+      width: var(--page-body-width);
+
+  }
+  .page-body p {
+      text-align: justify;
+    }
+  .page-body {
+      align-items: top;
+      margin: 0 auto;
+      overflow-x: hidden;
+      text-align: center;
+    }
 .picture {
     max-width: 50%;
   }
@@ -934,5 +942,8 @@ a#event-link {
   }
 
 #upcomingeventslist {
+  margin: 0 auto;
   padding-bottom: 3em;
+  white-space: pre-wrap;
+  width: var(--page-body-width);
 }
