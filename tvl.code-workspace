@@ -2,14 +2,24 @@
   "folders": [
     {
       "path": "."
+    },
+    {
+      "path": "../../../../../Desktop"
     }
   ],
   "settings": {
     "cSpell.words": [
       "activesub",
       "artforsale",
+      "Csvg",
+      "gsheets",
       "inactivesub",
-      "uuidv"
+      "readinglists",
+      "subpages",
+      "upcomingevents",
+      "upcomingeventslist",
+      "uuidv",
+      "vstack"
     ]
   }
 }

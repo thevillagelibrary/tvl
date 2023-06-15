@@ -95,9 +95,9 @@ button,
 label {
     cursor: pointer;
   }
-html,
+html, 
 body {
-    height: 100%;
+    min-height: 100%
   }
 /*---------------------
       AT RULES
@@ -160,7 +160,7 @@ body {
       height: 0;
       margin-bottom: 0.5em;
     }
-  .visiblity_not-phone.nav-h {
+  .visibility_not-phone.nav-h {
       height: fit-content;
     }
   }
@@ -216,9 +216,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: var(--font-sans-serif);
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 100vh;
+    margin: -2em auto 0 auto;
+    overflow: auto;
     overflow-x: hidden;
     text-align: center;
     width: 95vw;
@@ -324,9 +323,6 @@ h4 {
       margin: 0;
       text-align: left;
     }
-header {
-    margin-top: 0.625em;
-  }
 img {
     display: block;
     height: auto;
@@ -702,7 +698,6 @@ small {
     flex-direction: row;
     height: fit-content;
     justify-content: space-around;
-    margin-top: 0.625em;
     overflow-wrap: break-word;
     padding-bottom: 0.2em;
     text-align: center;
@@ -773,11 +768,6 @@ small {
     flex-grow: 0;
     height: 100%;
     left: -50%;
-    margin:auto;
-    margin-bottom: auto;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: auto;
     opacity: 1;
     overflow: auto;
     position: relative;
