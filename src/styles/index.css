@@ -203,11 +203,10 @@ article.page-body p {
   }
 article.page-body {
     align-items: top;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 0 1em;
+    margin: 0 1em;
     overflow-x: hidden;
     text-align: center;
+    width: 100%
   }
 body {
     -moz-osx-font-smoothing: grayscale;
