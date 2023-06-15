@@ -43,6 +43,11 @@ const router = createBrowserRouter([
         path: '/menu',
       },
       {
+        loader: upcomingeventsLoader,
+        Component: UpcomingEvents,
+        path: '/upcomingevents',
+      },
+      {
         loader: newarrivalsLoader,
         Component: NewArrivals,
         path: '/newarrivals',
@@ -87,11 +92,6 @@ const router = createBrowserRouter([
       {
         Component: NewsEvents,
         path: '/newsevents',
-      },
-      {
-        loader: upcomingeventsLoader,
-        Component: UpcomingEvents,
-        path: '/newsevents/upcomingevents',
       },
       {
         Component: OutgoingBoardMembers,

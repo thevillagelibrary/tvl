@@ -1,8 +1,4 @@
 import { Link, useLoaderData } from 'react-router-dom';
-//import BackOfLibrary from '@/assets/images/BackOfLibrary.jpg';
-//import BookA from '@/assets/images/book-A.gif';
-//import Facebook from '@/assets/images/Facebook.png';
-//import InstagramIcon from '@/assets/images/Instagram.png';
 import UpcomingEventsLinks from '@/components/home/upcomingeventslinks';
 import { PageBodyNoSideMenu } from '@/components/common';
 import getFutureEvents from '@/components/newsevents/getFutureEvents';
@@ -14,6 +10,7 @@ export default function Home() {
   const upcomingEventsData = data.valueRanges[1];
   const events = upcomingEventsData.values;
   const futureEvents = getFutureEvents(events);
+  localStorage.setItem('futureEvents', JSON.stringify(futureEvents))
 
   return (
     <>

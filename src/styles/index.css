@@ -556,9 +556,12 @@ small {
     position: relative;
     z-index: 999;
   }
-.poster {
+.picture {
     max-width: 50%;
   }
+.poster {
+  max-width: 25%;
+}
 .scroll-to-top {
     bottom: 0.1em !important;
   }
@@ -929,14 +932,18 @@ a#event-link {
     min-height: 100vh;
   }
   
-#upcoming-events dd {
+#upcomingevents dd {
     margin: 0 1em 0 1em;
     text-align: center;
   }
-#upcoming-events {
+#upcomingevents {
     font-size: var(--step-1);
     margin-bottom: 0.625em;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
   }
+
+#upcomingeventslist {
+  padding-bottom: 3em;
+}

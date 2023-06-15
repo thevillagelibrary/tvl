@@ -6,7 +6,7 @@ export default function UpcomingEventsLinks({ futureEvents }) {
 
   function Events() {
     return (
-      <dl key={uuidv4()} id='upcoming-events'>
+      <dl key={uuidv4()} id='upcomingevents'>
         {futureEvents.map((event, index) => (
           <div key={uuidv4()}>
             <dt>
@@ -27,7 +27,7 @@ export default function UpcomingEventsLinks({ futureEvents }) {
       <br />
       <div className='divider full'></div>
         <h2>Upcoming Events</h2>
-        <Link id='event-link' to='/newsevents/upcomingevents'>
+        <Link to='/upcomingevents'>
           Click here for details.
         </Link>
         <Events />

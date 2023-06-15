@@ -76,7 +76,7 @@ export default function NewsEvents() {
           Public Information Officer (PIO) Nicole Tifverman set a new, high
           standard for that position—continuing her excellent work publicizing and
           communicating about the Library through social media, work with various
-          publications, delightful fliers and img_posters, and the excellent
+          publications, delightful fliers and img_pictures, and the excellent
           monthly volunteer newsletter. She is leaving her position as PIO but
           will continue as an at-large member of the Board and the new Browsing
           Collection Coordinator.

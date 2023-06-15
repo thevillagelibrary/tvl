@@ -75,10 +75,6 @@ export const pages = [
     path: 'newsevents',
     subPages: [
       {
-        name: 'Upcoming Events',
-        path: 'upcomingevents',
-      },
-      {
         name: 'Outgoing Board Members',
         path: 'outgoingboardmembers',
       },

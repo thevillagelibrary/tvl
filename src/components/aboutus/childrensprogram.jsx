@@ -17,7 +17,7 @@ export default function ChildrensProgram() {
   return (
     <PageBodySideMenu name={'ChildrensProgram'}>
       <img
-        className='poster'
+        className='picture'
         alt='Children Reading'
         src={ChildrenReading}
       />
@@ -71,20 +71,20 @@ export default function ChildrensProgram() {
       <img
         alt="2019 Children's Summer Program 1"
         src={_2019Childrens1}
-        className='poster'
+        className='picture'
       />
       <br />
       <img
         alt="2019 Children's Summer Program 2"
         src={_2019Childrens2}
-        className='poster'
+        className='picture'
       />
       <br />
       <figcaption>Not-So-Scary Halloween 2018.</figcaption>
       <img
         alt='Not-So-Scary Halloween Story Time'
         src={NotSoScaryHalloween}
-        className='poster'
+        className='picture'
       />
       <br />
       <figcaption>
@@ -93,39 +93,39 @@ export default function ChildrensProgram() {
       <img
         alt="2018 Children's Summer Program 1"
         src={_2018Childrens01}
-        className='poster'
+        className='picture'
       />
       <br />
       <img
         alt="2018 Children's Summer Program 2"
         src={_2018Childrens02}
-        className='poster'
+        className='picture'
       />
       <br />
       <img
         alt="2018 Children's Summer Program 3"
         src={_2018Childrens03}
-        className='poster'
+        className='picture'
       />
       <br />
       <img
         alt="2018 Children's Summer Program 4"
         src={_2018Childrens04}
-        className='poster'
+        className='picture'
       />
       <br />
       <img
         alt="2018 Children's Summer Program 5"
         src={_2018Childrens05}
-        className='poster'
+        className='picture'
       />
       <br />
       <figcaption>
         Bee A Reader--2017 Children&apos;s Summer Reading Program.
       </figcaption>
-      <img alt='BeeAReader 1' src={BeeAReader1} className='poster' />
+      <img alt='BeeAReader 1' src={BeeAReader1} className='picture' />
       <br />
-      <img alt='BeeAReader 2' src={BeeAReader2} className='poster' />
+      <img alt='BeeAReader 2' src={BeeAReader2} className='picture' />
       <br />
       <figcaption>
         Phyllis Tildes donates two of her beautiful paintings to the
@@ -134,13 +134,13 @@ export default function ChildrensProgram() {
       <img
         alt='Phyllis Tildes'
         src={PhyllisLimbacherTildes}
-        className='poster'
+        className='picture'
       />
       <br />
       <img
         alt='Phyllis and children'
         src={PhyllisAndChildren}
-        className='poster'
+        className='picture'
       />
     </PageBodySideMenu>
   );
