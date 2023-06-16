@@ -5,8 +5,8 @@ import { pages } from '@/constants';
 export function PageBodyNoSideMenu(props) {
   return (
     <>
-      <section className='page-body-no-side-menu'>
-        <article className='page-body'>{props.children}</article>
+      <section className='pagenosidemenu'>
+        {props.children}
       </section>
     </>
   );
@@ -20,14 +20,14 @@ export function PageBodySideMenu(props) {
     .find((obj) => pathname.includes(`/${obj.path}`));
   return (
     <>
-      <section className='page-body-side-menu'>
-        <article className='visibility_phone'>
-          <BreadCrumbs />
-        </article>
+      <section className='visibility_phone'>
+        <BreadCrumbs />
+      </section>
+      <section className='pagesidemenu'>
         <article className='visibility_not-phone'>
           {currentMainPage?.subPages && <NavV mainPage={currentMainPage} />}
         </article>
-        <article className='page-body'>{props.children}</article>
+        <article className='pagesidemenubody'>{props.children}</article>
       </section>
     </>
   );

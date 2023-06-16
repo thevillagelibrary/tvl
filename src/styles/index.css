@@ -19,7 +19,7 @@ body {
       sans-serif;
     --pad: clamp(0.5em, min(2vw, 4vh), 4em);
     --shadow-chrome: 0 0.25em 1em 0.25em #0003;
-    --page-body-width: 98%;
+    --page-width: 95%;
 
   /* @link https://utopia.fyi/type/calculator?c=320,16,1.125,1920,24,1.125,5,5,900-1200-1800-600&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
   /* Step -5: 8.88px → 13.32px */
@@ -128,8 +128,17 @@ body {
       visibility: collapse;
       width: 0;
     }
-  p {
+
+  .pagesidemenubody {    
+    margin: 0;
+  }
+  .pagesidemenubody p,
+  #upcomingeventslist p {
       text-align: left;
+    }
+
+    .pagesidemenu {
+      flex-direction: column;
     }
   .visibility_phone {
       height: fit-content;
@@ -143,9 +152,18 @@ body {
   footer {
       flex-direction: row;
     }
-  p {
+
+  .pagesidemenubody {    
+    margin: 0 0 0 .625em;
+  }
+  .pagesidemenubody p,
+  #upcomingeventslist p {
       text-align: justify;
     }
+
+  .pagesidemenu {
+    flex-direction: row;
+  }
   .visibility_phone {
       height: 0;
       visibility: collapse;
@@ -153,9 +171,6 @@ body {
     }
   .visibility_not_phone {
       visibility: visible;
-    }
-  .page-body-side-menu {
-      display: flex;
     }
   .visibility_phone {
       height: 0;
@@ -539,26 +554,28 @@ small {
     z-index: 999;
   }
 
-  .page-body-side-menu,
-  .page-body-no-side-menu {
-    margin: 0 auto;
-    text-align: center;
-    width: var(--page-body-width);
+.pagenosidemenu, 
+.pagesidemenu {
+  display: flex;
+  margin: 0 auto;
+  width: var(--page-width);
+}
+
+.pagenosidemenu {
+  flex-direction: column;
+}
+
+.pagesidemenubody {
+  align-items: top;
+  overflow-x: hidden;
+  width: 100%;
+
   }
 
-  .page-body-side-menu .page-body {
-      width: var(--page-body-width);
+.pagenosidemenu p {
+  text-align: left;
+}
 
-  }
-  .page-body p {
-      text-align: justify;
-    }
-  .page-body {
-      align-items: top;
-      margin: 0 auto;
-      overflow-x: hidden;
-      text-align: center;
-    }
 .picture {
     max-width: 50%;
   }
@@ -945,5 +962,5 @@ a#event-link {
   margin: 0 auto;
   padding-bottom: 3em;
   white-space: pre-wrap;
-  width: var(--page-body-width);
+  width: var(--page-width);
 }

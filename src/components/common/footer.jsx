@@ -36,7 +36,7 @@ export default function Footer() {
             />
           </Link>
         </article>
-        <br /> <br />
+        <br />
         <Link to='/menu'>
           Site Map
         </Link>
