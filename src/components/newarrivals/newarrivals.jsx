@@ -12,11 +12,9 @@ export default function NewArrivals() {
     <PageBodyNoSideMenu name={'NewArrivals'}>
       <section id='new-arrivals'>
         <article>
-          <Link to='/newarrivals#just-off-rental'>
-            Just Off Rental
-          </Link>
+          <Link to='/newarrivals#just-off-rental'>Just Off Rental</Link>
           <Link to='/newarrivals#books'>Books</Link>
-          <Link to='/newarrivals#youth-section'>Youth Section</Link>
+          {/* <Link to='/newarrivals#youth-section'>Youth Section</Link> */}
         </article>
         <br />
         <div className='divider full'></div>
@@ -27,11 +25,11 @@ export default function NewArrivals() {
         <br />
         <h2 id='books'>Books</h2>
         <GoogleSheetsData name={'Books'} values={values[1]} />
-        <br />
+        {/* <br />
         <div className='divider full'></div>
         <br />
         <h2 id='youth-section'>Youth Section</h2>
-        <GoogleSheetsData name={'YouthSection'} values={values[2]} />
+        <GoogleSheetsData name={'YouthSection'} values={values[2]} /> */}
       </section>
     </PageBodyNoSideMenu>
   );
