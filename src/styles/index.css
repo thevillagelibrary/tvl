@@ -1,5 +1,5 @@
 body {
-    --background-black: #5a5a5a;
+    --background-black: #000000; /* #5a5a5a; */
     --background-secondary: #f9f9fb;
     --background-white: #ffffff;
     --border-hairline: 1px solid #0004;
@@ -9,7 +9,7 @@ body {
     --color-link: #551a8b;
     --color-link-hover: var(--color-secondary);
     --color-modal-fader: #b3b3b3cc;
-    --color-primary: #7283fe;
+    --color-primary:  #7283fe;
     --color-secondary: #f29085;
     --color-tertiary: #5a5a5a;
     --color-white: #ffffff;
@@ -292,7 +292,7 @@ form#paypal {
   }
 h1 {
     background: var(--color-primary);
-    color: var(--background-white);
+    color: var(--color-black);
     display: block;
     font-family: 'Lucida-Calligraphy';
     font-size: var(--step-3);
@@ -401,7 +401,7 @@ small {
 .nav_h.visibility_not-phone > ul  li > a.active,
 #nav_v.visibility_not-phone > ul  li > a.active{
     background: var(--color-secondary);
-    color: var(--color-white);
+    color: var(--color-black);
     text-align: center;
     width: inherit;
   }
@@ -438,7 +438,7 @@ small {
 .nav_h.visibility_not-phone > ul   li > a:hover,
 #nav_v.visibility_not-phone > ul   li > a:hover {
       background-color: var(--color-secondary);
-      color: var(--color-white);
+      color: var(--color-black);
     }
 .nav_h.visibility_phone > ul  li > a {
     color: var(--color-black);
@@ -448,13 +448,13 @@ small {
   }
 .nav_h.visibility_phone > ul  li > a.active {
     background: var(--color-secondary);
-    color: var(--color-white);
+    color: var(--color-black);
     text-align: left;
     width: inherit;
   }
 .nav_h.visibility_phone > ul  li > a.activesub {
     background: var(--color-secondary);
-    color: var(--color-white);
+    color: var(--color-black);
     text-align: center;
     width: inherit;
   }
@@ -468,7 +468,7 @@ small {
   }
 .nav_h.visibility_phone > ul  li > a.inactivesub:hover {
     background: var(--color-secondary);;
-    color: var(--color-white);
+    color: var(--color-black);
     text-align: center;
   }
 .nav_h.visibility_phone > ul  li {
@@ -689,7 +689,7 @@ small {
     width: 100%;
   }
 #hero :nth-child(3) button a {
-    color: var(--color-white);
+    color: var(--color-black);
     font-family: var(--font-sans-serif);
     font-size: var(--step--3);
     font-weight: 600;
@@ -701,7 +701,6 @@ small {
     border-radius: 0.375em;
     border-style: solid;
     border-width: 0;
-    color: var(--color-white);
     height: 2em;
     line-height: 1.2em;
     margin-bottom: 1em;
@@ -717,7 +716,7 @@ small {
 #hero {
     align-items: center;
     background-color: var(--color-primary);
-    color: var(--background-white);
+    color: var(--color-black);
     display: flex;
     flex-direction: row;
     height: fit-content;
@@ -725,7 +724,6 @@ small {
     overflow-wrap: break-word;
     padding-bottom: 0.2em;
     text-align: center;
-    vertical-align: middle;
     white-space: pre-wrap;
     width: 100%;
   }
@@ -734,6 +732,7 @@ small {
     flex-direction: column;
     margin-top: 0;
   }
+
 #home h2 {
     margin-left: auto;
     margin-right: auto;
@@ -752,7 +751,6 @@ small {
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: top;
   }
 #home {
     display: flex;
