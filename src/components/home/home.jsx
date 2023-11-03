@@ -39,7 +39,6 @@ export default function Home() {
               <Link to='/donate/supporters'>Our Supporters</Link>
             </article>
           </section>
-          <br />
           <article>
             <UpcomingEventsLinks futureEvents={futureEvents} />
           </article>

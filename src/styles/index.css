@@ -143,7 +143,7 @@ body {
   .visibility_phone {
       height: fit-content;
     }
-  .visibility_not-phone.nav-h {
+  .visibility_not-phone.nav_h {
       height: 0;
     }
   }
@@ -169,14 +169,14 @@ body {
       visibility: collapse;
       width: 0;
     }
-  .visibility_not_phone {
+  .visibility_not-phone {
       visibility: visible;
     }
   .visibility_phone {
       height: 0;
       margin-bottom: 0.5em;
     }
-  .visibility_not-phone.nav-h {
+  .visibility_not-phone.nav_h {
       height: fit-content;
     }
   }
@@ -369,6 +369,7 @@ small {
     background-color: var(--background-white);
     display: block;
   }
+
 .nav_h.visibility_not-phone > li > a {
     padding: 0 ;
   }
@@ -377,10 +378,14 @@ small {
   }
 .nav_h.visibility_not-phone > ul  li > a {
     line-height: 1.5em;
-  }
-.nav_h.visibility_not-phone > ul  li > a {
     padding: 0 .5em;
+    vertical-align: center;
   }
+
+  
+.nav_h.visibility_not-phone > ul  li > a > svg{
+  padding-top: .5em;
+}
 .nav_h.visibility_not-phone > ul  li > a,
 #nav_v.visibility_not-phone > ul  li > a {
     box-sizing: border-box;
@@ -411,7 +416,7 @@ small {
     color: var(--color-black);
     width: inherit;
   }
-.nav_h.visibility_not-phone > ul li {
+.nav_h.visibility_not-phone > ul{
     height: fit-content;
   }
 .nav_h.visibility_not-phone > ul {
@@ -419,6 +424,7 @@ small {
     display: flex;
     flex-direction: row;
     gap: 1em;
+    align-items: center;
     justify-content: center;
     list-style-type: none;
     margin: .625em ;
@@ -601,7 +607,7 @@ small {
     text-align: right;
   }
 .vstack :not(:first-child) {
-    margin-top: 1.25em;
+    margin-top: .5em;
   }
 #accomplishments p {
     display: list-item;
@@ -681,6 +687,13 @@ small {
     padding: 0.5em 0 0.25em 0;
     width: 70%;
   }
+
+#hero :nth-child(2) > p {
+  font-size: var(--step--1);
+  font-weight: 700;
+  margin-bottom: 0;
+}  
+
 #hero :nth-child(2) article div {
     font-size: var(--step-0);
     font-weight: bold;
@@ -910,9 +923,7 @@ a#event-link {
     background-image: url('../assets/images/NewWing.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.625em;
+    margin: 0, auto;
     width: 100%;
   }
 #prizes a {
