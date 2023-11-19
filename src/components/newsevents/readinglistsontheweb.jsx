@@ -43,6 +43,11 @@ export default function ReadingListsOnTheWeb() {
           <a href='https://thebookerprizes.com/the-booker-library/features/full-list-of-international-booker-prize-winners-shortlisted-authors-and-their-books'>
             International Winners and Shortlisted Authors
           </a>
+          <br/>
+          <h2>National Book Awards:</h2>
+          <a href='https://www.nationalbook.org/national-book-awards/years/'>
+            Browse By Year
+          </a>
         </article>
       </section>
       <div className='divider side-menu'></div>
