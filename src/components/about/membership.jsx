@@ -5,7 +5,7 @@ export default function Membership() {
     <PageBodySideMenu name={'Membership'}>
       <p>
         Membership in The Village Library is open to anyone. It will cost only
-        $10 for a family to join. After that, the annual dues are only $10 per
+        $20 for a family to join. After that, the annual dues are only $20 per
         year per family. This fee will give you full privileges to borrow any of
         our 24,000 books for 3 weeks without charge. You don&apos;t need to be a
         member to purchase any of our thousands of used books.
