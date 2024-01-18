@@ -25,18 +25,18 @@ export default function Home() {
               <a href='https://thevillagelibrary.library.site'>
                 Online Catalog
               </a>
-              <Link to='/about/bookdonations'>Book Donations</Link>
-              <Link to='/about/grabandgo'>Curbside Pickup</Link>
+              <Link to='/newarrivals'>New Arrivals</Link>
+              <Link to='/newsevents/literaryprizes'>Literary Prizes</Link>
               <a
                 href='https://thevillagelibrary.org/album/album.html'>
                 Photo Album
               </a>
             </article>
             <article>
-              <Link to='/newarrivals'>New Arrivals</Link>
               <Link to='/donate'>Donate</Link>
               <Link to='/donate/recentdonors'>Recent Donors</Link>
               <Link to='/donate/supporters'>Our Supporters</Link>
+              <Link to='/about/bookdonations'>Book Donations</Link>
             </article>
           </section>
           <article>

@@ -15,6 +15,7 @@ import {
   NewsEvents,
   UpcomingEvents,
   OutgoingBoardMembers,
+  LiteraryPrizes,
   ReadingListsOnTheWeb,
   NewArrivals,
   Donate,
@@ -100,6 +101,10 @@ const router = createBrowserRouter([
       {
         Component: ReadingListsOnTheWeb,
         path: '/newsevents/readinglistsontheweb',
+      },
+      {
+        Component: LiteraryPrizes,
+        path: '/newsevents/literaryprizes',
       },
       {
         Component: Donate,

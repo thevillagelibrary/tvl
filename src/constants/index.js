@@ -79,6 +79,10 @@ export const pages = [
         path: 'outgoingboardmembers',
       },
       {
+        name: 'Literary Prizes',
+        path: 'literaryprizes',
+      },
+      {
         name: 'Reading Lists on the Web',
         path: 'readinglistsontheweb',
       },
