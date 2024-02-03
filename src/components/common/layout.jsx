@@ -2,7 +2,6 @@ import React from 'react';
 import { Outlet, ScrollRestoration, useLocation } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 import { Footer, Hero, NavHNotPhone, NavHPhone, MenuNotPhone } from '@/components/common';
-import { UpcomingEvents } from '@/components';
 import '@/styles/index.css';
 /* import '@/styles/selectors.css'; */
 
