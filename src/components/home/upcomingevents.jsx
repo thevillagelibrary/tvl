@@ -1,9 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import { MdArrowBack as Close } from 'react-icons/md';
 import { v4 as uuidv4 } from 'uuid';
+import StoryTime from '@/assets/images/posters/StoryTime.jpg';
 const posters = [{
   name: 'StoryTime',
-  src: '/src/assets/images/posters/StoryTime.jpg'
+  src: StoryTime,
 }]
 
 export default function UpcomingEvents() {
