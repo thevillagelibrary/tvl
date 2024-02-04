@@ -8,7 +8,6 @@ const posters = [{
 }]
 
 export default function UpcomingEvents() {
-  console.log("😊😊 posters", posters)
   const navigate = useNavigate();
   const futureEvents = JSON.parse(localStorage.getItem('futureEvents'));
   const futureEventCount = futureEvents.length;
