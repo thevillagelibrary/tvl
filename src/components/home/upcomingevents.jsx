@@ -17,6 +17,7 @@ export default function UpcomingEvents() {
     if (event[6]) {
       poster = posters.find(item => item.name === event[6]);
      }
+    //let imageSource = 'https://lh3.google.com/u/0/d/' + event[6];
     return (
       <article key={uuidv4()}>
         <h2>{event[3]}</h2>
