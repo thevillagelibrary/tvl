@@ -10,5 +10,5 @@ export default defineConfig({
     }),
     jsconfigPaths(),
   ],
-  assetsInclude: ['**/*.JPG'],
+  assetsInclude: ['**/*.JPG', '**/*.jpg'],
 });

@@ -14,15 +14,15 @@ export default function UpcomingEvents() {
 
   const eventsToDisplay = futureEvents.map((event, index) => {
     let poster;
+    let altText = event[3] + ' Poster'
     if (event[6]) {
       poster = posters.find(item => item.name === event[6]);
      }
-    //let imageSource = 'https://lh3.google.com/u/0/d/' + event[6];
     return (
       <article key={uuidv4()}>
         <h2>{event[3]}</h2>
         {event[6] && (
-          <img className='poster' alt={event[3]} src={poster.src} />
+          <img className='poster' alt={altText} src={poster.src} />
         )}
         <p>
           <b>{event[5]}:</b> {event[2]} -- {event[4]}
