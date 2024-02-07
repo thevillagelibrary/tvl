@@ -42,7 +42,7 @@ export default function Footer() {
         </Link>
       </section>
       <section>
-        <Link to='mailto:thevillagelibrary.inc@gmail.com'>
+        <Link to='mailto:thevillagelibrary.org@gmail.com'>
           Contact our Webmaster
         </Link>
       </section>
