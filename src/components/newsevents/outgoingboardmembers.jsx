@@ -14,7 +14,7 @@ import SueAndAnn from '@/assets/images/SueAndAnn.jpg';
 export default function OutgoingBoardMembers() {
   return (
     <PageBodySideMenu name={'OutgoingBoardMembers'}>
-      <figure>
+      <figure id='firstOutgoing'>
         <figcaption>
           Village Library President, Sandy Cooper, presents a certificate of
           appreciation to Ren&eacute;e Collins, who leaves the Board after
