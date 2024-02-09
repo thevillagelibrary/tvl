@@ -25,20 +25,20 @@ export default function NavHPhoneListItem ({page, index}) {
         className={({ isActive }) =>
           isActive ? 'active' : 'inactive'
         }>
-        {icons[index]}
+        {icons[index]}{page.name}
       </NavLink>
     </li>
 
   )}
 
   return (
-		<li>
+		<li className='dropdown'>
       <NavLink
         to={path}
         className={({ isActive }) =>
           isActive ? 'active' : 'inactive'
         }>
-        {icons[index]}
+        {icons[index]}{page.name}
       </NavLink>
 			<ul>
         <li>

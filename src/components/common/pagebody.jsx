@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import { BreadCrumbs, NavV } from '@/components/common';
+import { BreadCrumbs } from '@/components/common';
 import { pages } from '@/constants';
 
 export function PageBodyNoSideMenu(props) {
@@ -24,9 +24,6 @@ export function PageBodySideMenu(props) {
         <BreadCrumbs />
       </section>
       <section className='pagesidemenu'>
-        <article className='visibility_not-phone'>
-          {currentMainPage?.subPages && <NavV mainPage={currentMainPage} />}
-        </article>
         <article className='pagesidemenubody'>{props.children}</article>
       </section>
     </>

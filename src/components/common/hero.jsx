@@ -1,7 +1,9 @@
+import { MdMenu as MenuIcon } from 'react-icons/md';
+
 export default function Hero() {
   return (
     <section id='hero'>
-      <article></article>
+      <article><a href='/menu'><MenuIcon /></a></article>
       <article>
         <h1>The Village Library</h1>
         <div>Skidaway Island</div>

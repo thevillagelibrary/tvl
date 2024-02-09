@@ -120,14 +120,6 @@ body {
   footer {
       gap: 1em;
     }
-  .visibility_phone {
-      visibility: visible;
-    }
-  .visibility_not-phone {
-      height: 0;
-      visibility: collapse;
-      width: 0;
-    }
 
   .pagesidemenubody {    
     margin: 0;
@@ -139,12 +131,6 @@ body {
 
     .pagesidemenu {
       flex-direction: column;
-    }
-  .visibility_phone {
-      height: fit-content;
-    }
-  .visibility_not-phone.nav_h {
-      height: 0;
     }
   }
 /* tablet portrait up 600px */
@@ -164,21 +150,6 @@ body {
   .pagesidemenu {
     flex-direction: row;
   }
-  .visibility_phone {
-      height: 0;
-      visibility: collapse;
-      width: 0;
-    }
-  .visibility_not-phone {
-      visibility: visible;
-    }
-  .visibility_phone {
-      height: 0;
-      margin-bottom: 0.5em;
-    }
-  .visibility_not-phone.nav_h {
-      height: fit-content;
-    }
   }
 /* table landscape up 900px */
 @media screen and (min-width: 56.25em) {
@@ -358,126 +329,50 @@ small {
     text-align: center;
   }
 .full,
-.side-menu,
-.nav-v {
-    width: 100%;
-  }
-.nav-v {
-    border-top: 4px solid var(--color-secondary);
-  }
-.nav_h {
+.side-menu {
     background-color: var(--background-white);
     display: block;
-  }
-
-.nav_h.visibility_not-phone > li > a {
-    padding: 0 ;
-  }
-.nav_h.visibility_not-phone > li {
-    margin-bottom: 0;
-  }
-.nav_h.visibility_not-phone > ul  li > a {
-    line-height: 1.5em;
-    padding: 0 .5em;
-    vertical-align: center;
-  }
-
-  
-.nav_h.visibility_not-phone > ul  li > a > svg{
-  padding-top: .5em;
-}
-.nav_h.visibility_not-phone > ul  li > a,
-#nav_v.visibility_not-phone > ul  li > a {
-    box-sizing: border-box;
-    color: var(--color-black);
-    display: block;
-    font-family: var(--font-sans-serif);
-    font-size: var(--step--2);
-    font-weight: 700;
-    height: auto;
-    margin-top: 0;
-    outline: 0;
-    overflow-wrap: break-word;
-    text-align: center;
-    text-decoration: none;
-    text-size-adjust: 100%;
-    width: fit-content;
-  }
-.nav_h.visibility_not-phone > ul  li > a.active,
-#nav_v.visibility_not-phone > ul  li > a.active{
-    background: var(--color-secondary);
-    color: var(--color-black);
-    text-align: center;
-    width: inherit;
-  }
-.nav_h.visibility_not-phone > ul  li > a.inactive,
-#nav_v.visibility_not-phone > ul  li > a.inactive {
-    background: var(--background-white);
-    color: var(--color-black);
-    width: inherit;
-  }
-.nav_h.visibility_not-phone > ul{
     height: fit-content;
   }
-.nav_h.visibility_not-phone > ul {
-    background: var(--background-white);
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    margin: .625em ;
-    padding: 0;
-  }
-.nav_h.visibility_not-phone > ul {
-    height: fit-content;
-    margin: .625em 0;
-  }
-.nav_h.visibility_not-phone li {
-    display: inline-block;
-  }
-.nav_h.visibility_phone  li:hover  ul {
+nav#nav_h  li:hover  ul {
     display: block;
   }
-.nav_h.visibility_phone > ul   li > a:hover,   
-.nav_h.visibility_not-phone > ul   li > a:hover,
-#nav_v.visibility_not-phone > ul   li > a:hover {
+nav#nav_h > ul   li > a:hover {
       background-color: var(--color-secondary);
       color: var(--color-black);
     }
-.nav_h.visibility_phone > ul  li > a {
+nav#nav_h > ul  li > a {
     color: var(--color-black);
     display: block;
     text-align: left;
     text-decoration: none;
   }
-.nav_h.visibility_phone > ul  li > a.active {
+nav#nav_h > ul  li > a.active > svg{
     background: var(--color-secondary);
     color: var(--color-black);
     text-align: left;
     width: inherit;
   }
-.nav_h.visibility_phone > ul  li > a.activesub {
+nav#nav_h > ul  li > a.activesub {
     background: var(--color-secondary);
     color: var(--color-black);
     text-align: center;
     width: inherit;
   }
-.nav_h.visibility_phone > ul  li > a.inactive {
+nav#nav_h > ul  li > a.inactive {
     background: var(--background-white);
     color: var(--color-black);
   }
-.nav_h.visibility_phone > ul  li > a.inactive:hover {
+nav#nav_h > ul  li > a.inactive:hover > svg{
     background: var(--color-secondary);;
     color: var(--color-white);
   }
-.nav_h.visibility_phone > ul  li > a.inactivesub:hover {
+nav#nav_h > ul  li > a.inactivesub:hover {
     background: var(--color-secondary);;
     color: var(--color-black);
     text-align: center;
   }
-.nav_h.visibility_phone > ul  li {
+nav#nav_h > ul  li {
     box-sizing: border-box;
     color: var(--color-black);
     display: block;
@@ -493,26 +388,35 @@ small {
     text-size-adjust: 100%;
     width: fit-content;
   }
-.nav_h.visibility_phone > ul >  li > a > svg {
+  nav#nav_h > ul >  li  > a {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+nav#nav_h > ul >  li > a{
+  font-size: var(--step--2);
+}
+nav#nav_h > ul >  li > a > svg {
     padding-top: .25em;
   }
-.nav_h.visibility_phone > ul >  li {
-    display: block;
-  }
-.nav_h.visibility_phone > ul > li > a {
+nav#nav_h > ul > li {
+  display: block;
+}
+  nav#nav_h > ul > li > a {
     padding: 0 .3125em;
   }
-.nav_h.visibility_phone > ul > li > ul  a {
+nav#nav_h > ul > li > ul  a {
     color: var(--color-white);
   }
-.nav_h.visibility_phone > ul > li > ul > a {
+nav#nav_h > ul > li > ul > a {
     color: var(--color-white);
   }
-.nav_h.visibility_phone > ul > li > ul li a:hover {
+nav#nav_h > ul > li > ul li a:hover {
     text-align: left;
     width: inherit;
   }
-.nav_h.visibility_phone > ul {
+nav#nav_h > ul {
     align-items: baseline;
     box-sizing: border-box;
     display: flex;
@@ -528,37 +432,42 @@ small {
     vertical-align: center;
     width: 100%;
   }
-.nav_h.visibility_phone li {
+nav#nav_h li {
    display: inline-block;
  }
-.nav_h.visibility_phone li:hover ul li {
+nav#nav_h li:hover ul li {
     width: 100%;
   }
-.nav_h.visibility_phone ul  ul {
-    background-color: gray;
+nav#nav_h ul  ul {
+    background-color: var(--color-primary);
     color: var(--color-white);
     display: none;
     position: absolute;
     top: 100%;
     width: fit-content;
   }
-.nav_h.visibility_phone ul ul li a:focus{
+nav#nav_h ul ul li a:focus{
     background-color: var(--color-secondary);
   }
-.nav_h.visibility_phone ul ul li a{
-    border: 1px solid white;
+nav#nav_h ul ul li a{
     font-size: var(--step--2);
     font-weight: normal;
     padding: 0 .5em;
     text-align: center;
   }
-.nav_h.visibility_phone ul ul li:first-of-type {
-    border-bottom: 4px solid var(--color-primary);
+nav#nav_h ul ul li:first-of-type {
+    border-bottom: 4px solid var(--color-black);
   }
-.nav_h.visibility_phone {
+nav {
     position: relative;
     z-index: 999;
   }
+
+.dropdown {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 
 .pagenosidemenu, 
 .pagesidemenu {
@@ -772,88 +681,6 @@ small {
     overflow-y: hidden;
     text-align: center;
   }
-#menu_not-phone > a {
-    height: 100%;
-    left: 0;
-    top: 0;
-    width: 100%;
-  }
-#menu_not-phone > div  ul li a:hover  {
-      background-color: var(--color-secondary);
-      color: var(--color-white);
-    }
-#menu_not-phone > div > a {
-    background-size: cover;
-    height: 1.5rem;
-    right: 0.85rem;
-    top: 0.88rem;
-    width: 1.5rem;
-
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 352 512'%3E%3Cpath fill='%23800' d='M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z'%3E%3C/path%3E%3C/svg%3E")
-    center center no-repeat;
-  }
-#menu_not-phone > div > ul {
-    padding: var(--pad);
-  }
-#menu_not-phone > div {
-    background: var(--background-white);
-    border: var(--border-hairline);
-    border-radius: var(--borderRadius-outer);
-    box-shadow: var(--shadow-chrome);
-    flex-grow: 0;
-    height: 100%;
-    left: -50%;
-    opacity: 1;
-    overflow: auto;
-    position: relative;
-    transition: left 0.5s;
-    width: 100%;
-    width: fit-content;
-
-  /*One big thing to pay attention to is the  on the inner DIV. If you omit auto margin on the VERTICAL (a direction that normally ignores margin!) flex will chop off the top of your content and you won’t be able to scroll up to it. Grid often drops the ball on this worse which is why I favor flex here. If you’re going to use a container to center its children, I really suggest using flex with margin on an inner container. Failing to do so can really screw you over.*/
-  }
-#menu_not-phone a {
-    font-size: var(--step-0);
-  }
-#menu_not-phone a.modalClose {
-    display: block;
-    position: absolute;
-    text-decoration: none;
-  }
-#menu_not-phone li > ul li a {
-    padding-left: 1em;
-  }
-#menu_not-phone li {
-    margin: 0;
-    text-align: left;
-  }
-#menu_not-phone ul {
-    list-style-type: none;
-  }
-#menu_not-phone {
-    align-items: center;
-    background: var(--color-modal-fader);
-    bottom: 0;
-    display: flex;
-    height: 100%;
-    justify-content: left;
-    left: -100%;
-    opacity: 0;
-    overflow: auto;
-    padding: 0;
-    position: fixed;
-    transition: left 0s 0.5s, opacity 0.5s;
-    width: 100%;
-  }
-#menu_not-phone:target > div {
-    left: 0;
-  }
-/*The closing anchors re set to display:block so as to undo their hidden states. Both are absolute positioned, the outer one filling our entire nav#menu_not-phone container so you can click anywhere to close. The second one is our cancellation X, which I’ve used an SVG background to show.*/
-#menu_not-phone:target {
-    left: 0;
-    opacity: 1;
-    transition: left 0s, opacity 0.5s;
-  }
 #menu_phone nav > ul li.subpages > a  {
     padding-left: 1em;
   }
@@ -880,32 +707,6 @@ small {
     margin-top: 2em;
     padding: 1em;
     width: 80%;
-  }
-#nav_v.visibility_not-phone  li {
-    list-style-type: none;
-    margin: 0;
-    width: 7em;
-  }
-#nav_v.visibility_not-phone > ul  li > a {
-    line-height: 1em;
-    padding: .25em 0;
-    width: 100%;
-  }
-#nav_v.visibility_not-phone > ul  li > a {
-    line-height: 1em;
-  }
-#nav_v.visibility_not-phone > ul li > a.active {
-    outline: 0;
-    width: 10em;
-  }
-#nav_v.visibility_not-phone > ul li > a.inactive {
-    border: 1px solid var(--color-secondary);
-    padding: 0.125em 0.625em 0.25em;
-  }
-#nav_v.visibility_not-phone > ul {
-    display: flex;
-    flex-direction: column;
-    gap: .25em;
   }
 #new-arrivals a,
 #home section a,
@@ -968,6 +769,8 @@ a#event-link {
   }
 
 #upcomingeventslist {
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   padding-bottom: 3em;
   white-space: pre-wrap;

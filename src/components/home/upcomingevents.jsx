@@ -48,13 +48,11 @@ export default function UpcomingEvents() {
     <button id='close' >
       <Close  size={50} onClick={handleClick} />
     </button>
-    <div className='divider full'></div>
       {futureEventCount > 0 ? (
         <EventDisplay key={uuidv4()} />
       ) : (
         <p key={uuidv4()}>There are no upcoming events.</p>
       )}
-      <div className='divider full'></div>
     </section>
   );
 }
