@@ -19,7 +19,7 @@ export default function NavHPhoneListItem ({page, index}) {
 
   if (page.subPages.length === 0) {
     return (
-    <li key={uuidv4()}>
+    <li key={uuidv4()} className='mainPageLink'>
       <NavLink key={uuidv4()}
         to={path}
         className={({ isActive }) =>
@@ -32,7 +32,7 @@ export default function NavHPhoneListItem ({page, index}) {
   )}
 
   return (
-		<li className='dropdown'>
+		<li>
       <NavLink
         to={path}
         className={({ isActive }) =>
@@ -40,7 +40,7 @@ export default function NavHPhoneListItem ({page, index}) {
         }>
         {icons[index]}{page.name}
       </NavLink>
-			<ul>
+			<ul className='dropdown'>
         <li>
           <NavLink
             to={path}

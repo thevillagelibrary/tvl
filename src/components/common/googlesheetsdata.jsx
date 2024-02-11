@@ -1,4 +1,3 @@
-import { PageBodySideMenu } from '@/components/common';
 import { v4 as uuidv4 } from 'uuid';
 
 export default function GoogleSheetsData({ name, values }) {
@@ -59,7 +58,7 @@ export default function GoogleSheetsData({ name, values }) {
       function createLi1(listValue) {
         return (
           <li key={uuidv4()}>
-            <p>{listValue[1]}</p>
+            <p key={uuidv4()}>{listValue[1]}</p>
           </li>
         );
       }
@@ -75,7 +74,7 @@ export default function GoogleSheetsData({ name, values }) {
 
           return (
             <li key={uuidv4()}>
-              <p>
+              <p key={uuidv4()}>
                 {listValue[1]}
                 {imo}
               </p>
@@ -85,10 +84,10 @@ export default function GoogleSheetsData({ name, values }) {
 
         return (
           <li key={uuidv4()}>
-            <p>
+            <p key={uuidv4()}>
               {listValue[1]},{' '}
-              <span>
-                <i>{listValue[2]}</i>
+              <span  key={uuidv4()}>
+                <i  key={uuidv4()}>{listValue[2]}</i>
               </span>
             </p>
           </li>
