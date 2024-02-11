@@ -19,7 +19,7 @@ export default function NavHPhoneListItem ({page, index}) {
 
   if (page.subPages.length === 0) {
     return (
-    <li key={uuidv4()} className='mainPageLink'>
+    <li key={uuidv4()}>
       <NavLink key={uuidv4()}
         to={path}
         className={({ isActive }) =>

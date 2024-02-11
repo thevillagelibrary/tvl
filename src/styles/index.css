@@ -344,6 +344,7 @@ nav {
   }
   
 nav#nav_h a {
+  align-items: center;
   display: flex;
   flex-direction: column;
   font-size: var(--step--2);
@@ -403,9 +404,11 @@ nav#nav_h a.inactivesub:hover {
   text-align: center;
 }
 nav#nav_h > ul li {
+  align-items: center;
   box-sizing: border-box;
   color: var(--color-black);
-  display: block;
+  display: flex;
+  flex-direction: column;
   font-family: var(--font-sans-serif);
   font-weight: 700;
   height: auto;
