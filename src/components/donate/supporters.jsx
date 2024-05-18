@@ -1,4 +1,5 @@
 import { PageBodySideMenu } from '@/components/common';
+import SandyAccepting from '@/assets/images/SandyAcceptingLLGrant.jpg';
 
 export default function Supporters() {
   return (
@@ -16,6 +17,14 @@ export default function Supporters() {
         A special thanks also goes to Landings Landlovers, which has been a
         regular and generous supporter of the library for many years.
       </p>
+      
+      <figure>
+        <figcaption>
+        On May 14, 2024, Library President, Sandy Cooper, accepted a grant from Landings Landlovers to upgrade the front desk computers and add water saving sensors to the library's sprinkler system.
+        </figcaption>
+        <img className='picture' src={SandyAccepting} alt='Village Library President, Sandy Cooper, accepting LandLovers Grant' />
+      </figure>
+      <figure></figure>
       <p>Below are links to the websites of some of these contributors:</p>
       {/* <section id='sec_supporter-links'>*/}
         <a href='https://www.landingslandlovers.com'>Landings Landlovers</a>
