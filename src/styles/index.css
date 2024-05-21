@@ -544,7 +544,7 @@ nav#nav_h ul ul li:first-of-type {
 .vstack :not(:first-child) {
     margin-top: .5em;
   }
-#accomplishments p {
+.reportbullets p {
     display: list-item;
     list-style-position: outside;
     list-style-type: disc;

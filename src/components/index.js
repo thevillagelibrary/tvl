@@ -10,7 +10,7 @@ export { default as Board } from "@/components/about/board";
 export { default as GrabAndGo } from "@/components/about/grabandgo";
 export { default as NewsEvents } from "@/components/newsevents/newsevents";
 export { default as UpcomingEvents } from "@/components/home/upcomingevents";
-export { default as OutgoingBoardMembers } from "@/components/newsevents/outgoingboardmembers";
+export { default as CertificatesOfAppreciation } from "@/components/newsevents/certificatesofappreciation";
 export { default as LiteraryPrizes } from "@/components/newsevents/literaryprizes";
 export { default as ReadingListsOnTheWeb } from "@/components/newsevents/readinglistsontheweb";
 export { default as NewArrivals } from "@/components/newarrivals/newarrivals";

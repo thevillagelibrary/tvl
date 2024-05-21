@@ -10,11 +10,28 @@ import SueAndPhil from '@/assets/images/SueAndPhil.jpg';
 import SueAndAllison from '@/assets/images/SueAndAllison.jpg';
 import SueAndJanet from '@/assets/images/SueAndJanet.jpg';
 import SueAndAnn from '@/assets/images/SueAndAnn.jpg';
+import SandyAndKaren from '@/assets/images/SandyAndKaren.jpg';
+import NicoleAndSandy from '@/assets/images/NicoleAndSandy.jpg'
 
-export default function OutgoingBoardMembers() {
+export default function CertificatesOfAppreciation() {
   return (
     <PageBodySideMenu name={'OutgoingBoardMembers'}>
       <figure id='firstOutgoing'>
+        <figcaption>
+          Village Library President, Nicole Tifverman, presents a certificate of
+          appreciation to Sandy Cooper, who leaves the Board after
+          six years of service, including four years as President.
+        </figcaption>
+        <img className='picture' src={NicoleAndSandy} alt='Nicole and Sandy' />
+      </figure>
+      <figure>
+        <figcaption>
+          Village Library President, Sandy Cooper, presents a certificate of
+          appreciation to Karen Martorelli for serving twenty years as a library volunteer.
+        </figcaption>
+        <img className='picture' src={SandyAndKaren} alt='Sandy and Karen' />
+      </figure>
+      <figure>
         <figcaption>
           Village Library President, Sandy Cooper, presents a certificate of
           appreciation to Ren&eacute;e Collins, who leaves the Board after
@@ -52,7 +69,7 @@ export default function OutgoingBoardMembers() {
       <figure>
         <figcaption>
           Village Library President, Sandy Cooper, presents a certificate of
-          appreciation to Sally Arman, who leaves the Board after serving for 7
+          appreciation to Sally Arman, who leaves the Board after serving for seven
           years as Volunteer Coordinator.
         </figcaption>
         <img className='picture' src={SandyAndSally} alt='Sandy and Sally' />
@@ -61,7 +78,7 @@ export default function OutgoingBoardMembers() {
       <figure>
         <figcaption>
           Village Library President, Sandy Cooper, presents a certificate of
-          appreciation to Joy Howard, who leaves the Board after serving 6 years
+          appreciation to Joy Howard, who leaves the Board after serving six years
           as Treasurer
         </figcaption>
         <img className='picture' src={SandyAndJoy} alt='Sandy and Joy' />

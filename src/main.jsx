@@ -14,7 +14,7 @@ import {
   GrabAndGo,
   NewsEvents,
   UpcomingEvents,
-  OutgoingBoardMembers,
+  CertificatesOfAppreciation,
   LiteraryPrizes,
   ReadingListsOnTheWeb,
   NewArrivals,
@@ -95,8 +95,8 @@ const router = createBrowserRouter([
         path: '/newsevents',
       },
       {
-        Component: OutgoingBoardMembers,
-        path: '/newsevents/outgoingboardmembers',
+        Component: CertificatesOfAppreciation,
+        path: '/newsevents/certificatesofappreciation',
       },
       {
         Component: ReadingListsOnTheWeb,
