@@ -24,11 +24,10 @@ export default function UpcomingEventsLinks({ futureEvents }) {
   function EventDisplay() {
     return (
       <>
-      <br />
       <div className='divider full'></div>
         <h2>Upcoming Events</h2>
         <Link to='/upcomingevents'>
-          Click here for details.
+          Details
         </Link>
         <Events />
       </>
