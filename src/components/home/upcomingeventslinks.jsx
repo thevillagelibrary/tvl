@@ -25,10 +25,10 @@ export default function UpcomingEventsLinks({ futureEvents }) {
     return (
       <>
       <div className='divider full'></div>
-        <h2>Upcoming Events</h2>
+        <h2>Upcoming Events (
         <Link to='/upcomingevents'>
           Details
-        </Link>
+        </Link>)</h2>
         <Events />
       </>
     );

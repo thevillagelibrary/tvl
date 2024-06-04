@@ -39,6 +39,7 @@ export default function Home() {
               <Link to='/about/bookdonations'>Book Donations</Link>
             </article>
           </section>
+          <br />
           <article>
             <UpcomingEventsLinks futureEvents={futureEvents} />
           </article>
