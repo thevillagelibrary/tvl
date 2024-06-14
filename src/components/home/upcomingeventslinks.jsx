@@ -26,7 +26,7 @@ export default function UpcomingEventsLinks({ futureEvents }) {
       <>
       <div className='divider full'></div>
         <h2>Upcoming Events (
-        <Link to='/upcomingevents'>
+        <Link id='upcomingeventsdetailslink' to='/upcomingevents'>
           Details
         </Link>)</h2>
         <Events />

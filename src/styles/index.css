@@ -809,6 +809,10 @@ a#event-link {
   width: 100%;
 }
 
+#upcomingeventsdetailslink {
+  font-weight: normal;
+}
+
 #upcomingeventslist {
   display: flex;
   flex-direction: column;
