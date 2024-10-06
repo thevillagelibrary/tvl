@@ -3,6 +3,8 @@ import { MdArrowBack as Close } from 'react-icons/md';
 import { v4 as uuidv4 } from 'uuid';
 import StoryTime from '@/assets/images/posters/StoryTime.jpg';
 import FallBookSale from '@/assets/images/posters/FallBookSale.jpg';
+import KidsFallBookSale from '@/assets/images/posters/KidsFallBookSale.jpg';
+
 
 const posters = [{
   name: 'StoryTime',
@@ -11,6 +13,10 @@ const posters = [{
 {
   name: 'FallBookSale',
   src: FallBookSale,
+},
+{
+  name: 'KidsFallBookSale',
+  src: KidsFallBookSale,
 }]
 
 export default function UpcomingEvents() {
