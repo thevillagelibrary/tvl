@@ -11,10 +11,10 @@ export default function NewArrivals() {
   return (
     <PageBodyNoSideMenu name={'NewArrivals'}>
       <section id='new-arrivals'>
-        {/* <article>
+        <article>
           <Link to='/newarrivals#just-off-rental'>Just Off Rental</Link>
           <Link to='/newarrivals#books'>Books</Link>
-          <Link to='/newarrivals#youth-section'>Youth Section</Link>
+          {/* <Link to='/newarrivals#youth-section'>Youth Section</Link> */}
         </article>
         <br />
         <div className='divider full'></div>
@@ -22,7 +22,7 @@ export default function NewArrivals() {
         <h2 id='just-off-rental'>Just Off Rental</h2>
         <GoogleSheetsData name={'JustOffRental'} values={values[0]} />
         <div className='divider full'></div>
-        <br /> */}
+        <br />
         <h2 id='books'>Books</h2>
         <GoogleSheetsData name={'Books'} values={values[1]} />
         {/* <br />
