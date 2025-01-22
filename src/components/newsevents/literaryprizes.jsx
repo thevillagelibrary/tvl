@@ -34,24 +34,33 @@ export default function LiteraryPrizes() {
             href='https://www.pulitzer.org/prize-winners-by-category/223'>
             General Nonfiction
           </a>
-        </article>
-        <article>
+          <div className='divider'></div>
           <h2>The Booker Prizes:</h2>
           <a href='https://thebookerprizes.com/the-booker-library/features/full-list-of-booker-prize-winners-shortlisted-authors-and-their-books'>
-            Domestic Winners and Shortlisted Authors
+            Domestic Fiction
           </a>
           <a href='https://thebookerprizes.com/the-booker-library/features/full-list-of-international-booker-prize-winners-shortlisted-authors-and-their-books'>
-            International Winners and Shortlisted Authors
+            International Fiction
           </a>
-          <br/>
+        </article>
+        <article>
           <h2>National Book Awards:</h2>
+          <p>Fiction, Nonfiction, Poetry, Translated Literature, Young People's Literature</p>
           <a href='https://www.nationalbook.org/national-book-awards/years/'>
             Browse By Year
           </a>
-        </article>
-        <article>
+          <div className='divider'></div>
           <h2>Edgar Awards:</h2>
-          <a href='https://edgarawards.com/all-winners/'>All Winners</a>
+          <a href='https://edgarawards.com/all-winners/'>Mysteries</a>
+          <div className='divider'></div>
+          <h2>Barry Awards:</h2>
+          <a href='http://new.deadlypleasures.com/barry-awards/'>Mysteries and Crime Novels</a>
+          <div className='divider'></div>
+          <h2>Gold Dagger Awards:</h2>
+          <a href='https://thecwa.co.uk/awards-and-competitions/the-daggers/gold-dagger/'>Best Crime Novel</a>
+          <div className='divider'></div>
+          <h2>Macavity Awards:</h2>
+          <a href='https://mysteryreaders.org/macavity-awards/'>Mysteries</a>
         </article>
       </section>
     </PageBodySideMenu>
