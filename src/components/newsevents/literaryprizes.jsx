@@ -49,6 +49,10 @@ export default function LiteraryPrizes() {
             Browse By Year
           </a>
         </article>
+        <article>
+          <h2>Edgar Awards:</h2>
+          <a href='https://edgarawards.com/all-winners/'>All Winners</a>
+        </article>
       </section>
     </PageBodySideMenu>
   );
