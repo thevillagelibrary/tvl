@@ -13,7 +13,7 @@ export default function BookDonations() {
       </ul>
       <p>
         The Village Library accepts donations of current hardback and paperback
-        books, children’s books, Audio book CDs, and DVDs. Virtually all items
+        books, and children’s books. Virtually all items
         that you donate to the library will be sold, generating much-needed
         revenue for your library. Therefore, all donated items must be in very
         good condition, not damaged or outdated. Unfortunately, there are items
@@ -36,7 +36,6 @@ export default function BookDonations() {
         <dt>Books of local interest</dt>
         <dt>Cookbooks</dt>
         <dt>Art Books/Coffee Table Books</dt>
-        <dt>Media material: Audio book CDs, DVD&apos;s</dt>
       </dl>
       <p>
         The following are books and periodicals that we cannot use or even
@@ -59,7 +58,7 @@ export default function BookDonations() {
         <dt>Condensed or Abridged materials</dt>
         <dt>Magazines of any sort</dt>
         <dt>Travel and Restaurant Guides</dt>
-        <dt>Cassette Tapes and VHS tapes</dt>
+        <dt>Cassette Tapes, VHS tapes, Audio book CDs, and DVDs</dt>
         <dt>Ex-library books</dt>
       </dl>
       <p>
