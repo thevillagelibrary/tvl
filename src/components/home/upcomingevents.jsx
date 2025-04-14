@@ -2,26 +2,16 @@ import { useNavigate } from "react-router-dom";
 import { MdArrowBack as Close } from "react-icons/md";
 import { v4 as uuidv4 } from "uuid";
 import StoryTime from "@/assets/images/posters/StoryTime.jpg";
-import FallBookSale from "@/assets/images/posters/FallBookSale.jpg";
-import KidsFallBookSale from "@/assets/images/posters/KidsFallBookSale.jpg";
-import LeighEbberwein from "@/assets/images/posters/LeighEbberwein.jpg";
+import SpringBookSale from "@/assets/images/posters/SpringBookSale.jpg";
 
 const posters = [
   {
     name: "StoryTime",
     src: StoryTime,
-  },
+  }, 
   {
-    name: "FallBookSale",
-    src: FallBookSale,
-  },
-  {
-    name: "KidsFallBookSale",
-    src: KidsFallBookSale,
-  },
-  {
-    name: "LeighEbberwein",
-    src: LeighEbberwein,
+    name: "SpringBookSale",
+    src: SpringBookSale,
   },
 ];
 
