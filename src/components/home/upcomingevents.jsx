@@ -3,6 +3,8 @@ import { MdArrowBack as Close } from "react-icons/md";
 import { v4 as uuidv4 } from "uuid";
 import StoryTime from "@/assets/images/posters/StoryTime.jpg";
 import SpringBookSale from "@/assets/images/posters/SpringBookSale.jpg";
+import AnnualMeeting from "@/assets/images/posters/AnnualMeeting.jpg";
+import Picnic from "@/assets/images/posters/Picnic.jpg";
 
 const posters = [
   {
@@ -13,6 +15,14 @@ const posters = [
     name: "SpringBookSale",
     src: SpringBookSale,
   },
+  {
+    name: "AnnualMeeting",
+    src: AnnualMeeting,
+  },
+  {
+    name: "Picnic",
+    src: Picnic,
+  }
 ];
 
 export default function UpcomingEvents() {
