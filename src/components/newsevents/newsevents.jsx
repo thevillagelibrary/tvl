@@ -8,118 +8,105 @@ export default function NewsEvents() {
         <br />
         PRESIDENT&apos;S REPORT
         <br />
-        2023-24
+        2024-2025
       </h2>
       <br />
       <p>
-        <b>Priorities And Outcomes</b>
+        <b>Priorities and Outcomes</b>
       </p>
       <p>
-        The year began with a Board Retreat in June, which resulted in
-        priorities and action plans for the upcoming year. The priority areas
-        were:
+        The Board held a planning retreat in June which resulted in priorities and
+        action plans for the upcoming year. The priorities agreed to were:
       </p>
       <section className="reportbullets">
-        <p>Volunteer Excellence</p>
-        <p>Governance</p>
-        <p>Fundraising</p>
+        <p>Organization</p>
+        <p>Modernization</p>
         <p>Collection Development</p>
-        <p>Membership.</p>
+        <p>Library Events</p>
       </section>
       <p>
-        The primary accomplishments that resulted from the meeting’s planning
+        The primary accomplishments that resulted from the meeting&apos;s planning
         for the year were:
       </p>
       <section className="reportbullets">
-        <p>Bylaws revisions</p>
-        <p>Updates and clarifications of the election process</p>
-        <p>Creation of an annual calendar</p>
-        <p>Creation of a roster format to help track Board terms</p>
-        <p>Action to refresh and re-think the art in the Library</p>
-        <p>Expanding and continuing the Brick Program.</p>
+        <p>The storage room, office, front desk, public areas, and file cabinet were decluttered and reorganized</p>
+        <p>New shelving was purchased and installed in the book sales area</p>
+        <p>Zelle was adopted as an alternate payment method for membership, large overdue payments, and book sales</p>
+        <p>DVDs were removed from the library&apos;s collection and sales shelves</p>
+        <p>A successful author interview and book signing event took place on March 31</p>
+        <p>A volunteer appreciation picnic (the first post-pandemic) took place on May 4.</p>
       </section>
       <p>
-        <b>Facing Budget Shortfalls</b>
+        <b>Book Sales and Donations</b>
       </p>
       <p>
-        The major challenge of the year was balancing the budget. During
-        preparation of the 2024 fiscal year budget, the Executive Committee
-        faced a decrease in income, particularly the donations., and an increase
-        in many of the expenditures. After lengthy discussion and careful
-        consideration, the Board took the following steps:
+        Due to the generosity of our members, donations almost doubled in 2024 from
+        the previous year, which was greatly appreciated as the library&apos;s
+        operating expenses have increased.
+      </p>
+      <p>
+        As the Litten Fund for the purchase of books ends this year, this is the
+        first year of the newly established and greatly appreciated Sandberg Fund,
+        also designated for book purchases. Another generous donation from the
+        Landings Mah Jong community in 2024 was designated for book purchases as
+        well. Other individual donations also made it possible for the library to
+        increase the budget for book purchases.
+      </p>
+      <p>
+        The Fall and Spring Book & Art Festivals again were successful events
+        enjoyed by the community. The proceeds from the Spring Book Sale were a
+        record for the library.
+      </p>
+      <p>
+        <b>Landlovers&apos; Association Grants</b>
+      </p>
+      <p>In 2024, the library received funds to:</p>
+      <section className="reportbullets">
+        <p>Purchase two new computers for the Front Desk</p>
+        <p>Install a new sprinkler system in front of the library</p>
+      </section>
+      <p>
+        For 2025, a grant was awarded to assist the library in hosting additional
+        author events for our patrons and the community by providing:
       </p>
       <section className="reportbullets">
-        <p>Increased the membership dues from $10 to $20 a year</p>
-        <p>Increased the sale price on books across the Board</p>
-        <p>Increased the bag of books fee from $10 to $15.</p>
+        <p>Seating for events and our reading room</p>
+        <p>Signage to promote the events</p>
+        <p>Amplification for author interviews</p>
+        <p>Smart thermostats to maintain comfortable temperatures</p>
       </section>
-      <p>
-        <b>Landings Landlovers' Grants</b>
-      </p>
-      <p>In 2023, the Library received funds to:</p>
-      <section className="reportbullets">
-        <p>
-          Buy a new laser printer that enable us to print flyers and forms more
-          easily
-        </p>
-        <p>Add tools to enhance children’s story time</p>
-        <p>
-          Strengthen the children’s collection by supplementing the book budget.
-        </p>
-      </section>
-      <p>
-        The application for the 2024 grant was due March 20, and resulted in
-        awarding of funds for the following activities, which must be completed
-        by November 2024, with a report due no later than January 31, 2025:
-      </p>
-      <section className="reportbullets">
-        <p>
-          Purchasing two new computers to replace those at the Circulation Desk,
-          cascading those computers to replace the two in the workroom, which
-          will then replace the catalog stations allowing those computers to be
-          recycled
-        </p>
-        <p>
-          Working with the Skidaway Audubon and TLA joint program, Water Wise,
-          to evaluate the current irrigation system and upgrade it with new
-          tools that are projected to save the library up to 40% a year on
-          water.
-        </p>
-      </section>
-      <p>
-        <b>Book Sales</b>
-      </p>
-      <p>
-        The Fall and Spring Book & Art Festivals were successful as
-        Vice-President for Community Relations Brenda Day continues to build the
-        event with expanded participation of community organizations, artists,
-        craftspeople, authors, and other. With the departure of Lynn Townsend
-        after the Fall sale, Mary McBride assumed responsibility for
-        coordinating the book sale in Spring 2024. She brought her wonderful
-        organizational skills to the event, which resulted in income of $1,000
-        more than any previous year.
-      </p>
-      <p>
-        Also, in the area of book sales, the Library has expanded its efforts to
-        identify donated books that have value above the usual sale price. One
-        donated book, The Soul of a Tree, was a signed first edition worth over
-        $500. The book is currently consigned to The Book Lady Bookstore and is
-        listed at $1,200. The volunteers who manage the sale books are using an
-        online tool to identify valuable books, and Vice President for
-        Operations Nancy Petronchak is currently evaluating eBay as a means for
-        selling other books with higher value.
-      </p>
       <p>
         <b>Appreciation</b>
       </p>
       <p>
-        As my six years on the Board, including four years as President, come to
-        an end, I want to express my deep appreciation to the people who have
-        served on the Board—and the amazing team of volunteers who keep the
-        Village Library operating and serving the public all year round.
+        The combined efforts of the entire Board and a host of volunteers
+        contributed to a successful year at the library.
       </p>
+      <p>
+        I especially would like to recognize and express gratitude to the
+        following:
+      </p>
+      <section className="reportbullets">
+        <p>Maggie Sanders and Terry Kessler for ensuring the library&apos;s financial health</p>
+        <p>Nancy Petronchak for keeping the library&apos;s operations running smoothly</p>
+        <p>Cece Coleman, Mary McBride, Nancy Petronchak, Maggie Sanders, and Barbara Neds for their excellent organizational skills and manpower in making the most of our physical space</p>
+        <p>Mary McBride for running successful book sales</p>
+        <p>Brenda Day for making our very successful author event possible and for donating funding for future author events</p>
+        <p>Barbara Neds and Louise McDonald for organizing our volunteer picnic and expressing our appreciation to the volunteers</p>
+        <p>Jane Gilchrist for expressing our gratitude to all donors and keeping detailed, accurate minutes</p>
+        <p>Sandy Cooper for dealing with a myriad of facility issues, including a new HVAC unit and roof repair</p>
+        <p>Al Stiles for repairs and maintenance of the building</p>
+        <p>Valerie Oliver for publicizing our events</p>
+        <p>Jeff Storer for maintaining the website</p>
+        <p>Karen Martorelli for putting the designated book donations to excellent use and keeping our collection up to date</p>
+        <p>Jill Corbin for running the monthly bag of book sales, implementing Zelle payments, and her ideas for new TVL tote bags</p>
+        <p>Leslie Bennison, Sue Burns, and Karen Sellick for the many hours they have devoted to receipt of donated books and book sales</p>
+        <p>Kathy Kahn for organizing children&apos;s events and weekly story time</p>
+        <p>Our front desk volunteers who keep the library running and fulfill the library&apos;s mission statement by offering a welcoming environment, and</p>
+        <p>Innumerable volunteers and patrons who help the library in so many ways, whether by donating money, books, or time.</p>
+      </section>
       <p>Thank you!</p>
-      <p>Sandy Cooper, President</p>
+      <p>Nicole Tifverman, President</p>
     </PageBodySideMenu>
   );
 }
