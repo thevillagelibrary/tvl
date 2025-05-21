@@ -87,9 +87,9 @@ export default function NewsEvents() {
         following:
       </p>
       <section className="reportbullets">
-        <p>Maggie Sanders and Terry Kessler for ensuring the library&apos;s financial health</p>
+        <p>Maggie Sandberg and Terry Kessler for ensuring the library&apos;s financial health</p>
         <p>Nancy Petronchak for keeping the library&apos;s operations running smoothly</p>
-        <p>Cece Coleman, Mary McBride, Nancy Petronchak, Maggie Sanders, and Barbara Neds for their excellent organizational skills and manpower in making the most of our physical space</p>
+        <p>Cece Coleman, Mary McBride, Nancy Petronchak, Maggie Sandberg, and Barbara Neds for their excellent organizational skills and manpower in making the most of our physical space</p>
         <p>Mary McBride for running successful book sales</p>
         <p>Brenda Day for making our very successful author event possible and for donating funding for future author events</p>
         <p>Barbara Neds and Louise McDonald for organizing our volunteer picnic and expressing our appreciation to the volunteers</p>
