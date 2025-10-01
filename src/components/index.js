@@ -7,7 +7,6 @@ export { default as Collection } from "@/components/about/collection";
 export { default as Membership } from "@/components/about/membership";
 export { default as MissionStatement } from "@/components/about/missionstatement";
 export { default as Board } from "@/components/about/board";
-export { default as GrabAndGo } from "@/components/about/grabandgo";
 export { default as NewsEvents } from "@/components/newsevents/newsevents";
 export { default as UpcomingEvents } from "@/components/home/upcomingevents";
 export { default as CertificatesOfAppreciation } from "@/components/newsevents/certificatesofappreciation";

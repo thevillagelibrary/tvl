@@ -5,8 +5,13 @@ import StoryTime from "@/assets/images/posters/StoryTime.jpg";
 import SpringBookSale from "@/assets/images/posters/SpringBookSale.jpg";
 import AnnualMeeting from "@/assets/images/posters/AnnualMeeting.jpg";
 import Picnic from "@/assets/images/posters/Picnic.jpg";
+import KarenDoveBarr from "@/assets/images/posters/KarenDoveBarr.jpg";
 
 const posters = [
+  {
+     name: "KarenDoveBarr",
+     src: KarenDoveBarr,
+  },
   {
     name: "StoryTime",
     src: StoryTime,

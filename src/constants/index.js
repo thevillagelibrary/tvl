@@ -64,10 +64,6 @@ export const pages = [
         name: 'Book Donations',
         path: 'bookdonations',
       },
-      {
-        name: 'Grab-&-Go',
-        path: 'grabandgo',
-      },
     ],
   },
   {

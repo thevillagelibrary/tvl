@@ -11,7 +11,6 @@ import {
   Membership,
   Board,
   MissionStatement,
-  GrabAndGo,
   NewsEvents,
   UpcomingEvents,
   CertificatesOfAppreciation,
@@ -85,10 +84,6 @@ const router = createBrowserRouter([
       {
         Component: BookDonations,
         path: '/about/bookdonations',
-      },
-      {
-        Component: GrabAndGo,
-        path: '/about/grabandgo',
       },
       {
         Component: NewsEvents,
