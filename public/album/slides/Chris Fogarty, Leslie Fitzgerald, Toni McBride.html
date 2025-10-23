@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Village Library Photo Album</title>
+<link href="../res/common.css" rel="stylesheet">
+<link href="../res/styles.css" rel="stylesheet">
+<script>
+document.onkeydown = function(event) {
+	switch(event.keyCode) {
+		case 27: // esc
+		case 38: // up
+			location.href = '../album.html';
+			break;
+		case 37: // back
+			location.href = 'Normand%20Allen%2C%20Corinne%20Webner.html';
+			break;
+		case 39: // forward
+			location.href = 'Dodie%20Sanders%20UGA%20Aquarium%20Program.html';
+			break;
+	}
+};
+</script>
+<link rel="alternate" href="../album.rss" type="application/rss+xml">
+</head>
+<body>
+<div id="imagetitle">Chris Fogarty, Leslie Fitzgerald, Toni McBride</div>
+<div id="nav">
+	<a href=".."><img src="../res/home.png" alt="home" title="The Village Library"></a>
+	<a href="../album.html"><img src="../res/index.png" alt="To index page" title="To index page"></a>
+	<a href="Normand%20Allen%2C%20Corinne%20Webner.html"><img src="../res/prev.png" alt="Next page" title="Previous page"></a>
+	<a href="Dodie%20Sanders%20UGA%20Aquarium%20Program.html"><img src="../res/next.png" alt="Next page" title="Next page"></a>
+</div>
+<div id="slideimage">
+<img src="Chris%20Fogarty%2C%20Leslie%20Fitzgerald%2C%20Toni%20McBride.JPG" width="733" height="600" alt="Chris Fogarty, Leslie Fitzgerald, Toni McBride">
+	<a href="Normand%20Allen%2C%20Corinne%20Webner.html" id="slide-prev" title="Previous page"></a>
+	<a href="Dodie%20Sanders%20UGA%20Aquarium%20Program.html" id="slide-next" title="Next page"></a>
+</div>
+
+<div id="jalbumwidgetcontainer"></div>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+_jaSkin = "Minimal";
+_jaStyle = "light.css";
+_jaVersion = "16.1.2";
+_jaGeneratorType = "desktop";
+_jaLanguage = "en";
+_jaPageType = "slide";
+_jaRootPath = "..";
+_jaUserId = "1107608";
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "http"+("https:"==document.location.protocol?"s":"")+"://jalbum.net/widgetapi/load.js";
+document.getElementById("jalbumwidgetcontainer").appendChild(script);
+//--><!]]></script>
+
+</body>
+</html>
