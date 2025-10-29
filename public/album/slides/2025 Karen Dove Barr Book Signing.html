@@ -13,8 +13,11 @@ document.onkeydown = function(event) {
 		case 38: // up
 			location.href = '../album.html';
 			break;
+		case 37: // back
+			location.href = '2025%20Fall%20Book%20Sale%201.html';
+			break;
 		case 39: // forward
-			location.href = '2025%20Leigh%20Ebberwein%20Reception%201.html';
+			location.href = '2025%20Spring%20Book%20Sale%2018.html';
 			break;
 	}
 };
@@ -26,12 +29,13 @@ document.onkeydown = function(event) {
 <div id="nav">
 	<a href=".."><img src="../res/home.png" alt="home" title="The Village Library"></a>
 	<a href="../album.html"><img src="../res/index.png" alt="To index page" title="To index page"></a>
-	<img src="../res/prev-disabled.png" alt="At first page" title="At first page">
-	<a href="2025%20Leigh%20Ebberwein%20Reception%201.html"><img src="../res/next.png" alt="Next page" title="Next page"></a>
+	<a href="2025%20Fall%20Book%20Sale%201.html"><img src="../res/prev.png" alt="Next page" title="Previous page"></a>
+	<a href="2025%20Spring%20Book%20Sale%2018.html"><img src="../res/next.png" alt="Next page" title="Next page"></a>
 </div>
 <div id="slideimage">
 <img src="2025%20Karen%20Dove%20Barr%20Book%20Signing.jpg" width="640" height="480" alt="2025 Karen Dove Barr Book Signing">
-	<a href="2025%20Leigh%20Ebberwein%20Reception%201.html" id="slide-next" title="Next page"></a>
+	<a href="2025%20Fall%20Book%20Sale%201.html" id="slide-prev" title="Previous page"></a>
+	<a href="2025%20Spring%20Book%20Sale%2018.html" id="slide-next" title="Next page"></a>
 </div>
 
 <div id="jalbumwidgetcontainer"></div>
