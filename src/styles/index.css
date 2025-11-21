@@ -335,6 +335,11 @@ small {
   overflow-x: hidden;
   text-align: center;
 }
+.eventdate {
+  white-space: pre-line;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
 .full,
 .side-menu {
   background-color: var(--background-white);

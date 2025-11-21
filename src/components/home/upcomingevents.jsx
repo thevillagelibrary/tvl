@@ -35,7 +35,7 @@ export default function UpcomingEvents() {
         <h2>{event[3]}</h2>
         {event[6] && <img className="poster" alt={altText} src={poster.src} />}
         <p>
-          <b>{event[5]}:</b> {event[2]} -- {event[4]}
+          <b>{event[5]}:</b> {event[2]} {event[4]}
         </p>
         {index < futureEventCount - 1 ? (
           <div className="divider side-menu"></div>

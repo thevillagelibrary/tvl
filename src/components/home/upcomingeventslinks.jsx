@@ -12,7 +12,7 @@ export default function UpcomingEventsLinks({ futureEvents }) {
             <dt>
               <h3>{event[3]}</h3>
             </dt>
-            <dd>
+            < dd className='eventdate'>
               {event[5]}, {event[2]}
             </dd>
           </div>

@@ -63,7 +63,7 @@ export default function Donate() {
           friend.
         </p>
         <p>
-          Brick donations are $200 each. All contributions are tax-deductible as
+          Brick donations are $250 each. All contributions are tax-deductible as
           the library is a not-for-profit organization. Brick donor forms are
           available at the library front desk. Checks should be made payable to
           The Village Library.
