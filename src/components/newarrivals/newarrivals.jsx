@@ -24,7 +24,7 @@ export default function NewArrivals() {
         <div className='divider full'></div>
         <br /> */}
         <h2>Savannah Book Festival</h2>
-        <p>The Village Library is supporting the Savannah Book Festival (Februart 5-8, 2026) by acquiring as many of the titles as possible.  The books will be displayed and available for check out through February.</p>
+        <p>The Village Library is supporting the Savannah Book Festival (February 5-8, 2026) by acquiring as many of the titles as possible.  The books will be displayed and available for check out through February.</p>
         <h2 id='books'>Books</h2>
         <GoogleSheetsData name={'Books'} values={values[1]} />
         {/* <br />
