@@ -23,15 +23,18 @@ export default function UpcomingEvents() {
   const navigate = useNavigate();
   const futureEvents = JSON.parse(localStorage.getItem("futureEvents"));
   const futureEventCount = futureEvents.length;
-  // Helper function to parse bold and italic text
+  
+  // Helper function to parse bold, italic, and underline text
   const parseText = (text) => {
   if (!text) return text;
   
-  // Split by both ** (bold) and * (italic)
-  const parts = text.split(/(\*\*.*?\*\*|\*.*?\*)/g);
+  // Split by *** (underline), ** (bold), and * (italic)
+  const parts = text.split(/(\*\*\*.*?\*\*\*|\*\*.*?\*\*|\*.*?\*)/g);
   
   return parts.map((part, index) => {
-    if (part.startsWith('**') && part.endsWith('**')) {
+    if (part.startsWith('***') && part.endsWith('***')) {
+      return <u key={index}>{part.slice(3, -3)}</u>;
+    } else if (part.startsWith('**') && part.endsWith('**')) {
       return <b key={index}>{part.slice(2, -2)}</b>;
     } else if (part.startsWith('*') && part.endsWith('*')) {
       return <i key={index}>{part.slice(1, -1)}</i>;
