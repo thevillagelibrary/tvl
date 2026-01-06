@@ -23,6 +23,22 @@ export default function UpcomingEvents() {
   const navigate = useNavigate();
   const futureEvents = JSON.parse(localStorage.getItem("futureEvents"));
   const futureEventCount = futureEvents.length;
+  // Helper function to parse bold and italic text
+  const parseText = (text) => {
+  if (!text) return text;
+  
+  // Split by both ** (bold) and * (italic)
+  const parts = text.split(/(\*\*.*?\*\*|\*.*?\*)/g);
+  
+  return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <b key={index}>{part.slice(2, -2)}</b>;
+    } else if (part.startsWith('*') && part.endsWith('*')) {
+      return <i key={index}>{part.slice(1, -1)}</i>;
+    }
+    return part;
+  });
+  };
 
   const eventsToDisplay = futureEvents.map((event, index) => {
     let poster;
@@ -35,7 +51,7 @@ export default function UpcomingEvents() {
         <h2>{event[3]}</h2>
         {event[6] && <img className="poster" alt={altText} src={poster.src} />}
         <p>
-          <b>{event[5]}:</b> {event[2].split('\n')[0]}<br/>{event[4]}
+          <b>{event[5]}:</b> {event[2].split('\n')[0]}<br/>{parseText(event[4])}
         </p>
         {index < futureEventCount - 1 ? (
           <div className="divider side-menu"></div>
