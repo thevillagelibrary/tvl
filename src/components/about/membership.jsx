@@ -11,13 +11,13 @@ export default function Membership() {
         member to purchase any of our thousands of used books.
       </p>
       <p>
-        We have a special rate for our latest bestselling books, DVDs, and Audio
-        Books. Our most currrent books are available as &quot;RENTALS&quot;.
-        These books are in a special area billed at $.30 per day. These special
-        charges are imposed to encourage people to return these high demand
-        items sooner so that more patrons can have access to them. These special charges are imposed to
-        encourage people to return these high demand items sooner so that more
-        patrons can have access to them.
+        We have a special rate for our latest best-selling books. Our most
+        currrent books are available as &quot;RENTALS&quot;. These books are in
+        a special area billed at $.30 per day. These special charges are imposed
+        to encourage people to return these high demand items sooner so that
+        more patrons can have access to them. These special charges are imposed
+        to encourage people to return these high demand items sooner so that
+        more patrons can have access to them.
       </p>
       <p>
         We have no paid employees. The library is managed and staffed by
