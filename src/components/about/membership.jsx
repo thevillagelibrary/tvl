@@ -1,8 +1,8 @@
-import { PageBodySideMenu } from '@/components/common';
+import { PageBodySideMenu } from "@/components/common";
 
 export default function Membership() {
   return (
-    <PageBodySideMenu name={'Membership'}>
+    <PageBodySideMenu name={"Membership"}>
       <p>
         Membership in The Village Library is open to anyone. It will cost only
         $20 for a family to join. After that, the annual dues are only $20 per
@@ -11,14 +11,13 @@ export default function Membership() {
         member to purchase any of our thousands of used books.
       </p>
       <p>
-        We have a special rate for our latest bestselling books, DVDs and Audio
-        Books. We put the latest books and best sellers on &quot;RENTAL&quot;.
-        These books are in a special area and will cost $.30 per day. DVDs and
-        Audio books, which can be found in the new Ann Resch Litten Memorial
-        Wing, will cost $.40 per day. These special charges are imposed to
+        We have a special rate for our latest bestselling books, DVDs, and Audio
+        Books. Our most currrent books are available as &quot;RENTALS&quot;.
+        These books are in a special area billed at $.30 per day. These special
+        charges are imposed to encourage people to return these high demand
+        items sooner so that more patrons can have access to them. These special charges are imposed to
         encourage people to return these high demand items sooner so that more
-        patrons can have access to them. All &quot;Great Courses&quot; CDs and
-        DVDs can be checked out the sane as books, free for three weeks.
+        patrons can have access to them.
       </p>
       <p>
         We have no paid employees. The library is managed and staffed by
