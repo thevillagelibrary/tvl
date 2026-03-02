@@ -85,7 +85,7 @@ export default function GoogleSheetsData({ name, values }) {
         return (
           <li key={uuidv4()}>
             <p key={uuidv4()}>
-              {listValue[1]},{' '}
+              {listValue[1]}{'--'}
               <span  key={uuidv4()}>
                 <i  key={uuidv4()}>{listValue[2]}</i>
               </span>
