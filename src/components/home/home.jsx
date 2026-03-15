@@ -20,6 +20,10 @@ export default function Home() {
           <small>{hours}</small>
           <div className='divider full'></div>
           <h2>Quick Links</h2>
+          <article>
+
+          </article>
+            <a href='/donate#gift-cards'>Membership Gift Cards</a>
           <section>
             <article>
               <a href='https://thevillagelibrary.library.site'>

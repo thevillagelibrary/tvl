@@ -69,11 +69,11 @@ export default function Donate() {
           available at the library front desk. Checks should be made payable to
           The Village Library.
         </p>
-        <h2>Village Library Membership Gift Cards</h2>
+        <h2 id="gift-cards">Village Library Membership Gift Cards</h2>
         <p>
           Give the gift of reading by purchasing a Village Library Gift Card.
           Surprise a friend, neighbor, or grandchild with a one year membership
-          to the library. Your $20 donation will introduce them to our library
+          to the library. Your gift of the $20 membership fee will introduce them to our library
           while enhancing their reading experience. Visit the library for more
           detail.
         </p>
