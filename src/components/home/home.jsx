@@ -21,9 +21,8 @@ export default function Home() {
           <div className='divider full'></div>
           <h2>Quick Links</h2>
           <article>
-
-          </article>
             <a href='/donate#gift-cards'>Membership Gift Cards</a>
+          </article>
           <section>
             <article>
               <a href='https://thevillagelibrary.library.site'>
