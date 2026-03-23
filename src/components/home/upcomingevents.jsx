@@ -1,22 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import { MdArrowBack as Close } from "react-icons/md";
 import { v4 as uuidv4 } from "uuid";
-import StoryTime from "@/assets/images/posters/StoryTime.jpg";
-import FallBookSale from "@/assets/images/posters/FallBookSale.jpg";
-import KarenDoveBarr from "@/assets/images/posters/KarenDoveBarr.jpg";
+import SpringBookSale from "@/assets/images/posters/SpringBookSale.jpg";
 
 const posters = [
   {
-    name: "FallBookSale",
-    src: FallBookSale,  
-  },
-  {
-     name: "KarenDoveBarr",
-     src: KarenDoveBarr,
-  },
-  {
-    name: "StoryTime",
-    src: StoryTime,
+    name: "SpringBookSale",
+    src: SpringBookSale,  
   }
 ]
 export default function UpcomingEvents() {
