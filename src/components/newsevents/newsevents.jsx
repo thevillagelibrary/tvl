@@ -8,104 +8,61 @@ export default function NewsEvents() {
         <br />
         PRESIDENT&apos;S REPORT
         <br />
-        2024-2025
+        2025-2026
       </h2>
       <br />
       <p>
-        <b>Priorities and Outcomes</b>
-      </p>
-      <p>
-        The Board held a planning retreat in June which resulted in priorities and
-        action plans for the upcoming year. The priorities agreed to were:
+        Due to the tireless efforts of the library’s many volunteers and supporters and The Village Library’s Board of Directors, this past year was filled with accomplishments, including the following:
       </p>
       <section className="reportbullets">
-        <p>Organization</p>
-        <p>Modernization</p>
-        <p>Collection Development</p>
-        <p>Library Events</p>
+        <p>Between the Lines series of well-attended author events hosted by the library: Karen Dove Barr in October, Elizabeth Splaine in January, Fran Thomas and Maureen Smith in March, and Steve Vesce in May</p>
+        <p>Fall and Spring outdoor book sales were great successes</p>
+        <p>Bag of book sales held monthly continued to increase</p>
+        <p>Landlovers Grant awarded in 2025 was used inside the library to purchase new furniture and equipment for the daily enjoyment of patrons and to enhance the author events</p>
+        <p>Landlovers Grant was awarded in 2026 for improvements outside the library, including upgraded landscaping, irrigation, and exterior lighting</p>
+        <p>Our building looks better than ever, as the book drop was refurbished, the front doors were painted, a new sign was installed, the film in the doors’ windows was replaced, and the entire building was power washed</p>
+        <p>An HVAC unit was replaced, and the thermostats were programmed to make the library more energy-efficient</p>
+        <p>Brighter and longer lasting LED lighting was installed inside the library</p>
+        <p>Goodwill partnered with the library to host a donation event and accepted books we could not sell, resulting in generous monetary donations to the library</p>
+        <p>Our brick program was revitalized, with a new flyer, brick engraver, and scheme for laying the bricks</p>
+        <p>Membership gift certificates were created</p>
+        <p>The library went paperless, as past Board minutes were scanned and forms and procedures were organized on the library’s computers for the use of future Board members and volunteers</p>
       </section>
-      <p>
-        The primary accomplishments that resulted from the meeting&apos;s planning
-        for the year were:
-      </p>
-      <section className="reportbullets">
-        <p>The storage room, office, front desk, public areas, and file cabinet were decluttered and reorganized</p>
-        <p>New shelving was purchased and installed in the book sales area</p>
-        <p>Zelle was adopted as an alternate payment method for membership, large overdue payments, and book sales</p>
-        <p>DVDs were removed from the library&apos;s collection and sales shelves</p>
-        <p>A successful author interview and book signing event took place on March 31</p>
-        <p>A volunteer appreciation picnic (the first post-pandemic) took place on May 4.</p>
-      </section>
-      <p>
-        <b>Book Sales and Donations</b>
-      </p>
-      <p>
-        Due to the generosity of our members, donations almost doubled in 2024 from
-        the previous year, which was greatly appreciated as the library&apos;s
-        operating expenses have increased.
-      </p>
-      <p>
-        As the Litten Fund for the purchase of books ends this year, this is the
-        first year of the newly established and greatly appreciated Sandberg Fund,
-        also designated for book purchases. Another generous donation from the
-        Landings Mah Jong community in 2024 was designated for book purchases as
-        well. Other individual donations also made it possible for the library to
-        increase the budget for book purchases.
-      </p>
-      <p>
-        The Fall and Spring Book & Art Festivals again were successful events
-        enjoyed by the community. The proceeds from the Spring Book Sale were a
-        record for the library.
-      </p>
-      <p>
-        <b>Landlovers&apos; Association Grants</b>
-      </p>
-      <p>In 2024, the library received funds to:</p>
-      <section className="reportbullets">
-        <p>Purchase two new computers for the Front Desk</p>
-        <p>Install a new sprinkler system in front of the library</p>
-      </section>
-      <p>
-        For 2025, a grant was awarded to assist the library in hosting additional
-        author events for our patrons and the community by providing:
-      </p>
-      <section className="reportbullets">
-        <p>Seating for events and our reading room</p>
-        <p>Signage to promote the events</p>
-        <p>Amplification for author interviews</p>
-        <p>Smart thermostats to maintain comfortable temperatures</p>
-      </section>
+
       <p>
         <b>Appreciation</b>
       </p>
       <p>
-        The combined efforts of the entire Board and a host of volunteers
-        contributed to a successful year at the library.
-      </p>
-      <p>
-        I especially would like to recognize and express gratitude to the
-        following:
+        None of this year’s accomplishments would have been possible without the dedication, generosity, and unwavering support of our Board members, volunteers, and patrons. My gratitude and appreciation to:
       </p>
       <section className="reportbullets">
-        <p>Maggie Sandberg and Terry Kessler for ensuring the library&apos;s financial health</p>
-        <p>Nancy Petronchak for keeping the library&apos;s operations running smoothly</p>
-        <p>Cece Coleman, Mary McBride, Nancy Petronchak, Maggie Sandberg, and Barbara Neds for their excellent organizational skills and manpower in making the most of our physical space</p>
-        <p>Mary McBride for running successful book sales</p>
-        <p>Brenda Day for making our very successful author event possible and for donating funding for future author events</p>
-        <p>Barbara Neds and Louise McDonald for organizing our volunteer picnic and expressing our appreciation to the volunteers</p>
-        <p>Jane Gilchrist for expressing our gratitude to all donors and keeping detailed, accurate minutes</p>
-        <p>Sandy Cooper for dealing with a myriad of facility issues, including a new HVAC unit and roof repair</p>
-        <p>Al Stiles for repairs and maintenance of the building</p>
-        <p>Valerie Oliver for publicizing our events</p>
-        <p>Jeff Storer for maintaining the website</p>
-        <p>Karen Martorelli for putting the designated book donations to excellent use and keeping our collection up to date</p>
-        <p>Jill Corbin for running the monthly bag of book sales, implementing Zelle payments, and her ideas for new TVL tote bags</p>
-        <p>Leslie Bennison, Sue Burns, and Karen Sellick for the many hours they have devoted to receipt of donated books and book sales</p>
-        <p>Kathy Kahn for organizing children&apos;s events and weekly story time</p>
-        <p>Our front desk volunteers who keep the library running and fulfill the library&apos;s mission statement by offering a welcoming environment, and</p>
-        <p>Innumerable volunteers and patrons who help the library in so many ways, whether by donating money, books, or time.</p>
+        <p>Our members for their support of the library and their book and monetary donations, which enable the library to exist</p>
+        <p>Our volunteers for the time, talents, and enthusiasm they contribute so generously</p>
+        <p>Our Board of Directors for their thoughtful leadership, stewardship, and commitment to the library’s mission</p>
+        <p>Nancy Petronchak for keeping the library&apos;s operations running smoothly and for taking on leadership of the Board</p>
+        <p>Brenda Day, as she completes her last term on the Board, for making the Between the Lines series possible and such a success</p>
+        <p>Maggie Sandberg for stewarding the library’s resources as treasurer and going beyond that role to contribute her vision and organizational skills to so many areas of the library</p>
+        <p>Jane Gilchrist for her unwavering devotion to her duties as secretary and her fortitude</p>
+        <p>Louise McDonald for training and guiding our volunteers to achieve excellence and staffing the library so that it remains accessible to our patrons Tuesdays through Saturdays, 10 am to 5 pm</p>
+        <p>Mary McBride for her leadership, which made our book sales successful</p>
+        <p>Terry Kessler for ensuring the library&apos;s continued financial health</p>
+        <p>Cece Coleman for cataloguing and filling our shelves with books and for spearheading the library’s partnership with Goodwill</p>
+        <p>Barbara Neds for revitalizing the brick program</p>
+        <p>Valerie Oliver for publicizing the library’s events and creating the membership gift certificate</p>
+        <p>Sandy Cooper for being the caretaker of our beautiful building and its collection</p>
+        <p>Al Stiles for the many improvements to and maintenance of the building</p>
+        <p>Karen Martorelli for endless hours adding to and improving the library’s book collection</p>
+        <p>Leslie Bennison, Sue Burns, Karen Sellick, Adele Watt, Deb Redden, Liz Lynch, and Barbara Lynch for the many hours they have devoted to processing donated books and filling our sales shelves</p>
+        <p>Helen Lantz for always being willing to volunteer when needed</p>
+        <p>Nancy Hanson for handling our membership roster and also being a dependable volunteer</p>
+        <p>Ann Higbee for her professional interviews of the authors at Between the Lines</p>
+        <p>Jill Corbin for making our monthly bag of book sales a success</p>
+        <p>Michele Simari for contributing her social media expertise</p>
+        <p>Susan Haley for her book repair finesse</p>
+        <p>Jeff Storer for always keeping our website up to date</p>
       </section>
-      <p>Thank you!</p>
+
+      <p>Thank you all for your commitment to The Village Library and the community we serve. It has been an absolute honor to work with each of you.</p>
       <p>Nicole Tifverman, President</p>
     </PageBodySideMenu>
   );
