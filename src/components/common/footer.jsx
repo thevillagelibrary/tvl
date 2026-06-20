@@ -6,16 +6,20 @@ export default function Footer() {
   return (
     <>
       <section>
-        <address>
-          Village Library, Inc.
-          <br />
-          1 Skidaway Village Square
-          <br />
-          Savannah, GA 31411
-          <br />
-          (912) 598-1183
-        </address>
-      </section>
+  <address>
+    <Link
+      to="https://maps.google.com/?q=1+Skidaway+Village+Square,+Savannah,+GA+31411"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ textDecoration: 'none', color: 'inherit', fontStyle: 'normal' }}
+    >
+      Village Library, Inc.<br />
+      1 Skidaway Village Square<br />
+      Savannah, GA 31411<br />
+      (912) 598-1183
+    </Link>
+  </address>
+</section>
       <section>
         <article>
           <Link
