@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Village Library Photo Album</title>
+<link href="../res/common.css" rel="stylesheet">
+<link href="../res/styles.css" rel="stylesheet">
+<script>
+document.onkeydown = function(event) {
+	switch(event.keyCode) {
+		case 27: // esc
+		case 38: // up
+			location.href = '../album.html';
+			break;
+		case 37: // back
+			location.href = '2018%20Volunteer%20Appreciation%20Picnic--Jeff%20Storer%2C%20Sally%20Arman%2C%20Sue%20Storer%2C%20Liz%20McAdams%2C%20Joy%20Howard%2C%20Kathy%20Kahn.html';
+			break;
+		case 39: // forward
+			location.href = '2018%20Volunteer%20Appreciation%20Picnic--Liz%20McAdams%2C%20Pat%20and%20Joy%20Howard%2C%20Alan%20Lynch%2C%20Ken%20Goode.html';
+			break;
+	}
+};
+</script>
+<link rel="alternate" href="../album.rss" type="application/rss+xml">
+</head>
+<body>
+<div id="imagetitle">2018 Volunteer Appreciation Picnic--Alan Lynch, Ken Goode, Pat Howard</div>
+<div id="nav">
+	<a href=".."><img src="../res/home.png" alt="home" title="The Village Library"></a>
+	<a href="../album.html"><img src="../res/index.png" alt="To index page" title="To index page"></a>
+	<a href="2018%20Volunteer%20Appreciation%20Picnic--Jeff%20Storer%2C%20Sally%20Arman%2C%20Sue%20Storer%2C%20Liz%20McAdams%2C%20Joy%20Howard%2C%20Kathy%20Kahn.html"><img src="../res/prev.png" alt="Next page" title="Previous page"></a>
+	<a href="2018%20Volunteer%20Appreciation%20Picnic--Liz%20McAdams%2C%20Pat%20and%20Joy%20Howard%2C%20Alan%20Lynch%2C%20Ken%20Goode.html"><img src="../res/next.png" alt="Next page" title="Next page"></a>
+</div>
+<div id="slideimage">
+<img src="2018%20Volunteer%20Appreciation%20Picnic--Alan%20Lynch%2C%20Ken%20Goode%2C%20Pat%20Howard.JPG" width="450" height="600" alt="2018 Volunteer Appreciation Picnic--Alan Lynch, Ken Goode, Pat Howard">
+	<a href="2018%20Volunteer%20Appreciation%20Picnic--Jeff%20Storer%2C%20Sally%20Arman%2C%20Sue%20Storer%2C%20Liz%20McAdams%2C%20Joy%20Howard%2C%20Kathy%20Kahn.html" id="slide-prev" title="Previous page"></a>
+	<a href="2018%20Volunteer%20Appreciation%20Picnic--Liz%20McAdams%2C%20Pat%20and%20Joy%20Howard%2C%20Alan%20Lynch%2C%20Ken%20Goode.html" id="slide-next" title="Next page"></a>
+</div>
+
+<div id="jalbumwidgetcontainer"></div>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+_jaSkin = "Minimal";
+_jaStyle = "light.css";
+_jaVersion = "16.1.2";
+_jaGeneratorType = "desktop";
+_jaLanguage = "en";
+_jaPageType = "slide";
+_jaRootPath = "..";
+_jaUserId = "1107608";
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "http"+("https:"==document.location.protocol?"s":"")+"://jalbum.net/widgetapi/load.js";
+document.getElementById("jalbumwidgetcontainer").appendChild(script);
+//--><!]]></script>
+
+</body>
+</html>

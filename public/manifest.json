@@ -1,0 +1,29 @@
+{
+  "short_name": "TVL",
+  "name": "The Village Library",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16 20x20 24x24 32x32 48x48 64x64 96x96 128x128 192x192",
+      "type": "image/x-icon"
+    }, 
+    {
+      "src": "favicon.svg",
+      "sizes": "any"
+    },
+    {
+      "src": "192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

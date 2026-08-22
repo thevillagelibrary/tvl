@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "cSpell.words": [
+      "activesub",
+      "artforsale",
+      "Csvg",
+      "gsheets",
+      "inactivesub",
+      "readinglists",
+      "subpages",
+      "upcomingevents",
+      "upcomingeventslist",
+      "uuidv",
+      "vstack"
+    ]
+  }
+}

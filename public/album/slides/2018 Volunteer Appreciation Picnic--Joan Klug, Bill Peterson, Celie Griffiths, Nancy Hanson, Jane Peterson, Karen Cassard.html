@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Village Library Photo Album</title>
+<link href="../res/common.css" rel="stylesheet">
+<link href="../res/styles.css" rel="stylesheet">
+<script>
+document.onkeydown = function(event) {
+	switch(event.keyCode) {
+		case 27: // esc
+		case 38: // up
+			location.href = '../album.html';
+			break;
+		case 37: // back
+			location.href = '2018%20Volunteer%20Appreciation%20Picnic--Denise%20Nusom%2C%20John%20Boshier%2C%20Ellen%20and%20David%20Evans.html';
+			break;
+		case 39: // forward
+			location.href = '2018%20Volunteer%20Appreciation%20Picnic--Penny%20and%20Nick%20Farley.html';
+			break;
+	}
+};
+</script>
+<link rel="alternate" href="../album.rss" type="application/rss+xml">
+</head>
+<body>
+<div id="imagetitle">2018 Volunteer Appreciation Picnic--Joan Klug, Bill Peterson, Celie Griffiths, Nancy Hanson, Jane Peterson, Karen Cassard</div>
+<div id="nav">
+	<a href=".."><img src="../res/home.png" alt="home" title="The Village Library"></a>
+	<a href="../album.html"><img src="../res/index.png" alt="To index page" title="To index page"></a>
+	<a href="2018%20Volunteer%20Appreciation%20Picnic--Denise%20Nusom%2C%20John%20Boshier%2C%20Ellen%20and%20David%20Evans.html"><img src="../res/prev.png" alt="Next page" title="Previous page"></a>
+	<a href="2018%20Volunteer%20Appreciation%20Picnic--Penny%20and%20Nick%20Farley.html"><img src="../res/next.png" alt="Next page" title="Next page"></a>
+</div>
+<div id="slideimage">
+<img src="2018%20Volunteer%20Appreciation%20Picnic--Joan%20Klug%2C%20Bill%20Peterson%2C%20Celie%20Griffiths%2C%20Nancy%20Hanson%2C%20Jane%20Peterson%2C%20Karen%20Cassard.JPG" width="843" height="600" alt="2018 Volunteer Appreciation Picnic--Joan Klug, Bill Peterson, Celie Griffiths, Nancy Hanson, Jane Peterson, Karen Cassard">
+	<a href="2018%20Volunteer%20Appreciation%20Picnic--Denise%20Nusom%2C%20John%20Boshier%2C%20Ellen%20and%20David%20Evans.html" id="slide-prev" title="Previous page"></a>
+	<a href="2018%20Volunteer%20Appreciation%20Picnic--Penny%20and%20Nick%20Farley.html" id="slide-next" title="Next page"></a>
+</div>
+
+<div id="jalbumwidgetcontainer"></div>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+_jaSkin = "Minimal";
+_jaStyle = "light.css";
+_jaVersion = "16.1.2";
+_jaGeneratorType = "desktop";
+_jaLanguage = "en";
+_jaPageType = "slide";
+_jaRootPath = "..";
+_jaUserId = "1107608";
+var script = document.createElement("script");
+script.type = "text/javascript";
+script.src = "http"+("https:"==document.location.protocol?"s":"")+"://jalbum.net/widgetapi/load.js";
+document.getElementById("jalbumwidgetcontainer").appendChild(script);
+//--><!]]></script>
+
+</body>
+</html>
