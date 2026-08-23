@@ -7,7 +7,6 @@ export default function Hero() {
       <article>
         <h1>The Village Library</h1>
         <div>Skidaway Island</div>
-        <p>(912) 598-1183</p>
       </article>
       <article>
         <button>

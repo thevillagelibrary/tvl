@@ -18,6 +18,9 @@ export default function Footer() {
       Savannah, GA 31411<br />
       (912) 598-1183
     </Link>
+    <Link to='mailto:info@thevillagelibrary.org'>
+      info@thevillagelibrary.org
+    </Link>
   </address>
 </section>
       <section>
