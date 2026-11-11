@@ -9,9 +9,148 @@
    		<description></description>
         <jalbum:absolutePath></jalbum:absolutePath>
         <item>
+            <title>2026 Fall Book Sale 09</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2009.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2009.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2009.jpeg" width="657" height="600"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2009.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 05</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2005.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2005.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2005.jpeg" width="360" height="480"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2005.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 03</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2003.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2003.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2003.jpeg" width="480" height="360"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2003.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 11</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2011.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2011.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2011.jpeg" width="480" height="360"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2011.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 06</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2006.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2006.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2006.jpeg" width="450" height="600"/>
+            <jalbum:exif originalDate="Mon, 02 Nov 2026 12:35:01 -0500" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2006.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 13</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2013.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2013.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2013.jpeg" width="450" height="600"/>
+            <jalbum:exif originalDate="Sat, 31 Oct 2026 12:08:18 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2013.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 12</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2012.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2012.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2012.jpeg" width="450" height="600"/>
+            <jalbum:exif originalDate="Sat, 31 Oct 2026 12:08:10 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2012.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 08</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2008.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2008.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2008.jpeg" width="450" height="600"/>
+            <jalbum:exif originalDate="Sat, 31 Oct 2026 12:02:20 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2008.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 01</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2001.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2001.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2001.jpeg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sat, 31 Oct 2026 08:40:59 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2001.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 07</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2007.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2007.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2007.jpeg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sat, 31 Oct 2026 08:12:04 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2007.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 04</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2004.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2004.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2004.jpeg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sat, 31 Oct 2026 09:16:01 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2004.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 10</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2010.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2010.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2010.jpeg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sat, 31 Oct 2026 08:40:59 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2010.jpeg</guid>
+        </item>
+        <item>
+            <title>2026 Fall Book Sale 02</title>
+            <link>slides/2026%20Fall%20Book%20Sale%2002.html</link>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2026%20Fall%20Book%20Sale%2002.jpeg" width="124" height="124"/>
+            <media:content type="image/jpeg" url="slides/2026%20Fall%20Book%20Sale%2002.jpeg" width="800" height="600"/>
+            <jalbum:exif originalDate="Sat, 31 Oct 2026 08:12:04 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <guid isPermaLink="false">slides/2026%20Fall%20Book%20Sale%2002.jpeg</guid>
+        </item>
+        <item>
             <title>2026 Steve Vesce Between the Line Author 2</title>
             <link>slides/2026%20Steve%20Vesce%20Between%20the%20Line%20Author%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2026%20Steve%20Vesce%20Between%20the%20Line%20Author%202.jpeg" width="124" height="124"/>
@@ -21,7 +160,7 @@
         <item>
             <title>2026 Steve Vesce Between the Line Author 3</title>
             <link>slides/2026%20Steve%20Vesce%20Between%20the%20Line%20Author%203.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2026%20Steve%20Vesce%20Between%20the%20Line%20Author%203.jpeg" width="124" height="124"/>
@@ -31,7 +170,7 @@
         <item>
             <title>2026 Steve Vesce Between the Line Author 4</title>
             <link>slides/2026%20Steve%20Vesce%20Between%20the%20Line%20Author%204.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2026%20Steve%20Vesce%20Between%20the%20Line%20Author%204.jpeg" width="124" height="124"/>
@@ -41,7 +180,7 @@
         <item>
             <title>2026 Steve Vesce Between the Line Author 1</title>
             <link>slides/2026%20Steve%20Vesce%20Between%20the%20Line%20Author%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2026%20Steve%20Vesce%20Between%20the%20Line%20Author%201.jpeg" width="124" height="124"/>
@@ -51,7 +190,7 @@
         <item>
             <title>2026 Elizabeth Splaine Between the Lines Author 01</title>
             <link>slides/2026%20Elizabeth%20Splaine%20Between%20the%20Lines%20Author%2001.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2026%20Elizabeth%20Splaine%20Between%20the%20Lines%20Author%2001.jpeg" width="124" height="124"/>
@@ -61,7 +200,7 @@
         <item>
             <title>2026 Elizabeth Splaine Between the Lines Author 02</title>
             <link>slides/2026%20Elizabeth%20Splaine%20Between%20the%20Lines%20Author%2002.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2026%20Elizabeth%20Splaine%20Between%20the%20Lines%20Author%2002.jpeg" width="124" height="124"/>
@@ -71,7 +210,7 @@
         <item>
             <title>2026 Elizabeth Splaine Between the Lines Author 03</title>
             <link>slides/2026%20Elizabeth%20Splaine%20Between%20the%20Lines%20Author%2003.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2026%20Elizabeth%20Splaine%20Between%20the%20Lines%20Author%2003.jpeg" width="124" height="124"/>
@@ -81,7 +220,7 @@
         <item>
             <title>2025 Fall Book Sale 48</title>
             <link>slides/2025%20Fall%20Book%20Sale%2048.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2048.jpeg" width="124" height="124"/>
@@ -91,7 +230,7 @@
         <item>
             <title>2025 Fall Book Sale 49</title>
             <link>slides/2025%20Fall%20Book%20Sale%2049.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2049.jpeg" width="124" height="124"/>
@@ -101,7 +240,7 @@
         <item>
             <title>2025 Fall Book Sale 47</title>
             <link>slides/2025%20Fall%20Book%20Sale%2047.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2047.jpeg" width="124" height="124"/>
@@ -111,7 +250,7 @@
         <item>
             <title>2025 Fall Book Sale 44</title>
             <link>slides/2025%20Fall%20Book%20Sale%2044.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2044.jpeg" width="124" height="124"/>
@@ -121,7 +260,7 @@
         <item>
             <title>2025 Fall Book Sale 45</title>
             <link>slides/2025%20Fall%20Book%20Sale%2045.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2045.jpeg" width="124" height="124"/>
@@ -131,7 +270,7 @@
         <item>
             <title>2025 Fall Book Sale 43</title>
             <link>slides/2025%20Fall%20Book%20Sale%2043.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2043.jpeg" width="124" height="124"/>
@@ -141,7 +280,7 @@
         <item>
             <title>2025 Fall Book Sale 46</title>
             <link>slides/2025%20Fall%20Book%20Sale%2046.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2046.jpeg" width="124" height="124"/>
@@ -151,7 +290,7 @@
         <item>
             <title>2025 Fall Book Sale 42</title>
             <link>slides/2025%20Fall%20Book%20Sale%2042.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2042.jpeg" width="124" height="124"/>
@@ -161,7 +300,7 @@
         <item>
             <title>2025 Fall Book Sale 40</title>
             <link>slides/2025%20Fall%20Book%20Sale%2040.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2040.jpeg" width="124" height="124"/>
@@ -171,7 +310,7 @@
         <item>
             <title>2025 Fall Book Sale 41</title>
             <link>slides/2025%20Fall%20Book%20Sale%2041.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2041.jpeg" width="124" height="124"/>
@@ -181,7 +320,7 @@
         <item>
             <title>2025 Fall Book Sale 39</title>
             <link>slides/2025%20Fall%20Book%20Sale%2039.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2039.jpeg" width="124" height="124"/>
@@ -191,7 +330,7 @@
         <item>
             <title>2025 Fall Book Sale 38</title>
             <link>slides/2025%20Fall%20Book%20Sale%2038.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2038.jpeg" width="124" height="124"/>
@@ -201,7 +340,7 @@
         <item>
             <title>2025 Fall Book Sale 37</title>
             <link>slides/2025%20Fall%20Book%20Sale%2037.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2037.jpeg" width="124" height="124"/>
@@ -211,7 +350,7 @@
         <item>
             <title>2025 Fall Book Sale 35</title>
             <link>slides/2025%20Fall%20Book%20Sale%2035.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2035.jpeg" width="124" height="124"/>
@@ -221,7 +360,7 @@
         <item>
             <title>2025 Fall Book Sale 34</title>
             <link>slides/2025%20Fall%20Book%20Sale%2034.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2034.jpeg" width="124" height="124"/>
@@ -231,7 +370,7 @@
         <item>
             <title>2025 Fall Book Sale 36</title>
             <link>slides/2025%20Fall%20Book%20Sale%2036.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2036.jpeg" width="124" height="124"/>
@@ -241,7 +380,7 @@
         <item>
             <title>2025 Fall Book Sale 33</title>
             <link>slides/2025%20Fall%20Book%20Sale%2033.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2033.jpeg" width="124" height="124"/>
@@ -251,7 +390,7 @@
         <item>
             <title>2025 Fall Book Sale 32</title>
             <link>slides/2025%20Fall%20Book%20Sale%2032.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2032.jpeg" width="124" height="124"/>
@@ -261,7 +400,7 @@
         <item>
             <title>2025 Fall Book Sale 31</title>
             <link>slides/2025%20Fall%20Book%20Sale%2031.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2031.jpeg" width="124" height="124"/>
@@ -271,7 +410,7 @@
         <item>
             <title>2025 Fall Book Sale 29</title>
             <link>slides/2025%20Fall%20Book%20Sale%2029.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2029.jpeg" width="124" height="124"/>
@@ -281,7 +420,7 @@
         <item>
             <title>2025 Fall Book Sale 28</title>
             <link>slides/2025%20Fall%20Book%20Sale%2028.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2028.jpeg" width="124" height="124"/>
@@ -291,7 +430,7 @@
         <item>
             <title>2025 Fall Book Sale 30</title>
             <link>slides/2025%20Fall%20Book%20Sale%2030.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2030.jpeg" width="124" height="124"/>
@@ -301,7 +440,7 @@
         <item>
             <title>2025 Fall Book Sale 27</title>
             <link>slides/2025%20Fall%20Book%20Sale%2027.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2027.jpeg" width="124" height="124"/>
@@ -311,7 +450,7 @@
         <item>
             <title>2025 Fall Book Sale 26</title>
             <link>slides/2025%20Fall%20Book%20Sale%2026.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2026.jpeg" width="124" height="124"/>
@@ -321,7 +460,7 @@
         <item>
             <title>2025 Fall Book Sale 25</title>
             <link>slides/2025%20Fall%20Book%20Sale%2025.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2025.jpeg" width="124" height="124"/>
@@ -331,7 +470,7 @@
         <item>
             <title>2025 Fall Book Sale 24</title>
             <link>slides/2025%20Fall%20Book%20Sale%2024.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2024.jpeg" width="124" height="124"/>
@@ -341,7 +480,7 @@
         <item>
             <title>2025 Fall Book Sale 23</title>
             <link>slides/2025%20Fall%20Book%20Sale%2023.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2023.jpeg" width="124" height="124"/>
@@ -351,7 +490,7 @@
         <item>
             <title>2025 Fall Book Sale 22</title>
             <link>slides/2025%20Fall%20Book%20Sale%2022.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2022.jpeg" width="124" height="124"/>
@@ -361,7 +500,7 @@
         <item>
             <title>2025 Fall Book Sale 21</title>
             <link>slides/2025%20Fall%20Book%20Sale%2021.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2021.jpeg" width="124" height="124"/>
@@ -371,7 +510,7 @@
         <item>
             <title>2025 Fall Book Sale 20</title>
             <link>slides/2025%20Fall%20Book%20Sale%2020.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2020.jpeg" width="124" height="124"/>
@@ -381,7 +520,7 @@
         <item>
             <title>2025 Fall Book Sale 19</title>
             <link>slides/2025%20Fall%20Book%20Sale%2019.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2019.jpeg" width="124" height="124"/>
@@ -391,7 +530,7 @@
         <item>
             <title>2025 Fall Book Sale 18</title>
             <link>slides/2025%20Fall%20Book%20Sale%2018.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2018.jpeg" width="124" height="124"/>
@@ -401,7 +540,7 @@
         <item>
             <title>2025 Fall Book Sale 17</title>
             <link>slides/2025%20Fall%20Book%20Sale%2017.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2017.jpeg" width="124" height="124"/>
@@ -411,7 +550,7 @@
         <item>
             <title>2025 Fall Book Sale 16</title>
             <link>slides/2025%20Fall%20Book%20Sale%2016.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2016.jpeg" width="124" height="124"/>
@@ -421,7 +560,7 @@
         <item>
             <title>2025 Fall Book Sale 15</title>
             <link>slides/2025%20Fall%20Book%20Sale%2015.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2015.jpeg" width="124" height="124"/>
@@ -431,7 +570,7 @@
         <item>
             <title>2025 Fall Book Sale 14</title>
             <link>slides/2025%20Fall%20Book%20Sale%2014.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2014.jpeg" width="124" height="124"/>
@@ -441,7 +580,7 @@
         <item>
             <title>2025 Fall Book Sale 13</title>
             <link>slides/2025%20Fall%20Book%20Sale%2013.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2013.jpeg" width="124" height="124"/>
@@ -451,7 +590,7 @@
         <item>
             <title>2025 Fall Book Sale 12</title>
             <link>slides/2025%20Fall%20Book%20Sale%2012.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2012.jpeg" width="124" height="124"/>
@@ -461,7 +600,7 @@
         <item>
             <title>2025 Fall Book Sale 9</title>
             <link>slides/2025%20Fall%20Book%20Sale%209.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%209.jpeg" width="124" height="124"/>
@@ -471,7 +610,7 @@
         <item>
             <title>2025 Fall Book Sale 11</title>
             <link>slides/2025%20Fall%20Book%20Sale%2011.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2011.jpeg" width="124" height="124"/>
@@ -481,7 +620,7 @@
         <item>
             <title>2025 Fall Book Sale 10</title>
             <link>slides/2025%20Fall%20Book%20Sale%2010.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%2010.jpeg" width="124" height="124"/>
@@ -491,7 +630,7 @@
         <item>
             <title>2025 Fall Book Sale 8</title>
             <link>slides/2025%20Fall%20Book%20Sale%208.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%208.jpeg" width="124" height="124"/>
@@ -501,7 +640,7 @@
         <item>
             <title>2025 Fall Book Sale 7</title>
             <link>slides/2025%20Fall%20Book%20Sale%207.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%207.jpeg" width="124" height="124"/>
@@ -511,7 +650,7 @@
         <item>
             <title>2025 Fall Book Sale 6</title>
             <link>slides/2025%20Fall%20Book%20Sale%206.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%206.jpeg" width="124" height="124"/>
@@ -521,7 +660,7 @@
         <item>
             <title>2025 Fall Book Sale 5</title>
             <link>slides/2025%20Fall%20Book%20Sale%205.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%205.jpeg" width="124" height="124"/>
@@ -531,7 +670,7 @@
         <item>
             <title>2025 Fall Book Sale 3</title>
             <link>slides/2025%20Fall%20Book%20Sale%203.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%203.jpeg" width="124" height="124"/>
@@ -541,7 +680,7 @@
         <item>
             <title>2025 Fall Book Sale 2</title>
             <link>slides/2025%20Fall%20Book%20Sale%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%202.jpeg" width="124" height="124"/>
@@ -551,7 +690,7 @@
         <item>
             <title>2025 Fall Book Sale 4</title>
             <link>slides/2025%20Fall%20Book%20Sale%204.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%204.jpeg" width="124" height="124"/>
@@ -561,7 +700,7 @@
         <item>
             <title>2025 Fall Book Sale 1</title>
             <link>slides/2025%20Fall%20Book%20Sale%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Fall%20Book%20Sale%201.jpeg" width="124" height="124"/>
@@ -571,7 +710,7 @@
         <item>
             <title>2025 Karen Dove Barr Book Signing</title>
             <link>slides/2025%20Karen%20Dove%20Barr%20Book%20Signing.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Karen%20Dove%20Barr%20Book%20Signing.jpg" width="124" height="124"/>
@@ -581,7 +720,7 @@
         <item>
             <title>2025 Spring Book Sale 18</title>
             <link>slides/2025%20Spring%20Book%20Sale%2018.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2018.jpeg" width="124" height="124"/>
@@ -591,7 +730,7 @@
         <item>
             <title>2025 Spring Book Sale 36</title>
             <link>slides/2025%20Spring%20Book%20Sale%2036.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2036.jpeg" width="124" height="124"/>
@@ -602,7 +741,7 @@
         <item>
             <title>2025 Spring Book Sale 62</title>
             <link>slides/2025%20Spring%20Book%20Sale%2062.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2062.jpeg" width="124" height="124"/>
@@ -613,7 +752,7 @@
         <item>
             <title>2025 Spring Book Sale 24</title>
             <link>slides/2025%20Spring%20Book%20Sale%2024.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2024.jpeg" width="124" height="124"/>
@@ -624,29 +763,29 @@
         <item>
             <title>2025 Spring Book Sale 23</title>
             <link>slides/2025%20Spring%20Book%20Sale%2023.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2023.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2023.jpeg" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:22:26 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:21:11 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2023.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 33</title>
             <link>slides/2025%20Spring%20Book%20Sale%2033.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2033.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2033.jpeg" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:20:01 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:21:08 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2033.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 17</title>
             <link>slides/2025%20Spring%20Book%20Sale%2017.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2017.jpeg" width="124" height="124"/>
@@ -657,7 +796,7 @@
         <item>
             <title>2025 Spring Book Sale 11</title>
             <link>slides/2025%20Spring%20Book%20Sale%2011.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2011.jpeg" width="124" height="124"/>
@@ -668,7 +807,7 @@
         <item>
             <title>2025 Spring Book Sale 25</title>
             <link>slides/2025%20Spring%20Book%20Sale%2025.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2025.jpeg" width="124" height="124"/>
@@ -679,7 +818,7 @@
         <item>
             <title>2025 Spring Book Sale 28</title>
             <link>slides/2025%20Spring%20Book%20Sale%2028.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2028.jpeg" width="124" height="124"/>
@@ -690,7 +829,7 @@
         <item>
             <title>2025 Spring Book Sale 7</title>
             <link>slides/2025%20Spring%20Book%20Sale%207.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%207.jpeg" width="124" height="124"/>
@@ -701,7 +840,7 @@
         <item>
             <title>2025 Spring Book Sale 30</title>
             <link>slides/2025%20Spring%20Book%20Sale%2030.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2030.jpeg" width="124" height="124"/>
@@ -712,7 +851,7 @@
         <item>
             <title>2025 Spring Book Sale 31</title>
             <link>slides/2025%20Spring%20Book%20Sale%2031.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2031.jpeg" width="124" height="124"/>
@@ -723,7 +862,7 @@
         <item>
             <title>2025 Spring Book Sale 70</title>
             <link>slides/2025%20Spring%20Book%20Sale%2070.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2070.jpeg" width="124" height="124"/>
@@ -734,7 +873,7 @@
         <item>
             <title>2025 Spring Book Sale 35</title>
             <link>slides/2025%20Spring%20Book%20Sale%2035.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2035.jpeg" width="124" height="124"/>
@@ -745,7 +884,7 @@
         <item>
             <title>2025 Spring Book Sale 54</title>
             <link>slides/2025%20Spring%20Book%20Sale%2054.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2054.jpeg" width="124" height="124"/>
@@ -756,7 +895,7 @@
         <item>
             <title>2025 Spring Book Sale 66</title>
             <link>slides/2025%20Spring%20Book%20Sale%2066.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2066.jpeg" width="124" height="124"/>
@@ -767,40 +906,40 @@
         <item>
             <title>2025 Spring Book Sale 53</title>
             <link>slides/2025%20Spring%20Book%20Sale%2053.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2053.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2053.jpeg" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:11:53 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:11:15 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2053.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 34</title>
             <link>slides/2025%20Spring%20Book%20Sale%2034.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2034.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2034.jpeg" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:11:47 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:11:15 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2034.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 32</title>
             <link>slides/2025%20Spring%20Book%20Sale%2032.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2032.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2032.jpeg" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:11:44 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:11:15 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2032.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 59</title>
             <link>slides/2025%20Spring%20Book%20Sale%2059.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2059.jpeg" width="124" height="124"/>
@@ -811,29 +950,29 @@
         <item>
             <title>2025 Spring Book Sale 42</title>
             <link>slides/2025%20Spring%20Book%20Sale%2042.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2042.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2042.jpeg" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:10:38 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:11:15 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2042.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 43</title>
             <link>slides/2025%20Spring%20Book%20Sale%2043.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2043.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2043.jpeg" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:10:37 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 10:11:15 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2043.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 16</title>
             <link>slides/2025%20Spring%20Book%20Sale%2016.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2016.jpeg" width="124" height="124"/>
@@ -844,7 +983,7 @@
         <item>
             <title>2025 Spring Book Sale 67</title>
             <link>slides/2025%20Spring%20Book%20Sale%2067.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2067.jpeg" width="124" height="124"/>
@@ -855,7 +994,7 @@
         <item>
             <title>2025 Spring Book Sale 40</title>
             <link>slides/2025%20Spring%20Book%20Sale%2040.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2040.jpeg" width="124" height="124"/>
@@ -866,7 +1005,7 @@
         <item>
             <title>2025 Spring Book Sale 41</title>
             <link>slides/2025%20Spring%20Book%20Sale%2041.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2041.jpeg" width="124" height="124"/>
@@ -877,7 +1016,7 @@
         <item>
             <title>2025 Spring Book Sale 26</title>
             <link>slides/2025%20Spring%20Book%20Sale%2026.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2026.jpeg" width="124" height="124"/>
@@ -888,7 +1027,7 @@
         <item>
             <title>2025 Spring Book Sale 13</title>
             <link>slides/2025%20Spring%20Book%20Sale%2013.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2013.jpeg" width="124" height="124"/>
@@ -899,7 +1038,7 @@
         <item>
             <title>2025 Spring Book Sale 2</title>
             <link>slides/2025%20Spring%20Book%20Sale%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%202.jpeg" width="124" height="124"/>
@@ -910,7 +1049,7 @@
         <item>
             <title>2025 Spring Book Sale 19</title>
             <link>slides/2025%20Spring%20Book%20Sale%2019.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2019.jpeg" width="124" height="124"/>
@@ -921,7 +1060,7 @@
         <item>
             <title>2025 Spring Book Sale 68</title>
             <link>slides/2025%20Spring%20Book%20Sale%2068.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2068.jpeg" width="124" height="124"/>
@@ -932,7 +1071,7 @@
         <item>
             <title>2025 Spring Book Sale 60</title>
             <link>slides/2025%20Spring%20Book%20Sale%2060.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2060.jpeg" width="124" height="124"/>
@@ -943,7 +1082,7 @@
         <item>
             <title>2025 Spring Book Sale 50</title>
             <link>slides/2025%20Spring%20Book%20Sale%2050.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2050.jpeg" width="124" height="124"/>
@@ -954,7 +1093,7 @@
         <item>
             <title>2025 Spring Book Sale 61</title>
             <link>slides/2025%20Spring%20Book%20Sale%2061.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2061.jpeg" width="124" height="124"/>
@@ -965,7 +1104,7 @@
         <item>
             <title>2025 Spring Book Sale 56</title>
             <link>slides/2025%20Spring%20Book%20Sale%2056.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2056.jpeg" width="124" height="124"/>
@@ -976,7 +1115,7 @@
         <item>
             <title>2025 Spring Book Sale 57</title>
             <link>slides/2025%20Spring%20Book%20Sale%2057.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2057.jpeg" width="124" height="124"/>
@@ -987,7 +1126,7 @@
         <item>
             <title>2025 Spring Book Sale 58</title>
             <link>slides/2025%20Spring%20Book%20Sale%2058.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2058.jpeg" width="124" height="124"/>
@@ -998,7 +1137,7 @@
         <item>
             <title>2025 Spring Book Sale 71</title>
             <link>slides/2025%20Spring%20Book%20Sale%2071.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2071.jpeg" width="124" height="124"/>
@@ -1009,18 +1148,18 @@
         <item>
             <title>2025 Spring Book Sale 48</title>
             <link>slides/2025%20Spring%20Book%20Sale%2048.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2048.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2048.jpeg" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 09:29:58 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 09:30:04 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2048.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 39</title>
             <link>slides/2025%20Spring%20Book%20Sale%2039.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2039.jpeg" width="124" height="124"/>
@@ -1031,7 +1170,7 @@
         <item>
             <title>2025 Spring Book Sale 51</title>
             <link>slides/2025%20Spring%20Book%20Sale%2051.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2051.jpeg" width="124" height="124"/>
@@ -1042,7 +1181,7 @@
         <item>
             <title>2025 Spring Book Sale 47</title>
             <link>slides/2025%20Spring%20Book%20Sale%2047.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2047.jpeg" width="124" height="124"/>
@@ -1053,7 +1192,7 @@
         <item>
             <title>2025 Spring Book Sale 52</title>
             <link>slides/2025%20Spring%20Book%20Sale%2052.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2052.jpeg" width="124" height="124"/>
@@ -1064,7 +1203,7 @@
         <item>
             <title>2025 Spring Book Sale 8</title>
             <link>slides/2025%20Spring%20Book%20Sale%208.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%208.jpeg" width="124" height="124"/>
@@ -1075,7 +1214,7 @@
         <item>
             <title>2025 Spring Book Sale 1</title>
             <link>slides/2025%20Spring%20Book%20Sale%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%201.jpeg" width="124" height="124"/>
@@ -1086,7 +1225,7 @@
         <item>
             <title>2025 Spring Book Sale 27</title>
             <link>slides/2025%20Spring%20Book%20Sale%2027.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2027.jpeg" width="124" height="124"/>
@@ -1097,7 +1236,7 @@
         <item>
             <title>2025 Spring Book Sale 65</title>
             <link>slides/2025%20Spring%20Book%20Sale%2065.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2065.jpeg" width="124" height="124"/>
@@ -1108,7 +1247,7 @@
         <item>
             <title>2025 Spring Book Sale 46</title>
             <link>slides/2025%20Spring%20Book%20Sale%2046.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2046.jpeg" width="124" height="124"/>
@@ -1119,7 +1258,7 @@
         <item>
             <title>2025 Spring Book Sale 55</title>
             <link>slides/2025%20Spring%20Book%20Sale%2055.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2055.jpeg" width="124" height="124"/>
@@ -1130,7 +1269,7 @@
         <item>
             <title>2025 Spring Book Sale 64</title>
             <link>slides/2025%20Spring%20Book%20Sale%2064.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2064.jpeg" width="124" height="124"/>
@@ -1141,7 +1280,7 @@
         <item>
             <title>2025 Spring Book Sale 45</title>
             <link>slides/2025%20Spring%20Book%20Sale%2045.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2045.jpeg" width="124" height="124"/>
@@ -1152,18 +1291,18 @@
         <item>
             <title>2025 Spring Book Sale 37</title>
             <link>slides/2025%20Spring%20Book%20Sale%2037.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2037.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2037.jpeg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 08:38:52 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 08:37:47 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2037.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 12</title>
             <link>slides/2025%20Spring%20Book%20Sale%2012.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2012.jpeg" width="124" height="124"/>
@@ -1174,7 +1313,7 @@
         <item>
             <title>2025 Spring Book Sale 38</title>
             <link>slides/2025%20Spring%20Book%20Sale%2038.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2038.jpeg" width="124" height="124"/>
@@ -1185,7 +1324,7 @@
         <item>
             <title>2025 Spring Book Sale 63</title>
             <link>slides/2025%20Spring%20Book%20Sale%2063.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2063.jpeg" width="124" height="124"/>
@@ -1196,7 +1335,7 @@
         <item>
             <title>2025 Spring Book Sale 69</title>
             <link>slides/2025%20Spring%20Book%20Sale%2069.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2069.jpeg" width="124" height="124"/>
@@ -1207,7 +1346,7 @@
         <item>
             <title>2025 Spring Book Sale 49</title>
             <link>slides/2025%20Spring%20Book%20Sale%2049.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2049.jpeg" width="124" height="124"/>
@@ -1218,7 +1357,7 @@
         <item>
             <title>2025 Spring Book Sale 44</title>
             <link>slides/2025%20Spring%20Book%20Sale%2044.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2044.jpeg" width="124" height="124"/>
@@ -1229,18 +1368,18 @@
         <item>
             <title>2025 Spring Book Sale 6</title>
             <link>slides/2025%20Spring%20Book%20Sale%206.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%206.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%206.jpeg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 08:36:24 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 08:33:08 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%206.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 10</title>
             <link>slides/2025%20Spring%20Book%20Sale%2010.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2010.jpeg" width="124" height="124"/>
@@ -1251,7 +1390,7 @@
         <item>
             <title>2025 Spring Book Sale 5</title>
             <link>slides/2025%20Spring%20Book%20Sale%205.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%205.jpeg" width="124" height="124"/>
@@ -1262,7 +1401,7 @@
         <item>
             <title>2025 Spring Book Sale 22</title>
             <link>slides/2025%20Spring%20Book%20Sale%2022.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2022.jpeg" width="124" height="124"/>
@@ -1273,7 +1412,7 @@
         <item>
             <title>2025 Spring Book Sale 21</title>
             <link>slides/2025%20Spring%20Book%20Sale%2021.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2021.jpeg" width="124" height="124"/>
@@ -1284,7 +1423,7 @@
         <item>
             <title>2025 Spring Book Sale 15</title>
             <link>slides/2025%20Spring%20Book%20Sale%2015.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2015.jpeg" width="124" height="124"/>
@@ -1295,29 +1434,29 @@
         <item>
             <title>2025 Spring Book Sale 14</title>
             <link>slides/2025%20Spring%20Book%20Sale%2014.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2014.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2014.jpeg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 08:25:16 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 08:23:43 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2014.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 29</title>
             <link>slides/2025%20Spring%20Book%20Sale%2029.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2029.jpeg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2025%20Spring%20Book%20Sale%2029.jpeg" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 26 Apr 2025 08:24:39 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
+            <jalbum:exif originalDate="Sat, 26 Apr 2025 08:23:43 -0400" cameraMake="Apple" cameraModel="iPhone 15 Pro"/>
             <guid isPermaLink="false">slides/2025%20Spring%20Book%20Sale%2029.jpeg</guid>
         </item>
         <item>
             <title>2025 Spring Book Sale 4</title>
             <link>slides/2025%20Spring%20Book%20Sale%204.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%204.jpeg" width="124" height="124"/>
@@ -1328,7 +1467,7 @@
         <item>
             <title>2025 Spring Book Sale 9</title>
             <link>slides/2025%20Spring%20Book%20Sale%209.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%209.jpeg" width="124" height="124"/>
@@ -1339,7 +1478,7 @@
         <item>
             <title>2025 Spring Book Sale 3</title>
             <link>slides/2025%20Spring%20Book%20Sale%203.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%203.jpeg" width="124" height="124"/>
@@ -1350,7 +1489,7 @@
         <item>
             <title>2025 Spring Book Sale 20</title>
             <link>slides/2025%20Spring%20Book%20Sale%2020.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Spring%20Book%20Sale%2020.jpeg" width="124" height="124"/>
@@ -1361,7 +1500,7 @@
         <item>
             <title>2025 Leigh Ebberwein Reception 1</title>
             <link>slides/2025%20Leigh%20Ebberwein%20Reception%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Leigh%20Ebberwein%20Reception%201.jpeg" width="124" height="124"/>
@@ -1371,7 +1510,7 @@
         <item>
             <title>2025 Leigh Ebberwein Reception 2</title>
             <link>slides/2025%20Leigh%20Ebberwein%20Reception%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2025%20Leigh%20Ebberwein%20Reception%202.jpeg" width="124" height="124"/>
@@ -1381,7 +1520,7 @@
         <item>
             <title>2023 Spring Book Sale 17</title>
             <link>slides/2023%20Spring%20Book%20Sale%2017.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2017.jpg" width="124" height="124"/>
@@ -1391,7 +1530,7 @@
         <item>
             <title>2023 Spring Book Sale 16</title>
             <link>slides/2023%20Spring%20Book%20Sale%2016.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2016.jpg" width="124" height="124"/>
@@ -1401,7 +1540,7 @@
         <item>
             <title>2023 Spring Book Sale 15</title>
             <link>slides/2023%20Spring%20Book%20Sale%2015.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2015.jpg" width="124" height="124"/>
@@ -1411,7 +1550,7 @@
         <item>
             <title>2023 Spring Book Sale 14</title>
             <link>slides/2023%20Spring%20Book%20Sale%2014.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2014.jpg" width="124" height="124"/>
@@ -1421,7 +1560,7 @@
         <item>
             <title>2023 Spring Book Sale 13</title>
             <link>slides/2023%20Spring%20Book%20Sale%2013.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2013.jpg" width="124" height="124"/>
@@ -1431,7 +1570,7 @@
         <item>
             <title>2023 Spring Book Sale 12</title>
             <link>slides/2023%20Spring%20Book%20Sale%2012.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2012.jpg" width="124" height="124"/>
@@ -1441,7 +1580,7 @@
         <item>
             <title>2023 Spring Book Sale 11</title>
             <link>slides/2023%20Spring%20Book%20Sale%2011.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2011.jpg" width="124" height="124"/>
@@ -1451,7 +1590,7 @@
         <item>
             <title>2023 Spring Book Sale 10</title>
             <link>slides/2023%20Spring%20Book%20Sale%2010.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2010.jpg" width="124" height="124"/>
@@ -1461,7 +1600,7 @@
         <item>
             <title>2023 Spring Book Sale 09</title>
             <link>slides/2023%20Spring%20Book%20Sale%2009.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2009.jpg" width="124" height="124"/>
@@ -1471,7 +1610,7 @@
         <item>
             <title>2023 Spring Book Sale 08</title>
             <link>slides/2023%20Spring%20Book%20Sale%2008.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2008.jpg" width="124" height="124"/>
@@ -1481,7 +1620,7 @@
         <item>
             <title>2023 Spring Book Sale 07</title>
             <link>slides/2023%20Spring%20Book%20Sale%2007.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2007.jpg" width="124" height="124"/>
@@ -1491,7 +1630,7 @@
         <item>
             <title>2023 Spring Book Sale 06</title>
             <link>slides/2023%20Spring%20Book%20Sale%2006.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2006.jpg" width="124" height="124"/>
@@ -1501,7 +1640,7 @@
         <item>
             <title>2023 Spring Book Sale 05</title>
             <link>slides/2023%20Spring%20Book%20Sale%2005.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2005.jpg" width="124" height="124"/>
@@ -1511,7 +1650,7 @@
         <item>
             <title>2023 Spring Book Sale 04</title>
             <link>slides/2023%20Spring%20Book%20Sale%2004.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2004.jpg" width="124" height="124"/>
@@ -1521,7 +1660,7 @@
         <item>
             <title>2023 Spring Book Sale 03</title>
             <link>slides/2023%20Spring%20Book%20Sale%2003.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2003.jpg" width="124" height="124"/>
@@ -1531,7 +1670,7 @@
         <item>
             <title>2023 Spring Book Sale 02</title>
             <link>slides/2023%20Spring%20Book%20Sale%2002.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2002.jpg" width="124" height="124"/>
@@ -1541,7 +1680,7 @@
         <item>
             <title>2023 Spring Book Sale 01</title>
             <link>slides/2023%20Spring%20Book%20Sale%2001.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2023%20Spring%20Book%20Sale%2001.jpg" width="124" height="124"/>
@@ -1551,7 +1690,7 @@
         <item>
             <title>2022 Fall Book Sale--Liz Lynch</title>
             <link>slides/2022%20Fall%20Book%20Sale--Liz%20Lynch.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Fall%20Book%20Sale--Liz%20Lynch.jpg" width="124" height="124"/>
@@ -1561,7 +1700,7 @@
         <item>
             <title>2022 Fall Book Sale--Joy Howard and Karen Sellick</title>
             <link>slides/2022%20Fall%20Book%20Sale--Joy%20Howard%20and%20Karen%20Sellick.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Fall%20Book%20Sale--Joy%20Howard%20and%20Karen%20Sellick.jpg" width="124" height="124"/>
@@ -1571,7 +1710,7 @@
         <item>
             <title>2022 Fall Book Sale--Kathy Berlin and Stan Berlin</title>
             <link>slides/2022%20Fall%20Book%20Sale--Kathy%20Berlin%20and%20Stan%20Berlin.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Fall%20Book%20Sale--Kathy%20Berlin%20and%20Stan%20Berlin.jpg" width="124" height="124"/>
@@ -1581,7 +1720,7 @@
         <item>
             <title>2022 Fall Book Sale--Lynn Townsend, Brenda Day, and Jayne Hoover</title>
             <link>slides/2022%20Fall%20Book%20Sale--Lynn%20Townsend%2C%20Brenda%20Day%2C%20and%20Jayne%20Hoover.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Fall%20Book%20Sale--Lynn%20Townsend%2C%20Brenda%20Day%2C%20and%20Jayne%20Hoover.jpg" width="124" height="124"/>
@@ -1591,7 +1730,7 @@
         <item>
             <title>2022 Fall Book Sale--Kathy Kahn and Beth Mowry</title>
             <link>slides/2022%20Fall%20Book%20Sale--Kathy%20Kahn%20and%20Beth%20Mowry.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Fall%20Book%20Sale--Kathy%20Kahn%20and%20Beth%20Mowry.jpg" width="124" height="124"/>
@@ -1601,7 +1740,7 @@
         <item>
             <title>2022 Fall Book Sale--Kim Hicks</title>
             <link>slides/2022%20Fall%20Book%20Sale--Kim%20Hicks.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Fall%20Book%20Sale--Kim%20Hicks.jpg" width="124" height="124"/>
@@ -1611,7 +1750,7 @@
         <item>
             <title>2022 Spring Book Sale 11</title>
             <link>slides/2022%20Spring%20Book%20Sale%2011.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2011.jpg" width="124" height="124"/>
@@ -1621,7 +1760,7 @@
         <item>
             <title>2022 Spring Book Sale 12</title>
             <link>slides/2022%20Spring%20Book%20Sale%2012.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2012.jpg" width="124" height="124"/>
@@ -1631,7 +1770,7 @@
         <item>
             <title>2022 Spring Book Sale 01</title>
             <link>slides/2022%20Spring%20Book%20Sale%2001.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2001.jpg" width="124" height="124"/>
@@ -1641,7 +1780,7 @@
         <item>
             <title>2022 Spring Book Sale 02</title>
             <link>slides/2022%20Spring%20Book%20Sale%2002.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2002.jpg" width="124" height="124"/>
@@ -1651,7 +1790,7 @@
         <item>
             <title>2022 Spring Book Sale 03</title>
             <link>slides/2022%20Spring%20Book%20Sale%2003.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2003.jpg" width="124" height="124"/>
@@ -1661,7 +1800,7 @@
         <item>
             <title>2022 Spring Book Sale 04</title>
             <link>slides/2022%20Spring%20Book%20Sale%2004.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2004.jpg" width="124" height="124"/>
@@ -1671,7 +1810,7 @@
         <item>
             <title>2022 Spring Book Sale 05</title>
             <link>slides/2022%20Spring%20Book%20Sale%2005.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2005.jpg" width="124" height="124"/>
@@ -1681,7 +1820,7 @@
         <item>
             <title>2022 Spring Book Sale 06</title>
             <link>slides/2022%20Spring%20Book%20Sale%2006.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2006.jpg" width="124" height="124"/>
@@ -1691,7 +1830,7 @@
         <item>
             <title>2022 Spring Book Sale 07</title>
             <link>slides/2022%20Spring%20Book%20Sale%2007.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2007.jpg" width="124" height="124"/>
@@ -1701,7 +1840,7 @@
         <item>
             <title>2022 Spring Book Sale 10</title>
             <link>slides/2022%20Spring%20Book%20Sale%2010.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2010.jpg" width="124" height="124"/>
@@ -1711,7 +1850,7 @@
         <item>
             <title>2022 Spring Book Sale 09</title>
             <link>slides/2022%20Spring%20Book%20Sale%2009.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2009.jpg" width="124" height="124"/>
@@ -1721,7 +1860,7 @@
         <item>
             <title>2022 Spring Book Sale 08</title>
             <link>slides/2022%20Spring%20Book%20Sale%2008.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2022%20Spring%20Book%20Sale%2008.jpg" width="124" height="124"/>
@@ -1731,7 +1870,7 @@
         <item>
             <title>2021 Fall Book Sale 1</title>
             <link>slides/2021%20Fall%20Book%20Sale%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Fall%20Book%20Sale%201.jpg" width="124" height="124"/>
@@ -1741,7 +1880,7 @@
         <item>
             <title>2021 Fall Book Sale 2</title>
             <link>slides/2021%20Fall%20Book%20Sale%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Fall%20Book%20Sale%202.jpg" width="124" height="124"/>
@@ -1751,7 +1890,7 @@
         <item>
             <title>2021 Fall Book Sale 3</title>
             <link>slides/2021%20Fall%20Book%20Sale%203.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Fall%20Book%20Sale%203.jpg" width="124" height="124"/>
@@ -1761,7 +1900,7 @@
         <item>
             <title>2021 Fall Book Sale 4</title>
             <link>slides/2021%20Fall%20Book%20Sale%204.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Fall%20Book%20Sale%204.jpg" width="124" height="124"/>
@@ -1771,7 +1910,7 @@
         <item>
             <title>2021 Fall Book Sale 5</title>
             <link>slides/2021%20Fall%20Book%20Sale%205.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Fall%20Book%20Sale%205.jpg" width="124" height="124"/>
@@ -1781,7 +1920,7 @@
         <item>
             <title>2021 Fall Book Sale 6</title>
             <link>slides/2021%20Fall%20Book%20Sale%206.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Fall%20Book%20Sale%206.jpg" width="124" height="124"/>
@@ -1791,18 +1930,18 @@
         <item>
             <title>2021 Board</title>
             <link>slides/2021%20Board.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Board.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Board.jpg" width="1200" height="561"/>
-            <jalbum:exif originalDate="Mon, 17 May 2021 16:07:52 -0400" cameraMake="Apple" cameraModel="iPhone 12 mini"/>
+            <jalbum:exif originalDate="Mon, 17 May 2021 16:01:53 -0400" cameraMake="Apple" cameraModel="iPhone 12 mini"/>
             <guid isPermaLink="false">slides/2021%20Board.jpg</guid>
         </item>
         <item>
             <title>2020 Board</title>
             <link>slides/2020%20Board.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2020%20Board.jpg" width="124" height="124"/>
@@ -1813,7 +1952,7 @@
         <item>
             <title>Sandy Cooper honoring Sally Arman for 20 years as a volunteer</title>
             <link>slides/Sandy%20Cooper%20honoring%20Sally%20Arman%20for%2020%20years%20as%20a%20volunteer.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Sandy%20Cooper%20honoring%20Sally%20Arman%20for%2020%20years%20as%20a%20volunteer.jpg" width="124" height="124"/>
@@ -1824,7 +1963,7 @@
         <item>
             <title>Sandy Cooper honoring Karen Sellick for 20 years as a volunteer</title>
             <link>slides/Sandy%20Cooper%20honoring%20Karen%20Sellick%20for%2020%20years%20as%20a%20volunteer.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Sandy%20Cooper%20honoring%20Karen%20Sellick%20for%2020%20years%20as%20a%20volunteer.jpg" width="124" height="124"/>
@@ -1835,7 +1974,7 @@
         <item>
             <title>Sandy Cooper honoring Carol Duren for 20 years as a volunteer</title>
             <link>slides/Sandy%20Cooper%20honoring%20Carol%20Duren%20for%2020%20years%20as%20a%20volunteer.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Sandy%20Cooper%20honoring%20Carol%20Duren%20for%2020%20years%20as%20a%20volunteer.jpg" width="124" height="124"/>
@@ -1846,7 +1985,7 @@
         <item>
             <title>2021 Spring Book Sale 1</title>
             <link>slides/2021%20Spring%20Book%20Sale%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%201.jpg" width="124" height="124"/>
@@ -1857,18 +1996,18 @@
         <item>
             <title>2021 Spring Book Sale 2</title>
             <link>slides/2021%20Spring%20Book%20Sale%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%202.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%202.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:31:49 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 16:01:53 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%202.jpg</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 3</title>
             <link>slides/2021%20Spring%20Book%20Sale%203.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%203.jpg" width="124" height="124"/>
@@ -1879,40 +2018,40 @@
         <item>
             <title>2021 Spring Book Sale 4</title>
             <link>slides/2021%20Spring%20Book%20Sale%204.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%204.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%204.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:29:36 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:31:34 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%204.jpg</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 5</title>
             <link>slides/2021%20Spring%20Book%20Sale%205.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%205.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%205.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:29:36 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:31:09 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%205.jpg</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 6</title>
             <link>slides/2021%20Spring%20Book%20Sale%206.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%206.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%206.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:29:36 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:31:00 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%206.jpg</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 7</title>
             <link>slides/2021%20Spring%20Book%20Sale%207.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%207.jpg" width="124" height="124"/>
@@ -1923,62 +2062,62 @@
         <item>
             <title>2021 Spring Book Sale 8</title>
             <link>slides/2021%20Spring%20Book%20Sale%208.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%208.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%208.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:29:36 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:30:23 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%208.jpg</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 9</title>
             <link>slides/2021%20Spring%20Book%20Sale%209.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%209.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%209.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:29:36 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:30:04 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%209.jpg</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 10</title>
             <link>slides/2021%20Spring%20Book%20Sale%2010.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%2010.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%2010.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:29:36 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:30:23 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%2010.jpg</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 11</title>
             <link>slides/2021%20Spring%20Book%20Sale%2011.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%2011.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%2011.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:29:36 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:29:16 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%2011.jpg</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 12</title>
             <link>slides/2021%20Spring%20Book%20Sale%2012.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%2012.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%2012.jpg" width="450" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:28:59 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 10:28:31 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%2012.jpg</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 13</title>
             <link>slides/2021%20Spring%20Book%20Sale%2013.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%2013.jpg" width="124" height="124"/>
@@ -1989,7 +2128,7 @@
         <item>
             <title>2021 Spring Book Sale 14</title>
             <link>slides/2021%20Spring%20Book%20Sale%2014.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%2014.jpg" width="124" height="124"/>
@@ -2000,7 +2139,7 @@
         <item>
             <title>2021 Spring Book Sale 15</title>
             <link>slides/2021%20Spring%20Book%20Sale%2015.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%2015.jpg" width="124" height="124"/>
@@ -2011,18 +2150,18 @@
         <item>
             <title>2021 Spring Book Sale 16</title>
             <link>slides/2021%20Spring%20Book%20Sale%2016.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%2016.JPEG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%2016.JPEG" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 09:59:45 -0400" cameraMake="Apple" cameraModel="iPhone 8"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 09:55:28 -0400" cameraMake="Apple" cameraModel="iPhone 8"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%2016.JPEG</guid>
         </item>
         <item>
             <title>2021 Spring Book Sale 17</title>
             <link>slides/2021%20Spring%20Book%20Sale%2017.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%2017.JPEG" width="124" height="124"/>
@@ -2033,18 +2172,18 @@
         <item>
             <title>2021 Spring Book Sale 18</title>
             <link>slides/2021%20Spring%20Book%20Sale%2018.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2021%20Spring%20Book%20Sale%2018.JPEG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2021%20Spring%20Book%20Sale%2018.JPEG" width="800" height="600"/>
-            <jalbum:exif originalDate="Sat, 17 Apr 2021 09:55:28 -0400" cameraMake="Apple" cameraModel="iPhone 8"/>
+            <jalbum:exif originalDate="Sat, 17 Apr 2021 09:56:32 -0400" cameraMake="Apple" cameraModel="iPhone 8"/>
             <guid isPermaLink="false">slides/2021%20Spring%20Book%20Sale%2018.JPEG</guid>
         </item>
         <item>
             <title>Ocean Creatures--2019 Childrens&apos; Summer Program 2</title>
             <link>slides/Ocean%20Creatures--2019%20Childrens%27%20Summer%20Program%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Ocean%20Creatures--2019%20Childrens%27%20Summer%20Program%202.jpg" width="124" height="124"/>
@@ -2055,7 +2194,7 @@
         <item>
             <title>Ocean Creatures--2019 Childrens&apos; Summer Program 1</title>
             <link>slides/Ocean%20Creatures--2019%20Childrens%27%20Summer%20Program%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Ocean%20Creatures--2019%20Childrens%27%20Summer%20Program%201.jpg" width="124" height="124"/>
@@ -2066,7 +2205,7 @@
         <item>
             <title>Not-So-Scary Halloween Story Time</title>
             <link>slides/Not-So-Scary%20Halloween%20Story%20Time.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Not-So-Scary%20Halloween%20Story%20Time.jpg" width="124" height="124"/>
@@ -2077,7 +2216,7 @@
         <item>
             <title>Turtle Time Tuesdays--2018 Childrens&apos; Summer Reading Program 05</title>
             <link>slides/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2005.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2005.jpg" width="124" height="124"/>
@@ -2087,7 +2226,7 @@
         <item>
             <title>Turtle Time Tuesdays--2018 Childrens&apos; Summer Reading Program 04</title>
             <link>slides/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2004.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2004.jpg" width="124" height="124"/>
@@ -2097,7 +2236,7 @@
         <item>
             <title>Turtle Time Tuesdays--2018 Childrens&apos; Summer Reading Program 01</title>
             <link>slides/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2001.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2001.jpg" width="124" height="124"/>
@@ -2107,7 +2246,7 @@
         <item>
             <title>Turtle Time Tuesdays--2018 Childrens&apos; Summer Reading Program 03</title>
             <link>slides/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2003.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2003.jpg" width="124" height="124"/>
@@ -2117,7 +2256,7 @@
         <item>
             <title>Turtle Time Tuesdays--2018 Childrens&apos; Summer Reading Program 02</title>
             <link>slides/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2002.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Turtle%20Time%20Tuesdays--2018%20Childrens%27%20Summer%20Reading%20Program%2002.jpg" width="124" height="124"/>
@@ -2127,18 +2266,18 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Celie Griffiths, Nancy and Ken Hanson, Joan Seaman, Bee Woods</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Celie%20Griffiths%2C%20Nancy%20and%20Ken%20Hanson%2C%20Joan%20Seaman%2C%20Bee%20Woods.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Celie%20Griffiths%2C%20Nancy%20and%20Ken%20Hanson%2C%20Joan%20Seaman%2C%20Bee%20Woods.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2018%20Volunteer%20Appreciation%20Picnic--Celie%20Griffiths%2C%20Nancy%20and%20Ken%20Hanson%2C%20Joan%20Seaman%2C%20Bee%20Woods.JPG" width="674" height="600"/>
-            <jalbum:exif originalDate="Thu, 24 May 2018 17:51:25 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Thu, 24 May 2018 18:14:39 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2018%20Volunteer%20Appreciation%20Picnic--Celie%20Griffiths%2C%20Nancy%20and%20Ken%20Hanson%2C%20Joan%20Seaman%2C%20Bee%20Woods.JPG</guid>
         </item>
         <item>
             <title>2018 Volunteer Appreciation Picnic--Penny Farley, Jane Peterson, Jill Corbin, Joan Klug</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Penny%20Farley%2C%20Jane%20Peterson%2C%20Jill%20Corbin%2C%20Joan%20Klug.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Penny%20Farley%2C%20Jane%20Peterson%2C%20Jill%20Corbin%2C%20Joan%20Klug.JPG" width="124" height="124"/>
@@ -2149,18 +2288,18 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Dick and Liz Lynch, Alan Lynch</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Dick%20and%20Liz%20Lynch%2C%20Alan%20Lynch.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Dick%20and%20Liz%20Lynch%2C%20Alan%20Lynch.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2018%20Volunteer%20Appreciation%20Picnic--Dick%20and%20Liz%20Lynch%2C%20Alan%20Lynch.JPG" width="450" height="600"/>
-            <jalbum:exif originalDate="Thu, 24 May 2018 17:51:25 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
+            <jalbum:exif originalDate="Thu, 24 May 2018 17:51:40 -0400" cameraMake="Apple" cameraModel="iPhone 7"/>
             <guid isPermaLink="false">slides/2018%20Volunteer%20Appreciation%20Picnic--Dick%20and%20Liz%20Lynch%2C%20Alan%20Lynch.JPG</guid>
         </item>
         <item>
             <title>2018 Volunteer Appreciation Picnic--Carol Schmidt, Louise Rutland, Kathy Kahn</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Carol%20Schmidt%2C%20Louise%20Rutland%2C%20Kathy%20Kahn.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Carol%20Schmidt%2C%20Louise%20Rutland%2C%20Kathy%20Kahn.JPG" width="124" height="124"/>
@@ -2171,7 +2310,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Roger and Barbara Neds</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Roger%20and%20Barbara%20Neds.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Roger%20and%20Barbara%20Neds.JPG" width="124" height="124"/>
@@ -2182,7 +2321,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Art Altman, Brenda and Walt Day</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Art%20Altman%2C%20Brenda%20and%20Walt%20Day.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Art%20Altman%2C%20Brenda%20and%20Walt%20Day.JPG" width="124" height="124"/>
@@ -2193,7 +2332,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Joan Seaman, Bee Woods, Karen Cassard</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Joan%20Seaman%2C%20Bee%20Woods%2C%20Karen%20Cassard.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Joan%20Seaman%2C%20Bee%20Woods%2C%20Karen%20Cassard.JPG" width="124" height="124"/>
@@ -2204,7 +2343,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Dick and Ellen Evans, Larry and Susan Woods</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Dick%20and%20Ellen%20Evans%2C%20Larry%20and%20Susan%20Woods.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Dick%20and%20Ellen%20Evans%2C%20Larry%20and%20Susan%20Woods.JPG" width="124" height="124"/>
@@ -2215,7 +2354,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Martha Carpenter, Carol Schmidt, Toni McBride, Mike Fleischmann</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Martha%20Carpenter%2C%20Carol%20Schmidt%2C%20Toni%20McBride%2C%20Mike%20Fleischmann.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Martha%20Carpenter%2C%20Carol%20Schmidt%2C%20Toni%20McBride%2C%20Mike%20Fleischmann.JPG" width="124" height="124"/>
@@ -2226,7 +2365,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Mike and Nancy Fleischmann, Liz McAdams</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Mike%20and%20Nancy%20Fleischmann%2C%20Liz%20McAdams.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Mike%20and%20Nancy%20Fleischmann%2C%20Liz%20McAdams.JPG" width="124" height="124"/>
@@ -2237,7 +2376,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Laurie and Joe Witten</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Laurie%20and%20Joe%20Witten.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Laurie%20and%20Joe%20Witten.JPG" width="124" height="124"/>
@@ -2248,7 +2387,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Sal Martorelli, Bob Reeves, Dick Myers, Sue Storer, Karen Martorelli, Linda Reeves, Rhea Myers, Warren and Lois Dixon</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Sal%20Martorelli%2C%20Bob%20Reeves%2C%20Dick%20Myers%2C%20Sue%20Storer%2C%20Karen%20Martorelli%2C%20Linda%20Reeves%2C%20Rhea%20Myers%2C%20Warren%20and%20Lois%20Dixon.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Sal%20Martorelli%2C%20Bob%20Reeves%2C%20Dick%20Myers%2C%20Sue%20Storer%2C%20Karen%20Martorelli%2C%20Linda%20Reeves%2C%20Rhea%20Myers%2C%20Warren%20and%20Lois%20Dixon.JPG" width="124" height="124"/>
@@ -2259,7 +2398,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Rochelle Frank, Al Frank, Sheila Kautz, Walt Day, Brenda Day</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Rochelle%20Frank%2C%20Al%20Frank%2C%20Sheila%20Kautz%2C%20Walt%20Day%2C%20Brenda%20Day.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Rochelle%20Frank%2C%20Al%20Frank%2C%20Sheila%20Kautz%2C%20Walt%20Day%2C%20Brenda%20Day.JPG" width="124" height="124"/>
@@ -2270,7 +2409,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Barbara Lynch, Jill Corbin, Nick Farley, Alan Lynch, Joy Howard, Pat Howard, Liz Lynch, Dick Lynch</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Barbara%20Lynch%2C%20Jill%20Corbin%2C%20Nick%20Farley%2C%20Alan%20Lynch%2C%20Joy%20Howard%2C%20Pat%20Howard%2C%20Liz%20Lynch%2C%20Dick%20Lynch.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Barbara%20Lynch%2C%20Jill%20Corbin%2C%20Nick%20Farley%2C%20Alan%20Lynch%2C%20Joy%20Howard%2C%20Pat%20Howard%2C%20Liz%20Lynch%2C%20Dick%20Lynch.JPG" width="124" height="124"/>
@@ -2281,7 +2420,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Denise Nusom, John Boshier, Ellen and David Evans</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Denise%20Nusom%2C%20John%20Boshier%2C%20Ellen%20and%20David%20Evans.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Denise%20Nusom%2C%20John%20Boshier%2C%20Ellen%20and%20David%20Evans.JPG" width="124" height="124"/>
@@ -2292,7 +2431,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Joan Klug, Bill Peterson, Celie Griffiths, Nancy Hanson, Jane Peterson, Karen Cassard</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Joan%20Klug%2C%20Bill%20Peterson%2C%20Celie%20Griffiths%2C%20Nancy%20Hanson%2C%20Jane%20Peterson%2C%20Karen%20Cassard.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Joan%20Klug%2C%20Bill%20Peterson%2C%20Celie%20Griffiths%2C%20Nancy%20Hanson%2C%20Jane%20Peterson%2C%20Karen%20Cassard.JPG" width="124" height="124"/>
@@ -2303,7 +2442,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Penny and Nick Farley</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Penny%20and%20Nick%20Farley.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Penny%20and%20Nick%20Farley.JPG" width="124" height="124"/>
@@ -2314,7 +2453,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Jeff Storer, Sally Arman, Sue Storer, Liz McAdams, Joy Howard, Kathy Kahn</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Jeff%20Storer%2C%20Sally%20Arman%2C%20Sue%20Storer%2C%20Liz%20McAdams%2C%20Joy%20Howard%2C%20Kathy%20Kahn.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Jeff%20Storer%2C%20Sally%20Arman%2C%20Sue%20Storer%2C%20Liz%20McAdams%2C%20Joy%20Howard%2C%20Kathy%20Kahn.JPG" width="124" height="124"/>
@@ -2325,7 +2464,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Alan Lynch, Ken Goode, Pat Howard</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Alan%20Lynch%2C%20Ken%20Goode%2C%20Pat%20Howard.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Alan%20Lynch%2C%20Ken%20Goode%2C%20Pat%20Howard.JPG" width="124" height="124"/>
@@ -2336,7 +2475,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Liz McAdams, Pat and Joy Howard, Alan Lynch, Ken Goode</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Liz%20McAdams%2C%20Pat%20and%20Joy%20Howard%2C%20Alan%20Lynch%2C%20Ken%20Goode.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Liz%20McAdams%2C%20Pat%20and%20Joy%20Howard%2C%20Alan%20Lynch%2C%20Ken%20Goode.JPG" width="124" height="124"/>
@@ -2347,7 +2486,7 @@
         <item>
             <title>2018 Volunteer Appreciation Picnic--Jayne Hoover, Peggy Thompson</title>
             <link>slides/2018%20Volunteer%20Appreciation%20Picnic--Jayne%20Hoover%2C%20Peggy%20Thompson.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2018%20Volunteer%20Appreciation%20Picnic--Jayne%20Hoover%2C%20Peggy%20Thompson.JPG" width="124" height="124"/>
@@ -2358,7 +2497,7 @@
         <item>
             <title>Ken Goode and Sue Storer</title>
             <link>slides/Ken%20Goode%20and%20Sue%20Storer.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Ken%20Goode%20and%20Sue%20Storer.JPG" width="124" height="124"/>
@@ -2369,40 +2508,40 @@
         <item>
             <title>Sue Storer and Janet Murphy</title>
             <link>slides/Sue%20Storer%20and%20Janet%20Murphy.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Sue%20Storer%20and%20Janet%20Murphy.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/Sue%20Storer%20and%20Janet%20Murphy.JPG" width="448" height="600"/>
-            <jalbum:exif originalDate="Mon, 21 May 2018 15:58:38 -0400" cameraMake="Apple" cameraModel="iPad Air"/>
+            <jalbum:exif originalDate="Sat, 12 May 2018 14:08:48 -0400" cameraMake="Apple" cameraModel="iPad Air"/>
             <guid isPermaLink="false">slides/Sue%20Storer%20and%20Janet%20Murphy.JPG</guid>
         </item>
         <item>
             <title>Book Signing--Murder in the Village Library (A Novel by Collett, Fogarty, and Webner)</title>
             <link>slides/Book%20Signing--Murder%20in%20the%20Village%20Library%20%28A%20Novel%20by%20Collett%2C%20Fogarty%2C%20and%20Webner%29.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Book%20Signing--Murder%20in%20the%20Village%20Library%20%28A%20Novel%20by%20Collett%2C%20Fogarty%2C%20and%20Webner%29.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/Book%20Signing--Murder%20in%20the%20Village%20Library%20%28A%20Novel%20by%20Collett%2C%20Fogarty%2C%20and%20Webner%29.jpg" width="606" height="600"/>
-            <jalbum:exif originalDate="Sat, 24 May 2018 16:02:23 -0400" cameraMake="LG Electronics" cameraModel="LG-K330"/>
+            <jalbum:exif originalDate="Sat, 11 Nov 2017 10:57:41 -0500" cameraMake="LG Electronics" cameraModel="LG-K330"/>
             <guid isPermaLink="false">slides/Book%20Signing--Murder%20in%20the%20Village%20Library%20%28A%20Novel%20by%20Collett%2C%20Fogarty%2C%20and%20Webner%29.jpg</guid>
         </item>
         <item>
             <title>Sue Storer and Allison Smith</title>
             <link>slides/Sue%20Storer%20and%20Allison%20Smith.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Sue%20Storer%20and%20Allison%20Smith.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/Sue%20Storer%20and%20Allison%20Smith.JPG" width="654" height="600"/>
-            <jalbum:exif originalDate="Mon, 21 May 2018 15:58:38 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
+            <jalbum:exif originalDate="Sat, 29 Jul 2017 13:13:56 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
             <guid isPermaLink="false">slides/Sue%20Storer%20and%20Allison%20Smith.JPG</guid>
         </item>
         <item>
             <title>Summer Reading Program 2017--Bee A Reader 2</title>
             <link>slides/Summer%20Reading%20Program%202017--Bee%20A%20Reader%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Summer%20Reading%20Program%202017--Bee%20A%20Reader%202.jpg" width="124" height="124"/>
@@ -2412,7 +2551,7 @@
         <item>
             <title>Summer Reading Program 2017--Bee A Reader 1</title>
             <link>slides/Summer%20Reading%20Program%202017--Bee%20A%20Reader%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Summer%20Reading%20Program%202017--Bee%20A%20Reader%201.jpg" width="124" height="124"/>
@@ -2422,7 +2561,7 @@
         <item>
             <title>Sue Storer and Ann Yingling</title>
             <link>slides/Sue%20Storer%20and%20Ann%20Yingling.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Sue%20Storer%20and%20Ann%20Yingling.JPG" width="124" height="124"/>
@@ -2433,7 +2572,7 @@
         <item>
             <title>Sue Storer and Phil Van Ess</title>
             <link>slides/Sue%20Storer%20and%20Phil%20Van%20Ess.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Sue%20Storer%20and%20Phil%20Van%20Ess.JPG" width="124" height="124"/>
@@ -2444,18 +2583,18 @@
         <item>
             <title>Phyllis Limbacher Tildes</title>
             <link>slides/Phyllis%20Limbacher%20Tildes.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Phyllis%20Limbacher%20Tildes.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/Phyllis%20Limbacher%20Tildes.JPG" width="500" height="407"/>
-            <jalbum:exif originalDate="Tue, 25 Jun 2013 09:40:10 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
+            <jalbum:exif originalDate="Tue, 13 Dec 2016 11:25:01 -0500" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
             <guid isPermaLink="false">slides/Phyllis%20Limbacher%20Tildes.JPG</guid>
         </item>
         <item>
             <title>Phyllis Limbacher Tildes and Children</title>
             <link>slides/Phyllis%20Limbacher%20Tildes%20and%20Children.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Phyllis%20Limbacher%20Tildes%20and%20Children.JPG" width="124" height="124"/>
@@ -2466,29 +2605,29 @@
         <item>
             <title>Calico&apos;s Curious Kittens</title>
             <link>slides/Calico%27s%20Curious%20Kittens.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Calico%27s%20Curious%20Kittens.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/Calico%27s%20Curious%20Kittens.JPG" width="492" height="480"/>
-            <jalbum:exif originalDate="Tue, 25 Jun 2013 09:40:10 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
+            <jalbum:exif originalDate="Tue, 25 Jun 2013 09:46:09 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
             <guid isPermaLink="false">slides/Calico%27s%20Curious%20Kittens.JPG</guid>
         </item>
         <item>
             <title>Phyllis Tildes and children</title>
             <link>slides/Phyllis%20Tildes%20and%20children.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Phyllis%20Tildes%20and%20children.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/Phyllis%20Tildes%20and%20children.JPG" width="628" height="316"/>
-            <jalbum:exif originalDate="Tue, 13 Dec 2016 11:16:47 -0500" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
+            <jalbum:exif originalDate="Tue, 25 Jun 2013 09:45:22 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
             <guid isPermaLink="false">slides/Phyllis%20Tildes%20and%20children.JPG</guid>
         </item>
         <item>
             <title>Eye Guess</title>
             <link>slides/Eye%20Guess.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Eye%20Guess.JPG" width="124" height="124"/>
@@ -2499,18 +2638,18 @@
         <item>
             <title>2013 Summer Reading Program</title>
             <link>slides/2013%20Summer%20Reading%20Program.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Summer%20Reading%20Program.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2013%20Summer%20Reading%20Program.JPG" width="640" height="480"/>
-            <jalbum:exif originalDate="Tue, 25 Jun 2013 09:46:09 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
+            <jalbum:exif originalDate="Tue, 25 Jun 2013 09:36:01 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
             <guid isPermaLink="false">slides/2013%20Summer%20Reading%20Program.JPG</guid>
         </item>
         <item>
             <title>2013 Volunteer Picnic 7</title>
             <link>slides/2013%20Volunteer%20Picnic%207.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Volunteer%20Picnic%207.jpg" width="124" height="124"/>
@@ -2520,7 +2659,7 @@
         <item>
             <title>2013 Volunteer Picnic 6</title>
             <link>slides/2013%20Volunteer%20Picnic%206.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Volunteer%20Picnic%206.jpg" width="124" height="124"/>
@@ -2530,7 +2669,7 @@
         <item>
             <title>2013 Volunteer Picnic 5</title>
             <link>slides/2013%20Volunteer%20Picnic%205.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Volunteer%20Picnic%205.jpg" width="124" height="124"/>
@@ -2540,7 +2679,7 @@
         <item>
             <title>2013 Volunteer Picnic 4</title>
             <link>slides/2013%20Volunteer%20Picnic%204.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Volunteer%20Picnic%204.jpg" width="124" height="124"/>
@@ -2550,7 +2689,7 @@
         <item>
             <title>2013 Volunteer Picnic 3</title>
             <link>slides/2013%20Volunteer%20Picnic%203.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Volunteer%20Picnic%203.jpg" width="124" height="124"/>
@@ -2560,7 +2699,7 @@
         <item>
             <title>2013 Volunteer Picnic 2</title>
             <link>slides/2013%20Volunteer%20Picnic%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Volunteer%20Picnic%202.jpg" width="124" height="124"/>
@@ -2570,7 +2709,7 @@
         <item>
             <title>2013 Volunteer Picnic 1</title>
             <link>slides/2013%20Volunteer%20Picnic%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Volunteer%20Picnic%201.jpg" width="124" height="124"/>
@@ -2580,7 +2719,7 @@
         <item>
             <title>2013 Spring Book Sale 8</title>
             <link>slides/2013%20Spring%20Book%20Sale%208.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Spring%20Book%20Sale%208.JPG" width="124" height="124"/>
@@ -2591,7 +2730,7 @@
         <item>
             <title>2013 Spring Book Sale 7</title>
             <link>slides/2013%20Spring%20Book%20Sale%207.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Spring%20Book%20Sale%207.JPG" width="124" height="124"/>
@@ -2602,7 +2741,7 @@
         <item>
             <title>2013 Spring Book Sale 6</title>
             <link>slides/2013%20Spring%20Book%20Sale%206.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Spring%20Book%20Sale%206.JPG" width="124" height="124"/>
@@ -2613,51 +2752,51 @@
         <item>
             <title>2013 Spring Book Sale 5</title>
             <link>slides/2013%20Spring%20Book%20Sale%205.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Spring%20Book%20Sale%205.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2013%20Spring%20Book%20Sale%205.JPG" width="640" height="480"/>
-            <jalbum:exif originalDate="Sat, 11 May 2013 09:46:58 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
+            <jalbum:exif originalDate="Sat, 11 May 2013 12:22:00 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
             <guid isPermaLink="false">slides/2013%20Spring%20Book%20Sale%205.JPG</guid>
         </item>
         <item>
             <title>2013 Spring Book Sale 4</title>
             <link>slides/2013%20Spring%20Book%20Sale%204.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Spring%20Book%20Sale%204.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2013%20Spring%20Book%20Sale%204.JPG" width="640" height="480"/>
-            <jalbum:exif originalDate="Sat, 11 May 2013 09:46:33 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
+            <jalbum:exif originalDate="Sat, 25 May 2013 12:22:00 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
             <guid isPermaLink="false">slides/2013%20Spring%20Book%20Sale%204.JPG</guid>
         </item>
         <item>
             <title>2013 Spring Book Sale 3</title>
             <link>slides/2013%20Spring%20Book%20Sale%203.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Spring%20Book%20Sale%203.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2013%20Spring%20Book%20Sale%203.JPG" width="640" height="480"/>
-            <jalbum:exif originalDate="Sat, 11 May 2013 09:45:42 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
+            <jalbum:exif originalDate="Sat, 11 May 2013 09:45:09 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
             <guid isPermaLink="false">slides/2013%20Spring%20Book%20Sale%203.JPG</guid>
         </item>
         <item>
             <title>2013 Spring Book Sale 2</title>
             <link>slides/2013%20Spring%20Book%20Sale%202.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Spring%20Book%20Sale%202.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/2013%20Spring%20Book%20Sale%202.JPG" width="640" height="480"/>
-            <jalbum:exif originalDate="Sat, 11 May 2013 09:45:09 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
+            <jalbum:exif originalDate="Sat, 11 May 2013 09:44:41 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A2300"/>
             <guid isPermaLink="false">slides/2013%20Spring%20Book%20Sale%202.JPG</guid>
         </item>
         <item>
             <title>2013 Spring Book Sale 1</title>
             <link>slides/2013%20Spring%20Book%20Sale%201.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20Spring%20Book%20Sale%201.JPG" width="124" height="124"/>
@@ -2668,7 +2807,7 @@
         <item>
             <title>2013 BOARD</title>
             <link>slides/2013%20BOARD.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2013%20BOARD.jpg" width="124" height="124"/>
@@ -2679,7 +2818,7 @@
         <item>
             <title>Louise Walters, Corinne Webner, Bill Griffin</title>
             <link>slides/Louise%20Walters%2C%20Corinne%20Webner%2C%20Bill%20Griffin.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Louise%20Walters%2C%20Corinne%20Webner%2C%20Bill%20Griffin.JPG" width="124" height="124"/>
@@ -2690,18 +2829,18 @@
         <item>
             <title>Beba and Joe Hall</title>
             <link>slides/Beba%20and%20Joe%20Hall.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Beba%20and%20Joe%20Hall.JPG" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/Beba%20and%20Joe%20Hall.JPG" width="759" height="600"/>
-            <jalbum:exif originalDate="Fri, 14 Sep 2012 14:48:59 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A480"/>
+            <jalbum:exif originalDate="Fri, 14 Sep 2012 14:50:11 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A480"/>
             <guid isPermaLink="false">slides/Beba%20and%20Joe%20Hall.JPG</guid>
         </item>
         <item>
             <title>Karen Cassard, Gay Morison</title>
             <link>slides/Karen%20Cassard%2C%20Gay%20Morison.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Karen%20Cassard%2C%20Gay%20Morison.JPG" width="124" height="124"/>
@@ -2712,7 +2851,7 @@
         <item>
             <title>Marcia Durben, Bianca and Joe DeNapoli, Martha Carpenter</title>
             <link>slides/Marcia%20Durben%2C%20Bianca%20and%20Joe%20DeNapoli%2C%20Martha%20Carpenter.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Marcia%20Durben%2C%20Bianca%20and%20Joe%20DeNapoli%2C%20Martha%20Carpenter.JPG" width="124" height="124"/>
@@ -2723,7 +2862,7 @@
         <item>
             <title>Margaret Glading, Marshall and Debbie Hinds</title>
             <link>slides/Margaret%20Glading%2C%20Marshall%20and%20Debbie%20Hinds.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Margaret%20Glading%2C%20Marshall%20and%20Debbie%20Hinds.JPG" width="124" height="124"/>
@@ -2734,7 +2873,7 @@
         <item>
             <title>Jack and Ann Considine</title>
             <link>slides/Jack%20and%20Ann%20Considine.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Jack%20and%20Ann%20Considine.JPG" width="124" height="124"/>
@@ -2745,7 +2884,7 @@
         <item>
             <title>Don McCulloch, Bob Fogarty</title>
             <link>slides/Don%20McCulloch%2C%20Bob%20Fogarty.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Don%20McCulloch%2C%20Bob%20Fogarty.JPG" width="124" height="124"/>
@@ -2756,7 +2895,7 @@
         <item>
             <title>Jim and Lorna Cross</title>
             <link>slides/Jim%20and%20Lorna%20Cross.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Jim%20and%20Lorna%20Cross.JPG" width="124" height="124"/>
@@ -2767,7 +2906,7 @@
         <item>
             <title>Janet Murphy, Bill and Sue Bouton</title>
             <link>slides/Janet%20Murphy%2C%20Bill%20and%20Sue%20Bouton.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Janet%20Murphy%2C%20Bill%20and%20Sue%20Bouton.JPG" width="124" height="124"/>
@@ -2778,7 +2917,7 @@
         <item>
             <title>Mary Bailey, Joanne Bovey, Betty Stout</title>
             <link>slides/Mary%20Bailey%2C%20Joanne%20Bovey%2C%20Betty%20Stout.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Mary%20Bailey%2C%20Joanne%20Bovey%2C%20Betty%20Stout.JPG" width="124" height="124"/>
@@ -2789,7 +2928,7 @@
         <item>
             <title>Emily Horton, Penny Farley</title>
             <link>slides/Emily%20Horton%2C%20Penny%20Farley.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Emily%20Horton%2C%20Penny%20Farley.JPG" width="124" height="124"/>
@@ -2800,7 +2939,7 @@
         <item>
             <title>Curt and Nancy Shambaugh</title>
             <link>slides/Curt%20and%20Nancy%20Shambaugh.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Curt%20and%20Nancy%20Shambaugh.JPG" width="124" height="124"/>
@@ -2811,7 +2950,7 @@
         <item>
             <title>Mary Anne Westley, Gay Morison</title>
             <link>slides/Mary%20Anne%20Westley%2C%20Gay%20Morison.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Mary%20Anne%20Westley%2C%20Gay%20Morison.JPG" width="124" height="124"/>
@@ -2822,7 +2961,7 @@
         <item>
             <title>Bill and Joan Seaman</title>
             <link>slides/Bill%20and%20Joan%20Seaman.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Bill%20and%20Joan%20Seaman.JPG" width="124" height="124"/>
@@ -2833,7 +2972,7 @@
         <item>
             <title>Barbara and Art Jenks</title>
             <link>slides/Barbara%20and%20Art%20Jenks.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Barbara%20and%20Art%20Jenks.JPG" width="124" height="124"/>
@@ -2844,7 +2983,7 @@
         <item>
             <title>Normand Allen, Corinne Webner</title>
             <link>slides/Normand%20Allen%2C%20Corinne%20Webner.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Normand%20Allen%2C%20Corinne%20Webner.JPG" width="124" height="124"/>
@@ -2855,7 +2994,7 @@
         <item>
             <title>Chris Fogarty, Leslie Fitzgerald, Toni McBride</title>
             <link>slides/Chris%20Fogarty%2C%20Leslie%20Fitzgerald%2C%20Toni%20McBride.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Chris%20Fogarty%2C%20Leslie%20Fitzgerald%2C%20Toni%20McBride.JPG" width="124" height="124"/>
@@ -2866,7 +3005,7 @@
         <item>
             <title>Dodie Sanders UGA Aquarium Program</title>
             <link>slides/Dodie%20Sanders%20UGA%20Aquarium%20Program.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Dodie%20Sanders%20UGA%20Aquarium%20Program.jpg" width="124" height="124"/>
@@ -2877,18 +3016,18 @@
         <item>
             <title>Children listening to Phyllis Tildes</title>
             <link>slides/Children%20listening%20to%20Phyllis%20Tildes.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Children%20listening%20to%20Phyllis%20Tildes.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/Children%20listening%20to%20Phyllis%20Tildes.jpg" width="384" height="364"/>
-            <jalbum:exif originalDate="Tue, 19 Jun 2012 09:44:50 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A480"/>
+            <jalbum:exif originalDate="Tue, 19 Jun 2012 14:44:46 -0400" cameraMake="Canon" cameraModel="Canon PowerShot A480"/>
             <guid isPermaLink="false">slides/Children%20listening%20to%20Phyllis%20Tildes.jpg</guid>
         </item>
         <item>
             <title>Village Library 2012</title>
             <link>slides/Village%20Library%202012.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Village%20Library%202012.jpg" width="124" height="124"/>
@@ -2899,7 +3038,7 @@
         <item>
             <title>Kids Day</title>
             <link>slides/Kids%20Day.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Kids%20Day.JPG" width="124" height="124"/>
@@ -2910,7 +3049,7 @@
         <item>
             <title>Children Reading</title>
             <link>slides/Children%20Reading.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Children%20Reading.JPG" width="124" height="124"/>
@@ -2921,18 +3060,18 @@
         <item>
             <title>Ice cream for kids</title>
             <link>slides/Ice%20cream%20for%20kids.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Ice%20cream%20for%20kids.jpg" width="124" height="124"/>
             <media:content type="image/jpeg" url="slides/Ice%20cream%20for%20kids.jpg" width="560" height="315"/>
-            <jalbum:exif originalDate="Sat, 21 Aug 2010 01:28:24 -0400" cameraMake="Canon" cameraModel="Canon PowerShot SD630"/>
+            <jalbum:exif originalDate="Sat, 21 Aug 2010 09:44:50 -0400" cameraMake="Canon" cameraModel="Canon PowerShot SD630"/>
             <guid isPermaLink="false">slides/Ice%20cream%20for%20kids.jpg</guid>
         </item>
         <item>
             <title>Village Library</title>
             <link>slides/Village%20Library.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/Village%20Library.jpg" width="124" height="124"/>
@@ -2943,7 +3082,7 @@
         <item>
             <title>2008 Board</title>
             <link>slides/2008%20Board.html</link>
-            <pubDate>Mon, 11 May 2026 19:30:24 -0400</pubDate>
+            <pubDate>Tue, 10 Nov 2026 19:08:05 -0500</pubDate>
             <description></description>
             <media:description type="html"></media:description>
             <media:thumbnail url="thumbs/2008%20Board.jpg" width="124" height="124"/>
